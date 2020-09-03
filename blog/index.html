@@ -4,23 +4,25 @@ title: G. D. R. Verderena's Blog
 ---
 <h1>{{ page.title }}</h1>
 
-<div class="container">
-  <div class="row">
-    <!--<ul class="posts">-->
+<section class="section section-icons grey lighten-4 center">
+  <div class="container">
+    <div class="row">
+      <!--<ul class="posts">-->
 
-    {% for post in site.posts %}
-    <!--   <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li> -->
-    <div class="col s12 m6 l3">
-      <div class="card small">
-        <span class="card-title">{{ post.title }}</span>
-        <div class="card-content">
-          <span>{{ post.date | date_to_string }}</span>
+      {% for post in site.posts %}
+      <!--   <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li> -->
+      <a href="{{ post.url }}" title="{{ post.title }}">
+        <div class="col s12 m4">
+          <div class="card-panel">
+            <i class="material-icons large teal-text">sports_soccer</i>
+            <h4>{{ post.title }}</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, velit.</p>
+            <span>{{ post.date | date_to_string }}</span>
+          </div>
         </div>
-        <div class="card-action"><a href="{{ post.url }}">Ler</a></div>
-      </div>
+      </a>
+      {% endfor %}
     </div>
-    {% endfor %}
-
-    <!--</ul>-->
   </div>
-</div>
+  <!--</ul>-->
+</section>
