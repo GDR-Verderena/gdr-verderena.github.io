@@ -2,13 +2,20 @@
 layout: default
 ---
 
-  <div class="container">
-    <h2 class"flow-text">{{ page.title }}</h2>
-    <p class="meta">{{ page.date | date_to_string }}</p>
 
-    <div class="post">
-      {{ content }}
-    </div>
-  </div>
+
+
+
+
+
+<div class="container">
+<div class="blog-post">
+        <h2 class="blog-post-title">{{ page.title }}</h2>
+        <p class="blog-post-meta meta">{{ page.date | date_to_string }} by <a href="#">G. D. R. Verderena</a></p>
+
+         {{ content }}
+      </div>
+  
+</div>
 
 
