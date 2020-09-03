@@ -1,7 +1,12 @@
 ---
 layout: post
-title: "25º ANIVERSÁRIO"
+title: "Cool Test Post"
 date: 2020-09-02
+author: João Gomes
+description: This is the one blog post to rule them all
+featured-image: template.png
+featured-image-alt: Cool Image
+categories: Blogging
 ---
 
 Os Corpos Sociais do G. D. R. da Verderena, vem por este meio, CONVIDAR vossas excelências para o CORTE do BOLO, COMEMORATIVO DO 25º ANIVERSÁRIO, da nossa COLETIVIDADE.
