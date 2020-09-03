@@ -9,7 +9,16 @@ title: G. D. R. Verderena's Blog
 <ul class="posts">
 
   {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+     <!--   <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li> -->
+  <div class="col s12 m6 l3">
+    <div class="card small">
+      <span class="card-title">{{ post.title }}</span>
+      <div class="card-content">
+        <span>{{ post.date | date_to_string }}</span>
+      </div>
+      <div class="card-action"><a href="{{ post.url }}">Ler</a></div>
+    </div>
+  </div>
   {% endfor %}
     
 </ul>
