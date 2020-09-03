@@ -10,8 +10,8 @@ layout: feed
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>https://gdr-verderena.github.io/blog</id>
  <author>
-   <name>Hank Quinlan</name>
-   <email>hankquinlanhub@gmail.com</email>
+   <name>João Gomes</name>
+   <email>joaosilgo96@gmail.com</email>
  </author>
 
  {% for post in site.posts %}
@@ -19,7 +19,7 @@ layout: feed
    <title>{{ post.title }}</title>
    <link href="https://gdr-verderena.github.io{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>hhttps://gdr-verderena.github.io/{{ post.id }}</id>
+   <id>https://gdr-verderena.github.io/{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
