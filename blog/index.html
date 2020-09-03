@@ -11,16 +11,18 @@ title: G. D. R. Verderena's Blog
   <div class="container">
       {% for post in site.posts %}
       <!--   <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li> -->
-      <a href="{{ post.url }}" title="{{ post.title }}">
+      
         <div class="col s12 m4">
+            <a href="{{ post.url }}" title="{{ post.title }}">
           <div class="card-panel">
              <!-- <i class="material-icons large ">sports_soccer</i> -->
             <h4>{{ post.title }}</h4>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, velit.</p>
             <span>{{ post.date | date_to_string }}</span>
           </div>
+                 </a>
         </div>
-      </a>
+     
       {% endfor %}
     </div>
  </div>
