@@ -10,5 +10,6 @@ window.addEventListener("scroll", function() {
             height += height / 2;
         }
         body.style.height = height + "px";
+        body.scrollIntoView({block: "end", behavior: "smooth"});
     };
 }());
