@@ -28,20 +28,3 @@ $window.on('scroll resize', check_if_in_view);
 $window.trigger('scroll');
 });
 /**********************Scroll Animation "END"************************************/
-
-/**********************Change color of center aligned animated content small Circle  "START"************************************/
-$(document).ready(function(){
-    $(" .debits").hover(function(){
-        $(" .center-right").css("background-color", "#4997cd");
-        }, function(){
-        $(" .center-right").css("background-color", "#fff");
-    }); 
-});
-$(document).ready(function(){
-    $(".credits").hover(function(){
-        $(".center-left").css("background-color", "#4997cd");
-        }, function(){
-        $(".center-left").css("background-color", "#fff");
-    }); 
-});
-/**********************Change color of center aligned animated content small Circle  "END"************************************/
