@@ -1,4 +1,4 @@
-document.querySelector("timeline").style.height = "1000px";
+document.querySelector(".timeline").style.height = "1000px";
 
 window.addEventListener("scroll", function() {
     var body = document.querySelector("timeline");
