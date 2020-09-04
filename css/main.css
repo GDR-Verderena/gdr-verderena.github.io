@@ -104,7 +104,10 @@ li.timeline-item::before {
 
 
 
-
+body {
+    
+    min-height: 100vh;
+}
 
 
 
