@@ -118,3 +118,83 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+    .section-1 .row .col-md-6 .panel {
+        position: initial;
+        width: initial;
+        height: initial;
+    }
+}
+
+
+
+
+    /********** section 1 **************/
+
+    .section-1 {
+        padding: 30vmin 0vmin;
+    }
+
+        .section-1 .row .col-md-6 .pray img {
+            opacity: 0.8;
+            width: 60%;
+            border-radius: 0.2em;
+        }
+
+        .section-1 .row .col-md-6:last-child {
+            position: relative;
+        }
+
+        .section-1 .row .col-md-6 .panel {
+            position: absolute;
+            top: 3vmin;
+            left: -10vmin;
+            background: white;
+            border-radius: 3px;
+            text-align: left;
+            padding: 5vmin 4vmin 5vmin 5vmin;
+            box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+            font-family: var(--Rubik);
+            z-index: 1;
+        }
+
+            .section-1 .row .col-md-6 .panel h1 {
+                font-weight: bold;
+                padding: 0.4em 0;
+                font-size: 2em;
+            }
+
+            .section-1 .row .col-md-6 .panel p {
+                font-size: 0.9em;
+                color: rgba(0, 0, 0, 0.5);
+            }
+
+
+@media only screen and (max-width: 768px) {
+
+    .section-1 .row .col-md-6 .panel {
+        position: initial;
+        width: initial;
+        height: initial;
+    }
+}
+
+
+
+
+
+
+
+
+
