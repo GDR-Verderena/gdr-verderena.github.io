@@ -23,9 +23,9 @@ title: G. D. R. Verderena's Blog
 
 <a href="{{ post.url }}" title="{{ post.title }}">
  <div class="card">
-     {% if post.featured-image == %}
+ {% if post.featured-image And post.featured-image != "" And post.featured-image != nil %}
  <img src="{{ post.featured-image }}" class="card-img-top" alt="...">
-{% endif %}
+ {% endif %}
    
     <div class="card-body">
       <h5 class="card-title">{{ post.title }}</h5>
