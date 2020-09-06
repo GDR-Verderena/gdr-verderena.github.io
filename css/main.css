@@ -143,7 +143,7 @@ body {
     /********** section 1 **************/
 
     .section-1 {
-       /* padding: 30vmin 0vmin; */
+        padding: 10vmin 0vmin; 
     }
 
         .section-1 .row .col-md-6 .pray img {
