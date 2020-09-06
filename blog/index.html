@@ -87,6 +87,7 @@ title: G. D. R. Verderena's Blog
               <p>
                 {{ post.excerpt }}
               </p>
+		    <hr/>
 		<p> {% include read_time.html content=post.content %}  </p>
 		  <p class="card-text">
               <small class="text-muted">Last updated {{ post.date | date_to_string }}</small>
@@ -98,7 +99,7 @@ title: G. D. R. Verderena's Blog
         </div>
       </div>
     </section>
-	  <hr />
+	  
 
     {% endfor %}
   </div>
