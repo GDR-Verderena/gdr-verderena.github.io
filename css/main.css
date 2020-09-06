@@ -143,7 +143,7 @@ body {
     /********** section 1 **************/
 
     .section-1 {
-        padding: 30vmin 0vmin;
+       /* padding: 30vmin 0vmin; */
     }
 
         .section-1 .row .col-md-6 .pray img {
@@ -157,10 +157,8 @@ body {
         }
 
         .section-1 .row .col-md-6 .panel {
-            /*position: absolute;*/
-            position: initial;
-        width: initial;
-        height: initial;
+            position: absolute;
+          
             top: 3vmin;
             left: -10vmin; 
             background: white;
