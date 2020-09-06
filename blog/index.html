@@ -88,12 +88,17 @@ title: G. D. R. Verderena's Blog
                 {{ post.excerpt }}
               </p>
 		<p> {% include read_time.html content=post.content %}  </p>
+		  <p class="card-text">
+              <small class="text-muted">Last updated {{ post.date | date_to_string }}</small>
+            </p>
+		    <i class="btn btn-light btn-sm mb-1 text-small mt-2 font-weight-light text-muted">{{ post.categories}}</i>
             </div>
           </div>
 		
         </div>
       </div>
     </section>
+	  <hr />
 
     {% endfor %}
   </div>
