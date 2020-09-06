@@ -163,31 +163,33 @@ title: G. D. R. Verderena's Blog
 			<!-- /.card -->
 		</aside>
 
-		<aside class="sidebar sidebar-sticky">
+		<aside class="sidebar sidebar-sticky text-muted">
 			<div class="card mb-4">
 				<div class="card-body">
-					<h4 class="card-title">Tags</h4>
-					<a class="btn btn-light btn-sm mb-1" href="#">Journey</a>
-					<a class="btn btn-light btn-sm mb-1" href="page-category.html">Work</a>
-					<a class="btn btn-light btn-sm mb-1" href="page-category.html">Lifestype</a>
-					<a class="btn btn-light btn-sm mb-1" href="page-category.html">Photography</a>
-					<a class="btn btn-light btn-sm mb-1" href="page-category.html">Food &amp; Drinks</a>
+					<h4 class="card-title">Categorias</h4>
+					<a class="btn btn-light btn-sm mb-1" href="#">Futebol</a>
+					<a class="btn btn-light btn-sm mb-1" href="#">Atletismo</a>
 				</div>
 			</div>
 			<!-- /.card -->
 			<div class="card mb-4">
 				<div class="card-body">
 					<h4 class="card-title">Últimas Notícias</h4>
-					{% for post in site.posts limit:3 %}
-					<a href="{{ post.url }}" title="{{ post.title }}" class="d-inline-block">
-						<h4 class="h6">{{ post.title }}</h4>
-						<!--<img class="card-img" src="img/articles/2.jpg" alt=""> -->
-					</a>
-					<time class="timeago text-muted">Last updated {{ post.date | date_to_string }}</time>
+					<ul class="list-group list-group-flush">
+						{% for post in site.posts limit:3 %}
+						<li class="list-group-item">
+							<a href="{{ post.url }}" title="{{ post.title }}" class="d-inline-block">
+								<h4 class="h6">{{ post.title }}</h4>
+								<!--<img class="card-img" src="img/articles/2.jpg" alt=""> -->
+							</a>
+							<hr />
+							<time class="timeago text-muted">{{ post.date | date_to_string }}</time>
 
-					<i class="btn btn-light btn-sm mb-1 text-small mt-2 font-weight-light text-muted">{{ post.categories}}</i>
-					{% endfor %}
-					
+							<!-- <i class="btn btn-light btn-sm mb-1 text-small mt-2 font-weight-light text-muted">{{ post.categories}}</i>-->
+						</li>
+						{% endfor %}
+					</ul>
+
 				</div>
 			</div>
 			<!-- /.card -->
