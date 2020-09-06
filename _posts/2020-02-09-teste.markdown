@@ -4,7 +4,7 @@ title: "Cool Test Post"
 date: 2020-09-02
 author: João Gomes
 description: This is the one blog post to rule them all
-featured-image: https://scontent.flis9-1.fna.fbcdn.net/v/t31.0-8/471833_360970347268968_642224037_o.jpg?_nc_cat=111&_nc_sid=09cbfe&_nc_ohc=--fdCy_nH04AX89c61S&_nc_ht=scontent.flis9-1.fna&oh=72c9e9f46e79b32a236c6347e16e12ce&oe=5F76C43
+featured-image: https://scontent.flis9-1.fna.fbcdn.net/v/t31.0-8/471833_360970347268968_642224037_o.jpg?_nc_cat=111&_nc_sid=09cbfe&_nc_ohc=--fdCy_nH04AX89c61S&_nc_ht=scontent.flis9-1.fna&oh=72c9e9f46e79b32a236c6347e16e12ce&oe=5F76C433
 featured-image-alt: Cool Image
 categories: Blogging
 ---
