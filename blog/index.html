@@ -4,17 +4,20 @@ title: G. D. R. Verderena's Blog
 ---
 
 <div class="text-center">
-
 	<h2 class="text-muted">Notícias</h2>
-	<hr>
+	<hr />
 </div>
 
 <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
 	<div class="col-md-6 px-0">
 		<h3 class="display-4 font-italic">{{ page.title }}</h3>
-		<p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently
-			about what’s most interesting in this post’s contents.</p>
-		<p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p>
+		<p class="lead my-3">
+			Multiple lines of text that form the lede, informing new readers quickly
+			and efficiently about what’s most interesting in this post’s contents.
+		</p>
+		<p class="lead mb-0">
+			<a href="#" class="text-white font-weight-bold">Continue reading...</a>
+		</p>
 	</div>
 </div>
 
@@ -25,20 +28,22 @@ title: G. D. R. Verderena's Blog
 			{% for post in site.posts %}
 			<!--   <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li> -->
 
-
-
 			<a href="{{ post.url }}" title="{{ post.title }}">
 				<div class="card">
-					{% if post.featured-image And post.featured-image != "" And post.featured-image != nil And imageValidate(post.featured-image)=="true" %}
-					<img src="{{ post.featured-image }}" class="card-img-top" alt="...">
- {% endif %}
+					{% if post.featured-image And post.featured-image != "" And
+          post.featured-image != nil And
+          imageValidate(post.featured-image)=="true" %}
+					<img src="{{ post.featured-image }}" class="card-img-top" alt="..." />
+          {% endif %}
 
 					<div class="card-body">
 						<h5 class="card-title">{{ post.title }}</h5>
 						<p class="card-text">{{ post.description }}</p>
-						<hr>
+						<hr />
 						<p class="card-text">
-							<small class="text-muted">Last updated {{ post.date | date_to_string }}</small></p>
+							<small class="text-muted"
+                >Last updated {{ post.date | date_to_string }}</small>
+						</p>
 						<a
 							class="btn btn-light btn-sm mb-1 text-small mt-2 font-weight-light text-muted">{{ post.categories}}</a>
 					</div>
@@ -46,37 +51,33 @@ title: G. D. R. Verderena's Blog
 			</a>
 
 			{% endfor %}
-
 		</div>
 
-
 		<!--</ul>-->
-
-
 
 		<section class="section-1">
 			<div class="container text-center">
 				<div class="row">
 					<div class="col-md-6 col-12">
 						<div class="pray">
-							<img src="https://via.placeholder.com/500" alt="Pray" class="">
-                        </div>
+							<img src="https://via.placeholder.com/500" alt="Pray" class="" />
+            </div>
 						</div>
 						<div class="col-md-6 col-12">
 							<div class="panel text-left">
 								<h1>Hangfire</h1>
 								<p class="pt-4">
 									Hangfire is an open-source framework that helps you to create,
-									process and manage your background jobs, i.e. operations you don't want to put in
-									your request processing pipeline
+									process and manage your background jobs, i.e. operations you
+									don't want to put in your request processing pipeline
 								</p>
 								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi vitae, tenetur
-									quidem eum aliquid vel labore sint placeat
-									ad deserunt consectetur fugit ullam. Eius unde neque ducimus obcaecati ipsum quos
-									vero totam recusandae hic
-									expedita nemo sit, illum harum. Quisquam impedit ullam itaque facere et ad molestiae
-									quod reprehenderit excepturi!
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+									vitae, tenetur quidem eum aliquid vel labore sint placeat ad
+									deserunt consectetur fugit ullam. Eius unde neque ducimus
+									obcaecati ipsum quos vero totam recusandae hic expedita nemo
+									sit, illum harum. Quisquam impedit ullam itaque facere et ad
+									molestiae quod reprehenderit excepturi!
 								</p>
 							</div>
 						</div>
@@ -84,31 +85,30 @@ title: G. D. R. Verderena's Blog
 				</div>
 		</section>
 
-
 		<section class="section-1">
 			<div class="container text-center">
 				<div class="row">
 					<div class="col-md-6 col-12">
 						<div class="pray">
-							<img src="https://via.placeholder.com/500" alt="Pray" class="">
-                                </div>
+							<img src="https://via.placeholder.com/500" alt="Pray" class="" />
+            </div>
 						</div>
 						<div class="col-md-6 col-12">
-							<div class="panel text-left ">
+							<div class="panel text-left">
 								<h1>REST API v3</h1>
 								<p class="pt-4">
-									The GitHub API is an interface provided by GitHub for developers that want to
-									develop applications targeting GitHub.
-									As example you can build an application with more functionality or better
+									The GitHub API is an interface provided by GitHub for developers
+									that want to develop applications targeting GitHub. As example
+									you can build an application with more functionality or better
 									presentation layer on top of the api
 								</p>
 								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi vitae, tenetur
-									quidem eum aliquid vel labore sint placeat
-									ad deserunt consectetur fugit ullam. Eius unde neque ducimus obcaecati ipsum quos
-									vero totam recusandae hic
-									expedita nemo sit, illum harum. Quisquam impedit ullam itaque facere et ad molestiae
-									quod reprehenderit excepturi!
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+									vitae, tenetur quidem eum aliquid vel labore sint placeat ad
+									deserunt consectetur fugit ullam. Eius unde neque ducimus
+									obcaecati ipsum quos vero totam recusandae hic expedita nemo
+									sit, illum harum. Quisquam impedit ullam itaque facere et ad
+									molestiae quod reprehenderit excepturi!
 								</p>
 							</div>
 						</div>
@@ -116,30 +116,30 @@ title: G. D. R. Verderena's Blog
 				</div>
 		</section>
 
-
 		<section class="section-1">
 			<div class="container text-center">
 				<div class="row">
 					<div class="col-md-6 col-12">
 						<div class="pray">
-							<img src="https://via.placeholder.com/500" alt="Pray" class="">
-                                </div>
+							<img src="https://via.placeholder.com/500" alt="Pray" class="" />
+            </div>
 						</div>
 						<div class="col-md-6 col-12">
-							<div class="panel text-left ">
+							<div class="panel text-left">
 								<h1>SendGrid API v3</h1>
 								<p class="pt-4">
-									SendGrid provides a cloud-based service that assists businesses with email delivery.
-									The service manages various types of email including notifications, requests,
-									sign-up confirmations, and email newsletters.
+									SendGrid provides a cloud-based service that assists businesses
+									with email delivery. The service manages various types of email
+									including notifications, requests, sign-up confirmations, and
+									email newsletters.
 								</p>
 								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi vitae, tenetur
-									quidem eum aliquid vel labore sint placeat
-									ad deserunt consectetur fugit ullam. Eius unde neque ducimus obcaecati ipsum quos
-									vero totam recusandae hic
-									expedita nemo sit, illum harum. Quisquam impedit ullam itaque facere et ad molestiae
-									quod reprehenderit excepturi!
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+									vitae, tenetur quidem eum aliquid vel labore sint placeat ad
+									deserunt consectetur fugit ullam. Eius unde neque ducimus
+									obcaecati ipsum quos vero totam recusandae hic expedita nemo
+									sit, illum harum. Quisquam impedit ullam itaque facere et ad
+									molestiae quod reprehenderit excepturi!
 								</p>
 							</div>
 						</div>
@@ -149,48 +149,48 @@ title: G. D. R. Verderena's Blog
 	</div>
 
 	<div class="col-md-3 ml-auto">
-
 		<aside class="sidebar">
 			<div class="card mb-4">
 				<div class="card-body">
 					<h4 class="card-title">About</h4>
-					<p class="card-text">Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam <a
-							href="#">semper libero</a>, sit amet adipiscing sem neque sed ipsum. </p>
+					<p class="card-text">
+						Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem
+						quam <a href="#">semper libero</a>, sit amet adipiscing sem neque
+						sed ipsum.
+					</p>
 				</div>
-			</div><!-- /.card -->
+			</div>
+			<!-- /.card -->
 		</aside>
 
 		<aside class="sidebar sidebar-sticky">
 			<div class="card mb-4">
 				<div class="card-body">
 					<h4 class="card-title">Tags</h4>
-					<a class="btn btn-light btn-sm mb-1" href="page-category.html">Journey</a>
+					<a class="btn btn-light btn-sm mb-1" href="#">Journey</a>
 					<a class="btn btn-light btn-sm mb-1" href="page-category.html">Work</a>
 					<a class="btn btn-light btn-sm mb-1" href="page-category.html">Lifestype</a>
 					<a class="btn btn-light btn-sm mb-1" href="page-category.html">Photography</a>
 					<a class="btn btn-light btn-sm mb-1" href="page-category.html">Food &amp; Drinks</a>
 				</div>
-			</div><!-- /.card -->
+			</div>
+			<!-- /.card -->
 			<div class="card mb-4">
 				<div class="card-body">
-					<h4 class="card-title">Popular stories</h4>
+					<h4 class="card-title">Últimas Notícias</h4>
+					{% for post in site.posts limit:3 %}
+					<a href="{{ post.url }}" title="{{ post.title }}" class="d-inline-block">
+						<h4 class="h6">{{ post.title }}</h4>
+						<!--<img class="card-img" src="img/articles/2.jpg" alt=""> -->
+					</a>
+					<time class="timeago text-muted">Last updated {{ post.date | date_to_string }}</time>
 
-					<a href="post-image.html" class="d-inline-block">
-						<h4 class="h6">The blind man</h4>
-						<img class="card-img" src="img/articles/2.jpg" alt="">
-                </a>
-						<time class="timeago" datetime="2019-10-03 20:00" timeago-id="8">11 months ago</time> in
-						Lifestyle
-
-						<a href="post-image.html" class="d-inline-block mt-3">
-							<h4 class="h6">Crying on the news</h4>
-							<img class="card-img" src="img/articles/22.jpg" alt="">
-                </a>
-							<time class="timeago" datetime="2019-07-16 20:00" timeago-id="9">1 year ago</time> in Work
-
+					<i class="btn btn-light btn-sm mb-1 text-small mt-2 font-weight-light text-muted">{{ post.categories}}</i>
+					{% endfor %}
+					
 				</div>
-			</div><!-- /.card -->
+			</div>
+			<!-- /.card -->
 		</aside>
-
 	</div>
 </div>
