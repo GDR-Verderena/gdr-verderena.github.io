@@ -1,4 +1,16 @@
 name: G.D.R Verdena
+title:              G.D.R Verdena
+email:              g.d.verderena@gmail.com
+description:        Grupo Desportivo, Recreativo e Cultural
+author:             G.D.R Verdena
+
+url:                "https://gdr-verderena.github.io"
+
+# Social Profiles
+
+github_username:    GDR-Verderena
+facebook_username:  G. D. R. Verderena
+
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:  UA-177352589-1 # out your google-analytics code
