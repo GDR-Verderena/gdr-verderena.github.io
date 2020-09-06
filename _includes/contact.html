@@ -1,1 +1,59 @@
 
+
+
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-12 text-center my-5">
+            <h2 class="display-4"> <i class="fas fa-paper-plane text-secondary" aria-hidden="true"></i>CONTACT</h2>
+        </div>
+    </div>
+
+
+    <div class="row justify-content-center mb-5">
+        <div class="col-sm-12 col-md-10 col-lg-8">
+           
+                <form  method="post">
+                    <div  class="text-muted"></div>
+                    <div class="form-row">
+                        <div class="form-group col-sm-6">
+                            <label for="Name" class="control-label">Nome</label>
+                            <input for="Name" class="form-control" />
+                            <span for="Name" class="text-muted"></span>
+                        </div>
+                        <div class="form-group col-sm-6">
+                            <label for="Subject">Assunto</label>
+                            <input for="Subject" class="form-control" />
+                            <span for="Subject"class="text-muted"></span>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-sm-12">
+                            <label for="Email">Email</label>
+                            <input for="Email" class="form-control" />
+                            <span asp-validation-for="Email"class="text-muted"></span>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-sm-12">
+                            <label for="Message">Mensagem</label>
+                            <textarea rows="5" cols="15" for="Message" class="form-control"></textarea>
+                            <span for="Message" class="text-muted"></span>
+                        </div>
+                    </div>
+                    <div>
+                        <button id="send" type="submit" class="btn btn-secondary"> <i class="fas fa-dove"></i> Enviar</button>
+                       
+                    </div>
+                </form>
+            
+        </div>
+
+      
+    </div>
+
+
+
+
+
+</div>
