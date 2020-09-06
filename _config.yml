@@ -3,7 +3,7 @@ title:              G.D.R Verdena
 email:              g.d.verderena@gmail.com
 description:        Grupo Desportivo, Recreativo e Cultural
 author:             G.D.R Verdena
-
+baseurl:            "/"
 url:                "https://gdr-verderena.github.io"
 
 # Social Profiles
