@@ -18,3 +18,6 @@ google_analytics:  UA-177352589-1 # out your google-analytics code
 markdown: kramdown
 syntax_highlighter: rouge
 permalink: /blog/:year/:month/:day/:title
+
+plugins:
+  - jekyll-seo-tag
