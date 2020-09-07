@@ -189,10 +189,12 @@ function showContainer(tag) {
 
 
 
-{% assign sorted_tags = page.tags | sort %}
-{% for tag in sorted_tags %}
-  <span class="tag"><a href="/blog/#{{ tag }}">{{ tag }}</a></span>
-{% endfor %}
+
+<div class="tags">
+Tags
+{% for tag in page.tags %} <div class='tag'><a href='/tag/#{{tag}}'>{{tag}}</a></div> {% endfor %}
+</div>
+
 
 
 <br><br><br><br>
