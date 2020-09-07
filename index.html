@@ -155,7 +155,7 @@ function showContainer(tag) {
 {% for tag in site.tags %}
   {% assign t = tag | first %}
   {% assign posts = tag | last %}
-  <div class="blog-list-container hidden" id="{{ t }}-container">
+  <div class="blog-list-container " id="{{ t }}-container">
     <ul class="blog-list">
       {% for post in posts %}
         {% if post.tags contains t %}
