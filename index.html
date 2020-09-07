@@ -18,7 +18,7 @@ title: G.D.R Verdena
 <div class="container-fluid">
 
    <hr class="featurette-divider">
-	{% for post in site.posts %}
+	{% for post in site.posts offset:1 limit:2 %}
                 <div class="row featurette">
                     <div class="col-md-7">
                          <a href="{{ post.url }}" title="{{ post.title }}"> <h2 class="featurette-heading">{{ post.title }} <span class="text-muted">{{ post.description }}</span></h2></a>
