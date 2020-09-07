@@ -124,8 +124,8 @@ title: G. D. R. Verderena's Blog
         <div class="card-body">
           <h4 class="card-title">Tags</h4>
 		{% for tag in site.tags %}
-    {% capture tag_name %}{{ tag }}{% endcapture %}
-         <a class="btn btn-light btn-sm mb-1" href="tag/{{ tag_name }}#">{{ tag_name }}</a>
+    
+         <a class="btn btn-light btn-sm mb-1" href="tag/{{ tag[0] }}#">{{ tag_name }}</a>
 		
 		{% endfor %}	
         </div>
