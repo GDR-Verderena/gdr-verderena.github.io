@@ -143,12 +143,12 @@ body {
     /********** section 1 **************/
 
     .section-1 {
-        padding: 10vmin 0vmin; 
+        padding: 30vmin 0vmin; 
     }
 
         .section-1 .row .col-md-6 .pray img {
             opacity: 0.8;
-            width: 60%;
+            width: 50%;
             border-radius: 0.2em;
         }
 
