@@ -9,6 +9,7 @@ featured-image-alt: Cool Image
 categories: Blogging
 tags: 
  - teste2
+ 
 ---
 
 Os Corpos Sociais do G. D. R. da Verderena, vem por este meio, CONVIDAR vossas excelências para o CORTE do BOLO, COMEMORATIVO DO 25º ANIVERSÁRIO, da nossa COLETIVIDADE.
