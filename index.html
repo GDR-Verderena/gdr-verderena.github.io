@@ -192,7 +192,12 @@ function showContainer(tag) {
 
 <div class="tags">
 Tags
-{% for tag in page.tags %} <div class='tag'><a href='/tag/#{{tag[0]}}'>{{tag[0]}}</a></div> {% endfor %}
+{% for tag in page.tags %}
+	 {% assign t = tag | first %}
+	<div class='tag'>
+		<a href='/tag/#{{ t }}'>{{ t }}</a>
+	</div> 
+	{% endfor %}
 </div>
 
 
