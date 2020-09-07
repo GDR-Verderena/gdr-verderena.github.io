@@ -85,7 +85,8 @@ title: G. D. R. Verderena's Blog
                 {{ post.description }}
               </p>
               <p>
-                {{ post.excerpt }}
+               
+		{{ page.excerpt | strip_html | strip_newlines | truncate: 156 }}  
               </p>
 		    <hr/>
 		<p> {% include read_time.html content=post.content %}  </p>
