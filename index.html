@@ -164,29 +164,12 @@ function showContainer(tag) {
 	  
 	  
 	  
-	  
-
-    {% assign numPosts = posts | size %}
-    {% if numPosts == 1 %}
-      <p>{{ posts | size }} post containing tag <b>{{ t }}</b></p>
-    {% else %}
-      <p>{{ posts | size }} posts containing tag <b>{{ t }}</b></p>
-    {% endif %}
-  </div>
-{% endfor %}
 
 
 
 
 
 
-
-
-
-{% assign sorted_tags = page.tags | sort %}
-{% for tag in sorted_tags %}
-  <span class="tag"><a href="/blog/#{{ tag }}">{{ tag }}</a></span>
-{% endfor %}
 
 
 
