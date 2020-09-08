@@ -47,7 +47,7 @@ title: G.D.R Verdena
                         <img class="featurette-image img-fluid mx-auto pull-left " src="{{ post.featured-image }}" data-src="{{ post.featured-image }}" data-holder-rendered="true" style="width: 400px; height: 400px;">
                     </div>
 			{% endif %}
-	<a id="share" class="text-muted share btn"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-share-fill texte-muted" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+	<a id="share"  onclick="sharePost()" class="text-muted share btn"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-share-fill texte-muted" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
   <path fill-rule="evenodd" d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/>
 		</svg></a>
                 </div>
@@ -216,6 +216,9 @@ Tags
 <br><br><br><br>
 
  <script>
+	 
+	 function sharePost()
+	 {
 	const url= document.getElementById("url").href;
 	const description = document.getElementById("description").textContent;
 	 const title = document.getElementById("title").textContent;
@@ -229,7 +232,7 @@ Tags
 	const btn =  document.getElementById("share");
       const resultPara = document.querySelector('.result');
 if(navigator.share){
-      btn.addEventListener('click', () => {
+     
         navigator.share(shareData)
           .then(() =>
             resultPara.textContent = 'MDN shared successfully'
@@ -237,11 +240,12 @@ if(navigator.share){
           .catch((e) =>
             resultPara.textContent = 'Error: ' + e
           )
-      });
+     
 }else
 {
 	console.log("oops");
 }
+	 }
     </script>
 
 
