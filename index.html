@@ -33,7 +33,7 @@ title: G.D.R Verdena
 {% for post in site.posts limit:1 %}
 <div class="row featurette shadow p-3 mb-5 bg-white rounded ">
                     <div class="col-md-7">
-                         <a href="{{ post.url }}" title="{{ post.title }}"> <h2 class="featurette-heading">{{ post.title }} <span class="text-muted">{{ post.description }}</span></h2></a>
+                         <a id="url" href="{{ post.url }}" title="{{ post.title }}"> <h2 id="title" class="featurette-heading">{{ post.title }} <span class="text-muted">{{ id="descricao" post.description }}</span></h2></a>
                         <p class="lead"> {{ post.excerpt | strip_html | strip_newlines | truncate: 156 }}  </p>
 			    <p> {% include read_time.html content=post.content %}  </p>
 		  <p class="card-text">
@@ -216,6 +216,9 @@ Tags
 <br><br><br><br>
 
  <script>
+	const url= document.getElementById("url").href;
+	const description = document.getElementById("description").value;
+	 const description = document.getElementById("title").value;
       let shareData = {
         title: 'MDN',
         text: 'Learn web development on MDN!',
