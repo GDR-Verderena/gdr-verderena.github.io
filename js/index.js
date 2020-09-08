@@ -84,8 +84,7 @@ window.fbAsyncInit = function () {
 };
 
 
-
-function sharePost(title, description, url) {
+sharePost = function (title, description, url) {
   //const url= document.getElementById("url").href;
   //const description = document.getElementById("description").textContent;
   //const title = document.getElementById("title").textContent;
