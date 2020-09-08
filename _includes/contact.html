@@ -4,7 +4,7 @@
 <div class="container-fluid">
 
     <div class="row">
-        <div class="col-12 text-center my-5">
+        <div class="col-12 text-center text-muted my-5">
             <h2 class="display-4"> <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
   <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
 </svg></i>CONTACT</h2>
@@ -15,24 +15,26 @@
     <div class="row justify-content-center mb-5">
         <div class="col-sm-12 col-md-10 col-lg-8">
            
-                <form  method="post">
+           
+            
+                <form action="https://formsubmit.co/joaosilgo96@gmail.com" id="contact" role="form" method="post" accept-charset="utf-8" enctype="multipart/form-data" data-toggle="validator" >
                     <div  class="text-muted"></div>
                     <div class="form-row">
                         <div class="form-group col-sm-6">
-                            <label for="Name" class="control-label">Nome</label>
-                            <input for="Name" class="form-control" />
+                            <label   for="Name" class="control-label">Nome</label>
+                            <input name="Nome" for="Name" class="form-control" />
                             <span for="Name" class="text-muted"></span>
                         </div>
                         <div class="form-group col-sm-6">
                             <label for="Subject">Assunto</label>
-                            <input for="Subject" class="form-control" />
+                            <input name="Assunto" for="Subject" class="form-control" />
                             <span for="Subject"class="text-muted"></span>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-group col-sm-12">
                             <label for="Email">Email</label>
-                            <input for="Email" class="form-control" />
+                            <input  name="Email" for="Email" class="form-control" />
                             <span asp-validation-for="Email"class="text-muted"></span>
                         </div>
                     </div>
@@ -47,6 +49,14 @@
                         <button id="send" type="submit" class="btn btn-secondary"> <i class="fas fa-dove"></i> Enviar</button>
                        
                     </div>
+                    
+                      <input type="hidden" name="_autoresponse" value="Obrigado Por nos Contactar. Entraremos em Contacto Brevemente.">
+                      <input type="hidden" name="_captcha" value="false">
+                      <input type="hidden" name="_template" value="box">
+                      <input type="hidden" name="_next" value="https://gdr-verderena.github.io/">
+                      <input id="subject" type="hidden" name="_subject" value="G.D.R. VERDERENA">
+                      <input type="hidden" name="_replyto">
+                    
                 </form>
             
         </div>
