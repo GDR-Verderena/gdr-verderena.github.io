@@ -217,8 +217,8 @@ Tags
 
  <script>
 	const url= document.getElementById("url").href;
-	const description = document.getElementById("description").value;
-	 const title = document.getElementById("title").value;
+	const description = document.getElementById("description").textContent;
+	 const title = document.getElementById("title").textContent;
       let shareData = {
         title: title,
         text: description,
