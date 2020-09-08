@@ -24,9 +24,9 @@ title: G.D.R Verdena
                          <a href="{{ post.url }}" title="{{ post.title }}"> <h2 class="featurette-heading">{{ post.title }} <span class="text-muted">{{ post.description }}</span></h2></a>
                         <p class="lead"> {{ post.excerpt | strip_html | strip_newlines | truncate: 156 }}  </p>
                     </div>
-			{% if post.featured-image And post.featured-image != "" And post.featured-image != nil And  %}
-                    <div class="col-md-5">
-                        <img class="featurette-image img-fluid mx-auto" src="{{ post.featured-image }}" data-src="{{ post.featured-image }}" data-holder-rendered="true" style="width: 200px; height: 200px;">
+			{% if post.featured-image And post.featured-image != "" And post.featured-image != nil   %}
+                    <div class="col-md-5 pray">
+                        <img class="featurette-image img-fluid mx-auto " src="{{ post.featured-image }}" data-src="{{ post.featured-image }}" data-holder-rendered="true" style="width: 200px; height: 200px;">
                     </div>
 			{% endif %}
                 </div>
