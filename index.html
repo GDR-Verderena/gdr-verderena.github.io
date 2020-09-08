@@ -22,7 +22,7 @@ title: G.D.R Verdena
                         <p class="lead"> {{ post.excerpt | strip_html | strip_newlines | truncate: 156 }}  </p>
                     </div>
 			{% if post.featured-image And post.featured-image != "" And post.featured-image != nil   %}
-                    <div class="col-md-5  ">
+                    <div class="col-md-5 float-left  ">
                         <img class="featurette-image img-fluid mx-auto pull-left " src="{{ post.featured-image }}" data-src="{{ post.featured-image }}" data-holder-rendered="true" style="width: 400px; height: 400px;">
                     </div>
 			{% endif %}
