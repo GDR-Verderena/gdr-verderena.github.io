@@ -10,11 +10,13 @@ title: G.D.R Verdena
 		</div> 
 
 -->
-
+<br><br>
 
 
 <div class="container-fluid">
+	<br>
 	<h2 class="text-muted">Última Notícia <span class="badge badge-secondary">New</span></h2>
+	<br>
 {% for post in site.posts limit:1 %}
 <div class="row featurette shadow p-3 mb-5 bg-white rounded ">
                     <div class="col-md-7">
@@ -30,10 +32,11 @@ title: G.D.R Verdena
 {% endfor %}
 </div>
 
-
+<br><br>
 
 <div class="container-fluid">
 <h3 class="text-muted text-center">Notícias Recentes <span class="badge badge-secondary">New</span></h3>
+	<br>
    <hr class="featurette-divider">
 	{% for post in site.posts offset:1 limit:2 %}
                 <div class="row featurette">
