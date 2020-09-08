@@ -43,6 +43,24 @@ title: G.D.R Verdena
 		    <i class="btn btn-light btn-sm mb-1 text-small mt-2 font-weight-light text-muted">{{ post.categories}}</i>
                     </div>
 			{% if post.featured-image And post.featured-image != "" And post.featured-image != nil And imageValidate("{{ post.featured-image }}")==true   %}
+	<script>
+imageExists = function (url, callback) {
+  var img = new Image();
+  img.onload = function () { callback(true); };
+  img.onerror = function () { callback(false); };
+  img.src = url;
+}
+
+
+imageValidate = function (url) {
+  imageExists(url, function (value) {
+    //Show the result
+    console.log(value);
+    return value;
+  });
+ }
+
+</script>	
                     <div class="col-md-5 float-left  ">
                         <img class="featurette-image img-fluid mx-auto pull-left " src="{{ post.featured-image }}" data-src="{{ post.featured-image }}" data-holder-rendered="true" style="width: 400px; height: 400px;">
                     </div>
@@ -130,9 +148,7 @@ title: G.D.R Verdena
 
 
 
-<script>
 
-</script>	
 	
 
 
