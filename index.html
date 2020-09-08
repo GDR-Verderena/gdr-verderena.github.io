@@ -22,6 +22,12 @@ title: G.D.R Verdena
                     <div class="col-md-7">
                          <a href="{{ post.url }}" title="{{ post.title }}"> <h2 class="featurette-heading">{{ post.title }} <span class="text-muted">{{ post.description }}</span></h2></a>
                         <p class="lead"> {{ post.excerpt | strip_html | strip_newlines | truncate: 156 }}  </p>
+			    <p> {% include read_time.html content=post.content %}  </p>
+		  <p class="card-text">
+		<footer class="blockquote-footer"> {% if post.author %} {{ post.author }} {% else %} {{ site.author }} {% endif %} <cite title="Source Title"> {{ post.date | date_to_string }} </cite></footer>
+             
+            </p>
+		    <i class="btn btn-light btn-sm mb-1 text-small mt-2 font-weight-light text-muted">{{ post.categories}}</i>
                     </div>
 			{% if post.featured-image And post.featured-image != "" And post.featured-image != nil   %}
                     <div class="col-md-5 float-left  ">
