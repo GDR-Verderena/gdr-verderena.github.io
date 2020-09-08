@@ -96,17 +96,17 @@ sharePost = function (title, description, url) {
 
   //  const btn = document.querySelector('.share');
   const btn = document.getElementById("share");
-  //const resultPara = document.querySelector('.result');
+  const resultPara = document.querySelector('.result');
   if (navigator.share) {
 
     navigator.share(shareData)
       .then(() =>
-       // resultPara.textContent = 'MDN shared successfully'
-	    console.log("Shared Web Api");
+        resultPara.textContent = 'MDN shared successfully'
+	 //   console.log("Shared Web Api");
       )
       .catch((e) =>
-       // resultPara.textContent = 'Error: ' + e
-	     console.log('Error: ' + e);
+        resultPara.textContent = 'Error: ' + e
+	 //    console.log('Error: ' + e);
       )
 
   } else {
