@@ -244,7 +244,12 @@ if(navigator.share){
 }else
 {
 	console.log("oops");
-	location.href = "https://facebook.com/sharer.php?u={{ site.url }}"+url;
+	//location.href = "https://facebook.com/sharer.php?u={{ site.url }}"+url;
+	 FB.ui({
+    display: 'popup',
+    method: 'share',
+    href: 'https://developers.facebook.com/docs/',
+  }, function(response){});
 }
 	 }
     </script>
