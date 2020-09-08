@@ -102,11 +102,11 @@ sharePost = function (title, description, url) {
     navigator.share(shareData)
       .then(() =>
        // resultPara.textContent = 'MDN shared successfully'
-	   // console.log("Shared Web Api");
+	    console.log("Shared Web Api");
       )
       .catch((e) =>
        // resultPara.textContent = 'Error: ' + e
-	   //  console.log('Error: ' + e);
+	     console.log('Error: ' + e);
       )
 
   } else {
