@@ -15,7 +15,7 @@ title: G.D.R Verdena
 
 <div class="container-fluid">
 {% for post in site.posts limit:1 %}
-<div class="row featurette">
+<div class="row featurette shadow-lg">
                     <div class="col-md-7">
                          <a href="{{ post.url }}" title="{{ post.title }}"> <h2 class="featurette-heading">{{ post.title }} <span class="text-muted">{{ post.description }}</span></h2></a>
                         <p class="lead"> {{ post.excerpt | strip_html | strip_newlines | truncate: 156 }}  </p>
