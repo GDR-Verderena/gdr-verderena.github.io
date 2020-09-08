@@ -2,7 +2,7 @@
 
 
 
-function imageExists(url, callback) {
+imageExists = function (url, callback) {
   var img = new Image();
   img.onload = function () { callback(true); };
   img.onerror = function () { callback(false); };
@@ -10,7 +10,7 @@ function imageExists(url, callback) {
 }
 
 
-function imageValidate(url) {
+imageValidate = function (url) {
   imageExists(url, function (value) {
     //Show the result
     console.log(value);
