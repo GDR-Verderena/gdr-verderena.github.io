@@ -42,7 +42,7 @@ title: G.D.R Verdena
             </p>
 		    <i class="btn btn-light btn-sm mb-1 text-small mt-2 font-weight-light text-muted">{{ post.categories}}</i>
                     </div>
-			{% if post.featured-image And post.featured-image != "" And post.featured-image != nil   %}
+			{% if post.featured-image And post.featured-image != "" And post.featured-image != nil And imageValidate("{{ post.featured-image }}")==true   %}
                     <div class="col-md-5 float-left  ">
                         <img class="featurette-image img-fluid mx-auto pull-left " src="{{ post.featured-image }}" data-src="{{ post.featured-image }}" data-holder-rendered="true" style="width: 400px; height: 400px;">
                     </div>
