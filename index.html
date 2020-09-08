@@ -225,7 +225,7 @@ Tags
     //  const btn = document.querySelector('.share');
 	const btn =  document.getElementById("share");
       const resultPara = document.querySelector('.result');
-
+if(navigator.share){
       btn.addEventListener('click', () => {
         navigator.share(shareData)
           .then(() =>
@@ -235,6 +235,10 @@ Tags
             resultPara.textContent = 'Error: ' + e
           )
       });
+}else
+{
+	console.log(oops);
+}
     </script>
 
 
