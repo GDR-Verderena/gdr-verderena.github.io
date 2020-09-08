@@ -17,27 +17,7 @@ title: G.D.R Verdena
 
 
 
- <script>
-      let shareData = {
-        title: 'MDN',
-        text: 'Learn web development on MDN!',
-        url: 'https://developer.mozilla.org',
-      }
 
-    //  const btn = document.querySelector('.share');
-	const btn =  document.getElementById("share");
-      const resultPara = document.querySelector('.result');
-
-      btn.addEventListener('click', () => {
-        navigator.share(shareData)
-          .then(() =>
-            resultPara.textContent = 'MDN shared successfully'
-          )
-          .catch((e) =>
-            resultPara.textContent = 'Error: ' + e
-          )
-      });
-    </script>
 
 
 
@@ -235,7 +215,27 @@ Tags
 
 <br><br><br><br>
 
+ <script>
+      let shareData = {
+        title: 'MDN',
+        text: 'Learn web development on MDN!',
+        url: 'https://developer.mozilla.org',
+      }
 
+    //  const btn = document.querySelector('.share');
+	const btn =  document.getElementById("share");
+      const resultPara = document.querySelector('.result');
+
+      btn.addEventListener('click', () => {
+        navigator.share(shareData)
+          .then(() =>
+            resultPara.textContent = 'MDN shared successfully'
+          )
+          .catch((e) =>
+            resultPara.textContent = 'Error: ' + e
+          )
+      });
+    </script>
 
 
 
