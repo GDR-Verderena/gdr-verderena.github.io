@@ -218,11 +218,11 @@ Tags
  <script>
 	const url= document.getElementById("url").href;
 	const description = document.getElementById("description").value;
-	 const description = document.getElementById("title").value;
+	 const title = document.getElementById("title").value;
       let shareData = {
-        title: 'MDN',
-        text: 'Learn web development on MDN!',
-        url: 'https://developer.mozilla.org',
+        title: title,
+        text: description,
+        url: url,
       }
 
     //  const btn = document.querySelector('.share');
