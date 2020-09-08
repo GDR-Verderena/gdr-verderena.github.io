@@ -85,6 +85,10 @@ window.fbAsyncInit = function () {
 
 
 sharePost = function (title, description, url) {
+	
+	if (navigator.vibrate) { 
+    window.navigator.vibrate(50); 
+} 
   //const url= document.getElementById("url").href;
   //const description = document.getElementById("description").textContent;
   //const title = document.getElementById("title").textContent;
