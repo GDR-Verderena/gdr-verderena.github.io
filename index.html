@@ -217,6 +217,18 @@ Tags
 
  <script>
 	 
+	 
+	 window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '634330340852989',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v8.0'
+    });
+  };
+	 
+	 
+	 
 	 function sharePost(title, description , url)
 	 {
 	//const url= document.getElementById("url").href;
