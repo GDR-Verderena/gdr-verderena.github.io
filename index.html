@@ -245,11 +245,26 @@ if(navigator.share){
 {
 	console.log("oops");
 	//location.href = "https://facebook.com/sharer.php?u={{ site.url }}"+url;
-	 FB.ui({
-    display: 'popup',
+
+	
+	
+	FB.ui(
+  {
     method: 'share',
     href: 'https://developers.facebook.com/docs/',
-  }, function(response){});
+  },
+  // callback
+  function(response) {
+    if (response && !response.error_message) {
+      alert('Posting completed.');
+    } else {
+      alert('Error while posting.');
+    }
+  }
+);
+	
+	
+	
 }
 	 }
     </script>
