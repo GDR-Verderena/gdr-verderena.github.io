@@ -118,7 +118,7 @@ sharePost = function (title, description, url) {
     FB.ui(
       {
         method: 'share',
-        href: "{{site.url}}" + url ,
+        href: 'https://gdr-verderena.github.io' + url ,
       },
       // callback
       function (response) {
