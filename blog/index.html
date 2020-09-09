@@ -95,6 +95,7 @@ title: G. D. R. Verderena's Blog
              
             </p>
 		    <i class="btn btn-light btn-sm mb-1 text-small mt-2 font-weight-light text-muted">{{ post.categories}}</i>
+		  <i class="btn btn-light btn-sm mb-1 text-small mt-2 font-weight-light text-muted">{{ post.tags}}</i>
 		    
             </div>
           </div>
@@ -132,7 +133,7 @@ title: G. D. R. Verderena's Blog
 </svg> Tags</h4>
 		{% for tag in site.tags %}
     
-         <a class="btn btn-light btn-sm mb-1" href="../tag/{{ tag[0] }}">{{ tag[0] }}</a>
+         <a class="btn btn-light btn-sm mb-1 rext-muted" href="../tag/{{ tag[0] }}">{{ tag[0] }}</a>
 		
 		{% endfor %}	
         </div>
