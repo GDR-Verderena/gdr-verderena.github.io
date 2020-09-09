@@ -52,8 +52,8 @@ imageExists = function (url, callback) {
 }
 
 
-imageValidate = function ("{{ post.featured-image }}") {
-  imageExists(url, function (value) {
+imageValidate = function ('{{post.featured-image}}') {
+  imageExists('{{post.featured-image}}', function (value) {
     //Show the result
     console.log(value);
     return value;
