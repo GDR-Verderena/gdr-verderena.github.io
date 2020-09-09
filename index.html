@@ -30,77 +30,76 @@ title: G.D.R Verdena
 	<br>
 	<h2 class="text-muted">Última Notícia <span class="badge badge-secondary">News</span></h2>
 	<br>
-{% for post in site.posts limit:1 %}
-<div class="row featurette shadow p-3 mb-5 bg-white rounded ">
-                    <div class="col-md-7">
-                         <a id="url" href="{{ post.url }}" title="{{ post.title }}"> <h2 id="title" class="featurette-heading">{{ post.title }} <span id="descricao" class="text-muted">{{  post.description }}</span></h2></a>
-                        <p class="lead"> {{ post.excerpt | strip_html | strip_newlines | truncate: 156 }}  </p>
-			    <p> {% include read_time.html content=post.content %}  </p>
-		  <p class="card-text">
-		<footer class="blockquote-footer"> {% if post.author %} {{ post.author }} {% else %} {{ site.author }} {% endif %} <cite title="Source Title"> {{ post.date | date_to_string }} </cite></footer>
-             
-            </p>
-		    <i class="btn btn-light btn-sm mb-1 text-small mt-2 font-weight-light text-muted">{{ post.categories}}</i>
-                    </div>
-			{% if post.featured-image And post.featured-image != "" And post.featured-image != nil And "imageValidate(`{{ post.featured-image }}`)" ==true   %}
-	<script>
-imageExists = function (url, callback) {
-  var img = new Image();
-  img.onload = function () { callback(true); };
-  img.onerror = function () { callback(false); };
-  img.src = url;
-}
+	{% for post in site.posts limit:1 %}
+	<div class="row featurette shadow p-3 mb-5 bg-white rounded ">
+		<div class="col-md-7">
+			<a id="url" href="{{ post.url }}" title="{{ post.title }}">
+				<h2 id="title" class="featurette-heading">{{ post.title }} <span id="descricao"
+						class="text-muted">{{  post.description }}</span></h2>
+			</a>
+			<p class="lead"> {{ post.excerpt | strip_html | strip_newlines | truncate: 156 }} </p>
+			<p> {% include read_time.html content=post.content %} </p>
+			<p class="card-text">
+			<footer class="blockquote-footer"> {% if post.author %} {{ post.author }} {% else %} {{ site.author }}
+				{% endif %} <cite title="Source Title"> {{ post.date | date_to_string }} </cite></footer>
 
+			</p>
+			<i class="btn btn-light btn-sm mb-1 text-small mt-2 font-weight-light text-muted">{{ post.categories}}</i>
+		</div>
+		{% if post.featured-image And post.featured-image != "" And post.featured-image != nil And "imageValidate(`{{ post.featured-image }}`)" ==true   %}
 
-imageValidate = function ('{{post.featured-image}}') {
-  imageExists('{{post.featured-image}}', function (value) {
-    //Show the result
-    console.log(value);
-    return value;
-  });
- }
-
-</script>	
-                    <div class="col-md-5 float-left  ">
-                        <img class="featurette-image img-fluid mx-auto pull-left " src="{{ post.featured-image }}" data-src="{{ post.featured-image }}" data-holder-rendered="true" style="width: 400px; height: 400px;">
-                    </div>
-			{% endif %}
-	<a id="share"  onclick="sharePost(`{{ post.title }}` , `{{  post.description }}` , `{{ post.url }}` )" class="text-muted share btn"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-share-fill texte-muted" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/>
-		</svg></a>
-	<p class="result" hidden></p>
-                </div>
-{% endfor %}
+		<div class="col-md-5 float-left  ">
+			<img class="featurette-image img-fluid mx-auto pull-left " src="{{ post.featured-image }}"
+				data-src="{{ post.featured-image }}" data-holder-rendered="true" style="width: 400px; height: 400px;">
+		</div>
+		{% endif %}
+		<a id="share" onclick="sharePost(`{{ post.title }}` , `{{  post.description }}` , `{{ post.url }}` )"
+			class="text-muted share btn"><svg width="1em" height="1em" viewBox="0 0 16 16"
+				class="bi bi-share-fill texte-muted" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+				<path fill-rule="evenodd"
+					d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z" />
+			</svg></a>
+		<p class="result" hidden></p>
+	</div>
+	{% endfor %}
 </div>
 
 <br><br>
 
 <div class="container-fluid">
-<h3 class="text-muted text-center">Notícias Recentes <span class="badge badge-secondary"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-newspaper " fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5v-11zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5H12z"/>
-  <path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"/>
-</svg></span></h3>
+	<h3 class="text-muted text-center">Notícias Recentes <span class="badge badge-secondary"><svg width="1em"
+				height="1em" viewBox="0 0 16 16" class="bi bi-newspaper " fill="currentColor"
+				xmlns="http://www.w3.org/2000/svg">
+				<path fill-rule="evenodd"
+					d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5v-11zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5H12z" />
+				<path
+					d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z" />
+			</svg></span></h3>
 	<br>
-   <hr class="featurette-divider">
+	<hr class="featurette-divider">
 	{% for post in site.posts offset:1 limit:2 %}
-                <div class="row featurette">
-                    <div class="col-md-7">
-                         <a href="{{ post.url }}" title="{{ post.title }}"> <h2 class="featurette-heading">{{ post.title }} <span class="text-muted">{{ post.description }}</span></h2></a>
-                        <p class="lead"> {{ post.excerpt | strip_html | strip_newlines | truncate: 156 }}  </p>
-                    </div>
-			{% if post.featured-image And post.featured-image != "" And post.featured-image != nil   %}
-                    <div class="col-md-5 pray">
-                        <img class="featurette-image img-fluid mx-auto " src="{{ post.featured-image }}" data-src="{{ post.featured-image }}" data-holder-rendered="true" style="width: 200px; height: 200px;">
-                    </div>
-			{% endif %}
-                </div>
-                <hr class="featurette-divider">
-	
-          
-                <hr class="featurette-divider">
-            {% endfor %}
-	
-	  </div>
+	<div class="row featurette">
+		<div class="col-md-7">
+			<a href="{{ post.url }}" title="{{ post.title }}">
+				<h2 class="featurette-heading">{{ post.title }} <span class="text-muted">{{ post.description }}</span>
+				</h2>
+			</a>
+			<p class="lead"> {{ post.excerpt | strip_html | strip_newlines | truncate: 156 }} </p>
+		</div>
+		{% if post.featured-image And post.featured-image != "" And post.featured-image != nil   %}
+		<div class="col-md-5 pray">
+			<img class="featurette-image img-fluid mx-auto " src="{{ post.featured-image }}"
+				data-src="{{ post.featured-image }}" data-holder-rendered="true" style="width: 200px; height: 200px;">
+		</div>
+		{% endif %}
+	</div>
+	<hr class="featurette-divider">
+
+
+	<hr class="featurette-divider">
+	{% endfor %}
+
+</div>
 
 
 <br><br><br><br>
@@ -138,18 +137,12 @@ imageValidate = function ('{{post.featured-image}}') {
 -->
 
 
-<style>
-	.hidden {
-  display: none!important;
-  visibility: hidden!important;
-}
-</style>
 
 
 
 
 
-	
+
 
 
 <!--
@@ -193,8 +186,8 @@ imageValidate = function ('{{post.featured-image}}') {
       {% endfor %}
     </ul>
 
-	-->  
-	  <!--
+	-->
+<!--
     {% assign numPosts = posts | size %}
     {% if numPosts == 1 %}
       <p>{{ posts | size }} post containing tag <b>{{ t }}</b></p>
@@ -202,7 +195,7 @@ imageValidate = function ('{{post.featured-image}}') {
       <p>{{ posts | size }} posts containing tag <b>{{ t }}</b></p>
     {% endif %}
 -->
- <!-- </div>
+<!-- </div>
 {% endfor %} -->
 
 
@@ -237,6 +230,3 @@ Tags
 
 
 {% include partners.html %}
-
-
-
