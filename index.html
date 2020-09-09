@@ -42,7 +42,7 @@ title: G.D.R Verdena
             </p>
 		    <i class="btn btn-light btn-sm mb-1 text-small mt-2 font-weight-light text-muted">{{ post.categories}}</i>
                     </div>
-			{% if post.featured-image And post.featured-image != "" And post.featured-image != nil And imageValidate("{{ post.featured-image }}")==true   %}
+			{% if post.featured-image And post.featured-image != "" And post.featured-image != nil And "imageValidate(`{{ post.featured-image }}`)" ==true   %}
 	<script>
 imageExists = function (url, callback) {
   var img = new Image();
@@ -52,7 +52,7 @@ imageExists = function (url, callback) {
 }
 
 
-imageValidate = function (url) {
+imageValidate = function ({{ post.url }}) {
   imageExists(url, function (value) {
     //Show the result
     console.log(value);
