@@ -95,7 +95,13 @@ title: G. D. R. Verderena's Blog
              
             </p>
 		    <i class="btn btn-light btn-sm mb-1 text-small mt-2 font-weight-light text-muted">{{ post.categories}}</i>
-		  <i class="btn btn-light btn-sm mb-1 text-small mt-2 font-weight-light text-muted">{{ post.tags}}</i>
+		  
+		    {% for tag in post.tags %}
+    		{% capture tag_name %}{{ tag }}{% endcapture %}
+   			 <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+  	{% endfor %}
+		  
+		 <!-- <i class="btn btn-light btn-sm mb-1 text-small mt-2 font-weight-light text-muted">{{ post.tags}}</i> -->
 		  
 		  <a id="share" onclick="sharePost(`{{ post.title }}` , `{{  post.description }}` , `{{ post.url }}` )"
 			class="text-muted share btn"><svg width="1em" height="1em" viewBox="0 0 16 16"
