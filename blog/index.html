@@ -10,13 +10,12 @@ title: G. D. R. Verderena's Blog
 
 <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
   <div class="col-md-6 px-0">
-    <h3 class="display-4 font-italic">{{ page.title }}</h3>
+    <h3 class="display-4 ">{{ page.title }}</h3>
     <p class="lead my-3">
-      Multiple lines of text that form the lede, informing new readers quickly
-      and efficiently about what’s most interesting in this post’s contents.
+      Esteja a par das Últimas Notícias e acompanhe todas as novidades da atualidade do Grupo Desportivo Recreativo da Verderena. Leia, partilhe e comente as últimas novidades da nossa Coletividade!
     </p>
     <p class="lead mb-0">
-      <a href="#" class="text-white font-weight-bold">Continue reading...</a>
+      <a href="#news" class="text-white font-weight-bold">Continuar a Ler...</a>
     </p>
   </div>
 </div>
@@ -64,7 +63,7 @@ title: G. D. R. Verderena's Blog
   <div class="col-md-9">
     {% for post in site.posts %}
 
-    <section class="section-1">
+    <section id="news" class="section-1">
       <div class="container text-center">
         <div class="row">
           {% if post.featured-image And post.featured-image != "" And
