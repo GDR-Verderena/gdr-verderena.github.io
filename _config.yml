@@ -5,6 +5,7 @@ description:        Grupo Desportivo, Recreativo e Cultural
 author:             G.D.R Verdena
 baseurl:            "/"
 url:                "https://gdr-verderena.github.io"
+image:  https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/logo.jpg
 
 # Social Profiles
 
@@ -22,3 +23,29 @@ permalink: /blog/:year/:month/:day/:title
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  
+  
+  # SEO/OpenGraph
+logo: https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/logo.jpg
+
+lang: pt_PT
+
+name: GDR Verderena
+  links:
+    
+    - https://www.facebook.com/gdr.verderena/
+    - https://github.com/GDR-Verderena
+author:
+  twitter: GDR Verderena
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/logo.jpg
+      author: GDR Verderena
+      
+      
+      
+# /SEO
+...
