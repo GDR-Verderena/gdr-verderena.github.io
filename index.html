@@ -66,7 +66,7 @@ title: G.D.R Verdena
 		{% if post.featured-image And post.featured-image != "" And post.featured-image != nil And "imageValidate(`{{ post.featured-image }}`)" ==true   %}
 
 		<div class="col-md-5 float-left  ">
-			<img class="featurette-image img-fluid mx-auto pull-left " src="{{ post.featured-image }}"
+			<img class="featurette-image img-fluid mx-auto pull-left image-box__overlay " src="{{ post.featured-image }}"
 				data-src="{{ post.featured-image }}" data-holder-rendered="true" style="width:50%; ">
 		</div>
 		{% endif %}
