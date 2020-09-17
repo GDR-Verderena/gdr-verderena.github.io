@@ -3,22 +3,22 @@
 
 .home-page-news a:link {
   text-decoration: none;
-  color: #808080;
+  color: #333333;
 }
 
 .home-page-news a:visited {
  text-decoration: none;
- color: #808080; 
+ color: #666666; 
 }
 
 .home-page-news a:hover {
    text-decoration: none;
-   color:  #4d4d4d;
+   color:  #666666;
 }
 
 .home-page-news a:active {
   text-decoration: none;
-  color:  #4d4d4d;
+  color:  #666666;
 } 
 
 
