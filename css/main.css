@@ -1,5 +1,8 @@
 
-
+.image-box__overlay {
+  background: rgb(0 0 0 / 50%);
+  z-index: 2;
+}
 
 .home-page-news a:link {
   text-decoration: none;
