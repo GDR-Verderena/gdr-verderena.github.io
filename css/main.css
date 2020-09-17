@@ -1,4 +1,12 @@
 
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
 /* 
 body { margin: 60px auto; width: 70%; }
 
