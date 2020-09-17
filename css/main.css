@@ -3,6 +3,10 @@
     filter: grayscale(100%);
 }
 
+navbar-brand img {
+    filter: grayscale(100%);
+}
+
 
 /* 
 body { margin: 60px auto; width: 70%; }
