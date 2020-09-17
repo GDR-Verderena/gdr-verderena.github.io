@@ -1,16 +1,13 @@
 
-.home-page-news img {
-  background: rgb(0 0 0 / 50%);
- 
-}
+
 
 
 .home-page-news img {
-  opacity: 1.0;
+  opacity:  0.7;
 }
 
 .home-page-news img:hover {
-  opacity:  0.7;
+  opacity: 1.0;
 }
 
 .home-page-news a:link {
