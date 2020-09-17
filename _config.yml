@@ -30,10 +30,13 @@ logo: https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/ma
 
 lang: pt_PT
 
-name: GDR Verderena
+
+social:
+ name: GDR Verderena
   links:
     - https://www.facebook.com/gdr.verderena/
     - https://github.com/GDR-Verderena
+
 author:
   twitter: GDR Verderena
 
