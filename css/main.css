@@ -1,6 +1,9 @@
 
 
-
+.navbar-brand{
+ 
+   font-family: "Bevan"
+}
 
 .home-page-news img {
   opacity:  0.7;
