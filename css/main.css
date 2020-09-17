@@ -1,5 +1,7 @@
 
-
+.partners img{
+    filter: grayscale(100%);
+}
 
 
 /* 
