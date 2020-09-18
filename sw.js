@@ -2,7 +2,13 @@
 layout: null
 ---
 
-var urlsToCache = [];
+var urlsToCache = [
+   '/',
+  '/css/main.css',
+  '/js/index.js'
+
+
+];
 
 // Cache posts
 // Limits the number of posts that gets cached to 3
