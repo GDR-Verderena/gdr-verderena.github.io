@@ -35,7 +35,7 @@ title: G.D.R Verdena
 		<div class="col-md-7">
 			<a id="url" href="{{ post.url }}" title="{{ post.title }}">
 				<h2 id="title" class="featurette-heading">{{ post.title }} <span id="descricao"
-						class="text-muted">{{  post.description }}</span></h2>
+						class="text-secondary">{{  post.description }}</span></h2>
 			</a>
 			<p class="lead"> {{ post.excerpt | strip_html | strip_newlines | truncate: 156 }} </p>
 			<p class="noselect"> {% include read_time.html content=post.content %} </p>
