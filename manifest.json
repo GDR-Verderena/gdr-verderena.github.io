@@ -11,7 +11,7 @@
  "orientation": "any",
  "icons": [
   {
-   "src": "assets/img/icon/android-icon-192x192-dunplab-manifest-17618.png",
+   "src": "assets/img/icon/logo-pwa.png",
    "type": "image/png",
    "sizes": "192x192"
   },
