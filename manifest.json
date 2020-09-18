@@ -75,7 +75,6 @@
    "type": "image/png",
    "sizes": "16x16"
   },
-  ,
   {
    "src":"assets/favicon.ico",
    "size":"72x72 96x96 128x128 256x256"
