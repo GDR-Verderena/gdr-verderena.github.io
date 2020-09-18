@@ -1,6 +1,14 @@
   AOS.init();
 
 
+if ('storage' in navigator && 'estimate' in navigator.storage) {
+  navigator.storage.estimate().then(({usage, quota}) => {
+    console.log(`Using ${usage} out of ${quota} bytes.`);
+  });
+}
+
+
+
 $(function(){
     $(".post").slice(0, 5).show(); // select the first 5
     $("#load").click(function(e){ // click event for load more
