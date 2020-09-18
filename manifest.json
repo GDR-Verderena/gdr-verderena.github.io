@@ -11,12 +11,12 @@
  "orientation": "any",
  "icons": [
   {
-   "src": "assets/img/icon/logo-pwa.png",
+   "src": "assets/img/icon/apple-icon-192x192-dunplab-manifest-17618.png",
    "type": "image/png",
    "sizes": "192x192"
   },
   {
-   "src": "assets/img/icon/logo-pwa.png",
+   "src": "assets/img/icon/apple-icon-180x180-dunplab-manifest-17618.png",
    "type": "image/png",
    "sizes": "180x180"
   },
@@ -74,18 +74,7 @@
    "src": "assets/img/icon/favicon-16x16-dunplab-manifest-17618.png",
    "type": "image/png",
    "sizes": "16x16"
-  },
-  {
-   "src": "assets/img/GitHub.png",
-   "type": "image/png",
-   "sizes": "512x512"
-  },
-   {
-      "src": "assets/img/icon/maskable_icon.png",
-      "sizes": "196x196",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
+  }
  ],
  "prefer_related_applications": "false"
 }
