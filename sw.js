@@ -9,7 +9,7 @@ layout: null
 const OFFLINE_VERSION = 1;
 const CACHE_OFFLINE = 'offline';
 // Customize this with a different URL if needed.
-const OFFLINE_URL = '/offline.html';
+const OFFLINE_URL = '/offline.md';
 
 
 
@@ -85,7 +85,7 @@ self.addEventListener('fetch', (event) => {
    
 var urlsToCache = [
    
-   /,
+  '/',
   '/css/main.css',
   '/js/index.js',
  
