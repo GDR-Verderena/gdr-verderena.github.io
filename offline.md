@@ -1,8 +1,5 @@
 
----
-layout: default
-title: G.D.R Verdena
----
+
 
 
 <div class="page">
