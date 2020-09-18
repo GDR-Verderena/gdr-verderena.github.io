@@ -57,3 +57,10 @@ self.addEventListener('fetch', function (event) {
         })
     );
 });
+
+ 
+ 
+ if(navigator.storage)
+ {
+ console.log(navigator.storage.estimate());
+ }
