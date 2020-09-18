@@ -1,5 +1,14 @@
 
 
+.load-container{
+ padding: 30vmin 0vmin; 
+   display: block;
+    position: absolute;
+    left: 2rem;
+ 
+}
+
+
 .post { display:none; }
 
 
