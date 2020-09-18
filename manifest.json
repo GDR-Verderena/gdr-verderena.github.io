@@ -5,6 +5,6 @@
   "background_color": "#36220d",
   "display": "fullscreen",
   "orientation": "portrait",
-  "scope": "{{ site.url }}/",
-  "start_url": "{{ site.url }}/"
+  "scope": "/",
+  "start_url": "/"
 }
