@@ -3,9 +3,9 @@ layout: null
 ---
 
 var urlsToCache = [
-   '/',
+   
   '/css/main.css',
-  '/js/index.js'
+  '/js/index.js',
 
 
 ];
