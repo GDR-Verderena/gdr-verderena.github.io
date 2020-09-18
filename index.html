@@ -84,7 +84,7 @@ title: G.D.R Verdena
 
 <br><br>
 
-<div class="container-fluid home-page-news">
+<div class="container-fluid home-page-news noselect">
 	<h3 class="text-muted text-center">Notícias Recentes <span class="badge badge-secondary"><svg width="1em"
 				height="1em" viewBox="0 0 16 16" class="bi bi-newspaper " fill="currentColor"
 				xmlns="http://www.w3.org/2000/svg">
@@ -104,6 +104,7 @@ title: G.D.R Verdena
 			</a>
 			<p class="lead"> {{ post.excerpt | strip_html | strip_newlines | truncate: 156 }} </p>
 			
+			<p class="noselect"> {% include read_time.html content=post.content %} </p>
 				<p class="card-text">
 			<footer class="blockquote-footer"> {% if post.author %} {{ post.author }} {% else %} {{ site.author }}
 				{% endif %} <cite title="Source Title"> {{ post.date | date_to_string }} </cite></footer>
