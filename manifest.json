@@ -3,7 +3,7 @@
   "short_name": "GDR VERDERENA",
   "theme_color": "#36220d",
   "background_color": "#36220d",
-  "display": "browser",
+  "display": "fullscreen",
   "orientation": "portrait",
   "scope": "/",
   "start_url": "/"
