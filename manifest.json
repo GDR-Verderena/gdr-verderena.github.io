@@ -1,0 +1,10 @@
+{
+  "name": "GDR VERDERENA",
+  "short_name": "GDR VERDERENA",
+  "theme_color": "#36220d",
+  "background_color": "#36220d",
+  "display": "browser",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/"
+}
