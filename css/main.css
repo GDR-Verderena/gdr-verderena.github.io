@@ -8,6 +8,11 @@
  
 }
 
+.load-container{
+  text-align: center;
+ display: inline-block;
+}
+
 
 .post { display:none; }
 
