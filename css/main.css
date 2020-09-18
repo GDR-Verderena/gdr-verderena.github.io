@@ -1,4 +1,5 @@
 
+@media only screen and (max-width: 768px) {
 
 .load-container{
  padding: 30vmin 30vmin 30vmin 30vmin; 
@@ -7,6 +8,19 @@
 
  
 }
+}
+
+.load-container{
+ padding: 30vmin 30vmin 30vmin 30vmin; 
+ text-align: right;
+
+
+ 
+}
+
+
+
+
 
 .load-container{
   text-align: center;
