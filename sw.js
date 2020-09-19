@@ -41,9 +41,15 @@ self.addEventListener('activate', (event) => {
 
 
 self.addEventListener('fetch', (event) => {
+     // We only want to call event.respondWith() if this is a GET request for an HTML document.
+
+    
+   
   // We only want to call event.respondWith() if this is a navigation request
   // for an HTML page.
-  if (event.request.mode === 'navigate') {
+  if (event.request.mode === 'navigate' && event.request.method === 'GET' &&
+      event.request.headers.get('accept').indexOf('text/html') !== -1) {
+     console.log('Handling fetch event for', event.request.url);
     event.respondWith((async () => {
       try {
         // First, try to use the navigation preload response if it's supported.
