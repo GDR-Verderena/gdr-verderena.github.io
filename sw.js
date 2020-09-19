@@ -51,7 +51,7 @@ self.addEventListener('fetch', (event) => {
    //if (event.request.mode === 'navigate' && event.request.method === 'GET' &&
     //  event.request.headers.get('accept').indexOf('text/html') !== -1) {
    
-   if (event.request.mode === 'navigate'{
+   if (event.request.mode === 'navigate'){
      console.log('Handling fetch event for', event.request.url);
     event.respondWith((async () => {
       try {
