@@ -75,7 +75,12 @@
    "src": "assets/img/icon/favicon-16x16-dunplab-manifest-17618.png",
    "type": "image/png",
    "sizes": "16x16"
-  }
+  },{
+      "src": "assets/img/icon/maskable_icon.png",
+      "sizes": "196x196",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
  ],
  "prefer_related_applications": false
 }
