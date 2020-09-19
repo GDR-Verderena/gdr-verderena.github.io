@@ -1,5 +1,18 @@
 
 
+
+
+.bg-gold{
+    
+background-color: #f5d000;
+color: #ffffff;
+    
+}
+
+
+
+
+
 /*NavBar*/
 .navbar-toggler:focus,
 .navbar-toggler:active,
@@ -16,7 +29,7 @@
 /* change the background color */
 .navbar-custom {
     background-color:#304ffe;
-  x
+  
 }
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
