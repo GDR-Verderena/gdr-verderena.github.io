@@ -47,8 +47,11 @@ self.addEventListener('fetch', (event) => {
    
   // We only want to call event.respondWith() if this is a navigation request
   // for an HTML page.
-  if (event.request.mode === 'navigate' && event.request.method === 'GET' &&
-      event.request.headers.get('accept').indexOf('text/html') !== -1) {
+  
+   //if (event.request.mode === 'navigate' && event.request.method === 'GET' &&
+    //  event.request.headers.get('accept').indexOf('text/html') !== -1) {
+   
+   if (event.request.mode === 'navigate'{
      console.log('Handling fetch event for', event.request.url);
     event.respondWith((async () => {
       try {
@@ -94,6 +97,8 @@ var urlsToCache = [
   '/',
   '/css/main.css',
   '/js/index.js',
+  '/index.html'
+  '/blog/index.html'
  
 
 
@@ -102,7 +107,7 @@ var urlsToCache = [
 // Cache posts
 // Limits the number of posts that gets cached to 3
 // Reads a piece of front-matter in each post that directs the second loop to the folder where the assets are held
-{% for post in site.posts limit: 3 %}
+{% for post in site.posts limit: 5 %}
     urlsToCache.push("{{ post.url }}");
     {% for file in site.static_files %}
         {% if file.path contains post.assets %}
