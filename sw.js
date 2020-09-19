@@ -3,7 +3,7 @@ layout: null
 ---
 
    
-   
+   /*
    
    
 const OFFLINE_VERSION = 1;
@@ -87,6 +87,10 @@ self.addEventListener('fetch', (event) => {
 
 
 ///END OFFLINE
+
+
+
+*/
 
    
    
