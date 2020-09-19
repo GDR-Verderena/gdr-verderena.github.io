@@ -109,16 +109,11 @@ text[type=text] {
 }
 
 
-.badge {
 
-
-  color: #ffffff;
-  background-color: #00A6F0;
- 
-}
 
 .badge-secondary{
-      background-color: #00A6F0;
+       color: #ffffff;
+      background-color: #40C4FF;
 }
 
 
