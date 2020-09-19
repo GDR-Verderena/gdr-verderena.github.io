@@ -116,6 +116,12 @@ text[type=text] {
  
 }
 
+.bg-custom{
+    background-color:#FF3115;
+    color: white;
+    border-color:#FF3115;
+}
+
 .light-blue h1 , h2 ,h3 ,h4 ,h5 ,h6 {
    
    color: #40C4FF;
