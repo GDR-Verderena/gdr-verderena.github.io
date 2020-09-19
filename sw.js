@@ -124,6 +124,11 @@ self.addEventListener('install', function (event) {
 });
 
 self.addEventListener('fetch', function (event) {
+     // We only want to call event.respondWith() if this is a GET request for an HTML document.
+  if (event.request.method === 'GET' &&
+      event.request.headers.get('accept').indexOf('text/html') !== -1) {
+    console.log('Handling fetch event for', event.request.url);
+     
     event.respondWith(
         caches.open(CACHE_NAME).then(function (cache) {
             return cache.match(event.request).then(function (response) {
@@ -134,6 +139,8 @@ self.addEventListener('fetch', function (event) {
             });
         })
     );
+     
+  }
 });
 
 self.addEventListener('fetch', function (event) {
