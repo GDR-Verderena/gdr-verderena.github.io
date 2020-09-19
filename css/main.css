@@ -139,7 +139,7 @@ text[type=text] {
 
 .load-container{
   text-align: center;
- display: inline-block;
+  display: inline-block;
 }
 
 
@@ -148,7 +148,8 @@ text[type=text] {
 
 .navbar-brand{
  
-   font-family: "Suranna"
+ /* font-family: "Suranna" */
+    
 }
 
 .home-page-news img {
