@@ -132,22 +132,22 @@ text[type=text] {
 }
 
 
-.light-blue :link {
+a :link {
   text-decoration: none;
   color: #333333;
 }
 
-.home-page-news a:visited {
+ a:visited {
  text-decoration: none;
  color: #0091EA; 
 }
 
-.home-page-news a:hover {
+ a:hover {
    text-decoration: none;
    color:  #0091EA;
 }
 
-.home-page-news a:active {
+ a:active {
   text-decoration: none;
   color:  #0091EA;
 } 
