@@ -8,6 +8,11 @@ input[type=text] {
   background-color: #F5F5F5;
 }
 
+text[type=text] {
+  border: none;
+  background-color: #F5F5F5;
+}
+
 
 .blue{
  background-color:#304ffe;
@@ -16,8 +21,15 @@ input[type=text] {
 }
 
 
+.red btn {
+ 
+ 
+  background-color:#FF3115;
+  color: white;
+ 
+}
 
-.red{
+.red btn :hover{
  
  
   background-color:#212121;
