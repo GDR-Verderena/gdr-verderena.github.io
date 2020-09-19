@@ -2,7 +2,11 @@
 
 /*NavBar*/
 
-
+.navbar-toggler-icon{
+     color: white;
+}
+    
+    
 
 /* change the background color */
 .navbar-custom {
