@@ -132,6 +132,28 @@ text[type=text] {
 }
 
 
+.light-blue :link {
+  text-decoration: none;
+  color: #333333;
+}
+
+.home-page-news a:visited {
+ text-decoration: none;
+ color: #0091EA; 
+}
+
+.home-page-news a:hover {
+   text-decoration: none;
+   color:  #0091EA;
+}
+
+.home-page-news a:active {
+  text-decoration: none;
+  color:  #0091EA;
+} 
+
+
+
 
 
 .badge-secondary{
