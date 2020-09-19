@@ -21,7 +21,7 @@ text[type=text] {
 }
 
 
-.red button  {
+.btn-secondary   {
  
  
   background-color:#FF3115;
@@ -29,7 +29,7 @@ text[type=text] {
  
 }
 
-.red button   :hover{
+.btn-secondary   :hover{
  
  
   background-color:#212121;
