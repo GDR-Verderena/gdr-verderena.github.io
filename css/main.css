@@ -165,9 +165,9 @@ a :link {
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active, .open>.dropdown-toggle.btn-secondary  {
  
   border: none;
-  background-color:#212121;
+  background-color:#181b28;
   color: white;
-  border-color:#212121;
+  border-color:#181b28;
 }
 
 
