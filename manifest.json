@@ -3,6 +3,7 @@
  "name": "GDR VERDERENA",
  "lang": "pt",
  "description": "GDR VERDERENA",
+ "scope":"/",
  "start_url": "/",
  "background_color": "#36220d",
  "theme_color": "#36220d",
