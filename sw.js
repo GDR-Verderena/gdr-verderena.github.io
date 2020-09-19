@@ -130,8 +130,8 @@ self.addEventListener('install', function (event) {
 
 self.addEventListener('fetch', function (event) {
      // We only want to call event.respondWith() if this is a GET request for an HTML document.
-  if (event.request.method === 'GET' &&
-      event.request.headers.get('accept').indexOf('text/html') !== -1) {
+//  if (event.request.method === 'GET' &&
+  //    event.request.headers.get('accept').indexOf('text/html') !== -1) {
     console.log('Handling fetch event for', event.request.url);
      
     event.respondWith(
@@ -145,7 +145,7 @@ self.addEventListener('fetch', function (event) {
         })
     );
      
-  }
+ // }
 });
 
 self.addEventListener('fetch', function (event) {
@@ -160,8 +160,7 @@ self.addEventListener('fetch', function (event) {
 });
  
  
- 
- 
+/* 
  
  self.addEventListener('activate', function(event) {
   event.waitUntil(
@@ -178,13 +177,14 @@ self.addEventListener('fetch', function (event) {
     })
   );
 });
+*/
 
  
 
  
  
  
- 
+ /*
  
  
 if ('storage' in navigator && 'estimate' in navigator.storage) {
@@ -192,3 +192,4 @@ if ('storage' in navigator && 'estimate' in navigator.storage) {
     console.log(`Using ${usage} out of ${quota} bytes.`);
   });
 }
+*/
