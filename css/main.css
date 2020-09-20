@@ -151,7 +151,7 @@ text[type=text] {
     border-color:#40C4FF;
 }
 
-.light-blue h1 , h2 ,h3 ,h4 ,h5 ,h6 {
+.light-blue h1 ,.light-blue h2 , .light-blue h3 , .light-blue h4 , .light-blue h5 , .light-blue h6 {
    
    color: #40C4FF;
 }
