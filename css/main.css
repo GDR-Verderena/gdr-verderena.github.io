@@ -1,25 +1,17 @@
 
-.list-group-item-light .list-group-item{
-    
-      background-color:#FF3115;
-      color: white;
-      border-color:#FF3115;
-      border-top-color: #FF3115;
-      border-left-color: #FF3115;
-      border-right-color: #FF3115;
-    
+.list-group-item-light .list-group-item {
+  background-color: #f1f9fb;
+  border-top: 1px solid #0091b5;
+  border-left-color: #fff;
+  border-right-color: #fff;
 }
-
-
-
 
 .list-group-item-light .list-group-item:hover {
- 
-  border: none;
-  background-color:#181b28;
-  color: white;
-  border-color:#181b28;
+  background-color: red;
 }
+
+
+
 
 
 .bg-gold{
