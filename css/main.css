@@ -13,7 +13,7 @@
 
 
 
-.list-group-item-light .list-group-item:hover, .list-group-item-light .list-group-item:focus, .list-group-item-light  .list-group-item:active  {
+.list-group-item-light .list-group-item:hover {
  
   border: none;
   background-color:#181b28;
