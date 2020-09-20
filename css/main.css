@@ -1,5 +1,21 @@
 
+.list-group-item-light{
+    
+      background-color:#FF3115;
+      color: white;
+       border-color:#FF3115;
+    
+}
 
+
+
+.list-group-item-light:hover, .list-group-item-light:focus, .list-group-item-light:active, .list-group-item-light.active  {
+ 
+  border: none;
+  background-color:#181b28;
+  color: white;
+  border-color:#181b28;
+}
 
 
 .bg-gold{
