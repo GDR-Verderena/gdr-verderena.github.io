@@ -1,15 +1,29 @@
 
-.list-group-item-light{
+.list-group-item-light .list-group-item{
     
       background-color:#FF3115;
       color: white;
-       border-color:#FF3115;
+      border-color:#FF3115;
+      border-top-color: #FF3115;
+      border-left-color: #FF3115;
+      border-right-color: #FF3115;
     
 }
 
 
+.list-group-mine .list-group-item {
+  background-color: #f1f9fb;
+  border-top: 1px solid #0091b5;
+  border-left-color: #fff;
+  border-right-color: #fff;
+}
 
-.list-group-item-light a :hover, .list-group-item-light a :focus, .list-group-item-light  a:active,  .list-group-item-light.active  {
+.list-group-mine .list-group-item:hover {
+  background-color: red;
+}
+
+
+.list-group-item-light .list-group-item:hover, .list-group-item-light .list-group-item:focus, .list-group-item-light  .list-group-item:active  {
  
   border: none;
   background-color:#181b28;
