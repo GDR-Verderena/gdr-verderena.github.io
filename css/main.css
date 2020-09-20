@@ -148,22 +148,22 @@ input[type=text] {
 }
 
 
-a :link {
+.light-blue a :link {
   text-decoration: none;
   color: #333333;
 }
 
- a:visited {
+.light-blue a:visited {
  text-decoration: none;
  color: #0091EA; 
 }
 
- a:hover {
+.light-blue  a:hover {
    text-decoration: none;
    color:  #0091EA;
 }
 
- a:active {
+.light-blue a:active {
   text-decoration: none;
   color:  #0091EA;
 } 
