@@ -9,7 +9,7 @@
 
 
 
-.list-group-item-light:hover, .list-group-item-light:focus, .list-group-item-light:active, .list-group-item-light.active  {
+a .list-group-item-light:hover, a .list-group-item-light:focus, a .list-group-item-light:active, a .list-group-item-light.active  {
  
   border: none;
   background-color:#181b28;
