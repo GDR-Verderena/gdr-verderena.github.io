@@ -100,7 +100,7 @@ input[type=text] {
   background-color: #F5F5F5;
 }
 
-text[type=text] {
+textarea[type=text] {
   border: none;
   background-color: #F5F5F5;
 }
