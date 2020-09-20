@@ -1,6 +1,12 @@
 
 
-
+.verdrerena{
+    
+    background-color: #0d47a1 ;
+color: #ffffff;
+  
+    
+}
 
 
 
@@ -31,7 +37,7 @@ color: #ffffff;
 
 /* change the background color */
 .navbar-custom {
-    background-color:#304ffe;
+    background-color:#2962ff ;
   
 }
 /* change the brand and text color */
@@ -49,9 +55,9 @@ color: #ffffff;
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
     color: #ffffff;
-    background-color: #304ffe; /* add background-color to active links */
+    background-color: #2962ff ; /* add background-color to active links */
 }.navbar-custom {
-    background-color: #304ffe;
+    background-color: #2962ff ;
 }
 
 /* change the brand and text color */
@@ -73,7 +79,7 @@ color: #ffffff;
 
 /* for dropdown only - change the color of droodown */
 .navbar-custom .dropdown-menu {
-    background-color: #304ffe;
+    background-color: #2962ff ;
 }
 .navbar-custom .dropdown-item {
     color: #ffffff;
@@ -81,7 +87,7 @@ color: #ffffff;
 .navbar-custom .dropdown-item:hover,
 .navbar-custom .dropdown-item:focus {
     color: #ffffff;
-    background-color: #4965fe;
+    background-color: #2962ff ;
 }
 
 
