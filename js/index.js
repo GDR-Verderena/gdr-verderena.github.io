@@ -1,7 +1,7 @@
   AOS.init();
 
 
-$(img).attr(draggable: false);
+//$(img).attr(draggable: false);
 
 if ('storage' in navigator && 'estimate' in navigator.storage) {
   navigator.storage.estimate().then(({usage, quota}) => {
