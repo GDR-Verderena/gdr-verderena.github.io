@@ -57,6 +57,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -126,32 +127,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #2962ff;
   text-decoration: none;
 }
-/*
-.mobile-nav .drop-down > a:after {
-  content: "\ea99";
-  font-family: IcoFont;
-  padding-left: 10px;
-  position: absolute;
-  right: 15px;
-}
 
-.mobile-nav .active.drop-down > a:after {
-  content: "\eaa0";
-}
-
-.mobile-nav .drop-down > a {
-  padding-right: 35px;
-}
-
-.mobile-nav .drop-down ul {
-  display: none;
-  overflow: hidden;
-}
-
-.mobile-nav .drop-down li {
-  padding-left: 20px;
-}
-*/
 .mobile-nav-toggle {
   position: fixed;
   top: 20px;
@@ -194,10 +170,6 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav-active .mobile-nav-toggle i {
   color: #fff;
 }
-
-
-
-
 
 
 
@@ -365,6 +337,7 @@ input[type=text] {
   background-color: #F5F5F5;
 }
 
+/*
 
 .navbar-light{
   border: none;
@@ -372,6 +345,8 @@ input[type=text] {
   color: white;
  
 }
+
+*/
 
 
 .icone{
