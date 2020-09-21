@@ -200,7 +200,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .more-services .card-title a:hover {
-  color: #1bbca3;
+
+   color: #2962ff
+  text-decoration: none;
+  border: none;
 }
 
 .more-services .btn {
