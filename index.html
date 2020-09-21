@@ -28,13 +28,13 @@ title: G.D.R Verdena
 
 <div class="container-fluid home-page-news noselect ">
 	<br>
-	<h2 class="light-blue">Última Notícia <span class="badge badge-secondary">News</span></h2>
+	<h2 class="">Última Notícia <span class="badge badge-secondary">News</span></h2>
 	<br>
 	{% for post in site.posts limit:1 %}
 	<div class="row featurette shadow p-3 mb-5 bg-white rounded ">
 		<div class="col-md-7">
 			<a  id="url" href="{{ post.url }}" title="{{ post.title }}">
-				<h2 id="title" class="featurette-heading light-blue">{{ post.title }} <span id="descricao"
+				<h2 id="title" class="featurette-heading">{{ post.title }} <span id="descricao"
 						class="text-secondary">{{  post.description }}</span></h2>
 			</a>
 			<p class="lead"> {{ post.excerpt | strip_html | strip_newlines | truncate: 156 }} </p>
@@ -85,7 +85,7 @@ title: G.D.R Verdena
 <br><br>
 
 <div class="container-fluid home-page-news noselect">
-	<h3 class=" text-center light-blue">Notícias Recentes <span class="badge badge-secondary"><svg width="1em"
+	<h3 class=" text-center ">Notícias Recentes <span class="badge badge-secondary"><svg width="1em"
 				height="1em" viewBox="0 0 16 16" class="bi bi-newspaper " fill="currentColor"
 				xmlns="http://www.w3.org/2000/svg">
 				<path fill-rule="evenodd"
@@ -289,7 +289,7 @@ Tags
               <div class="card-body">
                 <h5 class="card-title"><a href="">Actividades</a></h5>
                 <p class="card-text">Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore</p>
-                <a href="#" class="btn">Explore more</a>
+                <a href="/about" class="btn">Descobrir</a>
               </div>
             </div>
           </div>
@@ -297,9 +297,9 @@ Tags
             <div class="card">
               <img src="assets/img/more-service-3.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title"><a href="">Nobis et tempore</a></h5>
+                <h5 class="card-title"><a href="">Conquistas</a></h5>
                 <p class="card-text">Ut quas omnis est. Non et aut tempora dignissimos similique in dignissimos. Sit incidunt et odit iusto</p>
-                <a href="#" class="btn">Explore more</a>
+                <a href="/about" class="btn">Descobrir</a>
               </div>
             </div>
           </div>
@@ -307,9 +307,9 @@ Tags
             <div class="card">
               <img src="assets/img/more-service-3.jpg" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title"><a href="">Facere quia quae dolores</a></h5>
+                <h5 class="card-title"><a href="">História</a></h5>
                 <p class="card-text">Modi ut et delectus. Modi nobis saepe voluptates nostrum. Sed quod consequatur quia provident dera</p>
-                <a href="#" class="btn">Explore more</a>
+                <a href="/about" class="btn">Descobrir</a>
               </div>
             </div>
           </div>
