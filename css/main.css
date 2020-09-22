@@ -507,6 +507,8 @@ input[type=text] {
 
 
 @media only screen and (max-width: 768px) {
+ 
+ /*
 
 .load-container{
  padding: 30vmin 30vmin 30vmin 30vmin; 
@@ -515,8 +517,11 @@ input[type=text] {
 
  
 }
+ 
+ */
 }
 
+/*
 .load-container{
  padding: 30vmin 30vmin 30vmin 30vmin; 
  text-align: right;
@@ -532,12 +537,14 @@ input[type=text] {
 
 
 
+
+
 .load-container{
   text-align: center;
   display: inline-block;
 }
 
-
+*/
 .post { display:none; }
 
 
