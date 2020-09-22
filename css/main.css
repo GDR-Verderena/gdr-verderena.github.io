@@ -175,7 +175,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
---------------------------------------------------------------
+/*--------------------------------------------------------------
 # More Services
 --------------------------------------------------------------*/
 .more-services img {
@@ -574,12 +574,12 @@ input[type=text] {
 
 
 #myBtn {
- /* display: none;
+  display: none;
   position: fixed;
   bottom: 20px;
   right: 30px;
   z-index: 99;
-  font-size: 18px;*/
+  font-size: 18px;
   border: none;
   outline: none;
   cursor: pointer;
