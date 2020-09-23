@@ -16,8 +16,7 @@
                   <ul class="list-group list-group-flush">
             {% for post in site.posts limit:3 %}
             <li class="list-group-item">
-	            <p><a href="{{ post.url }}"title="{{ post.title }}"class="d-inline-block ">{{ post.title }}</a></p>
-              <br>    
+	            <p><a href="{{ post.url }}"title="{{ post.title }}"class="d-inline-block ">{{ post.title }}</a></p>   
               <time class="timeago text-muted">{{ post.date | date_to_string }}</time>
             </li>
             {% endfor %}
