@@ -316,6 +316,14 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0 5px;
 }
 
+
+
+ul.breadcrumb {
+
+  list-style: none;
+  background-color: #707070;
+}
+
  /* font-family: "Suranna" 
 .breadcrumb ol li + li::before {
   display: inline-block;
