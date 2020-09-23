@@ -12,19 +12,25 @@
 
       <div class="col-sm-3">
         <h3>Novidades</h3>
-        <div class="media">
-          <div class="media-body">
-            <p><a href="#">vulputate velit esse consequat. </a></p>
-            <span>September 30, 2016 </span>
-          </div>
-        </div>
-        <div class="media">
-          <div class="media-body">
-            <p><a href="#">vulputate velit esse consequat. </a></p>
-            <span>September 30, 2016 </span>
-          </div>
-        </div>
+        
+                  <ul class="list-group list-group-flush">
+            {% for post in site.posts limit:3 %}
+            <li class="list-group-item">
+	            <p><a href="{{ post.url }}"title="{{ post.title }}"class="d-inline-block ">{{ post.title }}</a></p>
+              <br>    
+              <time class="timeago text-muted">{{ post.date | date_to_string }}</time>
+            </li>
+            {% endfor %}
+          </ul>
+    
       </div>
+      
+      
+      
+      
+      
+      
+      
 
     </div>
   </div>
