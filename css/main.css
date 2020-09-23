@@ -316,8 +316,20 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0 5px;
 }
 */
+
+
+.breadcrumb a{   
+  color:#969ba8;     
+  }
+  
+.breadcrumb a:hover{ 
+  color:#969ba8; 
+  text-decoration: none;
+  border: none;  
+  }
+
 .breadcrumb-item + .breadcrumb-item::before {
-    color: #ccc;
+    color: #969ba8;
     content: " | ";
 }
 
