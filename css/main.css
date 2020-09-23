@@ -1,5 +1,77 @@
 
- /*--------------------------------------------------------------
+
+
+
+.footer-top {
+        padding: 60px 0 40px 0;
+        text-align: left;
+    }
+
+    .footer-top h3 {
+        padding-bottom: 10px;
+    }
+
+    .footer-contact p {
+        word-wrap: break-word;
+    }
+
+    .footer-contact i {
+        padding-right: 10px;
+        font-size: 18px;
+        color: #ddd;
+    }
+
+    .footer-contact p a {
+        border-bottom: 1px dashed #ccc;
+    }
+
+    .footer-contact p a:hover,
+    .footer-contact p a:focus {
+        border-bottom: 1px dashed #555;
+    }
+
+    .footer-links a {
+        color: #888;
+        border: 0;
+    }
+
+    .footer-links a:hover,
+    .footer-links a:focus {
+        color: #555;
+        margin-left: 3px;
+    }
+
+    .footer-bottom {
+        padding: 0 0 60px 0;
+    }
+
+    .footer-social a {
+        margin: 0 10px;
+        color: #bbb;
+        border: 0;
+    }
+
+    .footer-social a:hover,
+    .footer-social a:focus {
+        color: #555;
+        border: 0;
+    }
+
+    .footer-social i {
+        font-size: 24px;
+        vertical-align: middle;
+    }
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
