@@ -13,14 +13,24 @@
       <div class="col-sm-3">
         <h3>Novidades</h3>
         
-                  <ul class="list-group list-group-flush">
+                
             {% for post in site.posts limit:3 %}
-            <li class="list-group-item">
-	            <p><a href="{{ post.url }}"title="{{ post.title }}"class="d-inline-block ">{{ post.title }}</a></p>   
-              <time class="timeago text-muted">{{ post.date | date_to_string }}</time>
-            </li>
+            
+	           
+	      
+	      
+	      
+	      <div class="media">
+          <div class="media-body">
+             <p><a href="{{ post.url }}"title="{{ post.title }}">{{ post.title }}</a></p>   
+               <span><time class="timeago text-muted">{{ post.date | date_to_string }}</time></span>
+           
+          </div>
+        </div>
+	      
+          
             {% endfor %}
-          </ul>
+         
     
       </div>
       
