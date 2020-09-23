@@ -306,9 +306,17 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
- /* font-family: "Suranna" */
+
     
 
+
+.breadcrumb > li + li:before {
+    color: #ccc;
+    content: " | ";
+    padding: 0 5px;
+}
+
+ /* font-family: "Suranna" 
 .breadcrumb ol li + li::before {
   display: inline-block;
   text-align: center
@@ -318,7 +326,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
+*/
 
 /*
 
