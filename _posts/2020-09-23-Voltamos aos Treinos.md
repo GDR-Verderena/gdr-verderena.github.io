@@ -1,7 +1,7 @@
 
 ---
 layout: post
-title: Voltámos aos treinos
+title: "Voltámos aos treinos"
 date: 2020-09-23
 author: GDR Verderena
 description: Voltámos porque sabemos que a vida tem que continuar e nós queremos muito fazer desporto pois sabemos o quanto isso é importante para a nossa saúde.
