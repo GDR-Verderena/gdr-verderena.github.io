@@ -309,20 +309,25 @@ h1, h2, h3, h4, h5, h6 {
 
     
 
-
+/*
 .breadcrumb > li + li:before {
     color: #ccc;
     content: " | ";
     padding: 0 5px;
 }
+*/
+.breadcrumb-item + .breadcrumb-item::before {
+    color: #ccc;
+    content: " | ";
+}
 
-
-
+/*
 ul.breadcrumb {
 
   list-style: none;
   background-color: #707070;
 }
+*/
 
  /* font-family: "Suranna" 
 .breadcrumb ol li + li::before {
