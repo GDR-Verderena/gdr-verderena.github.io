@@ -33,6 +33,7 @@ Voltámos para todos juntos mantermos a nossa modalidade viva, o atletismo é a 
 
 Sempre com os cuidados de higienização, mesmo quando isso precise de algum esforço adicional.
 
+![](https://cld.pt/dl/thumb/bd63fb60-8b7b-4110-b453-7ff1dc00958f/voltamos/IMG_8761.jpg?format=jpeg&size=xl&crop=false)
   
 
 O nossos treinadores não se cansam, como não se cansaram de nos incentivar quando estávamos fechados em casa, mesmo por videoconferência fizemos treinos, fizemos o nosso trabalho.
