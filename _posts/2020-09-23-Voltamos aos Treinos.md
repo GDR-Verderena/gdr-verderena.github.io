@@ -22,6 +22,9 @@ Voltámos porque sabemos que a vida tem que continuar e nós queremos muito faze
 
 Voltámos com energia, com alegria mas primando pela nossa saúde. Juntos mas com o distanciamento necessário.
 
+
+![](https://cld.pt/dl/thumb/bd63fb60-8b7b-4110-b453-7ff1dc00958f/voltamos/IMG_8610.jpg?format=jpeg&size=xl&crop=false)
+
  
 
 Voltámos para todos juntos mantermos a nossa modalidade viva, o atletismo é a nossa profissão 
