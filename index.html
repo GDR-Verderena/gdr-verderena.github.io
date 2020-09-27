@@ -31,7 +31,7 @@ title: G.D.R Verdena
 	<h2 class="">Última Notícia <span class="badge badge-secondary">News</span></h2>
 	<br>
 	{% for post in site.posts limit:1 %}
-	<div class="row featurette shadow p-3 mb-5 bg-white rounded ">
+	<div class="row featurette shadow-lg p-3 mb-5 bg-white rounded ">
 		<div class="col-md-7">
 			<a  id="url" href="{{ post.url }}" title="{{ post.title }}">
 				<h2 id="title" class="featurette-heading">{{ post.title }} <span id="descricao"
@@ -96,7 +96,7 @@ title: G.D.R Verdena
 	<br>
 	<hr class="featurette-divider">
 	{% for post in site.posts offset:1 limit:2 %}
-	<div class="row featurette">
+	<div class="row featurette shadow p-3 mb-5 bg-white rounded">
 		<div class="col-md-7">
 			<a href="{{ post.url }}" title="{{ post.title }}">
 				<h2 class=" ight-blue featurette-heading">{{ post.title }} <span class="text-muted">{{ post.description }}</span>
