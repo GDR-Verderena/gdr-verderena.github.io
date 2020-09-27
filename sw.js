@@ -100,7 +100,8 @@ var urlsToCache = [
   '/css/main.css',
   '/js/index.js',
   '/index.html',
-  '/blog/index.html'
+  '/blog/index.html',
+  '/assets'
  
 
 
