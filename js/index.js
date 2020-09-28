@@ -58,6 +58,7 @@ function showNotification() {
 //Teste
 
 
+function doSomething() {
 self.addEventListener('notificationclick', function(event) {
   const clickedNotification = event.notification;
   clickedNotification.close();
@@ -137,6 +138,9 @@ self.addEventListener('notificationclick', function(event) {
 });
 
 
+}
+
+ doSomething();
 //Teste Finish
 
 
