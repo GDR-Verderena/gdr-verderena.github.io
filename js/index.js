@@ -13,17 +13,16 @@ function showNotification() {
           body: 'Buzz! Buzz!',
           lang: 'pt-PT',
           vibrate: [200, 100, 200, 100, 200, 100, 200],
-          tag: 'vibration-sample'
+          tag: 'vibration-sample',
+	  renotify: true,
+	  data: 'I like peas.',
+	  dir: 'rtl'
         });
       });
     }
   });
 	
-	Notification.onclick = function(event) {
-  event.preventDefault(); // prevent the browser from focusing the Notification's tab
-  window.open('http://www.mozilla.org', '_blank');
-}
-	
+
 }
 
 
