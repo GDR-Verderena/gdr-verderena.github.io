@@ -33,12 +33,12 @@ function showNotification() {
 	  actions: [
       	{
         action: 'coffee-action',
-        title: 'Coffee',
+        title: 'Website',
         icon: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png'
       	},
       	{
         action: 'doughnut-action',
-        title: 'Doughnut',
+        title: 'Facebook',
         icon: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png'
       	}
     ]
