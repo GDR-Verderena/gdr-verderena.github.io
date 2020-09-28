@@ -1,6 +1,46 @@
   AOS.init();
 
 
+
+
+
+
+
+function myFunction() {
+  var checkBox = document.getElementById("customSwitch1");
+  var text = document.getElementById("label");
+  
+   var sun = document.getElementById("sun");
+   var moon = document.getElementById("moon");
+
+  
+  if (checkBox.checked == true){
+      //text.innerHTML = "New text!";
+    sun.style.display = "none";
+    moon.style.display = "inline";
+    
+  
+   
+  } else {
+      //text.innerHTML = "New text2!";
+    moon.style.display = "none";
+    sun.style.display = "inline";
+   
+    
+  
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
 !(function($) {
   "use strict";
 	
