@@ -6,6 +6,7 @@
 
 
 
+
 function myFunction() {
   var checkBox = document.getElementById("customSwitch1");
   var text = document.getElementById("label");
@@ -31,6 +32,41 @@ function myFunction() {
   }
 }
 
+
+
+
+
+
+
+
+var formValues = JSON.parse(localStorage.getItem('formValues')) || {};
+var $checkboxes = $("#checkbox-container :checkbox");
+
+
+
+
+
+
+function updateStorage(){
+  $checkboxes.each(function(){
+    formValues[this.id] = this.checked;
+  });
+
+ 
+  localStorage.setItem("formValues", JSON.stringify(formValues));
+}
+
+
+
+$checkboxes.on("change", function(){
+
+  updateStorage();
+});
+
+// On page load
+$.each(formValues, function(key, value) {
+  $("#" + key).prop('checked', value);
+});
 
 
 
@@ -252,4 +288,7 @@ sharePost = function (title, description, url) {
 
   }
 }
+
+
+myFunction();
 
