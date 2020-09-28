@@ -97,13 +97,14 @@ self.addEventListener('fetch', (event) => {
 var urlsToCache = [
    
   '/',
-  '/css/main.css',
   '/js/index.js',
-  '/index.html',
-  '/blog/index.html',
+  '/css/main.css',
+  '/blog',
   '/about',
-  '/contact',
-  '/blog'
+  '/contact'
+ // '/index.html',
+ // '/blog/index.html',
+ 
  
 
 
