@@ -44,7 +44,7 @@ function showNotification() {
 
 	
 	
-	notification.onclick = function(event) {
+	Notification.onclick = function(event) {
   event.preventDefault(); // prevent the browser from focusing the Notification's tab
   window.open('http://www.mozilla.org', '_blank');
 }
