@@ -17,9 +17,9 @@ function showNotification() {
 	      
 
       var notification =  registration.showNotification('GDR Verderena Newsletter', {
-          body: 'Buzz! Buzz! \n Não percas as Novidades de GDR Verderena 🎯',
+          body: 'Buzz! Buzz! \nNão percas as Novidades de GDR Verderena 🎯',
           lang: 'pt-PT',
-         vibrate: [500,110,500,110,450,110,200,110,170,40,450,110,200,110,170,40,500],
+         vibrate: [100, 200, 100, 200, 100, 200, 100, 200, 100, 100, 100, 100, 100, 200, 100, 200, 100, 200, 100, 200, 100, 100, 100, 100, 100, 200, 100, 200, 100, 200, 100, 200, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 50, 50, 100, 800 ],
           tag: 'Newsletter',
 	  renotify: true,
 	  icon: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png',
