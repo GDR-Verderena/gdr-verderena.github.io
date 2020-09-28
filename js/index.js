@@ -66,6 +66,15 @@ function showNotification() {
 }
 
 
+
+
+if ('actions' in Notification.prototype) {
+ console.log('👌');
+} else {
+  // Action buttons are NOT supported.
+	 console.log('👎');
+}
+
 //Teste
 
 
