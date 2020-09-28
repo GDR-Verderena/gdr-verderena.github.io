@@ -11,7 +11,7 @@ function showNotification() {
       navigator.serviceWorker.ready.then(function(registration) {
         registration.showNotification('Vibration Sample', {
           body: 'Buzz! Buzz!',
-         
+          lang: 'pt-PT',
           vibrate: [200, 100, 200, 100, 200, 100, 200],
           tag: 'vibration-sample'
         });
