@@ -82,7 +82,7 @@ if ('actions' in Notification.prototype) {
 //Teste Finish
 
 
-/*
+
 function spawnNotification(theBody,  theTitle, theLink) {
   var options = {
     body: 'GDR Notification!',
@@ -103,9 +103,9 @@ function spawnNotification(theBody,  theTitle, theLink) {
   setTimeout(notification.close.bind(notification), 7000);
 }
 
-spawnNotification('The Body', 'The Title', 'https://joaosilgo.github.io/BlazorApp/');
+spawnNotification('Psst! Psst! \nNão percas as Novidades de GDR Verderena 🎯', 'GDR Verderena Newsletter', 'https://gdrverderena.pt/blog/');
 
-*/
+
 
 
 
