@@ -15,7 +15,10 @@ function showNotification() {
           vibrate: [200, 100, 200, 100, 200, 100, 200],
           tag: 'vibration-sample',
 	  renotify: true,
-	  data: 'I like peas.',
+	    data: {
+      		createdAt: new Date(Date.now()).toString(),
+    	         message: 'Hello, World!'
+   		 },
 	  dir: 'rtl',
 	  requireInteraction: true,
 	  badge: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png',
