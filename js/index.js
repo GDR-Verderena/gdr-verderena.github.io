@@ -60,6 +60,17 @@ function showNotification() {
 
 
 self.addEventListener('notificationclick', function(event) {
+  const clickedNotification = event.notification;
+  clickedNotification.close();
+
+  // Do something as the result of the notification click
+  const promiseChain = doSomething();
+  event.waitUntil(promiseChain);
+});
+
+
+
+self.addEventListener('notificationclick', function(event) {
   if (!event.action) {
     // Was a normal notification click
     console.log('Notification Click.');
