@@ -17,7 +17,7 @@ function showNotification() {
 	      
 
       var notification =  registration.showNotification('GDR Verderena Newsletter', {
-          body: 'Buzz! Buzz! \nNão percas as Novidades de GDR Verderena 🎯',
+          body: 'Psst! Psst! \nNão percas as Novidades de GDR Verderena 🎯',
           lang: 'pt-PT',
          vibrate: [100, 200, 100, 200, 100, 200, 100, 200, 100, 100, 100, 100, 100, 200, 100, 200, 100, 200, 100, 200, 100, 100, 100, 100, 100, 200, 100, 200, 100, 200, 100, 200, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 50, 50, 100, 800 ],
           tag: 'Newsletter',
