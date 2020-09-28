@@ -73,6 +73,8 @@ $.each(formValues, function(key, value) {
 
 
 
+myFunction();
+
 
 
 
@@ -289,6 +291,4 @@ sharePost = function (title, description, url) {
   }
 }
 
-
-myFunction();
 
