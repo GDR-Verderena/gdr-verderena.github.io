@@ -46,7 +46,7 @@ function showNotification() {
 	      
 	      notification.onclick = function(event) {
     event.preventDefault(); // prevent the browser from focusing the Notification's tab
-    window.open("https://github.com/Joaosilgo/BlazorApp", '_blank');
+    window.open('https://github.com/Joaosilgo/BlazorApp', '_blank');
   }
 	      
       });
