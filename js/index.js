@@ -46,10 +46,17 @@ function showNotification() {
 }
 
 
-function spawnNotification(theBody, theIcon, theTitle, theLink) {
+function spawnNotification(theBody,  theTitle, theLink) {
   var options = {
-    body: theBody,
-    icon: theIcon
+    body: 'GDR Notification!',
+    icon: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/4074a5adad2dd79d430e0abebe8d69b4136fb205/favicon.svg',
+	  dir: 'auto',
+	  requireInteraction: true,
+	  badge: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png',
+	   lang: 'pt-PT',
+          vibrate: [200, 100, 200, 100, 200, 100, 200],
+          tag: 'GDR VERDERENA!!',
+	  renotify: true
   }
   var notification = new Notification(theTitle, options);
   notification.onclick = function(event) {
@@ -60,7 +67,7 @@ function spawnNotification(theBody, theIcon, theTitle, theLink) {
   setTimeout(notification.close.bind(notification), 7000);
 }
 
-spawnNotification();
+spawnNotification('The Body', 'The Title', 'joaosilgo.github.io/blazorapp/');
 
 
 
