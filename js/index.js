@@ -16,7 +16,10 @@ function showNotification() {
           tag: 'vibration-sample',
 	  renotify: true,
 	  data: 'I like peas.',
-	  dir: 'rtl'
+	  dir: 'rtl',
+	 requireInteraction: true,
+	 badge: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/391d20dd20e393b1391a2cee9691d34fee64d77b/favicon.svg'
+		
         });
       });
     }
