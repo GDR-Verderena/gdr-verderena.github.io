@@ -101,7 +101,8 @@ var urlsToCache = [
   '/js/index.js',
   '/index.html',
   '/blog/index.html',
-  '/assets'
+  '/about',
+  '/contact'
  
 
 
