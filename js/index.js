@@ -62,12 +62,6 @@ self.addEventListener('notificationclick', function(event) {
     case 'doughnut-action':
       console.log('User ❤️️\'s doughnuts.');
       break;
-    case 'gramophone-action':
-      console.log('User ❤️️\'s music.');
-      break;
-    case 'atom-action':
-      console.log('User ❤️️\'s science.');
-      break;
     default:
       console.log(`Unknown action clicked: '${event.action}'`);
       break;
