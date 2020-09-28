@@ -44,10 +44,7 @@ function showNotification() {
 	      
 	      
 	      
-	      notification.onclick = function(event) {
-    event.preventDefault(); // prevent the browser from focusing the Notification's tab
-    window.open('https://github.com/Joaosilgo/BlazorApp', '_blank');
-  }
+
 	      
       });
     }
@@ -58,6 +55,8 @@ function showNotification() {
 }
 
 
+//Teste
+
 
 self.addEventListener('notificationclick', function(event) {
   const clickedNotification = event.notification;
@@ -66,8 +65,49 @@ self.addEventListener('notificationclick', function(event) {
   // Do something as the result of the notification click
   const promiseChain = doSomething();
   event.waitUntil(promiseChain);
+	
+
 });
 
+
+
+
+const title = 'Actions Notification';
+  const options = {
+    actions: [
+      {
+        action: 'coffee-action',
+        title: 'Coffee'
+       
+      },
+      {
+        action: 'doughnut-action',
+        title: 'Doughnut'
+        
+      },
+      {
+        action: 'gramophone-action',
+        title: 'gramophone'
+       
+      },
+      {
+        action: 'atom-action',
+        title: 'Atom'
+       
+      }
+    ]
+  };
+
+  const maxVisibleActions = Notification.maxActions;
+  if (maxVisibleActions < 4) {
+    options.body = `This notification will only display ` +
+      `${maxVisibleActions} actions.`;
+  } else {
+    options.body = `This notification can display up to ` +
+      `${maxVisibleActions} actions.`;
+  }
+
+  reg.showNotification(title, options);
 
 
 self.addEventListener('notificationclick', function(event) {
@@ -84,11 +124,20 @@ self.addEventListener('notificationclick', function(event) {
     case 'doughnut-action':
       console.log('User ❤️️\'s doughnuts.');
       break;
+    case 'gramophone-action':
+      console.log('User ❤️️\'s music.');
+      break;
+    case 'atom-action':
+      console.log('User ❤️️\'s science.');
+      break;
     default:
       console.log(`Unknown action clicked: '${event.action}'`);
       break;
   }
 });
+
+
+//Teste Finish
 
 
 /*
