@@ -9,7 +9,9 @@ function showNotification() {
   Notification.requestPermission(function(result) {
     if (result === 'granted') {
       navigator.serviceWorker.ready.then(function(registration) {
-        registration.showNotification('GDR Verderena Newsletter', {
+	      
+
+      var notification =  registration.showNotification('GDR Verderena Newsletter', {
           body: 'Buzz! Buzz!',
           lang: 'pt-PT',
           vibrate: [200, 100, 200, 100, 200, 100, 200],
@@ -38,6 +40,15 @@ function showNotification() {
 		
 		
         });
+	      
+	      
+	      
+	      
+	      notification.onclick = function(event) {
+    event.preventDefault(); // prevent the browser from focusing the Notification's tab
+    window.open("https://github.com/Joaosilgo/BlazorApp", '_blank');
+  }
+	      
       });
     }
   });
