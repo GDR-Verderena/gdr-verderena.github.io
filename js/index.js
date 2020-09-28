@@ -9,12 +9,13 @@ function showNotification() {
   Notification.requestPermission(function(result) {
     if (result === 'granted') {
       navigator.serviceWorker.ready.then(function(registration) {
-        registration.showNotification('Vibration Sample', {
+        registration.showNotification('GDR Verderena Newsletter', {
           body: 'Buzz! Buzz!',
           lang: 'pt-PT',
           vibrate: [200, 100, 200, 100, 200, 100, 200],
-          tag: 'vibration-sample',
+          tag: 'Newsletter',
 	  renotify: true,
+	  icon: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png',
 	    data: {
       		createdAt: new Date(Date.now()).toString(),
     	         message: 'Hello, World!'
@@ -50,7 +51,6 @@ function spawnNotification(theBody,  theTitle, theLink) {
   var options = {
     body: 'GDR Notification!',
     icon: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png',
-	  dir: 'auto',
 	  requireInteraction: true,
 	  badge: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png',
 	   lang: 'pt-PT',
