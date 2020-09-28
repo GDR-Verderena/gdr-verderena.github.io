@@ -103,7 +103,7 @@ var urlsToCache = [
   '/blog/index.html',
   '/about',
   '/contact',
-  '/blog/'
+  '/blog'
  
 
 
