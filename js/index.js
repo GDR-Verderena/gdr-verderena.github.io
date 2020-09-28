@@ -7,7 +7,11 @@
 
 function showNotification() {
   Notification.requestPermission(function(result) {
+	  
+
     if (result === 'granted') {
+	    
+	    
       navigator.serviceWorker.ready.then(function(registration) {
 	      
 
@@ -18,28 +22,34 @@ function showNotification() {
           tag: 'Newsletter',
 	  renotify: true,
 	  icon: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png',
-	    data: {
-      		createdAt: new Date(Date.now()).toString(),
-    	         message: 'Hello, World!'
-   		 },
+	  data: {
+      		  createdAt: new Date(Date.now()).toString(),
+    	           message: 'Hello, World!'
+          },
 	  dir: 'rtl',
 	  requireInteraction: true,
 	  badge: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png',
 	  actions: [
-      {
+      	{
         action: 'coffee-action',
         title: 'Coffee',
         icon: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png'
-      },
-      {
+      	},
+      	{
         action: 'doughnut-action',
         title: 'Doughnut',
         icon: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png'
-      }
+      	}
     ]
 		
 		
         });
+	      
+	 notification.onclick = function () {
+  window.focus()
+  alert('Just got clicked!')
+  this.close()
+}
 	      
 	      
 	      
