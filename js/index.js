@@ -46,7 +46,7 @@ function showNotification() {
 		
         });
 	      
-	 notification.onclick = function () {
+	 registration.onclick = function () {
   window.focus()
   alert('Just got clicked!')
   this.close()
