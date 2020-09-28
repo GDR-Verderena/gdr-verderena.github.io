@@ -17,8 +17,21 @@ function showNotification() {
 	  renotify: true,
 	  data: 'I like peas.',
 	  dir: 'rtl',
-	 requireInteraction: true,
-	 badge: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png'
+	  requireInteraction: true,
+	  badge: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png',
+	  actions: [
+      {
+        action: 'coffee-action',
+        title: 'Coffee',
+        icon: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png'
+      },
+      {
+        action: 'doughnut-action',
+        title: 'Doughnut',
+        icon: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png'
+      }
+    ]
+		
 		
         });
       });
