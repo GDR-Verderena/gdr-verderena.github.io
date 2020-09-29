@@ -249,7 +249,7 @@ if (status.state === 'granted') {
 
 
 
-const registration = await navigator.serviceWorker.ready;
+const registration =  navigator.serviceWorker.ready;
 if ('periodicSync' in registration) {
   try {
     await registration.periodicSync.register('content-sync', {
