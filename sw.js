@@ -217,7 +217,9 @@ self.addEventListener('notificationclick', function(event) {
   switch (event.action) {
     case 'coffee-action':
       console.log('User ❤️️\'s coffee.');
-      self.open('https://gdrverderena.pt/', '_blank');
+     // self.open('https://gdrverderena.pt/', '_blank');
+      clients.openWindow('https://gdrverderena.pt/');
+
       break;
     case 'doughnut-action':
       console.log('User ❤️️\'s doughnuts.');
