@@ -1,5 +1,43 @@
 AOS.init();
 
+
+
+
+/* Contact Picker*/
+const supported = "contacts" in navigator && "ContactsManager" in window;
+ContactosBtn = document.getElementById("ContactosBtn");
+EmailInput = document.getElementById("email");
+if (supported) {
+  console.log("Contact Picker is Suported");
+
+  ContactosBtn.addEventListener("click", async () => {
+    // We are unsure if email are supported, or can be provided by the browser.
+    if ((await navigator.contacts.getProperties()).includes("email")) {
+      const contacts = await navigator.contacts.select(["email"]);
+
+      if (!contacts.length) {
+        // No contacts were selected in the picker.
+        return;
+      }
+
+      // length is 1 since we didn’t request multiple contacts.
+      EmailInput.value = contacts[0].email;
+    }
+
+    // Fallback to a form.
+  });
+} else {
+  console.log("Contact Picker is not Suported");
+  ContactosBtn = document.getElementById("ContactosBtn");
+  ContactosBtn.style.display = "none";
+}
+
+/* Contact Picker*/
+
+
+
+
+
 /* Test */
 
 function getSW() {
