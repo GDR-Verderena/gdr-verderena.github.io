@@ -9,7 +9,7 @@ ContactosBtn = document.getElementById("ContactosBtn");
 EmailInput = document.getElementById("email");
 if (supported) {
   console.log("Contact Picker is Suported");
-
+  ContactosBtn.style.display = "initial";
   ContactosBtn.addEventListener("click", async () => {
     // We are unsure if email are supported, or can be provided by the browser.
     if ((await navigator.contacts.getProperties()).includes("email")) {
@@ -28,8 +28,10 @@ if (supported) {
   });
 } else {
   console.log("Contact Picker is not Suported");
+  ContactosBtn = document.getElementById("ContactosBtn");
   ContactosBtn.style.display = "none";
 }
+
 
 /* Contact Picker*/
 
