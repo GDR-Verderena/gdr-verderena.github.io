@@ -57,15 +57,7 @@ function showNotification() {
     clients.openWindow("/about");
   }
 }, false);
-	      
-	      
-	
-					 
-					 
-					 
-			´´
-	           
-	      
+
       });
     }
   });
