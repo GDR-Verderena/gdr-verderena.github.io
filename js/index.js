@@ -3,7 +3,9 @@
 
 
 
-
+function getSW() {
+  return navigator.serviceWorker.getRegistration('/sw.js');
+}
 
 
 function showNotification() {
