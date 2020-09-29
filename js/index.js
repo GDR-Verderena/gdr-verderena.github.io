@@ -56,6 +56,18 @@ function showNotification() {
 
 
 
+self.addEventListener('notificationclick', function(event) {
+  event.notification.close();
+  if (event.action === 'coffee-action') {
+    console.log('Website');
+  } else {
+    clients.openWindow("/about");
+  }
+}, false);
+
+
+
+
 
 
 
