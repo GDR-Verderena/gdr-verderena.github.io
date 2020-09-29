@@ -45,25 +45,16 @@ function showNotification() {
 		
 		
         });
-	      
-	 registration.onclick = function () {
-  window.focus()
-  alert('Just got clicked!')
-  this.close()
-}
-	      
-	      
-	      
-	      
-
+	           
 	      
       });
     }
   });
 	
-	
-	
 }
+
+
+
 
 
 
@@ -81,7 +72,7 @@ if ('actions' in Notification.prototype) {
 
 //Teste Finish
 
-
+/*
 
 function spawnNotification(theBody,  theTitle, theLink) {
   var options = {
@@ -105,7 +96,7 @@ function spawnNotification(theBody,  theTitle, theLink) {
 
 spawnNotification('Psst! Psst! \nNão percas as Novidades de GDR Verderena 🎯', 'GDR Verderena Newsletter', 'https://gdrverderena.pt/blog/');
 
-
+*/
 
 
 
