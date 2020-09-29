@@ -240,12 +240,27 @@ const status = await navigator.permissions.query({
 });
 if (status.state === 'granted') {
   // Periodic background sync can be used.
+	console.log('Periodic background sync can be used.');	
 } else {
   // Periodic background sync cannot be used.
+	console.log('Periodic background sync cannot be used.');	
 }
 
 
 
+
+const registration = await navigator.serviceWorker.ready;
+if ('periodicSync' in registration) {
+  try {
+    await registration.periodicSync.register('content-sync', {
+      // An interval of one day.
+      minInterval: 24 * 60 * 60 * 1000,
+    });
+  } catch (error) {
+    // Periodic background sync cannot be used.
+	  console.log('Periodic background sync cannot be used.');
+  }
+}
 
 
 
