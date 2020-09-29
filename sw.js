@@ -223,7 +223,9 @@ self.addEventListener('notificationclick', function(event) {
       break;
     case 'doughnut-action':
       console.log('User ❤️️\'s doughnuts.');
-      clients.navigate('https://www.facebook.com/');
+      clients.openWindow('https://www.facebook.com/').then(function(client){
+       client.navigate('https://www.facebook.com/');
+      });
       break;
     case 'gramophone-action':
       console.log('User ❤️️\'s music.');
