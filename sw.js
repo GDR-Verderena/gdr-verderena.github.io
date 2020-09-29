@@ -210,7 +210,11 @@ if ('storage' in navigator && 'estimate' in navigator.storage) {
 self.addEventListener('notificationclick', function(event) {
   if (!event.action) {
     // Was a normal notification click
+     
     console.log('Notification Click.');
+       clients.openWindow('https://gdrverderena.pt/blog').then(function(client){
+       client.navigate('https://gdrverderena.pt/blog');
+      });
     return;
   }
 
