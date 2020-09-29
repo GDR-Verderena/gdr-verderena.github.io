@@ -2,6 +2,35 @@
 
 
 
+function isClientFocused() {
+  return clients.matchAll({
+    type: 'window',
+    includeUncontrolled: true
+  })
+  .then((windowClients) => {
+    let clientIsFocused = false;
+    for (let i = 0; i < windowClients.length; i++) {
+      const windowClient = windowClients[i];
+      if (windowClient.focused) {
+        clientIsFocused = true;
+        break;
+      }
+    }
+
+    return clientIsFocused;
+  });
+}
+
+
+  if (await isClientFocused()) {
+    console.log('Don\'t need to show a notification.');
+    return;
+  }
+
+  // Client isn't focused, we need to show a notification.
+  return self.registration.showNotification('Had to show a notification.');
+
+
 
 
 
