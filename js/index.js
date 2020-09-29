@@ -235,6 +235,30 @@ if ("actions" in Notification.prototype) {
 
 
 
+const status = await navigator.permissions.query({
+  name: 'periodic-background-sync',
+});
+if (status.state === 'granted') {
+  // Periodic background sync can be used.
+} else {
+  // Periodic background sync cannot be used.
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function myFunction() {
   var checkBox = document.getElementById("customSwitch1");
   var text = document.getElementById("label");
