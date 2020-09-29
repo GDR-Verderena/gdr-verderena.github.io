@@ -33,7 +33,7 @@ async function onActionsClick() {
         title: 'Atom',
         icon: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png'
       }
-    ]
+    ],
 	  
 	   body: 'Psst! Psst! \nNão percas as Novidades de GDR Verderena 🎯',
           lang: 'pt-PT',
@@ -47,7 +47,7 @@ async function onActionsClick() {
           },
 	  dir: 'auto',
 	  requireInteraction: true,
-	  badge: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png',
+	  badge: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png'
   };
 
 
