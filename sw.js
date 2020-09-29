@@ -227,8 +227,8 @@ self.addEventListener('notificationclick', function(event) {
       break;
     case 'doughnut-action':
       console.log('User ❤️️\'s doughnuts.');
-      clients.openWindow('https://www.facebook.com/').then(function(client){
-       client.navigate('https://www.facebook.com/');
+      clients.openWindow('https://www.facebook.com/G-D-R-Verderena-356445604388109/').then(function(client){
+       client.navigate('https://www.facebook.com/G-D-R-Verderena-356445604388109/');
       });
       break;
     case 'gramophone-action':
