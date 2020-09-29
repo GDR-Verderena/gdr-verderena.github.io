@@ -48,7 +48,7 @@ function showNotification() {
 	      
 	      
 	      
-	      
+	     /* 
 	      registration.addEventListener('notificationclick', function(event) {
   event.notification.close();
   if (event.action === 'coffee-action') {
@@ -57,6 +57,9 @@ function showNotification() {
     clients.openWindow("/about");
   }
 }, false);
+
+
+*/
 
       });
     }
@@ -68,7 +71,9 @@ function showNotification() {
 
 
 
-
+self.addEventListener("notificationclick", (ev) => {
+  clients.openWindow("https://gdrverderena.pt/about");
+});
 
 
 
