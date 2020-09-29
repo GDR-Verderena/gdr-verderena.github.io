@@ -10,7 +10,7 @@ function getSW() {
 async function onActionsClick() {
   const reg = await getSW();
   /**** START actionsNotification ****/
-  const title = 'Actions Notification';
+  const title = 'GDR Verderena Newsletter';
   const options = {
     actions: [
       {
@@ -34,17 +34,23 @@ async function onActionsClick() {
         icon: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png'
       }
     ]
+	  
+	   body: 'Psst! Psst! \nNão percas as Novidades de GDR Verderena 🎯',
+          lang: 'pt-PT',
+         vibrate: [100, 200, 100, 200, 100, 200, 100, 200, 100, 100, 100, 100, 100, 200, 100, 200, 100, 200, 100, 200, 100, 100, 100, 100, 100, 200, 100, 200, 100, 200, 100, 200, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 50, 50, 100, 800 ],
+          tag: 'Newsletter',
+	  renotify: true,
+	  icon: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png',
+	  data: {
+      		  createdAt: new Date(Date.now()).toString(),
+    	           message: 'Hello, World!'
+          },
+	  dir: 'auto',
+	  requireInteraction: true,
+	  badge: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png',
   };
 
-  const maxVisibleActions = Notification.maxActions;
-  if (maxVisibleActions < 4) {
-    options.body = `This notification will only display ` +
-      `${maxVisibleActions} actions.`;
-  } else {
-    options.body = `This notification can display up to ` +
-      `${maxVisibleActions} actions.`;
-  }
-	
+
 	
 	  Notification.requestPermission(function(result) {
 	  
