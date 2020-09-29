@@ -1,196 +1,232 @@
-  AOS.init();
-
+AOS.init();
 
 /* Test */
 
 function getSW() {
-  return navigator.serviceWorker.getRegistration('/sw.js');
+  return navigator.serviceWorker.getRegistration("/sw.js");
 }
 
 async function onActionsClick() {
   const reg = await getSW();
   /**** START actionsNotification ****/
-  const title = 'GDR Verderena Newsletter';
+  const title = "GDR Verderena Newsletter";
   const options = {
     actions: [
       {
-        action: 'coffee-action',
-        title: 'Website',
-        icon: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png'
+        action: "coffee-action",
+        title: "Website",
+        icon:
+          "https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png"
       },
       {
-        action: 'doughnut-action',
-        title: 'Facebook',
-        icon: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png'
+        action: "doughnut-action",
+        title: "Facebook",
+        icon:
+          "https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png"
       },
       {
-        action: 'gramophone-action',
-        title: 'gramophone',
-        icon: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png'
+        action: "gramophone-action",
+        title: "gramophone",
+        icon:
+          "https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png"
       },
       {
-        action: 'atom-action',
-        title: 'Atom',
-        icon: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png'
+        action: "atom-action",
+        title: "Atom",
+        icon:
+          "https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png"
       }
     ],
-	  
-	   body: 'Psst! Psst! \nNão percas as Novidades de GDR Verderena 🎯',
-          lang: 'pt-PT',
-         vibrate: [100, 200, 100, 200, 100, 200, 100, 200, 100, 100, 100, 100, 100, 200, 100, 200, 100, 200, 100, 200, 100, 100, 100, 100, 100, 200, 100, 200, 100, 200, 100, 200, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 50, 50, 100, 800 ],
-          tag: 'Newsletter',
-	  renotify: true,
-	  icon: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png',
-	  data: {
-      		  createdAt: new Date(Date.now()).toString(),
-    	           message: 'Hello, World!'
-          },
-	  dir: 'auto',
-	  requireInteraction: true,
-	  badge: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png'
+
+    body: "Psst! Psst! \nNão percas as Novidades de GDR Verderena 🎯",
+    lang: "pt-PT",
+    vibrate: [
+      100,
+      200,
+      100,
+      200,
+      100,
+      200,
+      100,
+      200,
+      100,
+      100,
+      100,
+      100,
+      100,
+      200,
+      100,
+      200,
+      100,
+      200,
+      100,
+      200,
+      100,
+      100,
+      100,
+      100,
+      100,
+      200,
+      100,
+      200,
+      100,
+      200,
+      100,
+      200,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      50,
+      50,
+      100,
+      800
+    ],
+    tag: "Newsletter",
+    renotify: true,
+    icon:
+      "https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png",
+    data: {
+      createdAt: new Date(Date.now()).toString(),
+      message: "Hello, World!"
+    },
+    dir: "auto",
+    requireInteraction: true,
+    badge:
+      "https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png"
   };
 
-
-	
-	  Notification.requestPermission(function(result) {
-	  
-
-    if (result === 'granted') {
-
-  reg.showNotification(title, options);
-	    
-	    
+  Notification.requestPermission(function (result) {
+    if (result === "granted") {
+      reg.showNotification(title, options);
     }
-	  });
+  });
   /**** END actionsNotification ****/
 }
 
 function isActionsSupported() {
-  return ('actions' in Notification.prototype);
+  return "actions" in Notification.prototype;
 }
 
-window.addEventListener('load', () => {
+window.addEventListener("load", () => {
   if (!isActionsSupported()) {
     return;
   }
-  
 
-  const btn = document.querySelector('.js-notification-actions');
+  const btn = document.querySelector(".js-notification-actions");
   btn.disabled = false;
-  btn.addEventListener('click', onActionsClick);
-})
-	
-	 /**** Test ****/
+  btn.addEventListener("click", onActionsClick);
+});
+
+/**** Test ****/
 
 function showNotification() {
-  Notification.requestPermission(function(result) {
-	  
-
-    if (result === 'granted') {
-	    
-	    
-      navigator.serviceWorker.ready.then(function(registration) {
-	      
-
-      var notification =  registration.showNotification('GDR Verderena Newsletter', {
-          body: 'Psst! Psst! \nNão percas as Novidades de GDR Verderena 🎯',
-          lang: 'pt-PT',
-         vibrate: [100, 200, 100, 200, 100, 200, 100, 200, 100, 100, 100, 100, 100, 200, 100, 200, 100, 200, 100, 200, 100, 100, 100, 100, 100, 200, 100, 200, 100, 200, 100, 200, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 50, 50, 100, 800 ],
-          tag: 'Newsletter',
-	  renotify: true,
-	  icon: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png',
-	  data: {
-      		  createdAt: new Date(Date.now()).toString(),
-    	           message: 'Hello, World!'
-          },
-	  dir: 'auto',
-	  requireInteraction: true,
-	  badge: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png',
-	  actions: [
-      	{
-        action: 'coffee-action',
-        title: 'Website',
-        icon: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png'
-      	},
-      	{
-        action: 'doughnut-action',
-        title: 'Facebook',
-        icon: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png'
-      	}
-    ]
-		
-		
-        });
-	      
-	      
-	      
-	     /* 
-	      registration.addEventListener('notificationclick', function(event) {
-  event.notification.close();
-  if (event.action === 'coffee-action') {
-    conole.log('Evento foi activado FACEBOOK');
-  } else {
-    clients.openWindow("/about");
-  }
-}, false);
-
-
-*/
-
+  Notification.requestPermission(function (result) {
+    if (result === "granted") {
+      navigator.serviceWorker.ready.then(function (registration) {
+        var notification = registration.showNotification(
+          "GDR Verderena Newsletter",
+          {
+            body: "Psst! Psst! \nNão percas as Novidades de GDR Verderena 🎯",
+            lang: "pt-PT",
+            vibrate: [
+              100,
+              200,
+              100,
+              200,
+              100,
+              200,
+              100,
+              200,
+              100,
+              100,
+              100,
+              100,
+              100,
+              200,
+              100,
+              200,
+              100,
+              200,
+              100,
+              200,
+              100,
+              100,
+              100,
+              100,
+              100,
+              200,
+              100,
+              200,
+              100,
+              200,
+              100,
+              200,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              50,
+              50,
+              100,
+              800
+            ],
+            tag: "Newsletter",
+            renotify: true,
+            icon:
+              "https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png",
+            data: {
+              createdAt: new Date(Date.now()).toString(),
+              message: "Hello, World!"
+            },
+            dir: "auto",
+            requireInteraction: true,
+            badge:
+              "https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png",
+            actions: [
+              {
+                action: "coffee-action",
+                title: "Website",
+                icon:
+                  "https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png"
+              },
+              {
+                action: "doughnut-action",
+                title: "Facebook",
+                icon:
+                  "https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png"
+              }
+            ]
+          }
+        );
       });
     }
   });
-	
 }
 
-
-
-
-
-self.addEventListener("notificationclick", (ev) => {
-  clients.openWindow("https://gdrverderena.pt/about");
-});
-
-
-
-if ('actions' in Notification.prototype) {
- console.log('👌');
+if ("actions" in Notification.prototype) {
+  console.log("👌");
 } else {
   // Action buttons are NOT supported.
-	 console.log('👎');
+  console.log("👎");
 }
+
 
 //Teste
 
 
-
-//Teste Finish
-
-/*
-
-function spawnNotification(theBody,  theTitle, theLink) {
-  var options = {
-    body: 'GDR Notification!',
-    icon: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png',
-	  requireInteraction: true,
-	  badge: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png',
-	   lang: 'pt-PT',
-          vibrate: [200, 100, 200, 100, 200, 100, 200],
-          tag: 'GDR VERDERENA!!',
-	  renotify: true
-  }
-  var notification = new Notification(theTitle, options);
-  notification.onclick = function(event) {
-   // event.preventDefault(); // prevent the browser from focusing the Notification's tab
-    window.open(theLink, '_blank');
-  }
-
-  setTimeout(notification.close.bind(notification), 7000);
-}
-
-spawnNotification('Psst! Psst! \nNão percas as Novidades de GDR Verderena 🎯', 'GDR Verderena Newsletter', 'https://gdrverderena.pt/blog/');
-
-*/
 
 
 
@@ -202,134 +238,112 @@ spawnNotification('Psst! Psst! \nNão percas as Novidades de GDR Verderena 🎯'
 function myFunction() {
   var checkBox = document.getElementById("customSwitch1");
   var text = document.getElementById("label");
-  
-   var sun = document.getElementById("sun");
-   var moon = document.getElementById("moon");
 
-  
-  if (checkBox.checked == true){
-      //text.innerHTML = "New text!";
+  var sun = document.getElementById("sun");
+  var moon = document.getElementById("moon");
+
+  if (checkBox.checked == true) {
+    //text.innerHTML = "New text!";
     sun.style.display = "none";
     moon.style.display = "inline";
-    
-  
-   
   } else {
-      //text.innerHTML = "New text2!";
+    //text.innerHTML = "New text2!";
     moon.style.display = "none";
     sun.style.display = "inline";
-   
-    
-  
   }
 }
 
-
-
-
-
-
-
-
-var formValues = JSON.parse(localStorage.getItem('formValues')) || {};
+var formValues = JSON.parse(localStorage.getItem("formValues")) || {};
 var $checkboxes = $("#checkbox-container :checkbox");
 
-
-
-
-
-
-function updateStorage(){
-  $checkboxes.each(function(){
+function updateStorage() {
+  $checkboxes.each(function () {
     formValues[this.id] = this.checked;
   });
 
- 
   localStorage.setItem("formValues", JSON.stringify(formValues));
 }
 
-
-
-$checkboxes.on("change", function(){
-
+$checkboxes.on("change", function () {
   updateStorage();
 });
 
 // On page load
-$.each(formValues, function(key, value) {
-  $("#" + key).prop('checked', value);
+$.each(formValues, function (key, value) {
+  $("#" + key).prop("checked", value);
 });
-
-
-
-
-
 
 myFunction();
 
-
-
-
-
-!(function($) {
+!(function ($) {
   "use strict";
-	
-	
-	
+
   // Intro carousel
   var heroCarousel = $("#heroCarousel");
   var heroCarouselIndicators = $("#hero-carousel-indicators");
-  heroCarousel.find(".carousel-inner").children(".carousel-item").each(function(index) {
-    (index === 0) ?
-    heroCarouselIndicators.append("<li data-target='#heroCarousel' data-slide-to='" + index + "' class='active'></li>"):
-      heroCarouselIndicators.append("<li data-target='#heroCarousel' data-slide-to='" + index + "'></li>");
+  heroCarousel
+    .find(".carousel-inner")
+    .children(".carousel-item")
+    .each(function (index) {
+      index === 0
+        ? heroCarouselIndicators.append(
+            "<li data-target='#heroCarousel' data-slide-to='" +
+              index +
+              "' class='active'></li>"
+          )
+        : heroCarouselIndicators.append(
+            "<li data-target='#heroCarousel' data-slide-to='" +
+              index +
+              "'></li>"
+          );
 
-    $(this).css("background-image", "url('" + $(this).children('.carousel-background').children('img').attr('src') + "')");
-    $(this).children('.carousel-background').remove();
-  });
+      $(this).css(
+        "background-image",
+        "url('" +
+          $(this).children(".carousel-background").children("img").attr("src") +
+          "')"
+      );
+      $(this).children(".carousel-background").remove();
+    });
 
-  heroCarousel.on('slid.bs.carousel', function(e) {
-    $(this).find('h2').addClass('animate__animated animate__fadeInDown');
-    $(this).find('p, .btn-get-started').addClass('animate__animated animate__fadeInUp');
+  heroCarousel.on("slid.bs.carousel", function (e) {
+    $(this).find("h2").addClass("animate__animated animate__fadeInDown");
+    $(this)
+      .find("p, .btn-get-started")
+      .addClass("animate__animated animate__fadeInUp");
   });
 })(jQuery);
 
-
-
 //$(img).attr(draggable: false);
 
-if ('storage' in navigator && 'estimate' in navigator.storage) {
-  navigator.storage.estimate().then(({usage, quota}) => {
+if ("storage" in navigator && "estimate" in navigator.storage) {
+  navigator.storage.estimate().then(({ usage, quota }) => {
     console.log(`Using ${usage} out of ${quota} bytes.`);
   });
 }
 
+$(function () {
+  $(".post").slice(0, 5).show(); // select the first 5
+  $("#load").click(function (e) {
+    // click event for load more
+    e.preventDefault();
+    $(".post:hidden").slice(0, 5).show(); // select next 5 hidden posts and show them
+    if ($(".post:hidden").length == 0) {
+      // check if any hidden ppost still exist
 
+      $("#load").hide(); // hide the button
 
-$(function(){
-    $(".post").slice(0, 5).show(); // select the first 5
-    $("#load").click(function(e){ // click event for load more
-        e.preventDefault();
-        $(".post:hidden").slice(0, 5).show(); // select next 5 hidden posts and show them
-        if($(".post:hidden").length == 0){ // check if any hidden ppost still exist
-          
-		$("#load").hide(); // hide the button
-		
-           // alert("No more divs"); // alert if there are none left
-        }
-    });
+      // alert("No more divs"); // alert if there are none left
+    }
+  });
 });
-
-
-
-
-
-
 
 var mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function () {
+  scrollFunction();
+};
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -345,14 +359,16 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
-
 imageExists = function (url, callback) {
   var img = new Image();
-  img.onload = function () { callback(true); };
-  img.onerror = function () { callback(false); };
+  img.onload = function () {
+    callback(true);
+  };
+  img.onerror = function () {
+    callback(false);
+  };
   img.src = url;
-}
-
+};
 
 imageValidate = function (url) {
   imageExists(url, function (value) {
@@ -360,17 +376,7 @@ imageValidate = function (url) {
     console.log(value);
     return value;
   });
- }
-
-
-
-
-
-
-
-
-
-
+};
 
 /*
 
@@ -412,75 +418,59 @@ function showContainer(tag) {
 
 */
 
-
-
-
-
-
-
 window.fbAsyncInit = function () {
   FB.init({
-    appId: '634330340852989',
+    appId: "634330340852989",
     autoLogAppEvents: true,
     xfbml: true,
-    version: 'v8.0'
+    version: "v8.0"
   });
 };
 
-
 sharePost = function (title, description, url) {
-	
-	if (navigator.vibrate) { 
-    window.navigator.vibrate(50); 
-} 
+  if (navigator.vibrate) {
+    window.navigator.vibrate(50);
+  }
   //const url= document.getElementById("url").href;
   //const description = document.getElementById("description").textContent;
   //const title = document.getElementById("title").textContent;
   let shareData = {
     title: title,
     text: description,
-    url: url,
-  }
+    url: url
+  };
 
   //  const btn = document.querySelector('.share');
   const btn = document.getElementById("share");
-  const resultPara = document.querySelector('.result');
+  const resultPara = document.querySelector(".result");
   if (navigator.share) {
-
-    navigator.share(shareData)
-      .then(() =>
-        resultPara.textContent = 'MDN shared successfully'
-	 //   console.log("Shared Web Api");
+    navigator
+      .share(shareData)
+      .then(
+        () => (resultPara.textContent = "MDN shared successfully")
+        //   console.log("Shared Web Api");
       )
-      .catch((e) =>
-        resultPara.textContent = 'Error: ' + e
-	 //    console.log('Error: ' + e);
-      )
-
+      .catch(
+        (e) => (resultPara.textContent = "Error: " + e)
+        //    console.log('Error: ' + e);
+      );
   } else {
     console.log("oops");
     //location.href = "https://facebook.com/sharer.php?u={{ site.url }}"+url;
 
-
-
     FB.ui(
       {
-        method: 'share',
-        href: 'https://gdr-verderena.github.io' + url ,
+        method: "share",
+        href: "https://gdr-verderena.github.io" + url
       },
       // callback
       function (response) {
         if (response && !response.error_message) {
-          alert('Posting completed.');
+          alert("Posting completed.");
         } else {
-          alert('Error while posting.');
+          alert("Error while posting.");
         }
       }
     );
-
-
-
   }
-}
-
-
+};
