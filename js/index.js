@@ -44,8 +44,18 @@ async function onActionsClick() {
     options.body = `This notification can display up to ` +
       `${maxVisibleActions} actions.`;
   }
+	
+	
+	  Notification.requestPermission(function(result) {
+	  
+
+    if (result === 'granted') {
 
   reg.showNotification(title, options);
+	    
+	    
+    }
+	  });
   /**** END actionsNotification ****/
 }
 
