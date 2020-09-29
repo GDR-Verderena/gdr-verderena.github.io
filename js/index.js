@@ -49,13 +49,21 @@ function showNotification() {
 	      
 	      
 	      
+	      registration.addEventListener('notificationclick', function(event) {
+  event.notification.close();
+  if (event.action === 'coffee-action') {
+    conole.log('Evento foi activado FACEBOOK');
+  } else {
+    clients.openWindow("/about");
+  }
+}, false);
+	      
+	      
 	}
 					 
 					 
 					 
-					 notification.onclick = function(event) {
-  		event.preventDefault(); // prevent the browser from focusing the Notification's tab
-		window.open('http://www.mozilla.org', '_blank');
+			´´
 	           
 	      
       });
