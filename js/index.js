@@ -28,7 +28,6 @@ if (supported) {
   });
 } else {
   console.log("Contact Picker is not Suported");
-  ContactosBtn = document.getElementById("ContactosBtn");
   ContactosBtn.style.display = "none";
 }
 
