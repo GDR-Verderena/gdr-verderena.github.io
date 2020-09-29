@@ -56,7 +56,7 @@ function showNotification() {
 
 
 
-self.addEventListener('notificationclick', function(event) {
+navigator.serviceWorker.addEventListener('notificationclick', function(event) {
   event.notification.close();
   if (event.action === 'coffee-action') {
     console.log('Website');
