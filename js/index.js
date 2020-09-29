@@ -96,7 +96,7 @@ function spawnNotification(theBody,  theTitle, theLink) {
   }
   var notification = new Notification(theTitle, options);
   notification.onclick = function(event) {
-    event.preventDefault(); // prevent the browser from focusing the Notification's tab
+   // event.preventDefault(); // prevent the browser from focusing the Notification's tab
     window.open(theLink, '_blank');
   }
 
