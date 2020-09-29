@@ -59,7 +59,10 @@ window.addEventListener('load', () => {
   }
   
 
-  onActionsClick();
+  const btn = document.querySelector('.js-notification-actions');
+  btn.disabled = false;
+  btn.addEventListener('click', onActionsClick);
+})
 	
 	 /**** Test ****/
 
