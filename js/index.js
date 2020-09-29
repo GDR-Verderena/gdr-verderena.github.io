@@ -235,7 +235,7 @@ if ("actions" in Notification.prototype) {
 
 
 
-const status = await navigator.permissions.query({
+const status =  navigator.permissions.query({
   name: 'periodic-background-sync',
 });
 if (status.state === 'granted') {
