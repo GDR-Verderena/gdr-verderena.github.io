@@ -1,12 +1,67 @@
   AOS.init();
 
 
-
+/* Test */
 
 function getSW() {
   return navigator.serviceWorker.getRegistration('/sw.js');
 }
 
+async function onActionsClick() {
+  const reg = await getSW();
+  /**** START actionsNotification ****/
+  const title = 'Actions Notification';
+  const options = {
+    actions: [
+      {
+        action: 'coffee-action',
+        title: 'Coffee',
+        icon: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png'
+      },
+      {
+        action: 'doughnut-action',
+        title: 'Doughnut',
+        icon: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png'
+      },
+      {
+        action: 'gramophone-action',
+        title: 'gramophone',
+        icon: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png'
+      },
+      {
+        action: 'atom-action',
+        title: 'Atom',
+        icon: 'https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png'
+      }
+    ]
+  };
+
+  const maxVisibleActions = Notification.maxActions;
+  if (maxVisibleActions < 4) {
+    options.body = `This notification will only display ` +
+      `${maxVisibleActions} actions.`;
+  } else {
+    options.body = `This notification can display up to ` +
+      `${maxVisibleActions} actions.`;
+  }
+
+  reg.showNotification(title, options);
+  /**** END actionsNotification ****/
+}
+
+function isActionsSupported() {
+  return ('actions' in Notification.prototype);
+}
+
+window.addEventListener('load', () => {
+  if (!isActionsSupported()) {
+    return;
+  }
+  
+
+  onActionsClick();
+	
+	 /**** Test ****/
 
 function showNotification() {
   Notification.requestPermission(function(result) {
