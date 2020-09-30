@@ -139,7 +139,7 @@ self.addEventListener('fetch', function (event) {
 //  if (event.request.method === 'GET' &&
   //    event.request.headers.get('accept').indexOf('text/html') !== -1) {
     console.log('Handling fetch event for', event.request.url);
-     
+       if (req.clone().method == "GET") {
     event.respondWith(
         caches.open(CACHE_NAME).then(function (cache) {
             return cache.match(event.request).then(function (response) {
@@ -150,6 +150,8 @@ self.addEventListener('fetch', function (event) {
             });
         })
     );
+          
+       }
      
  // }
 });
