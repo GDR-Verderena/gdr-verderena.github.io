@@ -159,6 +159,11 @@ self.addEventListener('fetch', function (event) {
 });
 
 self.addEventListener('fetch', function (event) {
+      var req = event.request.clone();
+    
+   
+       if (req.clone().method == "GET") {
+          
     event.respondWith(
         caches.open(CACHE_NAME).then(function (cache) {
             return fetch(event.request).then(function (response) {
@@ -167,6 +172,7 @@ self.addEventListener('fetch', function (event) {
             });
         })
     );
+       }
 });
  
  
