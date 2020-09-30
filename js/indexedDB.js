@@ -90,6 +90,10 @@ function callbackJohn (filedata) {
 function callbackBob (filedata) {
   console.log(filedata.name.first);
 }
+  
+  
+  
+  openIndexedDB();
 
 
   
