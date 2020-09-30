@@ -26,7 +26,7 @@ else{
     objectStore.createIndex('body', 'body', { unique: false });
 
     console.log('Database setup complete');
-       addData();
+       addData(db);
   };
   
   /*
@@ -99,7 +99,7 @@ addData();
 
 
 
-function addData() {
+function addData(db) {
 
 
   
