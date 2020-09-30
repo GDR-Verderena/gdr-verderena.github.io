@@ -2,6 +2,11 @@ AOS.init();
 
 
 
+if ("showTrigger" in Notification.prototype) {
+  console.log('showTrigger is Enable');
+}
+
+
 /*
 
 registerNotification();
