@@ -956,6 +956,30 @@ html.transition *:after {
 
 
 
+html {
+    height: 100%;
+    font-family: 'Montserrat';
+
+    display: grid;
+    align-items: center;
+    justify-items: center;
+
+    --bg: #FCFCFC;
+    --bg-panel: #EBEBEB;
+    --color-headings: #0077FF;
+    --color-text: #333333;
+}
+
+html[data-theme='dark'] {
+    --bg: #333333;
+    --bg-panel: #434343;
+    --color-headings: #3694FF;
+    --color-text: #B5B5B5;
+}
+
+
+
+
 
 
 
