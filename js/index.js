@@ -149,7 +149,9 @@ async function onActionsClick() {
       "https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png",
     data: {
       createdAt: new Date(Date.now()).toString(),
-      message: "Hello, World!"
+      message: "Hello, World!",
+      dateOfArrival: Date.now(),
+      primaryKey: 1
     },
     dir: "auto",
     requireInteraction: true,
