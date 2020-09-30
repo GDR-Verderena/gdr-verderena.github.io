@@ -10,15 +10,18 @@ const leaveFullScreen  = document.querySelector('#leaveFullScreen');
 
 fullScreenButton.addEventListener('click', () => {
   if (!document.fullscreenElement) {
-    document.documentElement.requestFullscreen();
-    //fullScreenButton.textContent = 'Leave Full Screen';
-    enterFullScreen.style.display = "none";
+	     //fullScreenButton.textContent = 'Leave Full Screen';
     leaveFullScreen.style.display = "initial";
+    enterFullScreen.style.display = "none";
+   
+    document.documentElement.requestFullscreen();
+ 
   } else {
-    document.exitFullscreen();
     //fullScreenButton.textContent = 'Enter Full Screen';
     enterFullScreen.style.display = "initial";
     leaveFullScreen.style.display = "none";
+    document.exitFullscreen();
+   
   }  
 });
 
