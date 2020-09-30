@@ -63,9 +63,10 @@ window.onload = function() {
 
 
   // Define the addData() function
-  function addData(e) {
+//  function addData(e) {
+function addData() {
     // prevent default - we don't want the form to submit in the conventional way
-    e.preventDefault();
+   // e.preventDefault();
 
     // grab the values entered into the form fields and store them in an object ready for being inserted into the DB
     let newItem = { title: 'João', body: 'Gomes' };
