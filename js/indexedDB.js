@@ -6,96 +6,109 @@ if (!('indexedDB' in window)) {
 }
 else{
 
+   //prefixes of implementation that we want to test
+         window.indexedDB = window.indexedDB || window.mozIndexedDB || 
+         window.webkitIndexedDB || window.msIndexedDB;
+         
+         //prefixes of window.IDB objects
+         window.IDBTransaction = window.IDBTransaction || 
+         window.webkitIDBTransaction || window.msIDBTransaction;
+         window.IDBKeyRange = window.IDBKeyRange || window.webkitIDBKeyRange || 
+         window.msIDBKeyRange
+         
+         if (!window.indexedDB) {
+            window.alert("Your browser doesn't support a stable version of IndexedDB.")
+         }
+         
+         const employeeData = [
+            { id: "00-01", name: "gopal", age: 35, email: "gopal@tutorialspoint.com" },
+            { id: "00-02", name: "prasad", age: 32, email: "prasad@tutorialspoint.com" }
+         ];
+         var db;
+         var request = window.indexedDB.open("newDatabase", 1);
+         
+         request.onerror = function(event) {
+            console.log("error: ");
+         };
+         
+         request.onsuccess = function(event) {
+            db = request.result;
+            console.log("success: "+ db);
+         };
+         
+         request.onupgradeneeded = function(event) {
+            var db = event.target.result;
+            var objectStore = db.createObjectStore("employee", {keyPath: "id"});
+            
+            for (var i in employeeData) {
+               objectStore.add(employeeData[i]);
+            }
+         }
+         
+         function read() {
+            var transaction = db.transaction(["employee"]);
+            var objectStore = transaction.objectStore("employee");
+            var request = objectStore.get("00-03");
+            
+            request.onerror = function(event) {
+               alert("Unable to retrieve daa from database!");
+            };
+            
+            request.onsuccess = function(event) {
+               // Do something with the request.result!
+               if(request.result) {
+                  alert("Name: " + request.result.name + ", 
+                     Age: " + request.result.age + ", Email: " + request.result.email);
+               } else {
+                  alert("Kenny couldn't be found in your database!");
+               }
+            };
+         }
+         
+         function readAll() {
+            var objectStore = db.transaction("employee").objectStore("employee");
+            
+            objectStore.openCursor().onsuccess = function(event) {
+               var cursor = event.target.result;
+               
+               if (cursor) {
+                  alert("Name for id " + cursor.key + " is " + cursor.value.name + ", 
+                     Age: " + cursor.value.age + ", Email: " + cursor.value.email);
+                  cursor.continue();
+               } else {
+                  alert("No more entries!");
+               }
+            };
+         }
+         
+         function add() {
+            var request = db.transaction(["employee"], "readwrite")
+            .objectStore("employee")
+            .add({ id: "00-03", name: "Kenny", age: 19, email: "kenny@planet.org" });
+            
+            request.onsuccess = function(event) {
+               alert("Kenny has been added to your database.");
+            };
+            
+            request.onerror = function(event) {
+               alert("Unable to add data\r\nKenny is aready exist in your database! ");
+            }
+         }
+         
+         function remove() {
+            var request = db.transaction(["employee"], "readwrite")
+            .objectStore("employee")
+            .delete("00-03");
+            
+            request.onsuccess = function(event) {
+               alert("Kenny's entry has been removed from your database.");
+            };
+         }
   
-  function openIndexedDB (fileindex) {
-  // This works on all devices/browsers, and uses IndexedDBShim as a final fallback 
-  var indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB || window.shimIndexedDB;
-
-  var openDB = indexedDB.open("MyDatabase", 1);
-
-  openDB.onupgradeneeded = function() {
-    var db = {}
-    db.result = openDB.result;
-    db.store = db.result.createObjectStore("MyObjectStore", {keyPath: "id"});
-    if (fileindex) db.index = db.store.createIndex("NameIndex", fileindex);
-  };
-
-  return openDB;
-}
-
-function getStoreIndexedDB (openDB) {
-  var db = {};
-  db.result = openDB.result;
-  db.tx = db.result.transaction("MyObjectStore", "readwrite");
-  db.store = db.tx.objectStore("MyObjectStore");
-  db.index = db.store.index("NameIndex");
-
-  return db;
-}
-
-function saveIndexedDB (filename, filedata, fileindex) {
-  var openDB = openIndexedDB(fileindex);
-
-  openDB.onsuccess = function() {
-    var db = getStoreIndexedDB(openDB);
-
-    db.store.put({id: filename, data: filedata});
-  }
-
-  return true;
-}
-
-function findIndexedDB (filesearch, callback) {
-  return loadIndexedDB(null, callback, filesearch);
-}
-
-function loadIndexedDB (filename, callback, filesearch) {
-  var openDB = openIndexedDB();
-
-  openDB.onsuccess = function() {
-    var db = getStoreIndexedDB(openDB);
-
-    var getData;
-    if (filename) {
-      getData = db.store.get(filename);
-    } else {
-      getData = db.index.get(filesearch);
-    }
-    
-    getData.onsuccess = function() {
-      callback(getData.result.data);
-    };
-
-    db.tx.oncomplete = function() {
-      db.result.close();
-    };
-  }
-
-  return true;
-}
-
-function example () {
-  var fileindex = ["name.last", "name.first"];
-  saveIndexedDB(12345, {name: {first: "John", last: "Doe"}, age: 42});
-  saveIndexedDB(67890, {name: {first: "Bob", last: "Smith"}, age: 35}, fileindex);
-
-  loadIndexedDB(12345, callbackJohn);
-  findIndexedDB(["Smith", "Bob"], callbackBob);
-}
-
-function callbackJohn (filedata) {
-  console.log(filedata.name.first);
-}
-
-function callbackBob (filedata) {
-  console.log(filedata.name.first);
-}
   
   
   
-  openIndexedDB();
-  example(); 
-
+  readAll();
   
 }
 
