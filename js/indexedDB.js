@@ -6,6 +6,30 @@ if (!('indexedDB' in window)) {
 }
 else{
 
+  
+  
+  
+
+  
+  
+   request.onupgradeneeded = function(e) {
+
+    // Grab a reference to the opened database
+    let db = e.target.result;
+
+    // Create an objectStore to store our notes in (basically like a single table)
+    // including a auto-incrementing key
+    let objectStore = db.createObjectStore('notes_os', { keyPath: 'id', autoIncrement:true });
+
+    // Define what data items the objectStore will contain
+    objectStore.createIndex('title', 'title', { unique: false });
+    objectStore.createIndex('body', 'body', { unique: false });
+
+    console.log('Database setup complete');
+       addData();
+  };
+  
+  /*
 // Create an instance of a db object for us to store the open database in
 let db;
 
@@ -53,11 +77,15 @@ window.onload = function() {
   
   
   
+  
+  
 addData();
   
   
   
   };
+  
+  */
 
 
 
