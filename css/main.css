@@ -945,12 +945,7 @@ body {
 
 
 html {
-    height: 100%;
-    font-family: 'Montserrat';
-
-    display: grid;
-    align-items: center;
-    justify-items: center;
+    
 
     --bg: #FCFCFC;
     --bg-panel: #EBEBEB;
