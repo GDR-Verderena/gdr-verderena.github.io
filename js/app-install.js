@@ -33,7 +33,7 @@ let deferredPrompt;
   // Handle the install button click
   butInstall.addEventListener("click", () => {
     butInstall.setAttribute("disabled", true);
-    deferredPrompt.installPrompt.prompt();
+    deferredPrompt.prompt();
     console.log("Install clicked");
   });
 
