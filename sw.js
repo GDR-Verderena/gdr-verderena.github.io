@@ -212,7 +212,16 @@ if ('storage' in navigator && 'estimate' in navigator.storage) {
 
  
  
- 
+  
+ /**** START notificationclose ****/
+ self.addEventListener('notificationclose', function(e) {
+  var notification = e.notification;
+  var primaryKey = notification.data.primaryKey;
+
+  console.log('Closed notification: ' + primaryKey);
+});
+  
+ /**** END notificationclose ****/
  
  
  
