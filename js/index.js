@@ -93,7 +93,7 @@ async function onActionsClick() {
       }
     ],
 
-    body: "Psst! Psst!" + subscriberEmail + "\nNão percas as Novidades de GDR Verderena 🎯",
+    body: "Psst! Psst!" + "\n" + subscriberEmail + "\nNão percas as Novidades de GDR Verderena 🎯",
     lang: "pt-PT",
     vibrate: [
       100,
