@@ -2,7 +2,7 @@ AOS.init();
 
 
 
-
+/*
 
 registerNotification();
 
@@ -51,7 +51,7 @@ function syncAttendees(){
 
 
 
-
+*/
 
 
 /* Test */
