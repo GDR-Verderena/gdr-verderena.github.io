@@ -1,6 +1,6 @@
 "use strict";
 
-(function (app) {
+
   const butInstall = document.getElementById("butInstall");
 
   /**
@@ -34,4 +34,4 @@
     app.installPrompt.prompt();
     console.log("Install clicked");
   });
-})(app);
+
