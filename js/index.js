@@ -42,7 +42,7 @@ self.addEventListener('sync', function(event) {
 
 
 function syncAttendees(){
-	return update({ url: `https://gdrverderena.pt/` })
+	return update({ url: `https://gdrverderena.pt/blog/atom.xml` })
     	.then(refresh)
     	.then((attendees) => self.registration.showNotification(
     		`${attendees.length} attendees to the PWA Workshop`
