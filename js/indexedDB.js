@@ -21,8 +21,8 @@ else{
          }
          
          const employeeData = [
-            { id: "00-01", name: "gopal", age: 35, email: "gopal@tutorialspoint.com" },
-            { id: "00-02", name: "prasad", age: 32, email: "prasad@tutorialspoint.com" }
+            { id: "00-01", name: "João", age: 24, email: "joaosilgo@gmail.com" },
+            { id: "00-02", name: "João Gomes", age: 24,  email: "oaosilgo@gmail.com" }
          ];
          var db;
          var request = window.indexedDB.open("newDatabase", 1);
