@@ -359,10 +359,14 @@ function myFunction() {
     //text.innerHTML = "New text!";
     sun.style.display = "none";
     moon.style.display = "inline";
+    trans();
+    document.documentElement.setAttribute("data-theme", "dark");
   } else {
     //text.innerHTML = "New text2!";
     moon.style.display = "none";
     sun.style.display = "inline";
+    trans();
+    document.documentElement.setAttribute("data-theme", "light");	
   }
 }
 
