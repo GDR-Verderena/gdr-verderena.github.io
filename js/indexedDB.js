@@ -1,5 +1,11 @@
 
 
+if (!('indexedDB' in window)) {
+  console.log('This browser doesn\'t support IndexedDB');
+
+}
+else{
+
 // Create an instance of a db object for us to store the open database in
 let db;
 
@@ -47,9 +53,27 @@ window.onload = function() {
   
   
   
+addData();
+  
+  
+  
+  };
 
-  
-  
+
+
+
+
+
+
+
+
+
+
+
+
+function addData() {
+
+
   
     // grab the values entered into the form fields and store them in an object ready for being inserted into the DB
     let newItem = { title: 'João', body: 'Gomes' };
@@ -80,11 +104,14 @@ window.onload = function() {
     };
   
   
+}
   
-  };
+  
 
 
 
+  
+}
 
 
 
