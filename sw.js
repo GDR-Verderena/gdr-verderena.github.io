@@ -271,7 +271,11 @@ self.addEventListener('notificationclick', function(event) {
  
  
  
- 
+ if (!('indexedDB' in window)) {
+  console.log('This browser doesn\'t support IndexedDB');
+  return;
+}
+ else{
  /**** START createDB ****/
  
  
@@ -313,3 +317,4 @@ self.addEventListener('notificationclick', function(event) {
  
  
   /**** END createDB ****/
+ }
