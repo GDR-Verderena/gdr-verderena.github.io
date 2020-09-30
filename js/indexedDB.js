@@ -47,7 +47,7 @@ window.onload = function() {
   
   
   
-  
+  addData();
   
   
   
