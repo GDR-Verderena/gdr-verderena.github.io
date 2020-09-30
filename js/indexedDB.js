@@ -94,7 +94,7 @@ function callbackBob (filedata) {
   
   
   openIndexedDB();
-
+  example(); 
 
   
 }
