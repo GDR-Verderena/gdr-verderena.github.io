@@ -21,7 +21,7 @@
     // Log that install is available.
 
     // Save the deferred prompt
-    app.installPrompt = e;
+    deferredPrompt.installPrompt = e;
 
     // Show the install button
     butInstall.removeAttribute("disabled");
@@ -31,7 +31,7 @@
   // Handle the install button click
   butInstall.addEventListener("click", () => {
     butInstall.setAttribute("disabled", true);
-    app.installPrompt.prompt();
+    deferredPrompt.installPrompt.prompt();
     console.log("Install clicked");
   });
 
