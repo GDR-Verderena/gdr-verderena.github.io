@@ -67,7 +67,7 @@ title: G.D.R Verdena
 		{% if post.featured-image And post.featured-image != "" And post.featured-image != nil And "imageValidate(`{{ post.featured-image }}`)" ==true   %}
 
 		<div class="col-md-5 float-left  ">
-			<a href="{{ post.url }}"><img alt="noticia-principal1" class="featurette-image img-fluid mx-auto pull-left  " src="{{ post.featured-image }}"
+			<a href="{{ post.url }}"><img alt="noticia-principal1" class="featurette-image img-fluid mx-auto pull-left lazyload  " src="{{ post.featured-image }}"
 				data-src="{{ post.featured-image }}" data-holder-rendered="true" style="width:50%; "><a/>
 		</div>
 		{% endif %}
@@ -132,7 +132,7 @@ title: G.D.R Verdena
 		</div>
 		{% if post.featured-image And post.featured-image != "" And post.featured-image != nil   %}
 		<div class="col-md-5 pray">
-			<img  alt="noticia-principal2" class="featurette-image img-fluid mx-auto " src="{{ post.featured-image }}"
+			<img  alt="noticia-principal2" class="featurette-image img-fluid mx-auto lazyload " src="{{ post.featured-image }}"
 				data-src="{{ post.featured-image }}" data-holder-rendered="true" style="width:50%;">
 		</div>
 		{% endif %}
@@ -285,7 +285,7 @@ Tags
         <div class="row">
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="card">
-              <img src="assets/img/more-service-3.jpg" class="card-img-top" alt="...">
+              <img data-src="assets/img/more-service-3.jpg"  src="assets/img/more-service-3.jpg" class="card-img-top lazyload" alt="...">
               <div class="card-body">
                 <h5 class="card-title"><a href="">Actividades</a></h5>
                 <p class="card-text">O Grupo Desportivo e Recreativo da Verderena atua essencialmente ao nível das modalidades desportivas individuais ou de grupo e ao nível actividades do desenvolvimento de actividades culturais.</p>
@@ -295,7 +295,7 @@ Tags
           </div>
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="card">
-              <img src="assets/img/more-service-3.jpg" class="card-img-top" alt="...">
+              <img data-src="assets/img/more-service-3.jpg"  src="assets/img/more-service-3.jpg" class="card-img-top lazyload" alt="...">
               <div class="card-body">
                 <h5 class="card-title"><a href="">Conquistas</a></h5>
                 <p class="card-text">O Grupo Desportivo e Recreativo da Verderena tem como missão promover a prática desportiva e cultural na sociedade, como forma de melhorar a qualidade da saúde e das relações com os outros.</p>
@@ -305,7 +305,7 @@ Tags
           </div>
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="card">
-              <img src="assets/img/more-service-3.jpg" class="card-img-top" alt="...">
+              <img data-src="assets/img/more-service-3.jpg" src="assets/img/more-service-3.jpg" class="card-img-top lazyload" alt="...">
               <div class="card-body">
                 <h5 class="card-title"><a href="">História</a></h5>
                 <p class="card-text">Os nossos valores assentam no Compromisso, Dedicação, Colaboração e Excelência.</p>
