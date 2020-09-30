@@ -947,14 +947,15 @@ body {
 html {
     
 
-    --bg: #FCFCFC;
+   /* --bg: #FCFCFC; 
     --bg-panel: #EBEBEB;
     --color-headings: #0077FF;
     --color-text: #333333;
+	*/
 }
 
 html[data-theme='dark'] {
-    --bg: #333333;
+    --bg:  #FCFCFC;
     --bg-panel: #434343;
     --color-headings: #3694FF;
     --color-text: #B5B5B5;
@@ -964,19 +965,6 @@ body {
     background-color: var(--bg);
 }
 
-.container {
-    background-color: var(--bg-panel);
-   
-    h1 {
-        
-        color: var(--color-headings);
-    }
-
-    p {
-        color: var(--color-text);
-
-    }
-}
 
 
 
@@ -985,9 +973,6 @@ body {
 
 
 
-input:checked + label {
-	background: var(--color-headings);
-}
 
 
 
