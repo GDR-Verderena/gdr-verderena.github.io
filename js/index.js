@@ -64,7 +64,7 @@ async function onActionsClick() {
   const reg = await getSW();
   /**** START actionsNotification ****/
   const title = "GDR Verderena Newsletter";
-  const subscriberEmail = document.querySelector('subscriberEmail').value;
+  const subscriberEmail = document.querySelector('#subscriberEmail').value;
   const options = {
     actions: [
       {
