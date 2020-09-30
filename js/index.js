@@ -1,6 +1,32 @@
 AOS.init();
 
 
+/*Fullscreen*/
+
+
+const fullScreenButton = document.querySelector('#fullScreenButton');
+const enterFullScreen  = document.querySelector('#enterFullScreen');
+const leaveFullScreen  = document.querySelector('#leaveFullScreen');
+
+fullScreenButton.addEventListener('click', () => {
+  if (!document.fullscreenElement) {
+    document.documentElement.requestFullscreen();
+    //fullScreenButton.textContent = 'Leave Full Screen';
+    enterFullScreen.style.display = "none";
+    leaveFullScreen.style.display = "initial";
+  } else {
+    document.exitFullscreen();
+    //fullScreenButton.textContent = 'Enter Full Screen';
+    enterFullScreen.style.display = "initial";
+    leaveFullScreen.style.display = "none";
+  }  
+});
+
+/*End Fullscreen*/
+
+
+
+
 
 
 /* Contact Picker*/
