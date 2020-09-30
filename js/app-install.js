@@ -1,6 +1,6 @@
 "use strict";
 
-
+let deferredPrompt;
   const butInstall = document.getElementById("butInstall");
 
   /**
