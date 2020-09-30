@@ -5,6 +5,9 @@ AOS.init();
 if ("showTrigger" in Notification.prototype) {
   console.log('showTrigger is Enable');
 }
+else{
+  console.log('showTrigger is NOT Enable');
+}
 
 
 /*
