@@ -105,8 +105,7 @@ else{
   
   
   
-  
-  readAll();
+
   
 }
 
