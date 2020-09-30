@@ -366,6 +366,25 @@ function myFunction() {
   }
 }
 
+
+
+
+
+
+let trans = () => {
+  document.documentElement.classList.add("transition");
+  window.setTimeout(() => {
+    document.documentElement.classList.remove("transition");
+  }, 1000);
+};
+
+
+
+
+
+
+
+
 var formValues = JSON.parse(localStorage.getItem("formValues")) || {};
 var $checkboxes = $("#checkbox-container :checkbox");
 
