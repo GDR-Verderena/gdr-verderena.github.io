@@ -1,31 +1,7 @@
 AOS.init();
 
 
-/*Fullscreen*/
 
-
-const fullScreenButton = document.querySelector('#fullScreenButton');
-const enterFullScreen  = document.querySelector('#enterFullScreen');
-const leaveFullScreen  = document.querySelector('#leaveFullScreen');
-
-fullScreenButton.addEventListener('click', () => {
-  if (!document.fullscreenElement) {
-	     //fullScreenButton.textContent = 'Leave Full Screen';
-    leaveFullScreen.style.display = "initial";
-    enterFullScreen.style.display = "none";
-   
-    document.documentElement.requestFullscreen();
- 
-  } else {
-    //fullScreenButton.textContent = 'Enter Full Screen';
-    enterFullScreen.style.display = "initial";
-    leaveFullScreen.style.display = "none";
-    document.exitFullscreen();
-   
-  }  
-});
-
-/*End Fullscreen*/
 
 
 
