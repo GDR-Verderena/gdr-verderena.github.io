@@ -52,3 +52,48 @@ window.onload = function() {
   
   
   };
+
+
+
+
+
+
+
+
+
+
+  // Define the addData() function
+  function addData(e) {
+    // prevent default - we don't want the form to submit in the conventional way
+    e.preventDefault();
+
+    // grab the values entered into the form fields and store them in an object ready for being inserted into the DB
+    let newItem = { title: 'João', body: 'Gomes' };
+
+    // open a read/write db transaction, ready for adding the data
+    let transaction = db.transaction(['notes_os'], 'readwrite');
+
+    // call an object store that's already been added to the database
+    let objectStore = transaction.objectStore('notes_os');
+
+    // Make a request to add our newItem object to the object store
+    var request = objectStore.add(newItem);
+    request.onsuccess = function() {
+      // Clear the form, ready for adding the next entry
+      console.log('request add sucess');
+    };
+
+    // Report on the success of the transaction completing, when everything is done
+    transaction.oncomplete = function() {
+      console.log('Transaction completed: database modification finished.');
+
+      // update the display of data to show the newly added item, by running displayData() again.
+    
+    };
+
+    transaction.onerror = function() {
+      console.log('Transaction not opened due to error');
+    };
+  }
+
+
