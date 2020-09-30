@@ -4,7 +4,7 @@ AOS.init();
 
 
 
-
+registerNotification();
 
 
 
