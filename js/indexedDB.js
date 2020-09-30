@@ -61,8 +61,8 @@ window.onload = function() {
     let objectStore = transaction.objectStore('notes_os');
 
     // Make a request to add our newItem object to the object store
-    var request = objectStore.add(newItem);
-    request.onsuccess = function() {
+    var requestAdd = objectStore.add(newItem);
+    requestAdd.onsuccess = function() {
       // Clear the form, ready for adding the next entry
       console.log('request add sucess');
     };
