@@ -955,7 +955,7 @@ html {
 }
 
 html[data-theme='dark'] {
-    --bg:  #FCFCFC;
+    --bg:  #dbdbdb;
     --bg-panel: #434343;
     --color-headings: #3694FF;
     --color-text: #B5B5B5;
