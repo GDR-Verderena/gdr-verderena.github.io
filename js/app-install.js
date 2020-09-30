@@ -21,8 +21,10 @@ let deferredPrompt;
     // Log that install is available.
 
     // Save the deferred prompt
-    deferredPrompt.installPrompt = e;
+   // deferredPrompt.installPrompt = e;
 
+    deferredPrompt = e;
+    
     // Show the install button
     butInstall.removeAttribute("disabled");
     butInstall.classList.remove("hidden");
