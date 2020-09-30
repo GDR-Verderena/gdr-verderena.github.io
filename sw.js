@@ -269,10 +269,7 @@ self.addEventListener('notificationclick', function(event) {
  
  
  
- if(!self.IndexedDB){
-    console.log('IndexedDB is supported');
-}
- 
+
 // if (!('indexedDB' in window)) {
 //  console.log('This browser doesn\'t support IndexedDB');
  
@@ -282,7 +279,7 @@ self.addEventListener('notificationclick', function(event) {
 }
  else{
  /**** START createDB ****/
- 
+  console.log('IndexedDB is  supported');
  
  function createDB() {
   idb.open('products', 1, function(upgradeDB) {
