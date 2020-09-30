@@ -57,8 +57,7 @@ else{
             request.onsuccess = function(event) {
                // Do something with the request.result!
                if(request.result) {
-                  alert("Name: " + request.result.name + ", 
-                     Age: " + request.result.age + ", Email: " + request.result.email);
+                  alert("Name: " + request.result.name + ", Age: " + request.result.age + ", Email: " + request.result.email);
                } else {
                   alert("Kenny couldn't be found in your database!");
                }
@@ -72,8 +71,7 @@ else{
                var cursor = event.target.result;
                
                if (cursor) {
-                  alert("Name for id " + cursor.key + " is " + cursor.value.name + ", 
-                     Age: " + cursor.value.age + ", Email: " + cursor.value.email);
+                  alert("Name for id " + cursor.key + " is " + cursor.value.name + ", Age: " + cursor.value.age + ", Email: " + cursor.value.email);
                   cursor.continue();
                } else {
                   alert("No more entries!");
