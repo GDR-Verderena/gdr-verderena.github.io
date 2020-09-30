@@ -10,7 +10,7 @@ else{
   
   
 
-  
+    let request = window.indexedDB.open('notes_db', 1);
   
    request.onupgradeneeded = function(e) {
 
