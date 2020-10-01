@@ -211,7 +211,7 @@ if ('storage' in navigator && 'estimate' in navigator.storage) {
 */
 
  
- if ("Notification" in window) {
+
  
   
  /**** START notificationclose ****/
@@ -264,7 +264,7 @@ self.addEventListener('notificationclick', function(event) {
 });
 /**** END notificationActionClickEvent ****/
     
- }
+ 
  
  
  
