@@ -211,8 +211,7 @@ form.addEventListener('submit', function(evt){
 
 
 if (navigator.vibrate) {
-	
-    navigator.vibrate(50);
+
   
 
 //navigator.vibrate(1000);
@@ -379,7 +378,8 @@ if ('periodicSync' in registration) {
 
 let trans = () => {
   document.documentElement.classList.add("transition");
-  window.setTimeout(() => {
+	// window.
+ setTimeout(() => {
     document.documentElement.classList.remove("transition");
   }, 1000);
 };
