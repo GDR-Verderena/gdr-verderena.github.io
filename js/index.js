@@ -256,10 +256,20 @@ if ("Notification" in window ) {
     // btn.addEventListener("click", onActionsClick);
 	 // form.addEventListener("submit", onActionsClick);
 	  
-
-    form.addEventListener("submit", function (evt) {
-      evt.preventDefault();
-      onActionsClick().then(form.submit(););
+      onActionsClick().then(
+        function (value) {
+          console.log(value);
+          form.submit(); // Success!
+        },
+        function (reason) {
+          console.log(reason);
+          form.submit(); // Error!
+        }
+      );
+	      
+	      
+	      
+	      //form.submit(););
       
     });
     
