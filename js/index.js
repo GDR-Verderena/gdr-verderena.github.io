@@ -195,8 +195,21 @@ window.addEventListener("load", () => {
 
   const btn = document.querySelector(".js-notification-actions");
   btn.disabled = false;
-  btn.addEventListener("click", onActionsClick);
+ // btn.addEventListener("click", onActionsClick);
+	
+	
+btn.addEventListener('invalid', function(e) {
+    navigator.vibrate([100, 50, 100]);
+},  onActionsClick()  );
+	
 });
+
+
+
+
+
+
+
 
 /**** Test ****/
 
