@@ -74,6 +74,10 @@ function syncAttendees(){
 
 /* Test */
 
+ if (("Notification" in window)) {
+   
+  
+
 function getSW() {
   return navigator.serviceWorker.getRegistration("/sw.js");
 }
@@ -208,6 +212,9 @@ form.addEventListener('submit', function(evt){
 
 	
 });
+	 
+	 
+ }
 
 
 
