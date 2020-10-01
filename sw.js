@@ -6,7 +6,7 @@ layout: null
    
    
    
-const OFFLINE_VERSION = 1;
+//const OFFLINE_VERSION = 1;
 const CACHE_OFFLINE = 'offline';
 // Customize this with a different URL if needed.
 const OFFLINE_URL = '/offline.html';
