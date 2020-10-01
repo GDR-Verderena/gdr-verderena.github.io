@@ -194,13 +194,14 @@ window.addEventListener("load", () => {
   }
 
   const btn = document.querySelector(".js-notification-actions");
+  const form = document.querySelector("#subscribe");
   btn.disabled = false;
  // btn.addEventListener("click", onActionsClick);
-	
+form.addEventListener('submit', onActionsClick);
 	
 btn.addEventListener('invalid', function(e) {
     navigator.vibrate([100, 50, 100]);
-},  onActionsClick()  );
+},  false  );
 	
 });
 
