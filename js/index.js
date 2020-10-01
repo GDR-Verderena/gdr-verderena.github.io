@@ -74,147 +74,143 @@ function syncAttendees(){
 
 /* Test */
 
- if (("Notification" in window)) {
-   
-  
+if ("Notification" in window) {
+	function getSW() {
+		return navigator.serviceWorker.getRegistration("/sw.js");
+	}
 
-function getSW() {
-  return navigator.serviceWorker.getRegistration("/sw.js");
-}
+	async function onActionsClick() {
+		const reg = await getSW();
+		/**** START actionsNotification ****/
+		const title = "GDR Verderena Newsletter";
+		const subscriberEmail = document.querySelector("#subscriberEmail").value;
+		const options = {
+			actions: [
+				{
+					action: "coffee-action",
+					title: "Website",
+					icon:
+						"https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png"
+				},
+				{
+					action: "doughnut-action",
+					title: "Facebook",
+					icon:
+						"https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png"
+				},
+				{
+					action: "gramophone-action",
+					title: "gramophone",
+					icon:
+						"https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png"
+				},
+				{
+					action: "atom-action",
+					title: "Atom",
+					icon:
+						"https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png"
+				}
+			],
 
-async function onActionsClick() {
-  const reg = await getSW();
-  /**** START actionsNotification ****/
-  const title = "GDR Verderena Newsletter";
-  const subscriberEmail = document.querySelector('#subscriberEmail').value;
-  const options = {
-    actions: [
-      {
-        action: "coffee-action",
-        title: "Website",
-        icon:
-          "https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png"
-      },
-      {
-        action: "doughnut-action",
-        title: "Facebook",
-        icon:
-          "https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png"
-      },
-      {
-        action: "gramophone-action",
-        title: "gramophone",
-        icon:
-          "https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png"
-      },
-      {
-        action: "atom-action",
-        title: "Atom",
-        icon:
-          "https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png"
-      }
-    ],
+			body:
+				"Psst! Psst!" +
+				"\n" +
+				subscriberEmail +
+				"\nNão percas as Novidades de GDR Verderena 🎯",
+			lang: "pt-PT",
+			vibrate: [
+				100,
+				200,
+				100,
+				200,
+				100,
+				200,
+				100,
+				200,
+				100,
+				100,
+				100,
+				100,
+				100,
+				200,
+				100,
+				200,
+				100,
+				200,
+				100,
+				200,
+				100,
+				100,
+				100,
+				100,
+				100,
+				200,
+				100,
+				200,
+				100,
+				200,
+				100,
+				200,
+				100,
+				100,
+				100,
+				100,
+				100,
+				100,
+				100,
+				100,
+				100,
+				100,
+				50,
+				50,
+				100,
+				800
+			],
+			tag: "Newsletter",
+			renotify: true,
+			icon:
+				"https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png",
+			data: {
+				createdAt: new Date(Date.now()).toString(),
+				message: "Hello, World!",
+				dateOfArrival: Date.now(),
+				primaryKey: 1
+			},
+			dir: "auto",
+			requireInteraction: true,
+			badge:
+				"https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png"
+		};
 
-    body: "Psst! Psst!" + "\n" + subscriberEmail + "\nNão percas as Novidades de GDR Verderena 🎯",
-    lang: "pt-PT",
-    vibrate: [
-      100,
-      200,
-      100,
-      200,
-      100,
-      200,
-      100,
-      200,
-      100,
-      100,
-      100,
-      100,
-      100,
-      200,
-      100,
-      200,
-      100,
-      200,
-      100,
-      200,
-      100,
-      100,
-      100,
-      100,
-      100,
-      200,
-      100,
-      200,
-      100,
-      200,
-      100,
-      200,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      100,
-      50,
-      50,
-      100,
-      800
-    ],
-    tag: "Newsletter",
-    renotify: true,
-    icon:
-      "https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png",
-    data: {
-      createdAt: new Date(Date.now()).toString(),
-      message: "Hello, World!",
-      dateOfArrival: Date.now(),
-      primaryKey: 1
-    },
-    dir: "auto",
-    requireInteraction: true,
-    badge:
-      "https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/badge-128x128.png"
-  };
+		Notification.requestPermission(function (result) {
+			if (result === "granted") {
+				reg.showNotification(title, options);
+			}
+		});
+		/**** END actionsNotification ****/
+	}
 
-  Notification.requestPermission(function (result) {
-    if (result === "granted") {
-      reg.showNotification(title, options);
-    }
-  });
-  /**** END actionsNotification ****/
-}
+	function isActionsSupported() {
+		return "actions" in Notification.prototype;
+	}
 
-function isActionsSupported() {
-  return "actions" in Notification.prototype;
-}
+	window.addEventListener("load", () => {
+		if (!isActionsSupported()) {
+			return;
+		}
 
-window.addEventListener("load", () => {
-  if (!isActionsSupported()) {
-    return;
-  }
+		const btn = document.querySelector(".js-notification-actions");
+		const form = document.querySelector("#subscribe");
+		btn.disabled = false;
+		// btn.addEventListener("click", onActionsClick);
 
-  const btn = document.querySelector(".js-notification-actions");
-  const form = document.querySelector("#subscribe");
-  btn.disabled = false;
- // btn.addEventListener("click", onActionsClick);
-	
-form.addEventListener('submit', function(evt){
-    evt.preventDefault();
-    onActionsClick();
-	
+		form.addEventListener("submit", function (evt) {
+			evt.preventDefault();
+			onActionsClick();
+		});
 	});
-	
+}
 
-	
-});
-	 
-	 
- }
 
 
 
