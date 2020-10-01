@@ -203,11 +203,15 @@ form.addEventListener('submit', function(evt){
 	
 	});
 	
-btn.addEventListener('invalid', function(e) {
-    navigator.vibrate([100, 50, 100]);
-},  false  );
+
 	
 });
+
+
+const inputs = document.querySelector("input");
+inputs.addEventListener('invalid', function(e) {
+    navigator.vibrate([100, 50, 100]);
+},  false  );
 
 
 
