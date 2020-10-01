@@ -260,7 +260,7 @@ if ("Notification" in window ) {
        evt.preventDefault();
       onActionsClick();
 	 
-  setTimeout(function(){ form.submit(); }, 3000);
+  setTimeout(function(){ form.submit(); }, 3750);
       
 
     });     
