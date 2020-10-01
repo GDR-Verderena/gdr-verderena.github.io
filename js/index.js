@@ -125,7 +125,7 @@ function syncAttendees(){
 
 /* Test */
 
-if ("Notification" in window && "Notification" in navigator) {
+if ("Notification" in window ) {
   function getSW() {
     return navigator.serviceWorker.getRegistration("/sw.js");
   }
