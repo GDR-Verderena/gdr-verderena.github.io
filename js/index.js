@@ -257,7 +257,7 @@ if ("Notification" in window && "Notification" in navigator) {
 
     form.addEventListener("submit", function (evt) {
       evt.preventDefault();
-      onActionsClick();
+      evt.onActionsClick();
     });
   });
 }
