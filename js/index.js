@@ -254,15 +254,15 @@ if ("Notification" in window && "Notification" in navigator) {
     const form = document.querySelector("#subscribe");
     btn.disabled = false;
     // btn.addEventListener("click", onActionsClick);
-	  form.addEventListener("submit", onActionsClick);
+	 // form.addEventListener("submit", onActionsClick);
 	  
-/*
+
     form.addEventListener("submit", function (evt) {
       evt.preventDefault();
-      evt.onActionsClick();
+      onActionsClick();
     });
     
-    */
+    
   });
 }
 
