@@ -2,68 +2,6 @@ AOS.init();
 
 
 
-
-window.fbAsyncInit = function () {
-  FB.init({
-    appId: "634330340852989",
-    autoLogAppEvents: true,
-    xfbml: true,
-    version: "v8.0"
-  });
-};
-
-sharePost = function (title, description, url) {
-  if (navigator.vibrate) {
-    window.navigator.vibrate(50);
-  }
-  //const url= document.getElementById("url").href;
-  //const description = document.getElementById("description").textContent;
-  //const title = document.getElementById("title").textContent;
-  let shareData = {
-    title: title,
-    text: description,
-    url: url
-  };
-
-  //  const btn = document.querySelector('.share');
-  const btn = document.getElementById("share");
-  const resultPara = document.querySelector(".result");
-  if (navigator.share) {
-    navigator
-      .share(shareData)
-      .then(
-        () => (resultPara.textContent = "MDN shared successfully")
-        //   console.log("Shared Web Api");
-      )
-      .catch(
-        (e) => (resultPara.textContent = "Error: " + e)
-        //    console.log('Error: ' + e);
-      );
-  } else {
-    console.log("oops");
-    //location.href = "https://facebook.com/sharer.php?u={{ site.url }}"+url;
-
-    FB.ui(
-      {
-        method: "share",
-        href: "https://gdr-verderena.github.io" + url
-      },
-      // callback
-      function (response) {
-        if (response && !response.error_message) {
-          alert("Posting completed.");
-        } else {
-          alert("Error while posting.");
-        }
-      }
-    );
-  }
-};
-
-
-
-
-
 /*
 
 if ("showTrigger" in Notification.prototype) {
