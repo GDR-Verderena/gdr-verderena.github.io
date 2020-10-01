@@ -258,8 +258,10 @@ if ("Notification" in window ) {
 	  
  form.addEventListener("submit", function (evt) {
        evt.preventDefault();
-      setTimeout(onActionsClick, 3000);
-      form.submit();
+      onActionsClick();
+	 
+  setTimeout(function(){ form.submit(); }, 3000);
+      
 
     });     
 	      
