@@ -9,7 +9,7 @@ AOS.init();
 
 
 
-
+/*
 
 if ("showTrigger" in Notification.prototype) {
   console.log('showTrigger is Enable');
@@ -17,6 +17,7 @@ if ("showTrigger" in Notification.prototype) {
 else{
   console.log('showTrigger is NOT Enable');
 }
+*/
 
 
 /*
@@ -197,6 +198,7 @@ window.addEventListener("load", () => {
   const form = document.querySelector("#subscribe");
   btn.disabled = false;
  // btn.addEventListener("click", onActionsClick);
+	
 form.addEventListener('submit', function(evt){
     evt.preventDefault();
     onActionsClick();
@@ -206,12 +208,7 @@ form.addEventListener('submit', function(evt){
 
 	
 });
-/*
 
-  if (navigator.vibrate) {
-    window.navigator.vibrate(50);
-  }
-*/
 
 
 if (navigator.vibrate) { 
@@ -232,6 +229,9 @@ if (navigator.vibrate) {
 
 
 /**** Test ****/
+
+
+/*
 
 function showNotification() {
   Notification.requestPermission(function (result) {
@@ -375,7 +375,7 @@ if ('periodicSync' in registration) {
 
 
 
-
+*/
 
 
 let trans = () => {
