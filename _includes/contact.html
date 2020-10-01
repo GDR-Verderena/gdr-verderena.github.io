@@ -140,7 +140,7 @@ if (navigator.vibrate) {
   
 
 //navigator.vibrate(1000);
-inputs = document.querySelector("input");
+inputs = document.querySelector("#email");
 inputs.addEventListener('invalid', function(e) {
     console.log('vibrate');
     window.navigator.vibrate([100, 50, 100]);
