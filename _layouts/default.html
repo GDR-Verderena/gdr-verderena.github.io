@@ -401,8 +401,17 @@ sharePost = function (title, description, url) {
 };
 	
 	
-	
-	function myFunction() {
+	let trans = () => {
+  document.documentElement.classList.add("transition");
+	// window.
+  window.setTimeout(() => {
+    document.documentElement.classList.remove("transition");
+  }, 1000);
+};
+
+
+
+function myFunction() {
   var checkBox = document.getElementById("customSwitch1");
   var text = document.getElementById("label");
 
@@ -423,14 +432,7 @@ sharePost = function (title, description, url) {
     document.documentElement.setAttribute("data-theme", "light");	
   }
 }
-	
-	let trans = () => {
-  document.documentElement.classList.add("transition");
-	// window.
-  window.setTimeout(() => {
-    document.documentElement.classList.remove("transition");
-  }, 1000);
-};
+
 
 
 
