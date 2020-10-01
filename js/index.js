@@ -259,8 +259,8 @@ if ("Notification" in window ) {
 
     form.addEventListener("submit", function (evt) {
       evt.preventDefault();
-      onActionsClick();
-      form.submit();
+      onActionsClick().then(form.submit(););
+      
     });
     
     
