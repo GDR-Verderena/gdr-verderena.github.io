@@ -271,7 +271,7 @@ if ("Notification" in window ) {
 	      
 	      //form.submit(););
       
-    });
+   
     
     
   });
