@@ -206,9 +206,12 @@ form.addEventListener('submit', function(evt){
 
 	
 });
+/*
 
-
-
+  if (navigator.vibrate) {
+    window.navigator.vibrate(50);
+  }
+*/
 
 if (navigator.vibrate) {
 
@@ -217,7 +220,7 @@ if (navigator.vibrate) {
 //navigator.vibrate(1000);
 var inputs = document.querySelector("input");
 inputs.addEventListener('invalid', function(e) {
-    navigator.vibrate([100, 50, 100]);
+    window.navigator.vibrate([100, 50, 100]);
 },  false  );
 	
 }
