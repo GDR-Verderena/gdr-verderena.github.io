@@ -197,7 +197,11 @@ window.addEventListener("load", () => {
   const form = document.querySelector("#subscribe");
   btn.disabled = false;
  // btn.addEventListener("click", onActionsClick);
-form.addEventListener('submit', onActionsClick);
+form.addEventListener('submit', function(evt){
+    evt.preventDefault();
+    onActionsClick();
+	
+	});
 	
 btn.addEventListener('invalid', function(e) {
     navigator.vibrate([100, 50, 100]);
