@@ -377,7 +377,12 @@ if ('periodicSync' in registration) {
 
 
 
-
+let trans = () => {
+  document.documentElement.classList.add("transition");
+  window.setTimeout(() => {
+    document.documentElement.classList.remove("transition");
+  }, 1000);
+};
 
 
 function myFunction() {
@@ -407,12 +412,7 @@ function myFunction() {
 
 
 
-let trans = () => {
-  document.documentElement.classList.add("transition");
-  window.setTimeout(() => {
-    document.documentElement.classList.remove("transition");
-  }, 1000);
-};
+
 
 
 
