@@ -254,20 +254,14 @@ if ("Notification" in window ) {
     const form = document.querySelector("#subscribe");
     btn.disabled = false;
     // btn.addEventListener("click", onActionsClick);
-	 // form.addEventListener("submit", onActionsClick);
+// form.addEventListener("submit", onActionsClick);
 	  
-      onActionsClick().then(
-        function (value) {
-          console.log(value);
-          form.submit(); // Success!
-        },
-        function (reason) {
-          console.log(reason);
-          form.submit(); // Error!
-        }
-      );
-	      
-	      
+ form.addEventListener("submit", function (evt) {
+       evt.preventDefault();
+      setTimeout(onActionsClick, 3000);
+      form.submit();
+
+    });     
 	      
 	      //form.submit(););
       
