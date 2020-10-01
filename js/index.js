@@ -421,7 +421,7 @@ if ('periodicSync' in registration) {
 
 
 
-
+if(window.localStorage){
 var formValues = JSON.parse(localStorage.getItem("formValues")) || {};
 var $checkboxes = $("#checkbox-container :checkbox");
 
@@ -441,6 +441,7 @@ $checkboxes.on("change", function () {
 $.each(formValues, function (key, value) {
   $("#" + key).prop("checked", value);
 });
+}
 
 myFunction();
 
