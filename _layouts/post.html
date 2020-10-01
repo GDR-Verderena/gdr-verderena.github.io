@@ -130,7 +130,10 @@ const enterFullScreen  = document.querySelector('#enterFullScreen');
 const leaveFullScreen  = document.querySelector('#leaveFullScreen');
 
 fullScreenButton.addEventListener('click', () => {
-  if (!document.fullscreenElement) {
+  if (! document.fullscreenEnabled || /* Standard syntax */
+    	!document.webkitFullscreenEnabled || /* Chrome, Safari & Opera */
+    	!document.mozFullScreenEnabled || /* Firefox */
+    	!document.msFullscreenEnabled /* IE/Edge */) {
 	     //fullScreenButton.textContent = 'Leave Full Screen';
     leaveFullScreen.style.display = "initial";
     enterFullScreen.style.display = "none";
