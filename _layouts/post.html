@@ -138,7 +138,19 @@ fullScreenButton.addEventListener('click', () => {
     leaveFullScreen.style.display = "initial";
     enterFullScreen.style.display = "none";
    
-    document.documentElement.requestFullscreen();
+   
+	  
+	      /* Show the element in fullscreen */
+    if (document.documentElement.requestFullscreen) {
+      document.documentElement.requestFullscreen(); /* Standard syntax */
+    } else if (document.documentElement.mozRequestFullScreen) { /* Firefox */
+      document.documentElement.mozRequestFullScreen();
+    } else if (document.documentElement.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+      document.documentElement.webkitRequestFullscreen();
+    } else if (document.documentElement.msRequestFullscreen) { /* IE/Edge */
+      document.documentElement.msRequestFullscreen();
+    }
+	  
  
   } else {
     //fullScreenButton.textContent = 'Enter Full Screen';
