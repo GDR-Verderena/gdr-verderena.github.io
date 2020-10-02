@@ -135,10 +135,10 @@ fullScreenButton.addEventListener('click', () => {
     	!document.mozFullScreenEnabled || /* Firefox */
     	!document.msFullscreenEnabled /* IE/Edge */) {
 	     //fullScreenButton.textContent = 'Leave Full Screen';
-    leaveFullScreen.style.display = "initial";
-    enterFullScreen.style.display = "none";
+  //  leaveFullScreen.style.display = "initial";
+   // enterFullScreen.style.display = "none";
    
-   
+   leaveFullScreen.style.display = "none";
 	  
 	      /* Show the element in fullscreen */
     if (document.documentElement.requestFullscreen) {
@@ -154,9 +154,10 @@ fullScreenButton.addEventListener('click', () => {
  
   } else {
     //fullScreenButton.textContent = 'Enter Full Screen';
-    enterFullScreen.style.display = "initial";
-    leaveFullScreen.style.display = "none";
-    document.exitFullscreen();
+   
+//enterFullScreen.style.display = "initial";
+  //  leaveFullScreen.style.display = "none";
+    //document.exitFullscreen();
    
   }  
 });
