@@ -1,241 +1,208 @@
 <!doctype html>
 <html lang="pt-PT">
+
 <head>
-	
-   <title>{{ page.title }}</title>
-	
-  <meta http-equiv="Content-Type" 	content="text/html; charset=UTF-8"/>
-  <meta name="viewport" 		content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="theme-color" 		content="#0d47a1">
-  <meta name="author" 			content="João Gomes"
-  <meta name="google-site-verification" content="4yq7xbkBHbwDcznPE3ZtkUXqUgWOAOE2xToTGAGHtgA" />
-  <meta name="robots" 			content="index, follow"/>
-  <meta name="geo.region" 		content="PT" />
-  <meta name="geo.placename" 		content="Barreiro"/>
-  <meta name="geo.position" 		content="38.6608;9.0791"/>
-  <meta name="ICBM" 			content="38.6608, 9.0791"/>
-	
-   {% seo %}		
-	
-  <meta property="og:url"                content="https://gdrverderena.pt/" />
-  <meta property="og:type"               content="website" />
-  <meta property="og:title"              content="G. D. R. Verderena" />
-  <meta property="og:description"        content="Grupo Desportivo, Recreativo e Cultural" />
-  <meta property="og:image"              content="https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/more-service-3.jpg" />
-  <meta property="og:locale" 		 content="pt_PT" />
-  <meta property="og:site_name" 	 content="GDR Verderena" />
-	
-  <meta property="og:image" 		 content="https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/more-service-3.jpg" />
-  <meta property="og:image:secure_url" 	 content="https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/more-service-3.jpg" />
-  <meta property="og:image:type"         content="image/jpeg" />
-  <meta property="og:image:width"        content="400" />
-  <meta property="og:image:height"       content="300" />
-  <meta property="og:image:alt"          content="Grupo Desportivo, Recreativo e Cultural" />
-  
-  
+
+  <title>{{ page.title }}</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#0d47a1">
+  <meta name="author" content="João Gomes" <meta name="google-site-verification" content="4yq7xbkBHbwDcznPE3ZtkUXqUgWOAOE2xToTGAGHtgA" />
+  <meta name="robots" content="index, follow" />
+  <meta name="geo.region" content="PT" />
+  <meta name="geo.placename" content="Barreiro" />
+  <meta name="geo.position" content="38.6608;9.0791" />
+  <meta name="ICBM" content="38.6608, 9.0791" />
+
+  {% seo %}
+
+  <meta property="og:url" content="https://gdrverderena.pt/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="G. D. R. Verderena" />
+  <meta property="og:description" content="Grupo Desportivo, Recreativo e Cultural" />
+  <meta property="og:image" content="https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/more-service-3.jpg" />
+  <meta property="og:locale" content="pt_PT" />
+  <meta property="og:site_name" content="GDR Verderena" />
+
+  <meta property="og:image" content="https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/more-service-3.jpg" />
+  <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/more-service-3.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="400" />
+  <meta property="og:image:height" content="300" />
+  <meta property="og:image:alt" content="Grupo Desportivo, Recreativo e Cultural" />
+
   <meta name="keywords" content="Atletismo,Desporto,Barreiro,Futsal,Verderena,GDR,Fitness,Mix,Marcha,Associação,GDR Verderena,verderena,gdr verderena">
-  
+
   <!-- Twitter -->
-  <meta property="twitter:card" 	content="summary_large_image">
-  <meta property="twitter:url" 		content="https://gdrverderena.pt/">
-  <meta property="twitter:title" 	content="G. D. R. Verderena">
-  <meta property="twitter:description"	content="Grupo Desportivo, Recreativo e Cultural">
-  <meta property="twitter:image" 	content="https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/more-service-3.jpg">
-  <meta name="twitter:site" 		content="Joao Gomes">
-  <meta name="twitter:creator" 		content="Joao Gomes">
-  
- 
-	
-   <link rel="canonical" href="https://gdrverderena.pt/" />
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://gdrverderena.pt/">
+  <meta property="twitter:title" content="G. D. R. Verderena">
+  <meta property="twitter:description" content="Grupo Desportivo, Recreativo e Cultural">
+  <meta property="twitter:image" content="https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/more-service-3.jpg">
+  <meta name="twitter:site" content="Joao Gomes">
+  <meta name="twitter:creator" content="Joao Gomes">
 
-  
-    <!-- Required meta tags -->
-	
-	
-  
-   
-   
-  
-  
-   
-    <link rel="manifest" href="{{ "/manifest.json" | prepend: site.baseurl | prepend: site.url }}">
-    <!-- <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/img/icon/apple-icon-180x180-dunplab-manifest-17618.png" | prepend: site.baseurl | prepend: site.url }}">  -->
-   
-    <link rel="icon" type="image/svg+xml" href="{{ "/assets/favicon.svg" | prepend: site.baseurl }}"  >
+  <link rel="canonical" href="https://gdrverderena.pt/" />
 
- 
+  <!-- Required meta tags -->
 
- 
+  <link rel="manifest" href="{{ "/manifest.json" | prepend: site.baseurl | prepend: site.url }}">
+  <!-- <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/img/icon/apple-icon-180x180-dunplab-manifest-17618.png" | prepend: site.baseurl | prepend: site.url }}">  -->
+
+  <link rel="icon" type="image/svg+xml" href="{{ "/assets/favicon.svg" | prepend: site.baseurl }}">
+
   <!-- Compiled and minified CSS -->
   <!-- CSS only 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
- <link href="{{ "/assets/dist/css/bootstrap.min.css" | prepend: site.baseurl | prepend: site.url }}" rel="stylesheet">
-
-  
+  <link href="{{ "/assets/dist/css/bootstrap.min.css" | prepend: site.baseurl | prepend: site.url }}" rel="stylesheet">
 
   <link rel="stylesheet" type="text/css" href="/css/main.css">
-  
- 
-  
+
   <!-- <link href="https://fonts.googleapis.com/css2?family=Suranna" rel="stylesheet"> -->
-  
-    <!-- Google Fonts -->
+
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-
-  
   {% include head.html %}
-  
-  
 
   {% if site.tags != "" %}
-    {% include collecttags.html %}
+  {% include collecttags.html %}
   {% endif %}
 
 </head>
-	
 
-	
-	<!-- Marcação JSON-LD gerada pelo Assistente de Marcação para Dados Estruturados Google. -->
+<!-- Marcação JSON-LD gerada pelo Assistente de Marcação para Dados Estruturados Google. -->
 <script type="application/ld+json">
-[ {
-  "@context" : "http://schema.org",
-  "@type" : "LocalBusiness",
-  "name" : "Início",
-  "image" : "https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/more-service-3.jpg",
-  "telephone" : "(+351)212140065",
-  "email" : "g.d.verderena@gmail.com",
-  "address" : {
-    "@type" : "PostalAddress",
-    "streetAddress" : "Rua Armindo de Almeida Nº 44 Barreiro, 2830-275",
-    "addressLocality" : "Barreiro",
-    "addressRegion" : "Setúbal",
-    "addressCountry" : "Portugal",
-    "postalCode" : "2830-275 Barreiro"
-  },
-  "openingHoursSpecification" : {
-    "@type" : "OpeningHoursSpecification",
-    "dayOfWeek" : {
-      "@type" : "DayOfWeek",
-      "name" : "Segunda a Sexta"
-    }
-  },
-  "url" : "https://gdrverderena.pt/"
-}, {
-  "@context" : "http://schema.org",
-  "@type" : "LocalBusiness",
-  "name" : "Sobre",
-  "image" : "https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/more-service-3.jpg",
-  "telephone" : "(+351)212140065",
-  "email" : "g.d.verderena@gmail.com",
-  "address" : {
-    "@type" : "PostalAddress",
-    "streetAddress" : "Rua Armindo de Almeida Nº 44 Barreiro, 2830-275",
-    "addressLocality" : "Barreiro",
-    "addressRegion" : "Setúbal",
-    "addressCountry" : "Portugal",
-    "postalCode" : "2830-275 Barreiro"
-  },
-  "openingHoursSpecification" : {
-    "@type" : "OpeningHoursSpecification",
-    "dayOfWeek" : {
-      "@type" : "DayOfWeek",
-      "name" : "Segunda a Sexta"
-    }
-  },
-  "url" : "https://gdrverderena.pt/"
-}, {
-  "@context" : "http://schema.org",
-  "@type" : "LocalBusiness",
-  "name" : "Parceiros",
-  "image" : "https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/more-service-3.jpg",
-  "telephone" : "(+351)212140065",
-  "email" : "g.d.verderena@gmail.com",
-  "address" : {
-    "@type" : "PostalAddress",
-    "streetAddress" : "Rua Armindo de Almeida Nº 44 Barreiro, 2830-275",
-    "addressLocality" : "Barreiro",
-    "addressRegion" : "Setúbal",
-    "addressCountry" : "Portugal",
-    "postalCode" : "2830-275 Barreiro"
-  },
-  "openingHoursSpecification" : {
-    "@type" : "OpeningHoursSpecification",
-    "dayOfWeek" : {
-      "@type" : "DayOfWeek",
-      "name" : "Segunda a Sexta"
-    }
-  },
-  "url" : "https://gdrverderena.pt/"
-}, {
-  "@context" : "http://schema.org",
-  "@type" : "LocalBusiness",
-  "name" : "Notícias",
-  "image" : "https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/more-service-3.jpg",
-  "telephone" : "(+351)212140065",
-  "email" : "g.d.verderena@gmail.com",
-  "address" : {
-    "@type" : "PostalAddress",
-    "streetAddress" : "Rua Armindo de Almeida Nº 44 Barreiro, 2830-275",
-    "addressLocality" : "Barreiro",
-    "addressRegion" : "Setúbal",
-    "addressCountry" : "Portugal",
-    "postalCode" : "2830-275 Barreiro"
-  },
-  "openingHoursSpecification" : {
-    "@type" : "OpeningHoursSpecification",
-    "dayOfWeek" : {
-      "@type" : "DayOfWeek",
-      "name" : "Segunda a Sexta"
-    }
-  },
-  "url" : "https://gdrverderena.pt/"
-}, {
-  "@context" : "http://schema.org",
-  "@type" : "LocalBusiness",
-  "name" : "Contacte",
-  "image" : "https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/more-service-3.jpg",
-  "telephone" : "(+351)212140065",
-  "email" : "g.d.verderena@gmail.com",
-  "address" : {
-    "@type" : "PostalAddress",
-    "streetAddress" : "Rua Armindo de Almeida Nº 44 Barreiro, 2830-275",
-    "addressLocality" : "Barreiro",
-    "addressRegion" : "Setúbal",
-    "addressCountry" : "Portugal",
-    "postalCode" : "2830-275 Barreiro"
-  },
-  "openingHoursSpecification" : {
-    "@type" : "OpeningHoursSpecification",
-    "dayOfWeek" : {
-      "@type" : "DayOfWeek",
-      "name" : "Segunda a Sexta"
-    }
-  },
-  "url" : "https://gdrverderena.pt/"
-} ]
+  [{
+    "@context": "http://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Início",
+    "image": "https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/more-service-3.jpg",
+    "telephone": "(+351)212140065",
+    "email": "g.d.verderena@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rua Armindo de Almeida Nº 44 Barreiro, 2830-275",
+      "addressLocality": "Barreiro",
+      "addressRegion": "Setúbal",
+      "addressCountry": "Portugal",
+      "postalCode": "2830-275 Barreiro"
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": {
+        "@type": "DayOfWeek",
+        "name": "Segunda a Sexta"
+      }
+    },
+    "url": "https://gdrverderena.pt/"
+  }, {
+    "@context": "http://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Sobre",
+    "image": "https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/more-service-3.jpg",
+    "telephone": "(+351)212140065",
+    "email": "g.d.verderena@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rua Armindo de Almeida Nº 44 Barreiro, 2830-275",
+      "addressLocality": "Barreiro",
+      "addressRegion": "Setúbal",
+      "addressCountry": "Portugal",
+      "postalCode": "2830-275 Barreiro"
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": {
+        "@type": "DayOfWeek",
+        "name": "Segunda a Sexta"
+      }
+    },
+    "url": "https://gdrverderena.pt/"
+  }, {
+    "@context": "http://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Parceiros",
+    "image": "https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/more-service-3.jpg",
+    "telephone": "(+351)212140065",
+    "email": "g.d.verderena@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rua Armindo de Almeida Nº 44 Barreiro, 2830-275",
+      "addressLocality": "Barreiro",
+      "addressRegion": "Setúbal",
+      "addressCountry": "Portugal",
+      "postalCode": "2830-275 Barreiro"
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": {
+        "@type": "DayOfWeek",
+        "name": "Segunda a Sexta"
+      }
+    },
+    "url": "https://gdrverderena.pt/"
+  }, {
+    "@context": "http://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Notícias",
+    "image": "https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/more-service-3.jpg",
+    "telephone": "(+351)212140065",
+    "email": "g.d.verderena@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rua Armindo de Almeida Nº 44 Barreiro, 2830-275",
+      "addressLocality": "Barreiro",
+      "addressRegion": "Setúbal",
+      "addressCountry": "Portugal",
+      "postalCode": "2830-275 Barreiro"
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": {
+        "@type": "DayOfWeek",
+        "name": "Segunda a Sexta"
+      }
+    },
+    "url": "https://gdrverderena.pt/"
+  }, {
+    "@context": "http://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Contacte",
+    "image": "https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/more-service-3.jpg",
+    "telephone": "(+351)212140065",
+    "email": "g.d.verderena@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rua Armindo de Almeida Nº 44 Barreiro, 2830-275",
+      "addressLocality": "Barreiro",
+      "addressRegion": "Setúbal",
+      "addressCountry": "Portugal",
+      "postalCode": "2830-275 Barreiro"
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": {
+        "@type": "DayOfWeek",
+        "name": "Segunda a Sexta"
+      }
+    },
+    "url": "https://gdrverderena.pt/"
+  }]
 </script>
-	
 
+<body>
+  <button type="button" class="btn btn-light text-muted" onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
-<body >
-<button type="button" class="btn btn-light text-muted" onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  {% include navbar.html %}
 
-{% include navbar.html %}
-  
-  
-
- <div class="container">
-
+  <div class="container">
 
     {{ content }}
-   
+
   </div>
-  
-  
-  
-  
-  
+
   <div class="site-newsletter">
     <div class="container">
       <div class="text-center">
@@ -244,77 +211,59 @@
 
         <div class="row">
           <div class="col-xs-12 col-sm-9 col-md-7 col-lg-5 ml-auto mr-auto">
-		<form action="https://formsubmit.co/joaosilgo96@gmail.com" id="subscribe" role="form" method="post" accept-charset="utf-8" enctype="multipart/form-data" data-toggle="validator">  
-		  
-            <div class="input-group mb-3 mt-3">
-              <input  id="subscriberEmail" type="email"  name="email"  class="form-control" placeholder="Endereço de e-mail" aria-label="Email address" required>
-              <span class="input-group-btn">
-                <button class="btn btn-secondary js-notification-actions" type="submit" >  <!-- onclick="showNotification()"-->
-                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-mailbox2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  <path fill-rule="evenodd" d="M12 3H4a4 4 0 0 0-4 4v6a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V7a4 4 0 0 0-4-4zM8 7a3.99 3.99 0 0 0-1.354-3H12a3 3 0 0 1 3 3v6H8V7zm1 1.5h2.793l.853.854A.5.5 0 0 0 13 9.5h1a.5.5 0 0 0 .5-.5V8a.5.5 0 0 0-.5-.5H9v1zM4.585 7.157C4.836 7.264 5 7.334 5 7a1 1 0 0 0-2 0c0 .334.164.264.415.157C3.58 7.087 3.782 7 4 7c.218 0 .42.086.585.157z"/>
-</svg>
-                  Subscrever</button>
-	
-		      
-              </span>
-		    
-		    <input type="hidden" name="_autoresponse" value="Obrigado Por nos Contactar. Entraremos em Contacto Brevemente.">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_template" value="box">
-        <input type="hidden" name="_next" value="https://gdr-verderena.github.io/">
-        <input id="subject" type="hidden" name="_subject" value="G.D.R. VERDERENA">
-        <input type="hidden" name="_replyto">
-            </div>
-		  
-	
-		  
-			</form>
-			
+            <form action="https://formsubmit.co/joaosilgo96@gmail.com" id="subscribe" role="form" method="post" accept-charset="utf-8" enctype="multipart/form-data" data-toggle="validator">
+
+              <div class="input-group mb-3 mt-3">
+                <input id="subscriberEmail" type="email" name="email" class="form-control" placeholder="Endereço de e-mail" aria-label="Email address" required>
+                <span class="input-group-btn">
+                  <button class="btn btn-secondary js-notification-actions" type="submit">
+                    <!-- onclick="showNotification()"-->
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-mailbox2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M12 3H4a4 4 0 0 0-4 4v6a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V7a4 4 0 0 0-4-4zM8 7a3.99 3.99 0 0 0-1.354-3H12a3 3 0 0 1 3 3v6H8V7zm1 1.5h2.793l.853.854A.5.5 0 0 0 13 9.5h1a.5.5 0 0 0 .5-.5V8a.5.5 0 0 0-.5-.5H9v1zM4.585 7.157C4.836 7.264 5 7.334 5 7a1 1 0 0 0-2 0c0 .334.164.264.415.157C3.58 7.087 3.782 7 4 7c.218 0 .42.086.585.157z" />
+                    </svg>
+                    Subscrever</button>
+
+                </span>
+
+                <input type="hidden" name="_autoresponse" value="Obrigado Por nos Contactar. Entraremos em Contacto Brevemente.">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="box">
+                <input type="hidden" name="_next" value="https://gdr-verderena.github.io/">
+                <input id="subject" type="hidden" name="_subject" value="G.D.R. VERDERENA">
+                <input type="hidden" name="_replyto">
+              </div>
+
+            </form>
+
           </div>
         </div>
       </div>
     </div>
   </div>
-  
-  
-  
-  
-  
-  <div class="content noselect portugues "  >
-        <div class="pt-5 pb-5 " style=" ">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-md-7 text-center">
-                <h2 class="display-4 mb-2 ">
-		
-                <div class="brands-m text-center d-flex-column partners embed-responsive ">
-                  
-                  <img  style="width:15%;" type="image/svg+xml" class=" m-4 h-25 lazyload"   data-src="https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/c60336782f8fec741459a20495f04baf62e4aea2/assets/img/100-portugal.svg" alt="portugues" draggable="false">
-                 
-				</div>
+
+  <div class="content noselect portugues ">
+    <div class="pt-5 pb-5 " style=" ">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-7 text-center">
+            <h2 class="display-4 mb-2 ">
+
+              <div class="brands-m text-center d-flex-column partners embed-responsive ">
+
+                <img style="width:15%;" type="image/svg+xml" class=" m-4 h-25 lazyload" data-src="https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/c60336782f8fec741459a20495f04baf62e4aea2/assets/img/100-portugal.svg" alt="portugues" draggable="false">
+
               </div>
-              <!-- /.col -->
-            </div>
-            <!-- /.row -->
           </div>
-          <!-- /.container -->
+          <!-- /.col -->
         </div>
-        <!-- /.content-overlay -->
+        <!-- /.row -->
       </div>
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-
-
+      <!-- /.container -->
+    </div>
+    <!-- /.content-overlay -->
+  </div>
 
   <!--
-
   <footer class="footer mt-auto py-3">
   <div class="container">
     <div class="row">
@@ -337,192 +286,148 @@
              
   </div>
 </footer>
-
 -->
-	  
-	   {% include footer.html %}
-	  
-	  
-	  
-	  <script>
-	  
-		  	
-	let trans = () => {
-  document.documentElement.classList.add("transition");
-	// window.
-  window.setTimeout(() => {
-    document.documentElement.classList.remove("transition");
-  }, 1000);
-};
 
+  {% include footer.html %}
 
+  <script>
+    let trans = () => {
+      document.documentElement.classList.add("transition");
+      // window.
+      window.setTimeout(() => {
+        document.documentElement.classList.remove("transition");
+      }, 1000);
+    };
 
-function myFunction() {
-  var checkBox = document.getElementById("customSwitch1");
-  var text = document.getElementById("label");
-
-  var sun = document.getElementById("sun");
-  var moon = document.getElementById("moon");
-
-  if (checkBox.checked == true) {
-    //text.innerHTML = "New text!";
-    sun.style.display = "none";
-    moon.style.display = "inline";
-    trans();
-    document.documentElement.setAttribute("data-theme", "dark");
-  } else {
-    //text.innerHTML = "New text2!";
-    moon.style.display = "none";
-    sun.style.display = "inline";
-    trans();
-    document.documentElement.setAttribute("data-theme", "light");	
-  }
-}
-
-
-
-
-
-
-$(function () {
-  $(".post").slice(0, 5).show(); // select the first 5
-  $("#load").click(function (e) {
-    // click event for load more
-    e.preventDefault();
-    $(".post:hidden").slice(0, 5).show(); // select next 5 hidden posts and show them
-    if ($(".post:hidden").length == 0) {
-      // check if any hidden ppost still exist
-
-      $("#load").hide(); // hide the button
-
-      // alert("No more divs"); // alert if there are none left
-    }
-  });
-});
-
-if (window.localStorage) {
-  var formValues = JSON.parse(localStorage.getItem("formValues")) || {};
-  var $checkboxes = $("#checkbox-container :checkbox");
-
-  function updateStorage() {
-    $checkboxes.each(function () {
-      formValues[this.id] = this.checked;
-    });
-
-    localStorage.setItem("formValues", JSON.stringify(formValues));
-  }
-
-  $checkboxes.on("change", function () {
-    updateStorage();
-  });
-
-  // On page load
-  $.each(formValues, function (key, value) {
-    $("#" + key).prop("checked", value);
-  });
-}
-
-myFunction();
-	  
-	  </script>
-	  
-	  
-<script>
-
-window.fbAsyncInit = function () {
-  FB.init({
-    appId: "634330340852989",
-    autoLogAppEvents: true,
-    xfbml: true,
-    version: "v8.0"
-  });
-};
-
-sharePost = function (title, description, url) {
-  if (navigator.vibrate) {
-    window.navigator.vibrate(50);
-  }
-  //const url= document.getElementById("url").href;
-  //const description = document.getElementById("description").textContent;
-  //const title = document.getElementById("title").textContent;
-  let shareData = {
-    title: title,
-    text: description,
-    url: url
-  };
-
-  //  const btn = document.querySelector('.share');
-  const btn = document.getElementById("share");
-  const resultPara = document.querySelector(".result");
-  if (navigator.share) {
-    navigator
-      .share(shareData)
-      .then(
-        () => (resultPara.textContent = "MDN shared successfully")
-        //   console.log("Shared Web Api");
-      )
-      .catch(
-        (e) => (resultPara.textContent = "Error: " + e)
-        //    console.log('Error: ' + e);
-      );
-  } else {
-    console.log("oops");
-    //location.href = "https://facebook.com/sharer.php?u={{ site.url }}"+url;
-
-    FB.ui(
-      {
-        method: "share",
-        href: "https://gdr-verderena.github.io" + url
-      },
-      // callback
-      function (response) {
-        if (response && !response.error_message) {
-          alert("Posting completed.");
-        } else {
-          alert("Error while posting.");
-        }
+    function myFunction() {
+      var checkBox = document.getElementById("customSwitch1");
+      var text = document.getElementById("label");
+      var sun = document.getElementById("sun");
+      var moon = document.getElementById("moon");
+      if (checkBox.checked == true) {
+        //text.innerHTML = "New text!";
+        sun.style.display = "none";
+        moon.style.display = "inline";
+        trans();
+        document.documentElement.setAttribute("data-theme", "dark");
+      } else {
+        //text.innerHTML = "New text2!";
+        moon.style.display = "none";
+        sun.style.display = "inline";
+        trans();
+        document.documentElement.setAttribute("data-theme", "light");
       }
-    );
-  }
-};
-	
+    }
+    $(function() {
+      $(".post").slice(0, 5).show(); // select the first 5
+      $("#load").click(function(e) {
+        // click event for load more
+        e.preventDefault();
+        $(".post:hidden").slice(0, 5).show(); // select next 5 hidden posts and show them
+        if ($(".post:hidden").length == 0) {
+          // check if any hidden ppost still exist
+          $("#load").hide(); // hide the button
+          // alert("No more divs"); // alert if there are none left
+        }
+      });
+    });
+    if (window.localStorage) {
+      var formValues = JSON.parse(localStorage.getItem("formValues")) || {};
+      var $checkboxes = $("#checkbox-container :checkbox");
 
+      function updateStorage() {
+        $checkboxes.each(function() {
+          formValues[this.id] = this.checked;
+        });
+        localStorage.setItem("formValues", JSON.stringify(formValues));
+      }
+      $checkboxes.on("change", function() {
+        updateStorage();
+      });
+      // On page load
+      $.each(formValues, function(key, value) {
+        $("#" + key).prop("checked", value);
+      });
+    }
+    myFunction();
+  </script>
 
-
-
-
-</script>
-	  
-	  
- 
-
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId: "634330340852989",
+        autoLogAppEvents: true,
+        xfbml: true,
+        version: "v8.0"
+      });
+    };
+    sharePost = function(title, description, url) {
+      if (navigator.vibrate) {
+        window.navigator.vibrate(50);
+      }
+      //const url= document.getElementById("url").href;
+      //const description = document.getElementById("description").textContent;
+      //const title = document.getElementById("title").textContent;
+      let shareData = {
+        title: title,
+        text: description,
+        url: url
+      };
+      //  const btn = document.querySelector('.share');
+      const btn = document.getElementById("share");
+      const resultPara = document.querySelector(".result");
+      if (navigator.share) {
+        navigator
+          .share(shareData)
+          .then(
+            () => (resultPara.textContent = "MDN shared successfully")
+            //   console.log("Shared Web Api");
+          )
+          .catch(
+            (e) => (resultPara.textContent = "Error: " + e)
+            //    console.log('Error: ' + e);
+          );
+      } else {
+        console.log("oops");
+        //location.href = "https://facebook.com/sharer.php?u={{ site.url }}"+url;
+        FB.ui({
+            method: "share",
+            href: "https://gdr-verderena.github.io" + url
+          },
+          // callback
+          function(response) {
+            if (response && !response.error_message) {
+              alert("Posting completed.");
+            } else {
+              alert("Error while posting.");
+            }
+          }
+        );
+      }
+    };
+  </script>
 
   <!-- Compiled and minified JavaScript -->
 
-<!-- JavaScript and dependencies -->
+  <!-- JavaScript and dependencies -->
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="/js/jquery.slim.min.js"><\/script>')</script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>  -->
-<script src="/assets/dist/js/bootstrap.bundle.min.js"></script>
-<script src="/js/paginate.js"></script>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
-<script src="/js/lazysizes.min.js" async></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script>
+    window.jQuery || document.write('<script src="/js/jquery.slim.min.js"><\/script>')
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>  -->
+  <script src="/assets/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/js/paginate.js"></script>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+  <script src="/js/lazysizes.min.js" async></script>
   <!-- Images End -->
 
-<script src="/js/index.js"></script>
-<!--<script src="/js/indexedDB.js"></script> -->
-	<!--  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
-<!-- <script src="/js/app-install.js" inline></script> -->
-{% include google-analytics.html %}
+  <script src="/js/index.js"></script>
+  <!--<script src="/js/indexedDB.js"></script> -->
+  <!--  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+  <!-- <script src="/js/app-install.js" inline></script> -->
+  {% include google-analytics.html %}
 </body>
-  
-  
-   
-  
-  
-   
-            
 
 </html>
