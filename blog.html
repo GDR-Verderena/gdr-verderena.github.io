@@ -1,0 +1,246 @@
+---
+layout: default
+title: G. D. R. Verderena  Notícias
+---
+<br><br><br><br>
+<div class="text-center noselect ">
+  <h2 class=" text-muted">Notícias</h2>
+  <hr />
+</div>
+<br>
+
+
+	<div class="row text-muted text-center noselect">
+<div class="col-md-6 col-md-offset-3 mb40">
+<h2>{{ page.title }}</h2>
+<p> Esteja a par das Últimas Notícias e acompanhe todas as novidades da atualidade do Grupo Desportivo Recreativo da Verderena. Leia e  Partilhe as últimas novidades da nossa Coletividade!</p>
+</div>
+</div>
+<br>
+
+<!--
+	 
+<div class="jumbotron jumbotron-fluid p-4 p-md-5 text-white rounded bg-custom noselect " data-aos="fade-down">
+  <div class="col-md-6 px-0">
+    <h3 class="display-4 text-center text-white  ">{{ page.title }}</h3>
+    <p class="lead my-3">
+      Esteja a par das Últimas Notícias e acompanhe todas as novidades da atualidade do Grupo Desportivo Recreativo da Verderena. Lei e  partilhe as últimas novidades da nossa Coletividade!
+    </p>
+    <p class="lead mb-0">
+      <a href="#news" class="text-white font-weight-bold">Continuar a Ler...</a>
+    </p>
+  </div>
+</div>
+-->
+<div class="row">
+	
+	
+
+	
+  <!--<ul class="posts">-->
+  <!--<div class="col-md-9"> -->
+    <!--   <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li> -->
+    <!-- 
+    <div class="card-columns">
+      {% for post in site.posts %}
+     
+      <a href="{{ post.url }}" title="{{ post.title }}">
+        <div class="card">
+          {% if post.featured-image And post.featured-image != "" And
+          post.featured-image != nil And
+          imageValidate(post.featured-image)==true %}
+          <img src="{{ post.featured-image }}" class="card-img-top" alt="..." />
+          {% endif %}
+          <div class="card-body">
+            <h5 class="card-title">{{ post.title }}</h5>
+            <p class="card-text">{{ post.description }}</p>
+            <hr />
+            <p class="card-text">
+              <small class="text-muted"
+                >Last updated {{ post.date | date_to_string }}</small
+              >
+            </p>
+            <a
+              class="btn btn-light btn-sm mb-1 text-small mt-2 font-weight-light text-muted"
+              >{{ post.categories}}</a
+            >
+          </div>
+        </div>
+      </a>
+      {% endfor %}
+			-->
+<!--  </div> -->
+
+  <!--</ul>-->
+  <div class="col-md-9">
+    {% for post in site.posts %}
+
+    <section id="news" class="section-1 post" >
+      <div class="container text-center">
+        <div class="row">
+          {% if post.featured-image And post.featured-image != "" And post.featured-image != nil and  file_exists {{ post.featured-image }}   %}
+		       <!--   imageValidate(post.featured-image)==true -->
+          <div class="col-md-6 col-12">
+            <div class="pray">
+              <!-- img-fluid -->
+              <img   data-src="{{ post.featured-image }}" src="{{ post.featured-image }}" alt="Pray" class=" lazyload img-fluid" />
+            </div>
+          </div>
+          {% endif %}
+
+          <div class="col-md-6 col-12">
+            <div class="panel text-left">
+             <a href="{{ post.url }}" title="{{ post.title }}"> <h1 class="">{{ post.title }}</h1></a>
+              <p class="pt-4">
+                {{ post.description }}
+              </p>
+              <p>
+               
+		{{ post.excerpt | strip_html | strip_newlines | truncate: 156 }}  
+              </p>
+		    <hr/>
+		<p> {% include read_time.html content=post.content %}  </p>
+		  <p class="card-text">
+		<footer class="blockquote-footer"> {% if post.author %} {{ post.author }} {% else %} {{ site.author }} {% endif %} <cite title="Source Title"> {{ post.date | date_to_string }} </cite></footer>
+             
+            </p>
+		   <!-- <i class="btn btn-light btn-sm mb-1 text-small mt-2 font-weight-light text-muted">{{ post.categories}}</i> -->
+		  
+		    {% for tag in post.tags %}
+    		{% capture tag_name %}{{ tag }}{% endcapture %}
+   			 <a href="/tag/{{ tag_name }}"><code class="highligher-rouge btn btn-light btn-sm mb-1 text-small mt-2 font-weight-light text-muted">
+				 <nobr>
+					 <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-hash" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  					<path d="M8.39 12.648a1.32 1.32 0 0 0-.015.18c0 .305.21.508.5.508.266 0 .492-.172.555-.477l.554-2.703h1.204c.421 0 .617-.234.617-.547 0-.312-.188-.53-.617-.53h-.985l.516-2.524h1.265c.43 0 .618-.227.618-.547 0-.313-.188-.524-.618-.524h-1.046l.476-2.304a1.06 1.06 0 0 0 .016-.164.51.51 0 0 0-.516-.516.54.54 0 0 0-.539.43l-.523 2.554H7.617l.477-2.304c.008-.04.015-.118.015-.164a.512.512 0 0 0-.523-.516.539.539 0 0 0-.531.43L6.53 5.484H5.414c-.43 0-.617.22-.617.532 0 .312.187.539.617.539h.906l-.515 2.523H4.609c-.421 0-.609.219-.609.531 0 .313.188.547.61.547h.976l-.516 2.492c-.008.04-.015.125-.015.18 0 .305.21.508.5.508.265 0 .492-.172.554-.477l.555-2.703h2.242l-.515 2.492zm-1-6.109h2.266l-.515 2.563H6.859l.532-2.563z"/>
+					</svg>  
+					 
+					 {{ tag_name }} 
+					 
+				   </nobr></code>&nbsp;</a>
+  	{% endfor %}
+		  
+		 <!-- <i class="btn btn-light btn-sm mb-1 text-small mt-2 font-weight-light text-muted">{{ post.tags}}</i> -->
+		  
+		  <a id="share" onclick="sharePost(`{{ post.title }}` , `{{  post.description }}` , `{{ post.url }}` )"
+			class="text-muted share btn"><svg width="1em" height="1em" viewBox="0 0 16 16"
+				class="bi bi-share-fill texte-muted" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+				<path fill-rule="evenodd"
+					d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z" />
+			</svg></a>
+		<p class="result" hidden></p>
+		    
+            </div>
+          </div>
+		
+        </div>
+      </div>
+    </section>
+	  
+
+    {% endfor %}
+	
+
+	
+			
+	
+  </div>
+
+
+
+	
+  <div class="col-md-3 ml-auto text-muted">
+<!-- 	  
+    <aside class="sidebar">
+      <div class="card mb-4">
+        <div class="card-body">
+          <h4 class="card-title">About</h4>
+          <p class="card-text">
+            Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem
+            quam <a href="#">semper libero</a>, sit amet adipiscing sem neque
+            sed ipsum.
+          </p>
+        </div>
+      </div>
+       
+    </aside>-->
+
+    <aside class="sidebar sidebar-sticky text-muted  ">
+      <div class="card mb-4 shadow p-3 mb-5 bg-white rounded">
+        <div class="card-body">
+          <h4 class="card-title "> <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-tags" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M3 2v4.586l7 7L14.586 9l-7-7H3zM2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586V2z"/>
+  <path fill-rule="evenodd" d="M5.5 5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+  <path d="M1 7.086a1 1 0 0 0 .293.707L8.75 15.25l-.043.043a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 0 7.586V3a1 1 0 0 1 1-1v5.086z"/>
+</svg> Tags</h4>
+		{% for tag in site.tags %}
+    
+         <a class="btn btn-light btn-sm mb-1 text-muted" href="../tag/{{ tag[0] }}">
+		 
+		 			 <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-hash" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  					<path d="M8.39 12.648a1.32 1.32 0 0 0-.015.18c0 .305.21.508.5.508.266 0 .492-.172.555-.477l.554-2.703h1.204c.421 0 .617-.234.617-.547 0-.312-.188-.53-.617-.53h-.985l.516-2.524h1.265c.43 0 .618-.227.618-.547 0-.313-.188-.524-.618-.524h-1.046l.476-2.304a1.06 1.06 0 0 0 .016-.164.51.51 0 0 0-.516-.516.54.54 0 0 0-.539.43l-.523 2.554H7.617l.477-2.304c.008-.04.015-.118.015-.164a.512.512 0 0 0-.523-.516.539.539 0 0 0-.531.43L6.53 5.484H5.414c-.43 0-.617.22-.617.532 0 .312.187.539.617.539h.906l-.515 2.523H4.609c-.421 0-.609.219-.609.531 0 .313.188.547.61.547h.976l-.516 2.492c-.008.04-.015.125-.015.18 0 .305.21.508.5.508.265 0 .492-.172.554-.477l.555-2.703h2.242l-.515 2.492zm-1-6.109h2.266l-.515 2.563H6.859l.532-2.563z"/>
+					</svg>  
+		 
+		 {{ tag[0] }}</a>
+		
+		{% endfor %}	
+        </div>
+      </div>
+      <!-- /.card -->
+      <div class="card mb-4 shadow p-3 mb-5 bg-white rounded post">
+        <div class="card-body">
+          <h4 class="  card-title">
+		  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-newspaper" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5v-11zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5H12z"/>
+  <path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"/>
+</svg>
+		  Últimas Notícias </h4>
+          <ul class="list-group list-group-flush">
+            {% for post in site.posts limit:3 %}
+            <li class="list-group-item">
+	<h4 class="h6 ">	    
+              <a
+                href="{{ post.url }}"
+                title="{{ post.title }}"
+                class="d-inline-block ">
+                {{ post.title }}
+                <!--<img class="card-img" src="img/articles/2.jpg" alt=""> -->
+              </a>
+		</h4>
+              <br>
+             
+	<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-calendar2-day text-muted" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+ 	 <path fill-rule="evenodd" d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H2z"/>
+ 	 <path d="M2.5 4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5V4zm2.184 8.523v-2.3h2.261v-.61H4.684V7.801h2.464v-.61H4v5.332h.684zm3.296 0h.676V9.98c0-.554.227-1.007.953-1.007.125 0 .258.004.329.015v-.613a1.806 1.806 0 0 0-.254-.02c-.582 0-.891.32-1.012.567h-.02v-.504H7.98v4.105zm2.805-5.093c0 .238.192.425.43.425a.428.428 0 1 0 0-.855.426.426 0 0 0-.43.43zm.094 5.093h.672V8.418h-.672v4.105z"/>
+	</svg> 
+		    
+		 <time class="timeago text-muted">{{ post.date | date_to_string }}</time>
+
+              <!-- <i class="btn btn-light btn-sm mb-1 text-small mt-2 font-weight-light text-muted">{{ post.categories}}</i>-->
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <!-- /.card -->
+    </aside>
+  </div>
+</div>
+
+
+
+
+
+
+
+	<div class="w-100"></div>
+	<div class="container-fluid d-block load-container ">
+				<div class="row d-block">
+					<div class="col-md-6 col-md-offset-3 ">
+						<button href="#" id="load" type="button" class="btn btn-secondary " > 
+								<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-clockwise" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  									<path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2v1z"/>
+  									<path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466z"/>
+								</svg> Carregar Mais Noticias</button>
+					</div>
+				</div>
+			</div>
