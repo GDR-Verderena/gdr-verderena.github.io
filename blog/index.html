@@ -83,8 +83,8 @@ title: G. D. R. Verderena  Notícias
       <div class="container text-center">
         <div class="row">
           {% if post.featured-image And post.featured-image != "" And
-          post.featured-image != nil And
-          imageValidate(post.featured-image)==true %}
+          post.featured-image != nil And file_exists {{ post.featured-image }} %}
+		       <!--   imageValidate(post.featured-image)==true -->
           <div class="col-md-6 col-12">
             <div class="pray">
               <!-- img-fluid -->
