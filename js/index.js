@@ -8,8 +8,8 @@
 document.addEventListener("DOMContentLoaded", function(event) {
    document.querySelectorAll('img').forEach(function(img){
   	//img.onerror = function(){this.style.display='none';};
-	   if (!img.src || !img.src.length || img.src.length === 0) {
-		   img.src = 'https://gdr-verderena.github.io/assets/img/placeholder.svg'
+	   if (!this.src || !this.src.length || this.src.length === 0) {
+		   this.src = 'https://gdr-verderena.github.io/assets/img/placeholder.svg'
 	   }
    })
 });
