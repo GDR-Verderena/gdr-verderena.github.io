@@ -3,7 +3,10 @@
 
 
 
-
+// Or, hide them
+$("img").on("error", function() {
+  $(this).hide();
+});
 
 
 /*
