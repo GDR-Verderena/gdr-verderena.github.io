@@ -291,6 +291,17 @@
   {% include footer.html %}
 
   <script>
+    
+    document.addEventListener("DOMContentLoaded", function(event) {
+   document.querySelectorAll('img').forEach(function(img){
+  	img.onerror = function(){
+		this.src = 'https://gdrverderena.pt/assets/img/placeholder.svg'
+	};
+	  
+   })
+});
+    
+    
     let trans = () => {
       document.documentElement.classList.add("transition");
       // window.
