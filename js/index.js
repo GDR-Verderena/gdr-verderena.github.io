@@ -8,7 +8,7 @@
 document.addEventListener("DOMContentLoaded", function(event) {
    document.querySelectorAll('img').forEach(function(img){
   	//img.onerror = function(){this.style.display='none';};
-	   if (!this.src || !this.src.length || this.src.length === 0) {
+	    if(img.getAttribute('src') == "")
 		   this.src = 'https://gdr-verderena.github.io/assets/img/placeholder.svg'
 	   }
    })
