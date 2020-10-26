@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 document.addEventListener("DOMContentLoaded", function(event) {
    document.querySelectorAll('img').forEach(function(img){
   	img.onerror = function(){
-		img.src = 'https://gdr-verderena.github.io/assets/img/placeholder.svg'
+		this.src = 'https://gdr-verderena.github.io/assets/img/placeholder.svg'
 	};
 	  
    })
