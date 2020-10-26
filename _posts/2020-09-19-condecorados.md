@@ -14,4 +14,4 @@ Queremos saudar, as outras Coletividades reconhecidas, pelos seus 50 Anos Centro
 <img src="https://scontent-lis1-1.xx.fbcdn.net/v/t1.0-9/119702997_3672889729410330_6300470980516759076_n.jpg?_nc_cat=100&ccb=2&_nc_sid=8bfeb9&_nc_ohc=6oRzoFYaEL4AX_o_4sZ&_nc_ht=scontent-lis1-1.xx&oh=b3013abfdddacf94063058e27773799b&oe=5FBB2230">
 Somos grandes, #SOMOSVERDERENA!
 
-<iframe src="https://youtu.be/AZJLs5OYK04" width="560" height="430" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
+<iframe width="826" height="465" src="https://www.youtube.com/embed/AZJLs5OYK04" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
