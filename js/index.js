@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
    document.querySelectorAll('img').forEach(function(img){
   	//img.onerror = function(){this.style.display='none';};
 	    if(img.getAttribute('src') == "")
-		   this.src = 'https://gdrverderena.pt/assets/img/placeholder.svg'
+		   img.src = 'https://gdrverderena.pt/assets/img/placeholder.svg'
 	   }
    })
 });
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 document.addEventListener("DOMContentLoaded", function(event) {
    document.querySelectorAll('img').forEach(function(img){
   	img.onerror = function(){
-		this.src = 'https://gdrverderena.pt/assets/img/placeholder.svg'
+		img.src = 'https://gdrverderena.pt/assets/img/placeholder.svg'
 	};
 	  
    })
