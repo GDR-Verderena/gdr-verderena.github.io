@@ -82,12 +82,12 @@ title: G. D. R. Verderena  Notícias
     <section id="news" class="section-1 post" >
       <div class="container text-center">
         <div class="row">
-          {% if post.featured-image And post.featured-image != "" And post.featured-image != nil file_exists{{ post.featured-image prepend: https://gdrverderena.pt/  }}  %}
+          {% if post.featured-image And post.featured-image != "" And post.featured-image != nil   %}
 		       <!--   imageValidate(post.featured-image)==true -->
           <div class="col-md-6 col-12">
             <div class="pray">
               <!-- img-fluid -->
-              <img   data-src="{{ post.featured-image }}" src="{{ post.featured-image }}" alt="Pray" class=" lazyload img-fluid" />
+              <img   data-src="{{ post.featured-image }}" src="{{ post.featured-image }}" alt="Pray" onError="this.onerror=null;this.src='../assets/img/placeholder.svg';" class="lazyload img-fluid" />
             </div>
           </div>
           {% endif %}
