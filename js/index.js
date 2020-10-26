@@ -4,10 +4,11 @@
 
 
 // Or, hide them
-$("img").on("error", function() {
-  $(this).hide();
+document.addEventListener("DOMContentLoaded", function(event) {
+   document.querySelectorAll('img').forEach(function(img){
+  	img.onerror = function(){this.style.display='none';};
+   })
 });
-
 
 /*
 if ("showTrigger" in Notification.prototype) {
