@@ -4,24 +4,24 @@
 
 
 // Or, hide them
-
+/*
 document.addEventListener("DOMContentLoaded", function(event) {
    document.querySelectorAll('img').forEach(function(img){
   	//img.onerror = function(){this.style.display='none';};
 	    if(img.getAttribute('src') == "")
-		   img.src = 'https://gdrverderena.pt/assets/img/placeholder.svg'
+		   this.src = 'https://gdrverderena.pt/assets/img/placeholder.svg'
 	   }
    })
 });
 
-
+*/
 
 
 
 document.addEventListener("DOMContentLoaded", function(event) {
    document.querySelectorAll('img').forEach(function(img){
   	img.onerror = function(){
-		img.src = 'https://gdrverderena.pt/assets/img/placeholder.svg'
+		this.src = 'https://gdrverderena.pt/assets/img/placeholder.svg'
 	};
 	  
    })
