@@ -4,7 +4,7 @@ title: "Voltámos aos treinos"
 date: 2020-09-23
 author: GDR Verderena
 description: Regresso ao Desporto
-
+featured-image:
 
 tags: desporto informação
  
