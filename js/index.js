@@ -4,7 +4,7 @@
 
 
 // Or, hide them
-/*
+
 document.addEventListener("DOMContentLoaded", function(event) {
    document.querySelectorAll('img').forEach(function(img){
   	//img.onerror = function(){this.style.display='none';};
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 });
 
 
-*/
+
 
 
 document.addEventListener("DOMContentLoaded", function(event) {
