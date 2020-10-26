@@ -4,13 +4,16 @@
 
 
 // Or, hide them
-/*
+
 document.addEventListener("DOMContentLoaded", function(event) {
    document.querySelectorAll('img').forEach(function(img){
-  	img.onerror = function(){this.style.display='none';};
+  	//img.onerror = function(){this.style.display='none';};
+	   if (!img.src || !img.src.length || img.src.length === 0) {
+		   img.src= 'https://gdr-verderena.github.io/assets/img/placeholder.svg'
+	   }
    })
 });
-*/
+
 
 /*
 if ("showTrigger" in Notification.prototype) {
