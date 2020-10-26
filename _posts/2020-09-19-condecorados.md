@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Condecoração pelos 25 anos"
+title: "Este ano fizemos 25 anos de existência"
 date: 2020-10-26
 author: G.D.R. Verderena
 description: Condecoração pelos 25 anos
