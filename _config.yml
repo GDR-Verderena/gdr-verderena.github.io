@@ -24,7 +24,7 @@ permalink: /blog/:year/:month/:day/:title
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-# - file_exists.rb
+ - file_exists.rb
   
   # SEO/OpenGraph
 logo: https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/logo.jpg
