@@ -65,7 +65,7 @@ title: G.D.R Verdena
 		
 		</div>
 		<!-- {% if post.featured-image And post.featured-image != "" And post.featured-image != nil and  file_exists {{ post.featured-image }}   %} -->
-	             {% if post.featured-image And post.featured-image != ""    %} 
+	             {% if post.featured-image And post.featured-image != "" And post.featured-image != nil   %}
 	
 	<!--"imageValidate(`{{ post.featured-image }}`)" ==true--> 
 
@@ -133,9 +133,9 @@ title: G.D.R Verdena
 			
 			
 		</div>
-	<!--	{% if post.featured-image And post.featured-image != "" And post.featured-image != nil and  file_exists {{ post.featured-image }}   %} --->
+	<!--	{% if post.featured-image And post.featured-image != "" And post.featured-image != nil and  file_exists {{ post.featured-image }}   %} -->
 	
-	{% if post.featured-image And post.featured-image != ""   %} 
+	{% if post.featured-image And post.featured-image != "" And post.featured-image != nil   %} 
 	
 		<div class="col-md-5 pray">
 			<img  alt="noticia-principal2" class="featurette-image img-fluid mx-auto lazyload " src="{{ post.featured-image }}"
