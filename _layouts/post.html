@@ -2,55 +2,52 @@
 layout: default
 ---
 
-
 <style>
-      .blog-post img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-      
-      
-      .blog-post iframe {
-           
-            
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-           
-            
-      }
-      
-      #fullScreenButton{
-  
-  box-shadow:none;
-}
-      
-      
-      
-      @media only screen and (max-width: 768px) {
+  .blog-post img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 
 
-   .blog-post iframe {
- 
-        /*
+  .blog-post iframe {
+
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+
+  }
+
+  #fullScreenButton {
+
+    box-shadow: none;
+  }
+
+
+
+  @media only screen and (max-width: 768px) {
+
+
+    .blog-post iframe {
+
+      /*
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
          
          */
-         
-            min-width: 100%; 
-        width: 100px;
-        *width: 100%; 
-                    
-      }
-}
 
-      
+      min-width: 100%;
+      width: 100px;
+      *width: 100%;
+
+    }
+  }
 </style>
 
 <br>
@@ -116,52 +113,62 @@ layout: default
 
 </div>
 
-
-
-
 <script>
-      
-      
-      /*Fullscreen*/
-
-
-const fullScreenButton = document.querySelector('#fullScreenButton');
-const enterFullScreen  = document.querySelector('#enterFullScreen');
-const leaveFullScreen  = document.querySelector('#leaveFullScreen');
-
-fullScreenButton.addEventListener('click', () => {
-  if (! document.fullscreenEnabled || /* Standard syntax */
-    	!document.webkitFullscreenEnabled || /* Chrome, Safari & Opera */
-    	!document.mozFullScreenEnabled || /* Firefox */
-    	!document.msFullscreenEnabled /* IE/Edge */) {
-	     //fullScreenButton.textContent = 'Leave Full Screen';
-  //  leaveFullScreen.style.display = "initial";
-   // enterFullScreen.style.display = "none";
-   
-   leaveFullScreen.style.display = "none";
-	  
-	      /* Show the element in fullscreen */
-    if (document.documentElement.requestFullscreen) {
-      document.documentElement.requestFullscreen(); /* Standard syntax */
-    } else if (document.documentElement.mozRequestFullScreen) { /* Firefox */
-      document.documentElement.mozRequestFullScreen();
-    } else if (document.documentElement.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
-      document.documentElement.webkitRequestFullscreen();
-    } else if (document.documentElement.msRequestFullscreen) { /* IE/Edge */
-      document.documentElement.msRequestFullscreen();
+  /*Fullscreen*/
+  const fullScreenButton = document.querySelector('#fullScreenButton');
+  const enterFullScreen = document.querySelector('#enterFullScreen');
+  const leaveFullScreen = document.querySelector('#leaveFullScreen');
+  fullScreenButton.addEventListener('click', () => {
+    if (!document.fullscreenEnabled || /* Standard syntax */
+      !document.webkitFullscreenEnabled || /* Chrome, Safari & Opera */
+      !document.mozFullScreenEnabled || /* Firefox */
+      !document.msFullscreenEnabled /* IE/Edge */ ) {
+      //fullScreenButton.textContent = 'Leave Full Screen';
+      //  leaveFullScreen.style.display = "initial";
+      // enterFullScreen.style.display = "none";
+      leaveFullScreen.style.display = "none";
+      /* Show the element in fullscreen */
+      if (document.documentElement.requestFullscreen) {
+        document.documentElement.requestFullscreen(); /* Standard syntax */
+      } else if (document.documentElement.mozRequestFullScreen) {
+        /* Firefox */
+        document.documentElement.mozRequestFullScreen();
+      } else if (document.documentElement.webkitRequestFullscreen) {
+        /* Chrome, Safari & Opera */
+        document.documentElement.webkitRequestFullscreen();
+      } else if (document.documentElement.msRequestFullscreen) {
+        /* IE/Edge */
+        document.documentElement.msRequestFullscreen();
+      }
+    } else {
+      //fullScreenButton.textContent = 'Enter Full Screen';
+      //enterFullScreen.style.display = "initial";
+      //  leaveFullScreen.style.display = "none";
+      //document.exitFullscreen();
     }
-	  
- 
-  } else {
-    //fullScreenButton.textContent = 'Enter Full Screen';
-   
-//enterFullScreen.style.display = "initial";
-  //  leaveFullScreen.style.display = "none";
-    //document.exitFullscreen();
-   
-  }  
-});
+  });
+  /*End Fullscreen*/
+  var wrap = function(toWrap, wrapper) {
+    wrapper = wrapper || document.createElement('div');
+    toWrap.parentNode.appendChild(wrapper);
+    return wrapper.appendChild(toWrap);
+  };
+  var images = document.getElementsByTagName('img');
+  var srcList = [];
+  for (var i = 0; i < images.length; i++) {
+    srcList.push(images[i].src);
+    console.log(images[i].src)
+    let a = document.createElement("a")
+    a.href = images[i].src
+    //a.setAttribute("href", images[i].src);
+    //images[i].appendChild(a)
+    wrap(images[i], a)
+  }
+  /*
+  for(var i = 0; i < srcList.length; i++) {
+     
+    console.log(srcList[i])
+  }
 
-/*End Fullscreen*/
+  */
 </script>
-
