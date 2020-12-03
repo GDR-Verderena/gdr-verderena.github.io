@@ -1,4 +1,7 @@
- {% for post in site.posts %}
+---
+layout: feed
+--- 
+{% for post in site.posts %}
 {
    title: {{ post.title }}
 }
