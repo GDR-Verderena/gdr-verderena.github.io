@@ -1,4 +1,4 @@
-var posts = [
+
   {% for post in site.posts %}
     {
       "title": "{{ post.title }}",
@@ -7,4 +7,3 @@ var posts = [
     }
     {% unless forloop.last %},{% endunless %}
   {% endfor %}
-];
