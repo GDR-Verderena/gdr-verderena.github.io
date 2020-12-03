@@ -9,8 +9,6 @@ url:                "https://gdrverderena.pt"
 image:  https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/more-service-3.jpg
 
 
-collections: writings: output: true permalink: /api/blog/:path.json defaults: -
-scope: path: "" type: "writings" values: layout: layout-writings
 
 # Social Profiles
 
