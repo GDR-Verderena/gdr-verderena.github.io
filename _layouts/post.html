@@ -148,28 +148,34 @@ layout: default
     }
   });
   /*End Fullscreen*/
-  var wrap = function(toWrap, wrapper) {
-    wrapper = wrapper || document.createElement('div');
-    toWrap.parentNode.appendChild(wrapper);
-    return wrapper.appendChild(toWrap);
-  };
-  var images = document.getElementsByTagName('img');
-  var srcList = [];
-  for (var i = 0; i < images.length; i++) {
-    srcList.push(images[i].src);
-    console.log(images[i].src)
-    let a = document.createElement("a")
-    a.href = images[i].src
-    a.target="_blank"
-    //a.setAttribute("href", images[i].src);
-    //images[i].appendChild(a)
-    wrap(images[i], a)
-  }
-  /*
-  for(var i = 0; i < srcList.length; i++) {
-     
-    console.log(srcList[i])
-  }
+ 
+  
+  
+  
+  
+  var wrap = function (toWrap, wrapper) {
+  wrapper = wrapper || document.createElement("div");
+  toWrap.parentNode.appendChild(wrapper);
+  return wrapper.appendChild(toWrap);
+};
 
-  */
+var images = document.getElementsByTagName("img");
+var srcList = [];
+for (var i = 0; i < images.length; i++) {
+  srcList.push(images[i]);
+  console.log(images[i].src);
+}
+
+for (var i = 0; i < srcList.length; i++) {
+  console.log(srcList[i].src);
+  let a = document.createElement("a");
+  a.href = srcList[i].src;
+  a.target = "_blank";
+  //a.setAttribute("href", images[i].src);
+  //images[i].appendChild(a)
+  wrap(srcList[i], a);
+}
+
+
+
 </script>
