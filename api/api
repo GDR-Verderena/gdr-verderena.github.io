@@ -1,6 +1,6 @@
 ---
 title: List of all posts
-permalink: /api/posts
+permalink: /api
 ---
 [
   {% for post in site.posts %}
