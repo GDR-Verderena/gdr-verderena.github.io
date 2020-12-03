@@ -1,15 +1,10 @@
-
-
-       ---
-        limit: 100
-        ---
-
-   
-{% for post in site.posts %}
-{
-     
-              "title": "{{ post.title }}",
-              "date"     : "{{ post.date | date: "%B %d, %Y" }}"
-
-}
- {% endfor %}
+var posts = [
+  {% for post in site.posts %}
+    {
+      "title": "{{ post.title }}",
+      "category": "{{ post.category }}",
+      "url": "{{ post.url }}"
+    }
+    {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+];
