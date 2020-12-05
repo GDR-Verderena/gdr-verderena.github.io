@@ -512,6 +512,11 @@ input[type=text] {
   background-color: #F5F5F5;
 }
 
+select {
+  border: none;
+  background-color: #F5F5F5;
+}
+
 input[type=email] {
   border: none;
   background-color: #F5F5F5;
