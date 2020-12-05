@@ -1,7 +1,4 @@
-
-
-
-  .contact-link{
+ .contact-link{
     display:inline-block;
     width: 100%;
     color: #333;
@@ -368,7 +365,6 @@ margin-bottom: 75px;
 
 /*
 ul.breadcrumb {
-
   list-style: none;
   background-color: #707070;
 }
@@ -382,19 +378,15 @@ ul.breadcrumb {
   content: "|";
   border:none;
 }
-
-
 */
 
 /*
-
 .bg-gold{
     
 background-color: #f5d000;
 color: #ffffff;
     
 }
-
 */
 
 
@@ -488,9 +480,6 @@ color: #ffffff;
     color: #ffffff;
     background-color: #2962ff ;
 }
-
-
-
 .navbar-brand-1 {
     
 background-color: #0d47a1 ; !important;
@@ -498,8 +487,6 @@ color: #ffffff; !important;
   
     
 }
-
-
 */
 
 
@@ -528,14 +515,12 @@ input[type=email] {
 }
 
 /*
-
 .navbar-light{
   border: none;
  background-color:#304ffe;
   color: white;
  
 }
-
 */
 
 
@@ -765,31 +750,23 @@ user-select: none;
 
 /* 
 body { margin: 60px auto; width: 70%; }
-
 a { text-decoration: none; color: #999; }
 a:hover { text-decoration: underline; }
-
 p, ul { font-size: 1.5em; line-height: 1.4em; color: #333; }
-
 h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
 h1 { font-size: 3em;  }
 h2 { font-size: 2.7em; }
 h3 { font-size: 2.3em; }
 h4 { font-size: 1.9em; }
-
 nav ul, footer ul { font-size: 1em; font-family: 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; }
 nav ul li, footer ul li { display: inline; margin-right: 20px; }
-
 footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
-
 */
 /* Blog */
 
 /*
-
 ul.posts { margin: 20px auto 40px; font-size: 1.5em; }
 ul.posts li { list-style: none; }
-
 */
 
 /* CV */
@@ -801,8 +778,6 @@ ul.posts li { list-style: none; }
 .cv address, .cv .download { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
 .cv address, .cv p { font-size: 1.2em; }
 .cv .download { float: right; font-size: .8em; text-transform: uppercase; }
-
-
 */
 
 
@@ -1007,3 +982,6 @@ html.transition *:after {
   transition: all 750ms !important;
   transition-delay: 0 !important;
 }
+
+
+    
