@@ -512,7 +512,7 @@ input[type=text] {
   background-color: #F5F5F5;
 }
 
-select {
+select[type=text] {
   border: none;
   background-color: #F5F5F5;
 }
