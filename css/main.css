@@ -1,4 +1,8 @@
- .contact-link{
+ 
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+}
+.contact-link{
     display:inline-block;
     width: 100%;
     color: #333;
