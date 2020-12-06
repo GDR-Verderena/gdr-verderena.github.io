@@ -184,10 +184,10 @@
 	 * @public
 	 */
 	Owl.Defaults = {
-		items: 3,
-		loop: false,
-		center: false,
-		rewind: false,
+		items: 5,
+		loop: true,
+		center: true,
+		rewind: true,
 		checkVisibility: true,
 
 		mouseDrag: true,
