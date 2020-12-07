@@ -35,7 +35,7 @@ title: G. D. R. Verderena Notícias
                 <div class="date meta-last">{{ post.date | date_to_string }}</div>
                 <div class="category"><a href="#">Business</a></div>
               </div><a href="{{ post.url }}">
-                <h3 class="h4">Alberto Savoia Can Teach You About Interior</h3>
+                <h3 class="h4">{{ post.title }}</h3>
               </a>
               <p class="text-muted">{{ post.description }}</p>
               <p class="text-muted">{{ post.excerpt | strip_html | strip_newlines | truncate: 156 }} </p>
