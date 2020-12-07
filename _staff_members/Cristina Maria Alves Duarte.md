@@ -1,5 +1,5 @@
 ---
-name: Mário Alves Moura
+name: Cristina Maria Alves Duarte
 position: Conselho Fiscal
 cargo: Presidente Conselho Fiscal
 email: g.d.verderena@gmail.com
