@@ -19,15 +19,7 @@ layout: null
             "author": "{{ post.author  }}",
             "featured-image": "{{ post.featured-image }}",
             "tags": "{{ post.tags  }}",
-            "excerpt": "{{ post.excerpt | strip_html | strip_newlines | truncate: 156  }}",
-              "{% if post.enclosure %},
-      "attachments": [
-        {
-          "url": "{{ post.enclosure }}",
-          "mime_type": "{{ post.encType }}",
-          "size_in_bytes": "{{ post.encLength }}"
-        }
-      ]{% endif %}
+            "excerpt": "{{ post.excerpt | strip_html | strip_newlines | truncate: 156  }}"
               
         }{% unless forloop.last %},{% endunless %}{% endfor %}
     ]
