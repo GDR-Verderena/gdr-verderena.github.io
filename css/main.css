@@ -4,8 +4,8 @@
 	width:100%; height: 200px !important;
     
 }
-.carousel-inner > .item {
-   height: 400px;
+.carousel-item>img{
+    max-height: 300px;
 }
 
 .carousel {
