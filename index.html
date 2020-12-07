@@ -36,7 +36,7 @@ title: G.D.R Verdena
 				<h2 id="title" class="featurette-heading">{{ post.title }} <span id="descricao"
 						class="text-secondary">{{  post.description }}</span></h2>
 			</a>
-			<p id="excert"  class="lead font-italic"> {{ post.excerpt | strip_html | strip_newlines | truncate: 156 }} </p>
+			<p id="excert"  class="card-text"> {{ post.excerpt | strip_html | strip_newlines | truncate: 156 }} </p>
 			<p class="noselect"> {% include read_time.html content=post.content %} </p>
 			<p class="card-text">
 			<footer class="blockquote-footer"> {% if post.author %} {{ post.author }} {% else %} {{ site.author }}
@@ -104,7 +104,7 @@ title: G.D.R Verdena
 				<h2 class=" ight-blue featurette-heading">{{ post.title }} <span class="text-muted">{{ post.description }}</span>
 				</h2>
 			</a>
-			<p id="excert" class="lead font-italic"> {{ post.excerpt | strip_html | strip_newlines | truncate: 156 }} </p>
+			<p id="excert" class="card-text"> {{ post.excerpt | strip_html | strip_newlines | truncate: 156 }} </p>
 			
 			<p class="noselect"> {% include read_time.html content=post.content %} </p>
 				<p class="card-text">
