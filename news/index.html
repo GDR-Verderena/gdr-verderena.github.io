@@ -102,23 +102,29 @@ title: G. D. R. Verderena Notícias
             </form>
           </div> -->
       <!-- Widget [Latest Posts Widget]        -->
-      <div class="widget latest-posts">
+         <div class="widget latest-posts">
         <header>
           <h3 class="h6">Latest Posts</h3>
         </header>
-        <div class="blog-posts"><a href="#">
+        <div class="blog-posts">
+          {% for post in site.posts limit:3 %}
+          <a href="{{ post.url }}" title="{{ post.title }}" class="d-inline-block ">
+
             <div class="item d-flex align-items-center">
-              <div class="image"><img src="img/small-thumbnail-3.jpg" alt="..." class="img-fluid"></div>
-              <div class="title"><strong>Alberto Savoia Can Teach You About</strong>
+              <div class="image"><img data-src="{{ post.featured-image }}" src="{{ post.featured-image }}" alt="..." class="img-fluid"></div>
+              <div class="title"><strong>{{ post.title }}</strong>
                 <div class="d-flex align-items-center">
-                  <div class="views"><i class="icon-eye"></i> 500</div>
-                  <div class="comments"><i class="icon-comment"></i>12</div>
+                  <div class="views"><i class="icon-eye"></i> {{ post.date | date_to_string }} </div>
+                  <div class="comments"><i class="icon-comment"></i></div>
                 </div>
               </div>
             </div>
-          </a></div>
+          </a>
+          {% endfor %}
+
+        </div>
       </div>
-      <!-- Widget [Categories Widget]-->
+      <!-- Widget [Categories Widget]
       <div class="widget categories">
         <header>
           <h3 class="h6">Categories</h3>
@@ -128,7 +134,7 @@ title: G. D. R. Verderena Notícias
         <div class="item d-flex justify-content-between"><a href="#">Sales</a><span>8</span></div>
         <div class="item d-flex justify-content-between"><a href="#">Tips</a><span>17</span></div>
         <div class="item d-flex justify-content-between"><a href="#">Local</a><span>25</span></div>
-      </div>
+      </div> -->
       <!-- Widget [Tags Cloud Widget]-->
       <div class="widget tags">
         <header>
