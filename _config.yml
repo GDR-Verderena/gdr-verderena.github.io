@@ -10,6 +10,12 @@ image:  https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/
 
 
 
+
+collections:
+  staff_members:
+    people: true
+
+
 # Social Profiles
 
 github_username:    GDR-Verderena
