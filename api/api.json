@@ -17,7 +17,7 @@ layout: null
             "content_html": {{ post.content | jsonify }},
             "date_published": "{{ post.date | date_to_xmlschema }}",
             "author": "{{ post.author | jsonify }}",
-            "featured-image": "{{ post.featured-image | jsonify }}",
+            "featured-image": "{{ post.featured-image }}",
             "tags": "{{ post.tags | jsonify }}",
             "excerpt": "{{ post.excerpt | strip_html | strip_newlines | truncate: 156 | jsonify }}"
               
