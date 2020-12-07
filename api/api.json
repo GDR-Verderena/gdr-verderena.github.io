@@ -7,7 +7,7 @@ layout: null
     "description": {{ site.description | jsonify }},
     "home_page_url": "{{ "/" | absolute_url }}",
     "feed_url": "{{ "/feed.json" | absolute_url }}",
-    "user_comment": "This feed allows you to read the posts from this site in any feed reader that supports the JSON Feed format.",
+    "user_comment": "Bem Vindo á API de Gdr Verderena",
     "items": [{% for post in site.posts  %}
         {
             "id": "{{ post.url | absolute_url }}",
