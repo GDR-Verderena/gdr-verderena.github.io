@@ -24,7 +24,17 @@ title: G. D. R. Verderena Notícias
 
               <a href="{{ post.url }}">
 
-                <img data-src="{{ post.featured-image }}" src="{{ post.featured-image }}" alt="..." class="img-fluid">
+                <img data-src="{{ post.featured-image }}" src="{{ post.featured-image }}" onError="this.onerror=null;this.src='/assets/img/placeholder.svg';"  alt="..." class="img-fluid">
+              </a>
+
+            </div>
+		  {% else %}
+		  
+		      <div class="post-thumbnail">
+
+              <a href="{{ post.url }}">
+
+                <img data-src="/assets/img/placeholder.svg" src="/assets/img/placeholder.svg"  alt="..." class="img-fluid">
               </a>
 
             </div>
