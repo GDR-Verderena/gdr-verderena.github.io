@@ -13,9 +13,9 @@ layout: null
             "id": "{{ post.url | absolute_url }}",
             "url": "{{ post.url | absolute_url }}",
             "title": {{ post.title | jsonify }},
-            "description": "{{ post.description | jsonify }}",
+            "description": "{{ post.description  }}",
             "content_html": {{ post.content | jsonify }},
-            "content_raw": {{post.content | markdownify}},
+            "content_raw": {{post.content | | strip_html}},
               
             "date_published": "{{ post.date | date_to_xmlschema }}",
             "author": "{{ post.author  }}",
