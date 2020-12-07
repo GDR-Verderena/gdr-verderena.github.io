@@ -43,7 +43,17 @@
 	
 	*/
 }
-
+.black-overlay{
+position: absolute;
+	top:0;
+	left:0;
+	height: 100%;
+	width:100%;
+	 background-color: rgba(0, 0, 0, 0.7);
+	
+	
+	
+}
 #carousel .btn-get-started {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
