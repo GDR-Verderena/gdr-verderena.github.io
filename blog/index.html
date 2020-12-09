@@ -284,3 +284,41 @@ title: G. D. R. Verderena Notícias
     </div>
   </div>
 </div>
+
+
+<script>
+
+	// Replace  with your JSON feed
+fetch(
+  "https://api.openweathermap.org/data/2.5/weather?q=Barreiro&units=metric&lang=pt&appid=e8ba68db5ccae69bb0c59b9cf1a5732e"
+)
+  .then((response) => {
+    return response.json();
+  })
+  .then((data) => {
+    // Work with JSON data here
+    //console.log(data)
+    console.log(data.main);
+    document.getElementById("temp_icon").src =
+      "http://openweathermap.org/img/wn/" + data.weather[0].icon + "@2x.png";
+
+    document.getElementById("name").innerHTML = data.name;
+    document.getElementById("temp").innerHTML = data.main.temp + "º";
+
+    document.getElementById("main").innerHTML = data.weather[0].main;
+    document.getElementById("temp_max").innerHTML = data.main.temp_max + "º";
+    document.getElementById("temp_min").innerHTML = data.main.temp_min + "º";
+    /*
+    document.getElementById("description").innerHTML =
+      data.weather[0].description;
+
+    document.getElementById("wind").innerHTML = data.wind.speed * 3.6 + " km/h";
+  
+     document.getElementById("feels_like").innerHTML = data.main.feels_like;
+     */
+  })
+  .catch((err) => {
+    // Do something for an error here
+  });
+
+</script>
