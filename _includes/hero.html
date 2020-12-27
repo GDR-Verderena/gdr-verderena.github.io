@@ -130,16 +130,21 @@
     </div>
       </div>
    
-    <div class="carousel-item ">
-      <img class="d-block w-100" data-src="{{ url }}assets/img/about-2.jpg" src="{{ url }}assets/img/more-service-3.jpg" alt="First slide">
+   {% for actividades in site.actividades %} 
+   
+      <div class="carousel-item ">
+      <img class="d-block w-100" data-src="{{ link_image }}" src="{{ link_image }}" alt="First slide">
       <div class="black-overlay"></div> 
      <div class="carousel-caption d-none d-md-block">
    
-       <h2>Atletismo</h2>
-        <p>Desporto que pode ser praticado individualmente mas que integrado na nossa equipa vai ser mais motivador, vem treinar connosco.</p>
-       <a href="/contact" class="btn-get-started">Incrição</a>
+       <h2>{{actividades.name}}</h2>
+        <p>{{actividades.desciption}}</p>
+       <a href="/contact" class="btn-get-started">{{actividades.button_info}}</a>
   </div>
     </div>
+   
+   {% endfor %}
+ 
    <!--
     <div class="carousel-item">
       <img class="d-block w-100" data-src="{{ url }}assets/img/slide/slide-02.jpg" src="{{ url }}assets/img/slide/slide-02.jpg" alt="Fifth slide">
