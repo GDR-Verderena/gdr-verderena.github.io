@@ -16,6 +16,8 @@ collections:
     people: true
   equipa_tecnica:
     people: true
+  actividades:
+    output: true
 
 
 # Social Profiles
