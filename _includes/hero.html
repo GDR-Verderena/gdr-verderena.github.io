@@ -129,7 +129,7 @@
   <div class="carousel-inner">
    
     <div class="carousel-item active">
-      <img class="d-block w-100" data-src="{{ url }}assets/img/slide/slide-1.jpg" src="{{ url }}assets/img/slide/slide-1.jpg" onError="this.onerror=null;this.src='/assets/img/more-service-3.jpg';" alt="Fouth slide">
+      <img class="d-block w-100" data-src="{{ url }}assets/img/slide/slide-1.jpg" src="{{ url }}assets/img/slide/slide-1.jpg" onError="this.onerror=null;this.src='{{ url }}assets/img/more-service-3.jpg';" alt="Fouth slide">
      <div class="black-overlay"></div>
       <div class="carousel-caption d-none d-md-block">
       <h2>GDR <span>VERDERENA</span></h2>
@@ -142,9 +142,9 @@
    
       <div class="carousel-item ">
        {% if actividades.link_image And actividades.link_image != "" And actividades.link_image != nil    %} 
-      <img class="d-block w-100" data-src="{{ actividades.link_image }}" src="{{ actividades.link_image }}" onError="this.onerror=null;this.src='/assets/img/more-service-3.jpg';" alt="First slide">
+      <img class="d-block w-100" data-src="{{ actividades.link_image }}" src="{{ actividades.link_image }}" onError="this.onerror=null;this.src='{{ url }}assets/img/more-service-3.jpg';" alt="First slide">
        {% else %}
-       <img class="d-block w-100" data-src="https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/more-service-3.jpg" src="https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/more-service-3.jpg" onError="this.onerror=null;this.src='/assets/img/more-service-3.jpg' alt="First slide">
+       <img class="d-block w-100" data-src="https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/more-service-3.jpg" src="https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/more-service-3.jpg" onError="this.onerror=null;this.src='{{ url }}assets/img/more-service-3.jpg' alt="First slide">
        {% endif %}
       <div class="black-overlay"></div> 
      <div class="carousel-caption d-none d-md-block">
