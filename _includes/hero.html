@@ -142,7 +142,7 @@
    
       <div class="carousel-item ">
        {% if actividades.link_image And actividades.link_image != "" And actividades.link_image != nil    %} 
-      <img class="d-block w-100" data-src="{{ actividades.link_image }}" src="{{ actividades.link_image }}" alt="First slide">
+      <img class="d-block w-100" data-src="{{ actividades.link_image }}" src="{{ actividades.link_image }}" onError="this.onerror=null;this.src='/assets/img/more-service-3.jpg';" alt="First slide">
        {% else %}
        <img class="d-block w-100" data-src="https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/more-service-3.jpg" src="https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/more-service-3.jpg" onError="this.onerror=null;this.src='/assets/img/more-service-3.jpg' alt="First slide">
        {% endif %}
