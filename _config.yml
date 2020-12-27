@@ -14,7 +14,7 @@ image:  https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/
 collections:
   staff_members:
     people: true
-  _equipa_tecnica:
+  equipa_tecnica:
     people: true
 
 
