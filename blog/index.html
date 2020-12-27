@@ -300,7 +300,7 @@ fetch(
     //console.log(data)
     console.log(data.main);
     document.getElementById("temp_icon").src =
-      "http://openweathermap.org/img/wn/" + data.weather[0].icon + "@2x.png";
+      "https://openweathermap.org/img/wn/" + data.weather[0].icon + "@2x.png";
 
     document.getElementById("name").innerHTML = data.name;
     document.getElementById("temp").innerHTML = data.main.temp + "º";
