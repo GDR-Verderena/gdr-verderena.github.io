@@ -2,16 +2,16 @@
 layout: default
 ---
 
-<div class="site-inner">
+<div class="site-inner mb-5">
   <div class="wrap">
     <div class="content-sidebar-wrap row">
 
       <main class="content single-product simpleCart_shelfItem" itemscope itemtype="http://schema.org/Product">
         <div class="pt-4 order-2 order-lg-1 photoswipe-gallery col-lg-6 col-xl-7">
           <section class="product-image d-block mb-4">
-
-            <img src="{{ page.featured_image_path  }}" itemprop="image" alt="">
-
+            <figure class="view overlay rounded z-depth-1 main-img">
+              <img src="{{ page.featured_image_path  }}" itemprop="image" alt="" class="img-fluid z-depth-1">
+            </figure>
           </section>
         </div>
         <div class="pt-4 order-1 order-lg-2 ml-lg-auto col-lg-6 col-xl-4">
@@ -19,7 +19,7 @@ layout: default
             <h1 class="entry-title item_name" itemprop="name">{{ page.name }}</h1>
             <p class="item_price">{{ page.price }}</p>
             {{ content }}
-
+            <!--
             <p class="margin-bottom-0">Quantity:</p>
             <select class="item_Quantity">
               <option value="1"> 1 </option>
@@ -31,8 +31,17 @@ layout: default
               <option value="7"> 7 </option>
               <option value="8"> 8 </option>
             </select>
+-->
 
-           <span><a id="item_add" class="item_add button" href="javascript:;"> Add to Cart </a></span>
+            <form>
+              <div class="form-group">
+                <label for="quantidade">Quantidade</label>
+                <input id="quantidade" class="form-control form-control-sm" type="number" placeholder="Quantidade">
+              </div>
+              <!-- <span><a id="item_add" class="item_add button" href="javascript:;"> Add to Cart </a></span> -->
+              <button id="item_add" href="javascript:;" type="button" class=" item_add button btn btn-light btn-md mr-1 mb-2"><i class="fas fa-shopping-cart pr-2"></i>Add to cart</button>
+
+              <form>
           </section>
         </div>
       </main>
