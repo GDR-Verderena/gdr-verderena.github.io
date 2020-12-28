@@ -1,4 +1,5 @@
 ---
+layout: product
 name: teste
 description: produto teste
 price: '16.00'
