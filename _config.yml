@@ -45,6 +45,8 @@ facebook_username:  G. D. R. Verderena
 google_analytics:  UA-177352589-1 # out your google-analytics code
 
 markdown: kramdown
+kramdown:
+  input: GFM
 syntax_highlighter: rouge
 encoding: UTF-8
 permalink: /:title/
