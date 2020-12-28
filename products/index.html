@@ -1,0 +1,40 @@
+  
+---
+title: Produtos
+description: Produtos de GDR Verderena.
+
+layout: default
+---
+
+<div class="site-inner">
+  <div class="wrap">
+    <div class="content-sidebar-wrap">
+
+      <main class="content grid">
+        {% for product in site.products %}
+          <section class="entry one-third styles" itemscope itemtype="http://schema.org/Product">
+
+        		<div class="style">
+        			<a href="{{ product.url }}">
+        				<img src="{{ product.featured_image_path }}" itemprop="image">
+        			</a>
+        		</div>
+
+            <div class="product-details">
+              <div class="product-name">
+			          <h4><a href="{{ product.url }}">{{ product.title }}</a></h4>
+              </div>
+              <div class="product-price">
+							  <p>&#x24;{{ product.price }}</p>
+              </div>
+						</div>
+
+          </section>
+        {% endfor %}
+      </main>
+
+     
+     
+    </div>
+  </div>
+</div>
