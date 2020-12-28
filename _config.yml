@@ -29,10 +29,6 @@ defaults:
   values:
     layout: post
 - scope:
-    type: pages
-  values:
-    layout: page
-- scope:
     type: products
   values:
     layout: product
