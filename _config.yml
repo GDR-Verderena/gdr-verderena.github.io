@@ -24,12 +24,12 @@ collections:
     
 # Collection Defaults
 
-defaults:
-- scope:
-   path: ""
-   type: "products"
-  values:
-   layout: "product"
+#defaults:
+#- scope:
+#   path: ""
+#   type: "products"
+#  values:
+#   layout: "product"
 
 
 
