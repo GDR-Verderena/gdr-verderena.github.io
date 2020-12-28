@@ -20,6 +20,14 @@ collections:
     output: true
   products:
     output: true
+    
+    
+    # Collection Defaults
+defaults:
+- scope:
+    type: products
+  values:
+    layout: product
 
 
 # Social Profiles
