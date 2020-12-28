@@ -4,41 +4,37 @@ layout: default
 
 <div class="site-inner">
   <div class="wrap">
-    <div class="content-sidebar-wrap">
+    <div class="content-sidebar-wrap row">
 
       <main class="content single-product simpleCart_shelfItem" itemscope itemtype="http://schema.org/Product">
+        <div class="pt-4 order-2 order-lg-1 photoswipe-gallery col-lg-6 col-xl-7">
+          <section class="product-image">
 
-        <section class="product-image">
-          
+            <img src="{{ page.featured_image_path  }}" itemprop="image">
 
-        				<img src="{{ page.featured_image_path  }}" itemprop="image">
+          </section>
+        </div>
+        <div class="pt-4 order-1 order-lg-2 ml-lg-auto col-lg-6 col-xl-4">
+          <section class="product-details">
+            <h1 class="entry-title item_name" itemprop="name">{{ page.name }}</h1>
+            <p class="item_price">{{ page.price }}</p>
+            {{ content }}
 
-         
-        </section>
+            <p class="margin-bottom-0">Quantity:</p>
+            <select class="item_Quantity">
+              <option value="1"> 1 </option>
+              <option value="2"> 2 </option>
+              <option value="3"> 3 </option>
+              <option value="4"> 4 </option>
+              <option value="5"> 5 </option>
+              <option value="6"> 6 </option>
+              <option value="7"> 7 </option>
+              <option value="8"> 8 </option>
+            </select>
 
-        <section class="product-details">
-          <h1 class="entry-title item_name" itemprop="name">{{ page.name }}</h1>
-          <p class="item_price">{{ page.price }}</p>
-          {{ content }}
-
-        	
-
-          
-          <p class="margin-bottom-0">Quantity:</p>
-          <select class="item_Quantity">
-            <option value="1"> 1 </option>
-            <option value="2"> 2 </option>
-            <option value="3"> 3 </option>
-            <option value="4"> 4 </option>
-            <option value="5"> 5 </option>
-            <option value="6"> 6 </option>
-            <option value="7"> 7 </option>
-            <option value="8"> 8 </option>
-          </select>
-
-          <a id="item_add" class="item_add button" href="javascript:;"> Add to Cart </a></span>
-        </section>
-
+            <a id="item_add" class="item_add button" href="javascript:;"> Add to Cart </a></span>
+          </section>
+        </div>
       </main>
 
     </div>
