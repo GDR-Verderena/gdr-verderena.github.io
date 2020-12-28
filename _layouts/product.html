@@ -8,9 +8,9 @@ layout: default
 
       <main class="content single-product simpleCart_shelfItem" itemscope itemtype="http://schema.org/Product">
         <div class="pt-4 order-2 order-lg-1 photoswipe-gallery col-lg-6 col-xl-7">
-          <section class="product-image">
+          <section class="product-image d-block mb-4">
 
-            <img src="{{ page.featured_image_path  }}" itemprop="image">
+            <img src="{{ page.featured_image_path  }}" itemprop="image" alt="">
 
           </section>
         </div>
@@ -32,7 +32,7 @@ layout: default
               <option value="8"> 8 </option>
             </select>
 
-            <a id="item_add" class="item_add button" href="javascript:;"> Add to Cart </a></span>
+           <span><a id="item_add" class="item_add button" href="javascript:;"> Add to Cart </a></span>
           </section>
         </div>
       </main>
