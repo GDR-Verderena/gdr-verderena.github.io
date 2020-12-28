@@ -18,6 +18,8 @@ collections:
     people: true
   actividades:
     output: true
+  products:
+    output: true
 
 
 # Social Profiles
