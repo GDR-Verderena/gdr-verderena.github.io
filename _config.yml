@@ -23,15 +23,13 @@ collections:
     
     
 # Collection Defaults
+
 defaults:
 - scope:
-    type: posts
+   path: ""
+   type: "products"
   values:
-    layout: post
-- scope:
-    type: products
-  values:
-    layout: product
+   layout: "product"
 
 
 
