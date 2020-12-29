@@ -6,13 +6,14 @@
   display: inline-block;
   padding: 12px 32px;
   border-radius: 50px;
-  transition: 0.5s;
+ 
   line-height: 1;
   margin: 10px;
   color: #ffffff;
-  -webkit-animation-delay: 0.8s;
-  animation-delay: 0.8s;
-  border: 2px solid #2962ff;
+ /* -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s; 
+  transition: 0.5s;	*/
+  border: 2px solid #2962ff; 
 	
   background: #2962ff;
 }
