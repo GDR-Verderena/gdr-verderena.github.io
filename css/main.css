@@ -1,4 +1,35 @@
  
+
+.btn_info a {
+  font-weight: 600;
+  font-size: 18px;
+  color: #425451;
+  transition: ease-in-out 0.3s;
+}
+
+.btn_info a:hover {
+
+   color: #2962ff
+  text-decoration: none;
+  border: none;
+}
+
+.btn_info .btn {
+  border-radius: 50px;
+  padding: 4px 30px 6px 30px;
+  border: 2px solid #2962ff;
+}
+
+.btn_info .btn:hover {
+  color: #fff;
+  background: #2962ff;
+}
+
+
+
+
+
+
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
  /*   width: 100%; */
 	/*width:100%; height: 200px !important; */
