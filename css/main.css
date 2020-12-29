@@ -13,6 +13,8 @@
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   border: 2px solid #2962ff;
+	
+  background: #2962ff;
 }
  .btn_info:hover {
   background: #2962ff;
