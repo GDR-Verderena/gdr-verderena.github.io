@@ -583,6 +583,11 @@ input[type=text] {
   background-color: #F5F5F5;
 }
 
+input[type=number] {
+  border: none;
+  background-color: #F5F5F5;
+}
+
 select[type=text] {
   border: none;
   background-color: #F5F5F5;
