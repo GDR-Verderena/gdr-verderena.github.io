@@ -1,29 +1,26 @@
- 
-
-.btn_info a {
-  font-weight: 600;
-  font-size: 18px;
-  color: #425451;
-  transition: ease-in-out 0.3s;
-}
-
-.btn_info a:hover {
-
-   color: #2962ff
-  text-decoration: none;
-  border: none;
-}
-
-.btn_info .btn {
+.btn_info {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
   border-radius: 50px;
-  padding: 4px 30px 6px 30px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: #fff;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
   border: 2px solid #2962ff;
 }
-
-.btn_info .btn:hover {
-  color: #fff;
+ .btn_info:hover {
   background: #2962ff;
+  color: #fff;
+  text-decoration: none;
 }
+
+
 
 
 
