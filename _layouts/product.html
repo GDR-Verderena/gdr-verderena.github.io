@@ -3,22 +3,22 @@ layout: default
 ---
 
 <!--{{ page.featured_image_path  }} -->
-   <div class="container">
-    <section class="breadcrumbs text-muted">
-      <div class="container">
+   <section class="breadcrumbs text-muted">
+    <div class="container">
 
-        <div class="d-flex justify-content-between align-items-center">
-          <h2>{{ page.title }}</h2>
-          <ol>
-            <li><a href="/">Início</a></li>
-            <li><a href="/products">Produtos</a></li>
-            <li>{{ page.title }}</li>
-          </ol>
-        </div>
-
+      <div class="d-flex justify-content-between align-items-center">
+        <h2>{{ page.title }}</h2>
+        <ol>
+          <li><a href="/">Início</a></li>
+          <li><a href="/products">Início</a></li>
+          <li>{{ page.title }}</li>
+        </ol>
       </div>
-    </section><!-- End Breadcrumbs Section -->
-  </div>
+
+    </div>
+  </section><!-- End Breadcrumbs Section -->
+  <br>
+  <br>
 
   <div class="container">
     <div class="content-sidebar-wrap row">
@@ -26,7 +26,7 @@ layout: default
       <div class="col-12 col-lg-6">
         <section class="product-image d-block mb-4">
           <figure class="view overlay rounded z-depth-1 main-img">
-            <img src="https://gdrverderena.pt/assets/img/more-service-3.jpg" itemprop="image" alt="" class="img-fluid z-depth-1">
+            <img src="{{ page.featured_image_path  }}" itemprop="image" alt="" class="img-fluid z-depth-1">
           </figure>
         </section>
       </div>
@@ -67,3 +67,4 @@ layout: default
       </div>
     </div>
   </div>
+
