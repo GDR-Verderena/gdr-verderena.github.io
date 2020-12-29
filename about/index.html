@@ -319,15 +319,16 @@ title: G. D. R. Verderena
       <div class="container text-center" >
 	 <h1 class="display-4 text-center">Equipa Técnica</h1>
 	        <p class="lead text-center text-muted mb-0"> Lista da Equipa Técnica do Grupo Desportivo e Reacreativo da Verderena</p>
-        <div class="row">
+        <!-- <div class="row"> -->
+		<div class="row justify-content-center">
 		
 		{% for equipa_tecnica in site.equipa_tecnica %}
 			
 	    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="card">
-            
+             <img class="card-img-top" src="{{ equipa_tecnica.link_imagem }}" itemprop="image" alt="">
               <div class="card-body text-center">
-                <h5 class="card-title"><a href="">{{ equipa_tecnica.position }}</a></h5>
+                <h5 class="card-title">{{ equipa_tecnica.position }}</h5>
                 <p class="card-text text-center">{{ equipa_tecnica.name }}</p>
 		<footer class="blockquote-footer">{{ equipa_tecnica.cargo }}</footer>
 		      
