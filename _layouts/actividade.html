@@ -3,4 +3,62 @@ layout: default
 ---
 
 <div class="container">
+  
+  <section class="breadcrumbs text-muted">
+  <div class="container">
+
+    <div class="d-flex justify-content-between align-items-center">
+      <h2>{{ page.title }}</h2>
+      <ol>
+        <li><a href="/">Início</a></li>
+        <li><a href="/actividades">Actividades</a></li>
+        <li>{{ page.title }}</li>
+      </ol>
+    </div>
+
+  </div>
+</section><!-- End Breadcrumbs Section -->
+  
+  
+  
+  
+  <br>
+  <br>
+
+  <div class="container">
+    <div class="content-sidebar-wrap row">
+
+      <div class="col-12 col-lg-6">
+        <section class="product-image d-block mb-4">
+          <figure class="view overlay rounded z-depth-1 main-img">
+            <img src="{{ page.link_image  }}" itemprop="image" alt="" class="img-fluid z-depth-1">
+          </figure>
+        </section>
+      </div>
+      <div class="col-12 col-lg-6">
+        <section class="product-details">
+          <h3 class="entry-title item_name" itemprop="name">{{ page.name }}</h3>
+         
+
+          <p class="text-muted">
+            {{ page.description }}
+          </p>
+        </section>
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- Description -->
+      <div class="col-12">
+
+        <p class="text-muted">
+          {{ content }}
+        </p>
+
+      </div>
+    </div>
+  </div>
+  
+  
+  
 </div>
