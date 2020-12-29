@@ -21,10 +21,14 @@ title: Products
                 <section class="entry one-third styles" itemscope itemtype="http://schema.org/Product">
 
                   <div class="style">
-
+                    
+                    {% if product.featured_image_path And product.featured_image_path != "" And product.featured_image_path != nil    %} 
                     <a href="{{ product.url }}">
-                      <img class="card-img-top" src="{{ product.featured_image_path }}" itemprop="image" alt="">
+                     
+                      <img class="card-img-top" src="{{ product.featured_image_path }}" itemprop="image" alt="" onError="this.onerror=null;this.src='https://gdrverderena.pt/assets/img/more-service-3.jpg';" >
+                     
                     </a>
+                     {% endif %}
                     
                   </div>
                   <figcaption class="info-wrap">
@@ -35,6 +39,15 @@ title: Products
                       <div class="product-price price mt-1">
                         <p class="text-muted"> &euro; {{ product.price }}</p>
                       </div>
+                      
+                       <div class="d-flex justify-content-center">
+	     
+      	            	<a href="{{product.url}}" class="btn_info btn ">Ver Produto</a>
+                        </div>
+	      
+	      
+	      
+                      
                     </div>
                   </figcaption>
                 </section>
