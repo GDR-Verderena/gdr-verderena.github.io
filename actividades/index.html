@@ -15,9 +15,13 @@ layout: default
         <h3 class="display-4 text-center">{{actividade.name}}</h3>
         <p class="lead text-center text-muted mb-0">{{actividade.desciption}}</p>
 	<p class="lead text-muted"> <!-- {{ actividade.excerpt | strip_html | strip_newlines | truncate: 156 }} -->  </p>
+	      
+	      <div class="d-flex justify-content-center">
 	       {% if actividade.button_info And actividade.button_info != "" And actividade.button_info != nil    %} 
       		<a href="{{actividade.url}}" class="btn_info btn ">{{actividade.button_info}}</a>
 	      {% endif %}
+	      
+	      </div>
       </div>
 	    <div class="col-lg-6 d-none d-block">
 		    <a href="{{actividade.url}}">
