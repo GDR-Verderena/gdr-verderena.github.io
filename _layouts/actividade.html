@@ -29,9 +29,12 @@ layout: default
     <div class="content-sidebar-wrap row">
 
       <div class="col-12 col-lg-6">
+        
         <section class="product-image d-block mb-4">
           <figure class="view overlay rounded z-depth-1 main-img">
-            <img src="{{ page.link_image  }}" itemprop="image" alt="" class="img-fluid z-depth-1">
+            {% if page.link_image And page.link_image != "" And page.link_image != nil    %} 
+            <img src="{{ page.link_image  }}" itemprop="image" alt="" class="img-fluid z-depth-1" onError="this.onerror=null;this.src='https://gdrverderena.pt/assets/img/more-service-3.jpg'>
+            {% endif %}
           </figure>
         </section>
       </div>
@@ -44,6 +47,10 @@ layout: default
             {{ page.description }}
           </p>
         </section>
+        
+       {% if page.button_info And page.button_info != "" And page.button_info != nil    %} 
+        <a href="/contact" class="btn_info btn ">{{page.button_info}}</a>
+        {% endif %}
       </div>
     </div>
 
