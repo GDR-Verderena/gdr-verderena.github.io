@@ -4,7 +4,7 @@ title: Products
 ---
 
 
-
+{{ product.featured_image_path }}
 <section>
   <div class="container">
     <div class="wrap">
@@ -23,16 +23,17 @@ title: Products
                   <div class="style">
 
                     <a href="{{ product.url }}">
-                      <img class="card-img-top" src="{{ product.featured_image_path }}" itemprop="image" alt="">
+                      <img class="card-img-top" src="https://gdrverderena.pt/assets/img/more-service-3.jpg" itemprop="image" alt="">
                     </a>
+                    
                   </div>
                   <figcaption class="info-wrap">
                     <div class="product-details">
-                      <div class="product-name">
-                        <h4><a class="title" href="{{ product.url }}">{{ product.name }}</a></h4>
+                      <div class="product-name text-muted">
+                        <h4>{{ product.name }}</h4>
                       </div>
                       <div class="product-price price mt-1">
-                        <p> &euro; {{ product.price }}</p>
+                        <p class="text-muted"> &euro; {{ product.price }}</p>
                       </div>
                     </div>
                   </figcaption>
@@ -47,3 +48,6 @@ title: Products
     </div>
   </div>
 </section>
+  
+  
+  
