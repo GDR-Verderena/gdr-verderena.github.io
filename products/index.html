@@ -4,7 +4,7 @@ title: Products
 ---
 
 
-{{ product.featured_image_path }}
+<!--{{ product.featured_image_path }} -->
 <section>
   <div class="container">
     <div class="wrap">
@@ -23,7 +23,7 @@ title: Products
                   <div class="style">
 
                     <a href="{{ product.url }}">
-                      <img class="card-img-top" src="https://gdrverderena.pt/assets/img/more-service-3.jpg" itemprop="image" alt="">
+                      <img class="card-img-top" src="{{ product.featured_image_path }}" itemprop="image" alt="">
                     </a>
                     
                   </div>
