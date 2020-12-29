@@ -17,7 +17,7 @@ layout: default
 	<p class="lead text-muted">{{ actividade.excerpt | strip_html | strip_newlines | truncate: 156 }}</p>
       
       </div>
-	    <a href="{{actividade.url}}"><div class="col-lg-6 d-none d-block"><img data-src="{{actividade.link_image}}"  src="{{actividade.link_image}}" alt="about1" class="img-fluid lazyload" ></div></a>
+	    <div class="col-lg-6 d-none d-block"><a href="{{actividade.url}}"><img data-src="{{actividade.link_image}}"  src="{{actividade.link_image}}" alt="about1" class="img-fluid lazyload" ></a></div>
      
     </div>
   </div>
