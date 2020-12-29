@@ -4,36 +4,6 @@ title: Products
 ---
 
 
-<style>
-  .row.d-flex {
-    height: 100vw;
-    max-height: calc(100vh * 2);
-}
-
-@media (min-width: 600px) {
-    .pb-3 {
-        flex: initial;
-        display: block;
-        
-    }
-}
-
-@media (min-width: 600px) and (max-width: 730px) {
-    .row.d-flex {
-        max-height: 1200px;
-        height: 1200px;
-    }
-}
-
-
-@media (min-width: 731px) and (max-width: 1200px) {
-    .row.d-flex {
-        max-height: 1200px;
-    }
-}
-
-
-</style>
 
 <section>
   <div class="container">
@@ -41,12 +11,12 @@ title: Products
       <div class="content-sidebar-wrap">
 
         <main class="content grid">
-          <!-- <div class="row"> -->
-          <div class="row d-flex flex-sm-column flex-sm-wrap align-content-start justify-content-start">
+           <div class="row"> 
+          
           
             {% for product in site.products %}
-           <!-- <div class="col-md-3"> -->
-              <div class="col-sm-4 pb-3">
+           <div class="col-md-3">
+              
               <div class="card">
                 <section class="entry one-third styles" itemscope itemtype="http://schema.org/Product">
 
