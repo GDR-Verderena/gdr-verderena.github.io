@@ -2,15 +2,51 @@
 layout: default
 title: Products
 ---
+
+
+<style>
+  .row.d-flex {
+    height: 100vw;
+    max-height: calc(100vh * 2);
+}
+
+@media (min-width: 600px) {
+    .pb-3 {
+        flex: initial;
+        display: block;
+        
+    }
+}
+
+@media (min-width: 600px) and (max-width: 730px) {
+    .row.d-flex {
+        max-height: 1200px;
+        height: 1200px;
+    }
+}
+
+
+@media (min-width: 731px) and (max-width: 1200px) {
+    .row.d-flex {
+        max-height: 1200px;
+    }
+}
+
+
+</style>
+
 <section>
   <div class="container">
     <div class="wrap">
       <div class="content-sidebar-wrap">
 
         <main class="content grid">
-          <div class="row">
+          <!-- <div class="row"> -->
+          <div class="row d-flex flex-sm-column flex-sm-wrap align-content-start justify-content-start">
+          
             {% for product in site.products %}
-            <div class="col-md-3">
+           <!-- <div class="col-md-3"> -->
+              <div class="col-sm-4 pb-3">
               <div class="card">
                 <section class="entry one-third styles" itemscope itemtype="http://schema.org/Product">
 
@@ -26,7 +62,7 @@ title: Products
                         <h4><a class="title" href="{{ product.url }}">{{ product.name }}</a></h4>
                       </div>
                       <div class="product-price price mt-1">
-                        <p>&#x24;{{ product.price }}</p>
+                        <p> &euro; {{ product.price }}</p>
                       </div>
                     </div>
                   </figcaption>
