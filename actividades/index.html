@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+ <div class="container">
+ 
+ 
+    {% for actividade in site.actividades %}
+ 
+ 
+ <div class="bg-light shadow-lg p-3 mb-5 bg-white rounded" id="about">
+  <div class="container py-5">
+    <div class="row h-100 align-items-center py-5">
+      <div class="col-lg-6">
+        <h1 class="display-4 text-center">{{actividade.name}}</h1>
+        <p class="lead text-center text-muted mb-0">{{actividade.desciption}}</p>
+	<p class="lead text-muted">{{ actividade.excerpt | strip_html | strip_newlines | truncate: 156 }}</p>
+      
+      </div>
+	<div class="col-lg-6 d-none d-block"><img data-src="{{actividade.link_image}}"  src="{{actividade.link_image}}" alt="about1" class="img-fluid lazyload" ></div>
+     
+    </div>
+  </div>
+</div>
+ 
+ 
+      {% endfor %}
+ 
+ </div>
