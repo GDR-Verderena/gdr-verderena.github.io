@@ -1,5 +1,5 @@
 ---
-name: Miguel Doe
+name: Miguel André Doe
 position: Tecnico
 cargo: Tecnico operações
 email: g.d.verderena@gmail.com
