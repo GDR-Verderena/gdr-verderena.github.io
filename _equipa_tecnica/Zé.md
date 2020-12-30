@@ -1,5 +1,5 @@
 ---
-name: Ze Doe
+name: Zé Manel Doe
 position: Tecnico
 cargo: Tecnico operações
 email: g.d.verderena@gmail.com
