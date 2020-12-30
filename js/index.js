@@ -1,7 +1,3 @@
-//AOS.init();
-
-
-
 
 // Or, hide them
 /*
