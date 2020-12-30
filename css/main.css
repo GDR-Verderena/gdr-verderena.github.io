@@ -130,11 +130,6 @@ position: absolute;
     }
 
 
-
-
-
-
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -188,9 +183,6 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   color:  #666666;
 } 
-
-
-
 
 
 /*--------------------------------------------------------------
@@ -343,11 +335,6 @@ padding-top: 10px;
 }
 
 
-
-
-
-
-
 /*--------------------------------------------------------------
 # More Services
 --------------------------------------------------------------*/
@@ -395,9 +382,6 @@ margin-bottom: 75px;
   color: #fff;
   background: #2962ff;
 }
-
-
-
 
 
 /*--------------------------------------------------------------
@@ -449,20 +433,6 @@ margin-bottom: 75px;
 }
 
 
-
-
-
-    
-
-/*
-.breadcrumb > li + li:before {
-    color: #ccc;
-    content: " | ";
-    padding: 0 5px;
-}
-*/
-
-
 .breadcrumb a{   
   color:#969ba8;     
   }
@@ -477,34 +447,6 @@ margin-bottom: 75px;
     color: #969ba8;
     content: " | ";
 }
-
-/*
-ul.breadcrumb {
-  list-style: none;
-  background-color: #707070;
-}
-*/
-
- /* font-family: "Suranna" 
-.breadcrumb ol li + li::before {
-  display: inline-block;
-  text-align: center
-  color: #6c757d;
-  content: "|";
-  border:none;
-}
-*/
-
-/*
-.bg-gold{
-    
-background-color: #f5d000;
-color: #ffffff;
-    
-}
-*/
-
-
 
 
 /******NavBar**********/
@@ -582,29 +524,6 @@ color: #ffffff;
     color: #ffffff;
 }
 
-/* for dropdown only - change the color of droodown */
-/*
-.navbar-custom .dropdown-menu {
-    background-color: #2962ff ;
-}
-.navbar-custom .dropdown-item {
-    color: #ffffff;
-}
-.navbar-custom .dropdown-item:hover,
-.navbar-custom .dropdown-item:focus {
-    color: #ffffff;
-    background-color: #2962ff ;
-}
-.navbar-brand-1 {
-    
-background-color: #0d47a1 ; !important;
-color: #ffffff; !important;
-  
-    
-}
-*/
-
-
 .card{
     border: none;
 }
@@ -634,32 +553,18 @@ input[type=email] {
   background-color: #F5F5F5;
 }
 
-/*
-.navbar-light{
-  border: none;
- background-color:#304ffe;
-  color: white;
- 
-}
-*/
-
 
 .icone{
     
-   
      color: #FF3115;
-   
-}
-
+   }
 
 .btn-secondary   {
- 
- 
+  
   background-color:#FF3115;
   color: white;
      border-color:#FF3115;
     
- 
 }
 
 .bg-custom{
@@ -699,9 +604,6 @@ input[type=email] {
 } 
 
 
-
-
-
 .badge-secondary{
        color: #ffffff;
       background-color: #2962ff;
@@ -717,21 +619,13 @@ input[type=email] {
 }
 
 
-
-
-
 @media only screen and (max-width: 768px) {
- 
- 
+
 
 .load-container{
  padding: 30vmin 30vmin 30vmin 30vmin; 
  text-align: center;
-
-
- 
 }
- 
  
 }
 
@@ -739,29 +633,14 @@ input[type=email] {
  padding: 30vmin 30vmin 30vmin 30vmin; 
  text-align: right;
  float: right;
-
-
- 
 }
-
-
-
-
-
-
-
-
 
 .load-container{
   text-align: center;
   display: inline-block;
 }
 
-
 .post { display:none; }
-
-
-
 
 .home-page-news img {
   opacity:  0.7;
@@ -868,38 +747,6 @@ user-select: none;
 }
 
 
-/* 
-body { margin: 60px auto; width: 70%; }
-a { text-decoration: none; color: #999; }
-a:hover { text-decoration: underline; }
-p, ul { font-size: 1.5em; line-height: 1.4em; color: #333; }
-h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
-h1 { font-size: 3em;  }
-h2 { font-size: 2.7em; }
-h3 { font-size: 2.3em; }
-h4 { font-size: 1.9em; }
-nav ul, footer ul { font-size: 1em; font-family: 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; }
-nav ul li, footer ul li { display: inline; margin-right: 20px; }
-footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
-*/
-/* Blog */
-
-/*
-ul.posts { margin: 20px auto 40px; font-size: 1.5em; }
-ul.posts li { list-style: none; }
-*/
-
-/* CV */
-
-/*
-.cv { margin: 0px 0px 60px; }
-.cv h1 { font-size: 3em; }
-.cv h2 { font-size: 2em; }
-.cv address, .cv .download { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
-.cv address, .cv p { font-size: 1.2em; }
-.cv .download { float: right; font-size: .8em; text-transform: uppercase; }
-*/
-
 
 /*
 *
@@ -959,30 +806,10 @@ li.timeline-item::before {
 }
 
 
-
-
-
-
 body {
     
     min-height: 100vh;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1073,15 +900,7 @@ body {
 
 
 
-html {
-    
 
-   /* --bg: #FCFCFC; 
-    --bg-panel: #EBEBEB;
-    --color-headings: #0077FF;
-    --color-text: #333333;
-	*/
-}
 
 html[data-theme='dark'] {
     --bg:  #dbdbdb;
@@ -1118,5 +937,3 @@ html.transition *:after {
   transition-delay: 0 !important;
 }
 
-
-    
