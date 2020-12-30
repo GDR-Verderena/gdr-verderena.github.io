@@ -3,7 +3,7 @@ layout: post
 title: Boas Festas
 date: 2020-12-23
 author: G.D.R. Verderena
-description: 
+description:  
 featured-image: https://cld.pt/dl/download/7bcefe03-1e0d-44fb-ae8c-34ad15f2fe02/feliz_natal.jpg?download=true
 tags: desporto atletismo 
 ---
