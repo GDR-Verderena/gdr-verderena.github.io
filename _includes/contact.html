@@ -47,9 +47,11 @@
             <label for="Subject">Assunto</label>
             <select name="Assunto" type="text" for="Subject" class="form-control " required />
 	<option selected>Geral</option>
-        <option>Atletismo</option>
-	<option>FitnessMix</option>
-        <option>Recreativo</option>
+{% for actividade in site.actividades %}
+{% if actividade.name And actividade.name != "" And actividade.name != nil    %} 
+        <option>{{actividade.name}}</option>
+{% endif %}
+{% endfor %}
 	</select>
             <span for="Subject" class="text-muted"></span>
           </div>
