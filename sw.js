@@ -1,11 +1,3 @@
----
-layout: null
----
-
-   
-   
-   
-   
 //const OFFLINE_VERSION = 1;
 const CACHE_OFFLINE = 'offline';
 // Customize this with a different URL if needed.
@@ -41,15 +33,13 @@ self.addEventListener('activate', (event) => {
 
 
 self.addEventListener('fetch', (event) => {
-     // We only want to call event.respondWith() if this is a GET request for an HTML document.
+  // We only want to call event.respondWith() if this is a GET request for an HTML document.
 
-    
-   
   // We only want to call event.respondWith() if this is a navigation request
   // for an HTML page.
   
-   //if (event.request.mode === 'navigate' && event.request.method === 'GET' &&
-    //  event.request.headers.get('accept').indexOf('text/html') !== -1) {
+  //if (event.request.mode === 'navigate' && event.request.method === 'GET' &&
+  //  event.request.headers.get('accept').indexOf('text/html') !== -1) {
    
    if (event.request.mode === 'navigate'){
      console.log('Handling fetch event for', event.request.url);
@@ -101,8 +91,9 @@ var urlsToCache = [
   '/css/main.css',
   '/blog',
   '/about',
-  '/contact'
- // '/index.html',
+  '/contact',
+  '/products',
+  '/actividades'
  // '/blog/index.html',
  
  
@@ -135,9 +126,8 @@ self.addEventListener('install', function (event) {
 });
 
 self.addEventListener('fetch', function (event) {
-     // We only want to call event.respondWith() if this is a GET request for an HTML document.
-//  if (event.request.method === 'GET' &&
-  //    event.request.headers.get('accept').indexOf('text/html') !== -1) {
+// We only want to call event.respondWith() if this is a GET request for an HTML document.
+// if (event.request.method === 'GET' && event.request.headers.get('accept').indexOf('text/html') !== -1) {
    var req = event.request.clone();
     
     console.log('Handling fetch event for', event.request.url);
