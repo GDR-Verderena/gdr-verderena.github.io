@@ -1,6 +1,6 @@
 ———
 layout:actividade
-name:Atletismo de Formação
+name:Escola de atletismo
 
 ———
 
