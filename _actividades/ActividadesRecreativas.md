@@ -20,6 +20,6 @@ Tivemos, conjuntamente com a última prova desportiva de atletismo que fez parte
 
 ## Torneio de King
 
-Também há vários anos que em conjunto com o NAK - Núcleo dos Amigos do King [NAK - Núcleo dos Amigos do King](https://www.facebook.com/NAK-Núcleo-dos-Amigos-do-King-204028243029147) realizamos um Torneio de King.
+Também há vários anos que em conjunto com o  [NAK - Núcleo dos Amigos do King](https://www.facebook.com/NAK-Núcleo-dos-Amigos-do-King-204028243029147) realizamos um Torneio de King.
 
 ![torneio de King](https://cld.pt/dl/download/6a583552-ea7b-4af6-9f3c-8b9309e2dcaa/king.jpg/)
