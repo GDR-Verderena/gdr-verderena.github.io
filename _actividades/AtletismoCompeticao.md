@@ -10,3 +10,7 @@ link_image: https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github
 Atletismo de Competição
 
 Com o objectivo de apresentar os nossos atletas a provas regionais e nacionais da modalidade.
+
+Modelo competitivo
+
+Juvenis, Juniores, Sub 23 e Seniores
