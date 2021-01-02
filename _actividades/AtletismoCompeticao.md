@@ -3,7 +3,7 @@ layout: actividade
 name: Atletismo de Competição
 desciption: Desporto num modelo competitivo 
 button_info: Inscrição
-link_image: https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/more-service-3.jpg
+link_image: https://cld.pt/dl/download/fe03ab31-c007-462e-9c7f-a274d9d4b6ee/IMG_7251.jpg
 ---
 
 
