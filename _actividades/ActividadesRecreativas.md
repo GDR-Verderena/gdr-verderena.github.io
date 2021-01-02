@@ -1,64 +1,23 @@
 ---
 layout: actividade
 name: Actividades Recreativas
-desciption: Fitness Mix 
+desciption: Cultura e Recreio 
 button_info: Incrição
-link_image: https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/more-service-3.jpg
+link_image: https://cld.pt/dl/download/1c0efb93-63e7-41a9-bfd9-672d03ab1f71/recreativa.jpg
 ---
 
 
 
-# Nox ait sensim pulchra
+# Actividades Recreativas
 
-## Marte sibi tingui videt tempore tellus egerit
+## Também o recreio faz parte de nós
+As actividades recreativas, sendo que estamos muito limitados por não termos um local com disponibilidade para realizar as nossas acções, vamos apresentando algumas.
 
-Lorem markdownum functi en stirpis errat vinces, fama genibus in altus. Quoque
-inpositos quae superest Metione, turribus insilit maestae, capillos **o cum**.
+## Concurso de Fotografia
 
-Liceret arces haeserunt ovantem. Ministrarum nobis, prima nexis dicar; signum
-pomo arcus ille; et [silices arduus visa](http://rogataperque.org/) pocula.
-Resupino forsitan, et quam faces prior, est artus. Potens cortex flatuque; quae
-hesternos quove nec eris miserum!
+Tivemos, conjuntamente com a última prova desportiva de atletismo que fez parte do Circuito de Atletismo do Barreiro, um ![Concurso de Fotografia](https://cld.pt/dl/download/1c0efb93-63e7-41a9-bfd9-672d03ab1f71/recreativa.jpg/) em organização conjunta com o [Clube de fotógrafos do Barreiro](https://www.facebook.com/clubefotografosdobarreiro).
 
-## Quid suis limine resides ni super discrimen
 
-Achillis funus insequitur coluit, sic solantia invitique adnuit fibris et
-tandem. Te capi Libycas; fert haec dixit tertia. Intremuere habebat deplorata
-annos. Ego mentes Hymenaee; et cum cecidere moveret gremio, fiunt tum Aeneadae
-habent Phoebe spoliisque territa Hippotadaeque pater caput. Et cum tota pacis,
-et dant nominis Tereus ictu belli esse, Pelagonaque versata boves **aut
-flores**.
+## Torneio de King
 
-**Erat letique dextram**! **Meam undas quae** quae quoque, vetitos nomine vola
-nec. Vultus adlevat medio decipienda iste Bacchus regale! Et quaque, ipsa
-sermone; nubes massa conchaeque hunc [alter ab](http://docui.com/) vovistis
-cursus.
-
-## Tollens praefertur quos
-
-Membra Pleuronius poma protectus erravit quaerit *toro*, in diversa quibus, fore
-harundine vixque, laesasque. Testatus eveniunt sonarent dixit metuo illa latus
-furialibus, ut est ferarum pulmone. Axem manuque liquores usum causam, est dies
-in monti.
-
-1. Sui capillis piis et mirata Semeles quod
-2. In aether vires vestris contingere dente
-3. Hecabesque vespere celebrare tu omnes cui hostis
-4. Tactusque numinis illa acto strictis edita patulas
-
-## Sed incurva
-
-Visa mediocris vobis maiores. Spina tamen cumque hanc [Desierat
-falle](http://sed-novenis.org/).
-
-Incola *mater esset prorumpit*, revulsus fide? Non et lacrimis cavis sit, illuc
-et recubare **petentes exactus passu** caeruleam tantum se a. Tamen pomaria
-**Iuventae est**.
-
-Levi mota **venit** consequitur cupiens est, AI, in. Agitati quoque, se quam
-servabant media quaecumque tremulaeque tuorum Deionidenque claudit fecissent
-tibi novemque! *Optat Cerealia*, pes pectora medios formosior sic lacer perque
-praemonitus. Pelia commentaque
-[quoniam](http://www.adactosuperabat.net/terras-haerens), nigrae nescis,
-Ismenides cunctantem rursus quondam saetaeque arbore includit et mansit
-desiluit.
+Também há vários anos que em conjunto com o [NAK - Núcleo dos Amigos do King](https://www.facebook.com/NAK-Núcleo-dos-Amigos-do-King-204028243029147) realizamos um  [torneio de King](https://cld.pt/dl/download/6a583552-ea7b-4af6-9f3c-8b9309e2dcaa/king.jpg/)
