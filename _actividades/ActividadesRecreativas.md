@@ -15,9 +15,9 @@ As actividades recreativas, sendo que estamos muito limitados por não termos um
 
 ## Concurso de Fotografia
 
-Tivemos, conjuntamente com a última prova desportiva de atletismo que fez parte do Circuito de Atletismo do Barreiro, um ![Concurso de Fotografia](https://cld.pt/dl/download/1c0efb93-63e7-41a9-bfd9-672d03ab1f71/recreativa.jpg/) em organização conjunta com o [Clube de fotógrafos do Barreiro](https://www.facebook.com/clubefotografosdobarreiro).
+Tivemos, conjuntamente com a última prova desportiva de atletismo que fez parte do Circuito de Atletismo do Barreiro, um Concurso de Fotografia em organização conjunta com o [Clube de fotógrafos do Barreiro](https://www.facebook.com/clubefotografosdobarreiro).
 
 
 ## Torneio de King
 
-Também há vários anos que em conjunto com o [NAK - Núcleo dos Amigos do King](https://www.facebook.com/NAK-Núcleo-dos-Amigos-do-King-204028243029147) realizamos um  [torneio de King](https://cld.pt/dl/download/6a583552-ea7b-4af6-9f3c-8b9309e2dcaa/king.jpg/)
+Também há vários anos que em conjunto com o ![NAK - Núcleo dos Amigos do King](https://www.facebook.com/NAK-Núcleo-dos-Amigos-do-King-204028243029147) realizamos um  [torneio de King](https://cld.pt/dl/download/6a583552-ea7b-4af6-9f3c-8b9309e2dcaa/king.jpg/)
