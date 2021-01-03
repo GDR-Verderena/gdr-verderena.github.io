@@ -10,7 +10,7 @@ link_imagem: https://gdrverderena.pt/assets/img/more-service-3.jpg
 
 # Videnda fama longi Libys ardesceret harundo saltem
 
-<embed src="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" type='application/pdf' >
+<embed class="embed-responsive-item" src="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" type='application/pdf' >
 
 ## Sed quae per et femina
 
