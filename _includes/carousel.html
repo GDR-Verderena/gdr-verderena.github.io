@@ -44,68 +44,38 @@
                 <div class="carousel-item active">
                     <div class="col-md-4">
                          <div class="card text-white ">
-                            <img class="card-img" src="https://gdrverderena.pt/assets/img/more-service-3.jpg">
+                            <img class="card-img"  data-src="{{ url }}assets/img/slide/slide-1.jpg" src="{{ url }}assets/img/slide/slide-1.jpg" onError="this.onerror=null;this.src='https://gdrverderena.pt/assets/img/more-service-3.jpg';">
                              <div class="black-overlay"></div>
                             <div class="card-img-overlay">
-                                <h6 class="card-title">Card title</h6>
-                                <p class="card-text font-weight-light">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text">Inscrição</p>
+                                <h6 class="card-title">GDR VERDERENA</h6>
+                                <p class="card-text font-weight-light">No desenvolvimento de actividades e iniciativas para o crescimento do movimento associativo no Barreiro.</p>
+                                <a href="/about#about" class="btn_info">CONHEÇA-NOS</a>
                             </div>
                         </div>
                     </div>
                 </div>
+                {% for actividades in site.actividades %}
                 <div class="carousel-item">
                     <div class="col-md-4">
                          <div class="card text-white ">
-                            <img class="card-img" src="https://gdrverderena.pt/assets/img/more-service-3.jpg">
+                             {% if actividades.link_image And actividades.link_image != "" And actividades.link_image != nil    %} 
+                            <img class="card-img" data-src="{{ actividades.link_image }}" src="{{ actividades.link_image }}" onError="this.onerror=null;this.src='https://gdrverderena.pt/assets/img/more-service-3.jpg';">
                              <div class="black-overlay"></div>
-                            <div class="card-img-overlay">
-                                <h6 class="card-title">Card title</h6>
-                                <p class="card-text font-weight-light">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text">Inscrição</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-md-4">
-                         <div class="card text-white ">
-                            <img class="card-img" src="https://gdrverderena.pt/assets/img/more-service-3.jpg">
+                             {% else %}
+                              <img class="card-img" data-src="https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/more-service-3.jpg" src="https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/more-service-3.jpg" onError="this.onerror=null;this.src='https://gdrverderena.pt/assets/img/more-service-3.jpg';">
                              <div class="black-overlay"></div>
+                             {% endif %}
                             <div class="card-img-overlay">
-                                <h6 class="card-title">Card title</h6>
-                                <p class="card-text font-weight-light">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text">Inscrição</p>
+                                <h6 class="card-title">{{actividades.name}}</h6>
+                                <p class="card-text font-weight-light">{{actividades.desciption}}</p>
+                                <a href="/contact" class="btn-get-started">{{actividades.button_info}}</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="col-md-4">
-                        <div class="card text-white ">
-                            <img class="card-img" src="https://gdrverderena.pt/assets/img/more-service-3.jpg">
-                            <div class="black-overlay"></div>
-                            <div class="card-img-overlay">
-                                <h6 class="card-title">Card title</h6>
-                                <p class="card-text font-weight-light">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text">Inscrição</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-md-4">
-                        <div class="card text-white ">
-                            <img class="card-img" src="https://gdrverderena.pt/assets/img/more-service-3.jpg">
-                            <div class="black-overlay"></div>
-                            <div class="card-img-overlay">
-                                <h6 class="card-title">Card title</h6>
-                                <p class="card-text font-weight-light">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text">Inscrição</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+               
+               {% endfor %}
+                
             </div>
             <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
