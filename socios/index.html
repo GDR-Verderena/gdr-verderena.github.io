@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+ <div class="">
+ 
+ 
+    {% for socio in site.socios %}
+ 
+ 
+ <div class="bg-light shadow-lg p-3 mb-5 bg-white rounded" id="about">
+  <div class="container py-5">
+    <div class="row h-100 align-items-center py-5">
+      <div class="col-lg-6 align-items-center">
+        <h3 class="display-4 text-center">{{socio.title}}</h3>
+        <p class="lead text-center text-muted mb-0">{{socio.description}}</p>
+	<p class="lead text-muted"> 
+  {{ socio.excerpt | strip_html | strip_newlines | truncate: 156 }}  </p>
+	      
+	      <div class="d-flex justify-content-center">
+	       
+      		<a href="{{socio.url}}" class="btn_info btn ">Saber Mais</a>
+	     
+	      
+	      </div>
+      </div>
+	    <div class="col-lg-6 d-none d-block">
+		    <a href="{{socio.url}}">
+			    {% if socio.link_imagem And socio.link_imagem != "" And socio.link_imagem != nil    %} 
+			    <img data-src="{{socio.link_imagem}}"  src="{{socio.link_imagem}}" alt="about1" class="img-fluid lazyload" onError="this.onerror=null;this.src='https://gdrverderena.pt/assets/img/more-service-3.jpg';" >
+			    {% endif %}
+		    </a>
+	    </div>
+     
+    </div>
+  </div>
+</div>
+ 
+ 
+      {% endfor %}
+ 
+ </div>
