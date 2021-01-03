@@ -122,7 +122,7 @@ title: G.D.R Verdena
         </svg></span></h3>
 
     <div class="row">
-      {% for post in site.posts offset:1 limit:2 %}
+      {% for post in site.posts offset:1 limit:3 %}
       <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
         <div class="card">
           {% if post.featured-image And post.featured-image != "" And post.featured-image != nil    %}
@@ -133,11 +133,14 @@ title: G.D.R Verdena
             <h5 class="card-title"><a href="{{ post.url }}">{{ post.title }}</a></h5>
             <p class="card-text">{{ post.description }}</p>
             <p id="excert" class="card-text"> {{ post.excerpt | strip_html | strip_newlines | truncate: 96 }} </p>
+
+            <a href="{{ post.url }}" class="btn">Ver Notícia</a>
+          </div>
+          <div class="card-footer text-muted">
             <a id="share" onclick="sharePost(`{{ post.title }}` , `{{  post.description }}` , `{{ post.url }}` )" class="text-muted share btn"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-share-fill texte-muted" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z" />
               </svg></a>
             <p class="result" hidden></p>
-            <a href="{{ post.url }}" class="btn">Ver Notícia</a>
           </div>
         </div>
       </div>
