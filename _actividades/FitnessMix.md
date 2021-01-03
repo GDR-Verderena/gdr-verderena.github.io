@@ -7,9 +7,9 @@ link_image: https://cld.pt/dl/download/879f2f2e-eee7-4035-9ed5-86c97b9e3a48/fitn
 ---
 
 
-# Fitness Mix - actividade para todos
+# Fitness Mix
 
-## Sobre a actividade
+## actividade para todos
 
 O Fitness Mix é uma actividade baseada em treino físico ao ritmo de música.
 
