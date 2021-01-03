@@ -16,6 +16,8 @@ collections:
     people: true
   partners:
     output: true
+  socios:
+    output: true
   actividades:
     output: true
   products:
