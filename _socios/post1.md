@@ -10,8 +10,9 @@ link_imagem: https://gdrverderena.pt/assets/img/more-service-3.jpg
 
 # Videnda fama longi Libys ardesceret harundo saltem
 
+<div class="embed-responsive embed-responsive-16by9">
 <embed class="embed-responsive-item" src="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" type='application/pdf' >
-
+</div>
 ## Sed quae per et femina
 
 Lorem markdownum cui, in vestigia indicere, nisi, suo. Saepe aram data ad aetas
