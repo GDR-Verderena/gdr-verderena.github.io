@@ -219,7 +219,7 @@ title: G. D. R. Verderena
       <div class="container text-center" >
 	 <h1 class="display-4 text-center">Orgãos Sociais</h1>
 	        <p class="lead text-center text-muted mb-0"> Lista dos Órgãos Sociais do Grupo Desportivo e Reacreativo da Verderena os Corpos Sociais</p>
-        <div class="row">
+        <div class="row justify-content-center">
 		
 		
 		{% for staff_member in site.staff_members %}
@@ -227,7 +227,7 @@ title: G. D. R. Verderena
 
 		
 		
-	    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
+	    
             <div class="card">
             
                <div class="card-body text-center">
@@ -243,7 +243,7 @@ title: G. D. R. Verderena
 		       <p class="card-text text-center text-muted">{{ staff_member.content | markdownify }}</p>
               </div> 
             </div>
-          </div>
+          
 		
 {% endfor %}
 		
