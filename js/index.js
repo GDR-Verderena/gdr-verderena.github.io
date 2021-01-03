@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 document.addEventListener("DOMContentLoaded", function(event) {
    document.querySelectorAll('img').forEach(function(img){
   	img.onerror = function(){
-		this.src = 'https://gdrverderena.pt/assets/img/https://gdrverderena.pt/assets/img/more-service-3.jpg'
+		this.src = 'https://gdrverderena.pt/assets/img/more-service-3.jpg'
 	};
 	  
    })
