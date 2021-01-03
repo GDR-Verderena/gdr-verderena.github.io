@@ -7,9 +7,9 @@ link_image: https://cld.pt/dl/download/879f2f2e-eee7-4035-9ed5-86c97b9e3a48/fitn
 ---
 
 
-# Presso cucurri
+# Fitness Mix - actividade para todos
 
-## Dempta ungues desertum
+## Sobre a actividade
 
 O Fitness Mix é uma actividade baseada em treino físico ao ritmo de música.
 
