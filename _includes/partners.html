@@ -32,7 +32,7 @@
           <div class="brands-m text-center d-flex-column partners ">
             
             
-            {% for partner in site.partner %}
+            {% for partner in site.partners %}
              <a href="{{partner.url}}" target="_blank" style="text-decoration: none">
 			    {% if partner.link_image And partner.link_image != "" And partner.link_image != nil    %} 
 			    <img data-src="{{partner.link_image}}"  src="{{partner.link_image}}" alt="{{partner.name}}" class="w-25 m-4 lazyload" onError="this.onerror=null;this.src='https://gdrverderena.pt/assets/img/placeholder.svg';"  draggable="false" >
