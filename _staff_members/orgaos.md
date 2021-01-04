@@ -60,8 +60,22 @@
 
 #### Cristina Maria Alves Duarte
 ##### Presidente Conselho Fiscal
-###### Ano de Posse: 2020/22
-###### 3 de Agosto de 2020
+###### <sup>Ano de Posse: 2020/22<sup>
+###### <sup>3 de Agosto de 2020<sup>
+  
+  <br>
+
+#### Manuel António M. Tereso                                              
+##### Secretário 
+###### <sup>Ano de Posse: 2020/22<sup>
+###### <sup>3 de Agosto de 2020<sup>
+  
+  <br>
+
+#### Artur Jorge da Silva Costa
+##### Relator 
+###### <sup>Ano de Posse: 2020/22<sup>
+###### <sup>3 de Agosto de 2020<sup>
 
 <br><br>
 
@@ -71,8 +85,29 @@
 
 #### Mário Alves Moura
 ##### Presidente Assembleia Geral
-###### Ano de Posse: 2020/22
-###### 3 de Agosto de 2020
+###### <sup>Ano de Posse: 2020/22<sup>
+###### <sup>3 de Agosto de 2020<sup>
+  
+<br>
+
+#### João Gabriel Marques Ferre
+##### Vice-Presidente 
+###### <sup>Ano de Posse: 2020/22<sup>
+###### <sup>3 de Agosto de 2020<sup>
+  
+<br>
+
+#### Ana Catarina Duarte Leonor                                           
+##### Secretário I 
+###### <sup>Ano de Posse: 2020/22<sup>
+###### <sup>3 de Agosto de 2020<sup>
+  
+<br>
+
+#### Maria Manuela F. Raimão                                               
+##### Secretário II 
+###### <sup>Ano de Posse: 2020/22<sup>
+###### <sup>3 de Agosto de 2020<sup>
 
 
 
