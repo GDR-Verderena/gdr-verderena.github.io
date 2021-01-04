@@ -7,8 +7,50 @@
 
 #### Vitor Francisco da Conceição Amorim Correia
 ##### Presidente da Direção
-###### Ano de Posse: 2020/22
-###### 3 de Agosto de 2020
+###### <sup>Ano de Posse: 2020/22<sup>
+###### <sup>3 de Agosto de 2020<sup>
+  
+ <br>
+ 
+#### António Joaquim Inácio Matias
+##### Vice-Presidente 
+###### <sup>Ano de Posse: 2020/22<sup>
+###### <sup>3 de Agosto de 2020<sup>
+
+ <br>
+ 
+#### Ana Fernanda Nascimento Ferreira da Silva
+##### Tesoureiro 
+###### <sup>Ano de Posse: 2020/22<sup>
+###### <sup>3 de Agosto de 2020<sup>
+
+ <br>
+ 
+#### Isabel Maria P. A. Castro Freitas                                    
+##### Vice–Tesoureiro 
+###### <sup>Ano de Posse: 2020/22<sup>
+###### <sup>3 de Agosto de 2020<sup>
+
+ <br>
+ 
+#### Flávio Alves Lopes                                                      
+##### Secretário I 
+###### <sup>Ano de Posse: 2020/22<sup>
+###### <sup>3 de Agosto de 2020<sup>
+
+ <br>
+ 
+#### João Nuno Silvestre Cardoso                                         
+##### Secretário II 
+###### <sup>Ano de Posse: 2020/22<sup>
+###### <sup>3 de Agosto de 2020<sup>
+
+ <br>
+ 
+#### Ana Isabel Camacho Lança              
+##### Vogal 
+###### <sup>Ano de Posse: 2020/22<sup>
+###### <sup>3 de Agosto de 2020<sup>
 
 <br><br>
 
