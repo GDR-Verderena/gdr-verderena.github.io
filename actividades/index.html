@@ -26,8 +26,11 @@ layout: default
 	    <div class="col-lg-6 d-none d-block">
 		    <a href="{{actividade.url}}">
 			    {% if actividade.link_image And actividade.link_image != "" And actividade.link_image != nil    %} 
-			    <img data-src="{{actividade.link_image}}"  src="{{actividade.link_image}}" alt="about1" class="img-fluid lazyload" onError="this.onerror=null;this.src='https://gdrverderena.pt/assets/img/more-service-3.jpg';" >
-			    {% endif %}
+			     <div class="image">
+			    
+		            <img data-src="{{actividade.link_image}}"  src="{{actividade.link_image}}" alt="about1" class="img-fluid lazyload" onError="this.onerror=null;this.src='https://gdrverderena.pt/assets/img/more-service-3.jpg';" >
+			    </div>
+				     {% endif %}
 		    </a>
 	    </div>
      
