@@ -194,13 +194,23 @@
 
 <body>
   <button type="button" class="btn btn-light text-muted" onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
-<div class="header container-fluid">
-  <img src="{{ url }}assets/img/logo.jpg" alt="logo" />
- <div class="container-fluid text-center my-3">
-    <h3 class="font-weight-light">GRUPO DESPORTIVO E RECREATIVO DA VERDERENA</h3>
-</div>	
+<header>	
+<div class="header-main">
+  <div class="container">
+    <div class="header-main-inner">
+      <div class="row">
+        <div class="col-xs-3">
+          <h1 class="logo">
+            <a href="/" title="Início" rel="home" id="logo">
+              <img src="https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/logo.jpg" alt="Início">
+            </a>
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+</header>
 
 	
   {% include navbar.html %}
