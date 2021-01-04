@@ -3,6 +3,10 @@
     .carousel-inner .carousel-item > div {
         display: none;
     }
+     .carousel-inner .carousel-item .txt-info {
+        display: none;
+    }
+   
     .carousel-inner .carousel-item > div:first-child {
         display: block;
     }
@@ -48,7 +52,7 @@
                              <div class="black-overlay"></div>
                             <div class="card-img-overlay">
                                 <h6 class="card-title">GDR VERDERENA</h6>
-                                <p class="card-text font-weight-light">No desenvolvimento de actividades e iniciativas para o crescimento do movimento associativo no Barreiro.</p>
+                                <p class="card-text font-weight-light txt-info">No desenvolvimento de actividades e iniciativas para o crescimento do movimento associativo no Barreiro.</p>
                                 <a href="/about#about" class="btn_info">CONHEÇA-NOS</a>
                             </div>
                         </div>
@@ -67,7 +71,7 @@
                              {% endif %}
                             <div class="card-img-overlay">
                                 <h6 class="card-title">{{actividades.name}}</h6>
-                                <p class="card-text font-weight-light">{{actividades.desciption}}</p>
+                                <p class="card-text font-weight-light txt-info ">{{actividades.desciption}}</p>
                                 <a href="/contact" class="btn_info">{{actividades.button_info}}</a>
                             </div>
                         </div>
