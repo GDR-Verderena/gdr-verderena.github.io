@@ -1,11 +1,11 @@
 
- /*.header img {
-  float: left;
+.header img {
+  /* float: left; */
   width: 100px;
   height: 100px;
  background: #555; 
 }
-*/
+
 
 .card-img-top {
 width: 100%;
