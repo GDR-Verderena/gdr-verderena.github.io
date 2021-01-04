@@ -32,13 +32,12 @@ layout: default
       </div>
       <div class="col-12 col-lg-6">
         <section class="product-details">
-          <h3 class="entry-title item_name" itemprop="name">{{ page.name }}</h3>
+          <h4 class="entry-title item_name" itemprop="name">{{ page.name }}</h4>
           <p class="item_price text-muted">{{ page.price }} &euro;</p>
 
           <p class="text-muted">
             {{ page.description }}
           </p>
-
           <form action="https://formsubmit.co/joaosilgo96@gmail.com" id="merch" role="form" method="post" accept-charset="utf-8" enctype="multipart/form-data" data-toggle="validator">
             <div class="form-group">
 
@@ -75,8 +74,10 @@ layout: default
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
                 <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
               </svg>
-              Add to cart</button>
+              Finalizar Pedido </button>
               </div>
+        <input type="hidden" name="Price" value="{{ page.price }}">  
+        <input type="hidden" name="Produto" value="{{ page.name }}">   
         <input type="hidden" name="_autoresponse" value="Obrigado Por nos Contactar. Entraremos em Contacto Brevemente.">
         <input type="hidden" name="_captcha" value="false">
         <input type="hidden" name="_template" value="box">
