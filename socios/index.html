@@ -12,10 +12,10 @@ layout: default
   <div class="container py-5">
     <div class="row h-100 align-items-center py-5">
       <div class="col-lg-6 align-items-center">
-	      <a href="{{socio.url}}"><h3 class="display-4 text-center">{{socio.title}}</h3></a>
+	<h3 class="display-4 text-center">{{socio.title}}</h3>
         <p class="lead text-center text-muted mb-0">{{socio.description}}</p>
 	<p class="lead text-muted font-italic">-{{socio.autor}}</p>
-	<p class="lead text-muted font-weight-light">{{socio.date}}</p>
+	<p class="lead text-muted font-weight-light"><cite title="Source Title"> {{ socio.date | date_to_string }} </cite></p>
 	<p class="lead text-muted"> 
   {{ socio.excerpt | strip_html | strip_newlines | truncate: 156 }}  </p>
 	      
