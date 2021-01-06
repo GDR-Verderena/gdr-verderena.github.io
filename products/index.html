@@ -1,36 +1,60 @@
 ---
 layout: default
-title: Products
+title: Loja G. D. R. Verderena
 ---
-
-
 <!--{{ product.featured_image_path }} -->
+
+<div class="text-center noselect ">
+  <div class="container-fluid">
+    <section class="breadcrumbs text-muted">
+      <div class="container-fluid">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>{{ page.title }}</h2>
+          <ol>
+            <li><a href="/">Início</a></li>
+            <li>{{ page.title }}</li>
+
+          </ol>
+        </div>
+
+      </div>
+    </section>
+    <h1 class="text-center text-muted display-4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class=" icone bi bi-box-seam" viewBox="0 0 16 16">
+        <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z" />
+      </svg></h1>
+    <h5 class="display-4 text-center ">{{ page.title }}</h5>
+    <p class="lead text-center text-muted">Bem-vindo à área de Merchandising do Grupo Desportivo e Recreativo Da Verderena, aqui poderá consultar e encomendar produtos Relacionados com a associação</p>
+  </div>
+
+</div>
+<hr />
+
 <section>
   <div class="container">
     <div class="wrap">
       <div class="content-sidebar-wrap">
 
         <main class="content grid">
-           <div class="row"> 
-          
-          
+          <div class="row">
+
             {% for product in site.products %}
-           <div class="col-md-3">
-              
-            <!--  <div class="card shadow-lg p-3 mb-5 bg-white rounded">  -->
-		   <div class="card p-3 mb-5 bg-white rounded"> 
+            <div class="col-md-3">
+
+              <!--  <div class="card shadow-lg p-3 mb-5 bg-white rounded">  -->
+              <div class="card p-3 mb-5 bg-white rounded">
                 <section class="entry one-third styles" itemscope itemtype="http://schema.org/Product">
 
                   <div class="style">
-                    
-                    {% if product.featured_image_path And product.featured_image_path != "" And product.featured_image_path != nil    %} 
+
+                    {% if product.featured_image_path And product.featured_image_path != "" And product.featured_image_path != nil    %}
                     <a href="{{ product.url }}">
-                     
-                      <img class="card-img-top" src="{{ product.featured_image_path }}" itemprop="image" alt="" onError="this.onerror=null;this.src='https://gdrverderena.pt/assets/img/more-service-3.jpg';" >
-                     
+
+                      <img class="card-img-top" src="{{ product.featured_image_path }}" itemprop="image" alt="" onError="this.onerror=null;this.src='https://gdrverderena.pt/assets/img/more-service-3.jpg';">
+
                     </a>
-                     {% endif %}
-                    
+                    {% endif %}
+
                   </div>
                   <figcaption class="info-wrap">
                     <div class="product-details">
@@ -40,15 +64,12 @@ title: Products
                       <div class="product-price price mt-1">
                         <p class="text-muted"> &euro; {{ product.price }}</p>
                       </div>
-                      
-                       <div class="d-flex justify-content-center">
-	     
-      	            	<a href="{{product.url}}" class="btn_info btn ">Ver Produto</a>
-                        </div>
-	      
-	      
-	      
-                      
+
+                      <div class="d-flex justify-content-center">
+
+                        <a href="{{product.url}}" class="btn_info btn ">Ver Produto</a>
+                      </div>
+
                     </div>
                   </figcaption>
                 </section>
@@ -62,6 +83,4 @@ title: Products
     </div>
   </div>
 </section>
-  
-  
   
