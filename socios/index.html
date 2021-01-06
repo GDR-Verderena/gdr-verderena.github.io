@@ -1,46 +1,69 @@
 ---
 layout: default
+title: Área de Sócios
 ---
+<div class="text-center noselect ">
+  <div class="container-fluid">
+    <section class="breadcrumbs text-muted">
+      <div class="container-fluid">
 
- <div class="">
- 
- 
-    {% for socio in site.socios %}
- 
- 
- <div class="bg-light shadow-lg p-3 mb-5 bg-white rounded" id="about">
-  <div class="container py-5">
-    <div class="row h-100 align-items-center py-5">
-      <div class="col-lg-6 align-items-center">
-	<h3 class="display-4 text-center">{{socio.title}}</h3>
-        <p class="lead text-center text-muted mb-0">{{socio.description}}</p>
-	<p class="text-muted font-weight-light text-center">{{socio.autor}} <cite title="Source Title"> {{ socio.date | date_to_string }} </cite></p>
-	
-	<p class="lead text-muted"> 
-  {{ socio.excerpt | strip_html | strip_newlines | truncate: 156 }}  </p>
-	      
-	      <div class="d-flex justify-content-center">
-	       
-      		<a href="{{socio.url}}" class="btn_info btn ">Saber Mais</a>
-	     
-	      
-	      </div>
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>{{ page.title }}</h2>
+          <ol>
+            <li><a href="/">Início</a></li>
+            <li>{{ page.title }}</li>
+
+          </ol>
+        </div>
+
       </div>
-	    <div class="col-lg-6 d-none d-block">
-		    <a href="{{socio.url}}">
-			    {% if socio.link_imagem And socio.link_imagem != "" And socio.link_imagem != nil    %} 
-			     <div class="image">
-			    <img data-src="{{socio.link_imagem}}"  src="{{socio.link_imagem}}" alt="about1" class="img-fluid lazyload" onError="this.onerror=null;this.src='https://gdrverderena.pt/assets/img/more-service-3.jpg';" >
-			    </div>
-				     {% endif %}
-		    </a>
-	    </div>
-     
+    </section>
+    <h4 class="text-center text-muted display-4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class=" icone bi bi-award-fill" viewBox="0 0 16 16">
+        <path d="M8 0l1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z" />
+        <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z" />
+      </svg></h4>
+    <h5 class="display-4 text-center ">{{ page.title }}</h5>
+    <p class="lead text-center text-muted">Bem-vindo à área de Sócios do Grupo Desportivo e Recreativo Da Verderena, aqui poderá consultar documentos relacionados com a associação</p>
+  </div>
+
+</div>
+<hr />
+<div class="">
+
+  {% for socio in site.socios %}
+
+  <div class="bg-light shadow-lg p-3 mb-5 bg-white rounded" id="about">
+    <div class="container py-5">
+      <div class="row h-100 align-items-center py-5">
+        <div class="col-lg-6 align-items-center">
+          <h3 class="display-4 text-center">{{socio.title}}</h3>
+          <p class="lead text-center text-muted mb-0">{{socio.description}}</p>
+          <p class="text-muted font-weight-light text-center">{{socio.autor}} <cite title="Source Title"> {{ socio.date | date_to_string }} </cite></p>
+
+          <p class="lead text-muted">
+            {{ socio.excerpt | strip_html | strip_newlines | truncate: 156 }}
+          </p>
+
+          <div class="d-flex justify-content-center">
+
+            <a href="{{socio.url}}" class="btn_info btn ">Saber Mais</a>
+
+          </div>
+        </div>
+        <div class="col-lg-6 d-none d-block">
+          <a href="{{socio.url}}">
+            {% if socio.link_imagem And socio.link_imagem != "" And socio.link_imagem != nil    %}
+            <div class="image">
+              <img data-src="{{socio.link_imagem}}" src="{{socio.link_imagem}}" alt="about1" class="img-fluid lazyload" onError="this.onerror=null;this.src='https://gdrverderena.pt/assets/img/more-service-3.jpg';">
+            </div>
+            {% endif %}
+          </a>
+        </div>
+
+      </div>
     </div>
   </div>
+
+  {% endfor %}
+
 </div>
- 
- 
-      {% endfor %}
- 
- </div>
