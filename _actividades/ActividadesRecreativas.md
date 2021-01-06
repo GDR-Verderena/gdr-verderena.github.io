@@ -1,7 +1,7 @@
 ---
 layout: actividade
 name: Actividades Recreativas
-desciption: Cultura e Recreio 
+description: Cultura e Recreio 
 button_info: Incrição
 link_image: https://cld.pt/dl/download/1c0efb93-63e7-41a9-bfd9-672d03ab1f71/recreativa.jpg
 ---
