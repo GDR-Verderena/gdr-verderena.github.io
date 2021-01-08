@@ -1,7 +1,8 @@
-
+---
+layout: null
 ---
 
----
+'use strict';
 
 //const OFFLINE_VERSION = 1;
 const CACHE_OFFLINE = 'offline';
