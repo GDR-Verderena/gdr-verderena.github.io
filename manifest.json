@@ -5,6 +5,22 @@
  "description": "G.D.R. VERDERENA",
  "scope":"/",
  "start_url": "/",
+ "shortcuts": [
+      {
+        "name": "Notícias",
+        "short_name": "News",
+        "description": "G. D. R. Verderena Notícias",
+        "url": "/blog?utm_source=homescreen"
+       //,"icons": [{ "src": "/icons/feed.png", "sizes": "192x192" }]
+      },
+      {
+        "name": "Sobre Nós",
+        "short_name": "About",
+        "description": "G. D. R. Verderena",
+        "url": "/about?utm_source=homescreen"
+      // , "icons": [{ "src": "/icons/comments.png", "sizes": "192x192" }]
+      }
+    ],
  "background_color": "#0d47a1",
  "theme_color": "#0d47a1",
  "dir": "ltr",
