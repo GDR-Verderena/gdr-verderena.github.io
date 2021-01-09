@@ -5,6 +5,7 @@
  "description": "G.D.R. VERDERENA",
  "scope":"/",
  "start_url": "/?home=true",
+ "categories": ["sports", "organization", "fitness"],
  "shortcuts": [
       {
         "name": "Notícias",
