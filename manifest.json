@@ -1,6 +1,7 @@
 {
  "short_name": "Verderena",
  "name": "GDR VERDERENA",
+ "dir": "auto",
  "lang": "pt",
  "description": "G.D.R. VERDERENA",
  "scope":"/",
