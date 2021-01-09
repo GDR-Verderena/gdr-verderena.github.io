@@ -11,9 +11,12 @@ link_image: https://cld.pt/dl/download/879f2f2e-eee7-4035-9ed5-86c97b9e3a48/fitn
 
 ## actividade para todos
 
-O Fitness Mix é uma actividade baseada em treino físico ao ritmo de música.
-
-Acaba por ser uma actividade de grupo, praticado individualmente, mas em que a música e o grupo puxam por ti.
+Fitness Mix é uma atividade física baseada em movimentação usando a música como elemento motivador e lúdico.
+Traz inúmeros benefícios na qualidade da tua vida pois aumenta a mobilidade que andavas a perder, os músculos que queres ganhar e a flexibilidade que precisas para te sentires melhor.
+As sessões são de 50 minutos e o local é na antiga biblioteca da Verderena, nas traseiras da junta de freguesia da Verderena.
+Porque este momento é especial e devido às condições em que nos deparamos podem ser realizadas online a partir de tua casa sem correr riscos adicionais.
+Sempre que possível e seja necessário iremos adicionar a possibilidade de utilização das sessões online ligando atletas sem possibilidade de deslocação aos praticantes presenciais.
+Poderão também ser realizadas sessões no polidesportivo da escola, sempre que seja benéfico o afastamento físico e as condições atmosféricas o permitam.
 
 ## Uma parte do nosso grupo
 
