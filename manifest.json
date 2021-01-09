@@ -25,7 +25,6 @@
     ],
  "background_color": "#0d47a1",
  "theme_color": "#0d47a1",
- "dir": "ltr",
  "display": "standalone",
  "orientation": "any",
  "icons": [
