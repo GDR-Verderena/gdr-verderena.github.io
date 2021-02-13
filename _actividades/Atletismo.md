@@ -3,7 +3,7 @@ layout: actividade
 name: Atletismo Formação
 description: Kids' Athletics é corre, salta, lança e marcha numa atmosfera de espontaneidade e diversão.
 button_info: Entrar
-link_image: https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/more-service-3.jpg
+link_image: https://cld.pt/dl/download/b3b53533-a79f-4824-bbd9-967a87f1c9ed/WhatsApp%20Image%202020-12-05%20at%2012.52.59%20%281%29.jpeg?download=true
 ---
 
 # Kids' Athletics
