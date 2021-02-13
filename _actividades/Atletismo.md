@@ -1,8 +1,8 @@
 ---
 layout: actividade
-name: Atletismo
-description: Desporto que pode ser praticado individualmente mas que integrado na nossa equipa vai ser mais motivador, vem treinar connosco
-button_info: Inscrição
+name: Atletismo Formação
+description: "Kids' Athletics" é Corre, Salta, Lança e Marcha numa atmosfera de espontaniedade e diversão.
+button_info: Entrar
 link_image: https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/more-service-3.jpg
 ---
 
