@@ -1,6 +1,6 @@
 ---
 layout: actividade
-name: Atletismo Formação
+name: Atletismo
 description: "Kids' Athletics" é Corre, Salta, Lança e Marcha numa atmosfera de espontaniedade e diversão.
 button_info: Entrar
 link_image: https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/more-service-3.jpg
