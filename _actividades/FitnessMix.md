@@ -3,7 +3,7 @@ layout: actividade
 name: Fitness Mix 
 description:  
 button_info: Entrar
-link_image: https://cld.pt/dl/download/3d24f9b7-4503-447f-99b7-7ea7be8f003f/fitnessmix_v3.jpg?download=true
+link_image: https://cld.pt/dl/download/dd452081-12aa-4e39-b401-e7d8bb60078c/fitnessmix_v2.jpg?download=true
 ---
 
 
