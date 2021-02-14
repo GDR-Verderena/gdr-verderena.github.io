@@ -3,7 +3,7 @@ layout: actividade
 name: Atletismo Formação
 description: Kids' Athletics é corre, salta, lança e marcha numa atmosfera de espontaneidade e diversão.
 button_info: Entrar
-link_image: https://cld.pt/dl/download/bc747f48-c023-41fb-b046-4487e01709be/formacao.jpg?download=true
+link_image: https://cld.pt/dl/download/d73c305f-2a56-4f69-b7e2-a2f8a7554c02/formacao_v2.jpg?download=true
 ---
 
 # Kids' Athletics
