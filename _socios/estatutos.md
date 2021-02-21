@@ -7,9 +7,9 @@ autor: G.D.R. Verderena
 link_imagem: https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/logo.png
 ---
 
-
+<!--
 # Estatutos
-
+-->
 <H4>
 <div align="center" > 
 <a  href="https://drive.google.com/file/d/1Vo-2IWjxUy8lYmOCV-BAXUqMgwb1uhYx/view?usp=sharing">Estatutos em texto</a>
