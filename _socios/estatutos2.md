@@ -1,3 +1,11 @@
+---
+layout: socio
+title: Estatutos 2
+description: Estatutos do G.D.R. Verderena
+date: 2020-12-03
+autor: G.D.R. Verderena
+link_imagem: 
+---
 <div class=WordSection1><p class=MsoNormal><!--[if gte vml 1]><v:shapetype id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f"
  stroked="f">
  <v:stroke joinstyle="miter"/>
@@ -26,7 +34,7 @@
  mso-position-horizontal-relative:text;mso-position-vertical:absolute;
  mso-position-vertical-relative:text;mso-width-percent:0;mso-height-percent:0;
  mso-width-relative:page;mso-height-relative:page'>
- <v:imagedata src="https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/logo.png" o:title=""/>
+ <v:imagedata src="https://commedida.weebly.com/uploads/7/3/4/1/73418257/1463488861.png" o:title=""/>
  <w:wrap type="tight"/>
 </v:shape><![endif]--><![if !vml]><img width=180 height=191
 src="Estatutos%20em%20texto.fld/image001.jpg" align=left hspace=12 v:shapes="Imagem_x0020_1"><![endif]></p>
