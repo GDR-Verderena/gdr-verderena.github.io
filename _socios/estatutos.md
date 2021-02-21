@@ -1,7 +1,7 @@
 ---
 layout: socio
-title: Informações importantes aos associados
-description: Estatutos
+title: Estatutos
+description: Estatutos do G.D.R. Verderena
 date: 2020-12-03
 autor: G.D.R. Verderena
 link_imagem: https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/logo.png
