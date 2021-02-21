@@ -8,7 +8,7 @@ link_imagem: https://clubesleouy.files.wordpress.com/2016/10/maw_icon-vector-blu
 ---
 
 <img width=480 height=191
-src="https://drive.google.com/file/d/15ak0LZqnS22HJaHPgvwp6lE5lNHlqOJ5/view?usp=sharing" align=left hspace=12 >
+src="https://cld.pt/dl/thumb/47851ff7-02aa-49a0-b43c-c46ca1e10484/estatutos.png?size=xl&crop=false&format=png" align=left hspace=12 >
 
 
 <a
