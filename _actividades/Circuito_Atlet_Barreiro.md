@@ -11,4 +11,4 @@ O Grupo Desportivo e Recreativo da Verderena tem participado activamente no Circ
 
 <a href="https://www.cm-barreiro.pt/viver/desporto/planos-de-desenvolvimento/atletismo/circuito-de-atletismo-do-barreiro">Ir para Circuito de Atletismo do Barreiro no site da CMB</a>
 
-<iframe width="826" height="465" src="https://youtu.be/jX_TDjr-OZ8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="675" height="380" src="https://www.youtube.com/embed/jX_TDjr-OZ8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
