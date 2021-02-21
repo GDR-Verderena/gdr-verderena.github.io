@@ -17,4 +17,4 @@ em texto</a>
 
 <a
 href="https://drive.google.com/file/d/10EhEG_vLzlM_gCFJCFy0Q2tQAJttQZMw/view?usp=sharing">Estatutos
-na versão original digitalizada</a></p>
+na versão original digitalizada</a>
