@@ -32,7 +32,4 @@ link_imagem: https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.githu
 </div>
 -->
 
-# Plano de actividades
-
-Disponível em breve
 
