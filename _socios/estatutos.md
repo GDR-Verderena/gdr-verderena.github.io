@@ -8,8 +8,9 @@ link_imagem: https://commedida.weebly.com/uploads/7/3/4/1/73418257/1463488861.pn
 ---
 <!--
 # Estatutos
--->
 ![](https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/logo.png)
+-->
+
 <H4>
 <div align="center" > 
 <a  href="https://drive.google.com/file/d/1Vo-2IWjxUy8lYmOCV-BAXUqMgwb1uhYx/view?usp=sharing">Estatutos em texto</a>
