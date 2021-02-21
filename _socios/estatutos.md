@@ -4,7 +4,7 @@ title: Estatutos
 description: Estatutos do G.D.R. Verderena
 date: 2020-12-03
 autor: G.D.R. Verderena
-link_imagem: 
+link_imagem: https://commedida.weebly.com/uploads/7/3/4/1/73418257/1463488861.png
 ---
 <!--
 # Estatutos
