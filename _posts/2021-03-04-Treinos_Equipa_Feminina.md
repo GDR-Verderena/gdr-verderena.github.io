@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Campeonato Nacional de Clubes da 1ª Divisão
-date: 2020-12-23
+date: 2021-03-04
 author: G.D.R. Verderena
 featured-image: https://cld.pt/dl/download/b3f8da8d-91f8-46e9-a5db-dfe9a79bf86a/treinos_equip_feminina_nacionais.png?download=true
 tags: desporto atletismo
