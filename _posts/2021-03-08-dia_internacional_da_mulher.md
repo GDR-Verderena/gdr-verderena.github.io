@@ -13,3 +13,4 @@ Este ano, via online. "Foto de 2020, dia 8/03/2020, Prova do Circuito de Atletis
 
 ![Mulheres vencedoras](https://cld.pt/dl/download/223af042-1011-422a-b5e5-b02d3af29bb2/8marco2020.jpg?download=true)
 
+![Mulheres vencedoras](https://cld.pt/dl/download/ae24cddd-7956-4e2d-92a3-5b6625509fb9/IMG_7237.jpg?download=true)
