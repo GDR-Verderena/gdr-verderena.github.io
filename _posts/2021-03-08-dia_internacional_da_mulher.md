@@ -4,7 +4,7 @@ title: Dia Internacional da Mulher
 date: 2021-03-06
 author: G.D.R. Verderena
 featured-image: https://cld.pt/dl/download/ae24cddd-7956-4e2d-92a3-5b6625509fb9/IMG_7237.jpg?download=true
-tags: desporto atletismo marcha
+tags: desporto atletismo marcha celebração
 ---
 
 A Direcção do G. D. R. Verderena, saúda o "DIA INTERNACIONAL DA MULHER".
