@@ -9,7 +9,7 @@ tags: desporto atletismo
 
 Saudamos a selecção nacional de Atletismo pelo seu excelente resultado nos Campeonatos da Europa em Pista Coberta, Torun 2021 (na Polónia).
 
-O GDR Verderena congratula-se com veemência com a participação dos atletas portugueses que subiram ao pódio e fizeram içar a bandeira de Portugal.
+O GDR Verderena congratula-se com veemência com a participação dos atletas portugueses que subiram ao pódio e fizeram içar a Bandeira Portuguesa.
 
 ![3 medalhas de ouro](https://www.fpatletismo.pt/sites/default/files/imagem_geral_medalhas.jpg)
 Com <a  href="https://www.fpatletismo.pt/europeus-em-pista-coberta-de-2021-históricos">3 medalhas de ouro</a> na mesma edição e a maior pontuação de sempre marcaram a presença portuguesa.
