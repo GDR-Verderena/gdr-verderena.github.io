@@ -21,6 +21,7 @@ No final aqui ficam os resultados que tanto nos orgulham.
 
 <a href="https://www.fpatletismo.pt/portugueses-entram-em-ação-amanhã-no-virtus-campeonatos-da-europa-em-pista-coberta"> VIRTUS Campeonatos da Europa em Pista Coberta (atletismo adaptado) </a>
 ![Selecção Virtus](https://www.fpatletismo.pt/sites/default/files/Sele%C3%A7%C3%A3oVirtus.jpeg)
+
 ![medalhas no 1º dia](https://www.fpatletismo.pt/sites/default/files/WhatsApp%20Image%202021-03-11%20at%2014.jpg)
 
 Logo no  <a  href="https://www.fpatletismo.pt/virtus-campeonatos-da-europa-em-pista-coberta-portugueses-estreiam-se-com-três-medalhas">1º dia </a> do VIRTUS Campeonatos da Europa em Pista Coberta (atletismo adaptado) se demonstrou que era desta vez que queríamos trazer grandes resultados.
