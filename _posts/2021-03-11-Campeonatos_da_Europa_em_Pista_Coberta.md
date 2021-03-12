@@ -13,7 +13,7 @@ O GDR Verderena congratula-se com veemência com a participação dos atletas po
 
 ![3 medalhas de ouro](https://www.fpatletismo.pt/sites/default/files/imagem_geral_medalhas.jpg)
 
-Com <a  href="https://www.fpatletismo.pt/europeus-em-pista-coberta-de-2021-históricos">3 medalhas de ouro</a> na mesma edição e a maior pontuação de sempre marcaram a presença portuguesa.
+As <a  href="https://www.fpatletismo.pt/europeus-em-pista-coberta-de-2021-históricos">3 medalhas de ouro</a> na mesma edição e a maior pontuação de sempre marcaram a presença portuguesa. Sendo merdalhados em segundo lugar neste campeonato.
 
 No final aqui ficam os resultados que tanto nos orgulham.
 
