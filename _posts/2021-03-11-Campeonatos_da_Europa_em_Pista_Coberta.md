@@ -7,7 +7,7 @@ featured-image: https://www.fpatletismo.pt/sites/default/files/Sele%C3%A7%C3%A3o
 tags: desporto atletismo
 ---
 
-Saudamos a selecção nacional de Atletismo pelo seu excelente resultado nos Campeonatos da Europa em Pista Coberta, Torun 2021 (na Polónia).
+Saudamos a participação dos nossos atletas nos Campeonatos da Europa em Pista Coberta, Torun 2021 (na Polónia) pelo seus excelentes resultados.
 
 O GDR Verderena congratula-se com veemência com a participação dos atletas portugueses que subiram ao pódio e fizeram içar a Bandeira Portuguesa.
 
@@ -15,13 +15,14 @@ O GDR Verderena congratula-se com veemência com a participação dos atletas po
 
 Com <a  href="https://www.fpatletismo.pt/europeus-em-pista-coberta-de-2021-históricos">3 medalhas de ouro</a> na mesma edição e a maior pontuação de sempre marcaram a presença portuguesa.
 
-![medalhas no 1º dia](https://www.fpatletismo.pt/sites/default/files/WhatsApp%20Image%202021-03-11%20at%2014.jpg)
-
-Logo no  <a  href="https://www.fpatletismo.pt/virtus-campeonatos-da-europa-em-pista-coberta-portugueses-estreiam-se-com-três-medalhas">1º dia </a> se demonstrou que era desta vez que queríamos trazer grandes resultados.
-
 No final aqui ficam os resultados que tanto nos orgulham.
 
 ![Classificações](https://cld.pt/dl/download/000196fd-df8e-46ed-81a6-6b6631c6b726/classificacoes_campeonatos.png?download=true)
 
-![Selecção nacional de Atletismo](https://www.fpatletismo.pt/sites/default/files/Sele%C3%A7%C3%A3oVirtus.jpeg)
-<a href="https://www.fpatletismo.pt/portugueses-entram-em-ação-amanhã-no-virtus-campeonatos-da-europa-em-pista-coberta"> Selecção Nacional de Atletismo </a>
+![Selecção Virtus](https://www.fpatletismo.pt/sites/default/files/Sele%C3%A7%C3%A3oVirtus.jpeg)
+<a href="https://www.fpatletismo.pt/portugueses-entram-em-ação-amanhã-no-virtus-campeonatos-da-europa-em-pista-coberta"> VIRTUS </a>
+
+
+![medalhas no 1º dia](https://www.fpatletismo.pt/sites/default/files/WhatsApp%20Image%202021-03-11%20at%2014.jpg)
+
+Logo no  <a  href="https://www.fpatletismo.pt/virtus-campeonatos-da-europa-em-pista-coberta-portugueses-estreiam-se-com-três-medalhas">1º dia </a> do VIRTUS Campeonatos da Europa em Pista Coberta (atletismo adaptado) se demonstrou que era desta vez que queríamos trazer grandes resultados.
