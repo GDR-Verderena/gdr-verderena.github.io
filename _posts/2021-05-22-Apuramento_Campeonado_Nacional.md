@@ -7,7 +7,12 @@ featured-image: https://cld.pt/dl/download/33775d89-4584-4edd-a55f-32f3c8400673/
 tags: desporto atletismo 
 ---
 
-O Grupo Desportivo e Recretativo da Verderena está este fim de semana a competir com a sua equipa feminina com objectivo do apuramento para o Campeonato Nacional de Clubes.
+"Campeonato Nacional de Clubes"(Apuramento) Feminino, 1° Jornada.
+
+O "GDRV" terminou em 41° lugar. Com: Ana Leonor Fabiana Silva, Cristina Duarte, Laura Martins, Luana Almeida, Nádia Gomes, Olga Araújo, Sara Gomes.
+Técnicos: Silvestre Gomes, Ana Leonor, Cristina Duarte e o Dirigente: Vítor Correia.
+
+MUITOS PARABÉNS EQUIPE, PELA VOSSA EXCELENTE PRESTAÇÃO. MUITO OBRIGADO
 
 ![equipa](https://cld.pt/dl/download/33775d89-4584-4edd-a55f-32f3c8400673/Apuramento_Campeonato_Nacional.jpeg)
 
