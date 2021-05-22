@@ -17,7 +17,7 @@ O Grupo Desportivo e Recretativo da Verderena está este fim de semana a competi
 
 Para seguires em pormenor as conquistas das nossas atletas, podes ir ao <a  href="https://fpacompeticoes.pt/405/competicao"> site da Federação</a> com resultados online.
 
-
+![equipa](https://cld.pt/dl/download/6377ce52-6bf4-4d02-acbe-99c9acdf50e6/equipa.jpeg)
 
 Para mais informação sobre a prova vai à <a  href="https://www.fpatletismo.pt/124-equipas-tentam-apuramento-para-os-nacionais-de-clubes"> página da competição</a>.
 
