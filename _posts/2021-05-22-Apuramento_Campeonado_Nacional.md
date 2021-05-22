@@ -15,6 +15,6 @@ O Grupo Desportivo e Recretativo da Verderena está este fim de semana a competi
 
 <br></br>
 
-Para seguires em pormenor as conquistas das nossas atletas, podes ir ao <a  href="https://www.fpatletismo.pt/europeus-em-pista-coberta-de-2021-históricos"> site da Federação</a> com resultados online.
+Para seguires em pormenor as conquistas das nossas atletas, podes ir ao <a  href="https://fpacompeticoes.pt/405/competicao"> site da Federação</a> com resultados online.
 
 
