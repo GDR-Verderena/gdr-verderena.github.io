@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Apuramento Para o Campeonato Nacional de Clubes
-date: 2021-15-22
+date: 2021-05-22
 author: G.D.R. Verderena
 featured-image: https://cld.pt/dl/download/33775d89-4584-4edd-a55f-32f3c8400673/Apuramento_Campeonato_Nacional.jpeg
 tags: desporto atletismo 
