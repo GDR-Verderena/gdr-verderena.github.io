@@ -18,3 +18,4 @@ O Grupo Desportivo e Recretativo da Verderena está este fim de semana a competi
 Para seguires em pormenor as conquistas das nossas atletas, podes ir ao <a  href="https://fpacompeticoes.pt/405/competicao"> site da Federação</a> com resultados online.
 
 
+![Cartaz provas](https://www.fpatletismo.pt/sites/default/files/Cartaz%20CN%20Clubes%20Apuramento%20Vários%202021.jpg)
