@@ -13,7 +13,7 @@ O Grupo Desportivo e Recretativo da Verderena está este fim de semana a competi
 
 <iframe width="783" height="440" src="https://www.youtube.com/embed/mtupQwcHtTc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<br></br>
+<br>
 
 Para seguires em pormenor as conquistas das nossas atletas, podes ir ao <a  href="https://fpacompeticoes.pt/405/competicao"> site da Federação</a> com resultados online.
 
