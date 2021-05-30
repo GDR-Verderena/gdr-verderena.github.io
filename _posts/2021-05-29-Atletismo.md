@@ -4,7 +4,7 @@ title: Vitórias dos nossos
 date: 2021-05-29
 author: G.D.R. Verderena
 featured-image: https://cld.pt/dl/download/81aec59a-ee49-4116-b20d-b11b56378fca/Dois.jpg
-tags: desporto atletismo 
+tags: desporto atletismo marcha celebração
 ---
 
 Porque a Verderena e a Fonte da Prata são ligações muito fortes, aqui ficam os Parabéns aos nossos atletas que se apresentaram a representar as cores da Fonte da Prata.
