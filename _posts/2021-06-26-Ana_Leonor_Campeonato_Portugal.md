@@ -10,8 +10,6 @@ tags: desporto atletismo marcha colectividade
 ---
 
 A nossa atleta (e PT) Ana Leonor está hoje a competir nos Campeonatos de Portugal de atletismo.
-Convidamos todos os sócios e amigos do G. D. R. da Verderena a acompanhar a sua prova em directo, pelas 20:10h no Youtube, em
-
-https://www.youtube.com/watch?v=trSdYHYTquA
+Convidamos todos os sócios e amigos do G. D. R. da Verderena a acompanhar a sua prova em directo, pelas 20:10h no Youtube, em https://www.youtube.com/watch?v=trSdYHYTquA
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/trSdYHYTquA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
