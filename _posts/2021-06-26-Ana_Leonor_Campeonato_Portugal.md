@@ -3,7 +3,7 @@ layout: post
 title: "Vamos apoiar a Ana pelas 20:10h"
 date: 2021-06-26
 author: G.D.R. Verderena
-description: Vamos apoiar a Ana pelas 20:10h
+description: Ana Leonor, atleta e PT
 featured-image: https://ddjrr3j94g7u7.cloudfront.net/static/pics/FPA_Competicoes_CPortugal_Maia_FPA_2021rev_QYvCiLr_jZ50BmA_Ui954et.png
 
 tags: desporto atletismo marcha colectividade
