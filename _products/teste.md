@@ -2,12 +2,12 @@
 layout: product
 name: Almofada
 description: Almofada Penas
-price: '.99'
+price: '50.00'
 featured_image_path: https://gdrverderena.pt/assets/img/more-service-3.jpg
 ---
 
 
-<iframe src="https://drive.google.com/file/d/1_3VWq-nWtf_TkaJCWn2FXlhWfrEzKnX_/preview" width="640" height="480" allow="autoplay"></iframe>
+
 
 
  Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.
@@ -24,6 +24,10 @@ tardi promisitque.
 2. Ope redituraque cernis vocas dant maris plangens
 3. Sensit et ossaque Hector
 4. Damnosasque vestes permulcetque petendo omnia
+
+
+<iframe src="https://drive.google.com/file/d/1_3VWq-nWtf_TkaJCWn2FXlhWfrEzKnX_/preview" width="640" height="480" allow="autoplay"></iframe>
+
 
 ## Quae pectora
 
