@@ -3,27 +3,6 @@ layout: default
 title: Contactos
 ---
 
-	 <!-- <div class="cv">
-				
-					<h1>Contactos</h1>
-					<address>
-					<strong>Instalações</strong><br>
-				Sede Social, Administrativa e Secções
-					Rua Armindo de Almeida nº44<br>
-					2830-275 Barreiro<br>
-					<abbr title="phone">P:</abbr> (+351) 21 214 0065<br>
-					<span class="obfuscate">g.d.verderena@gmail.com</span>
-					</address>
-
-					
-
-					
-
-	</div>
-
--->
-
-
 
 
 {% include contact.html %}
@@ -38,10 +17,23 @@ title: Contactos
                     <svg width="20" height="20" viewBox="0 0 16 16" class="bi bi-geo-alt-fill icone text-center" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
   <path fill-rule="evenodd" d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
 </svg>
-                    <p class="font-size-6 mb-0"> Rua Armindo de Almeida Nº 44 <br> Barreiro, 2830-275 </p>
+                    <p class="font-size-6 mb-0"> <a href="{{ site.data.geolocation.Bar }}" class="text-reset"> {{ site.data.social.sede }}</a> </p>
                 </div>
             </div>
         </div>
+	    
+	    
+	    <div class="col-md-6 col-lg-4 px-3 mb-3 mb-lg-0 " >
+            <div class="card shadow bg-white rounded h-100">
+                <div class="card-body py-5 px-2">
+                    <svg width="20" height="20" viewBox="0 0 16 16" class="bi bi-geo-alt-fill icone text-center" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+</svg>
+                    <p class="font-size-6 mb-0"><a href="{{ site.data.geolocation.Sede }}" class="text-reset"> {{ site.data.social.Bar }}</a>  </p>
+                </div>
+            </div>
+        </div>
+	    
        
 	    <div class="col-md-6 col-lg-4 px-3 mb-3 mb-lg-0 " >
             <div class="card shadow bg-white rounded h-100">
@@ -49,7 +41,7 @@ title: Contactos
 			<svg width="20" height="20" viewBox="0 0 16 16" class="bi bi-telephone-fill text-center icone" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
   <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
 </svg>
-                    <p class="font-size-6 mb-0"><a href="tel:+351212140065" class="text-reset">(+351) 21 214 0065</a><br></p>
+                    <p class="font-size-6 mb-0"><a href="tel:{{ site.data.social.telefone }}" class="text-reset">{{ site.data.social.telefone }}</a><br></p>
                 </div>
             </div>
         </div>
