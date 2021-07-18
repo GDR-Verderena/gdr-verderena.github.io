@@ -13,11 +13,11 @@
     transition: .2s all;
   /*  -webkit-filter: brightness(50%); */
 }
-
+/*
 .image img:hover {
     -webkit-filter: brightness(105%);
 }
-
+*/
 .btn_info {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
