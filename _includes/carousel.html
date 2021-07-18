@@ -43,34 +43,34 @@
 <div class="container-fluid text-center my-3">
   <!--  <h2 class="font-weight-light">GRUPO DESPORTIVO E RECREATIVO DA VERDERENA</h2> -->
     <div class="row mx-auto my-auto">
-        <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+        <div id="recipeCarousel" class="carousel slide " data-ride="carousel">
             <div class="carousel-inner w-100" role="listbox">
                 <div class="carousel-item active">
                     <div class="col-md-6">
-                         <div class="card text-white ">
-                            <img class="card-img"  data-src="{{ url }}assets/img/slide/slide-1_v2.jpg" src="{{ url }}assets/img/slide/slide-1_v2.jpg" onError="this.onerror=null;this.src='https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/logo.png';">
+                         <!--  <div class="card text-white "> -->
+                            <img class="w-100"  data-src="{{ url }}assets/img/slide/slide-1_v2.jpg" src="{{ url }}assets/img/slide/slide-1_v2.jpg" onError="this.onerror=null;this.src='https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/logo.png';">
                            <!--  <div class="black-overlay"></div> -->
-                            <div class="card-img-overlay"> 
+                          <!--  <div class="card-img-overlay">  -->
                             <!--    <h6 class="card-title">GDR VERDERENA</h6>
                                 <p class="card-text font-weight-light txt-info">No desenvolvimento de actividades e iniciativas para o crescimento do movimento associativo no Barreiro.</p>
                                 -->
                             <a href="/about#about" class="btn_info">CONHEÇA-NOS</a>
-                            </div>
+                          <!--   </div> -->
                         </div>
                     </div>
                 </div>
                 {% for actividades in site.actividades %}
                 <div class="carousel-item">
                     <div class="col-md-6">
-                         <div class="card text-white ">
+                        <!-- <div class="card text-white "> -->
                              {% if actividades.link_image And actividades.link_image != "" And actividades.link_image != nil    %} 
                             <img class="card-img" data-src="{{ actividades.link_image }}" src="{{ actividades.link_image }}" onError="this.onerror=null;this.src='https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/logo.png';">
                             <!-- <div class="black-overlay"></div> -->
                              {% else %}
-                              <img class="card-img" data-src="https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/logo.png" src="https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/logo.png" onError="this.onerror=null;this.src='https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/logo.png';">
+                              <img class="w-100" data-src="https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/logo.png" src="https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/logo.png" onError="this.onerror=null;this.src='https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/logo.png';">
                            <!--  <div class="black-overlay"></div>   -->  
                              {% endif %}
-                            <div class="card-img-overlay">    
+                           <!--  <div class="card-img-overlay">   --> 
                          <!--   
                                 <h6 class="card-title">{{actividades.name}}</h6>
                                 <p class="card-text font-weight-light txt-info ">{{actividades.desciption}}</p>
@@ -81,8 +81,8 @@
 
                                <a href="/contact" class="btn_info">{{actividades.name}}</a>
                                 
-                            </div>
-                        </div>
+                          <!--   </div> --> 
+                       <!--   </div> --> 
                     </div>
                 </div>
                
