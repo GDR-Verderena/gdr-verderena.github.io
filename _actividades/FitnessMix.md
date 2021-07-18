@@ -36,3 +36,4 @@ Passando depois para o local de treino. Quando possível usamos o polidesportivo
 
 E quando as condições climatéricas não o permitem, vamos para a antiga biblioteca.
 ![Treino no interior](https://cld.pt/dl/download/5bf5f3c1-6bc1-4bd2-96ba-8f971349fefc/fitness_interior.jpeg)
+
