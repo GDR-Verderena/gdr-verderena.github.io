@@ -46,7 +46,7 @@
         <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
             <div class="carousel-inner w-100" role="listbox">
                 <div class="carousel-item active">
-                    <div class="col-md-4">
+                    <div class="col-md-12">
                          <div class="card text-white ">
                             <img class="card-img"  data-src="{{ url }}assets/img/slide/slide-1_v2.jpg" src="{{ url }}assets/img/slide/slide-1_v2.jpg" onError="this.onerror=null;this.src='https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/logo.png';">
                            <!--  <div class="black-overlay"></div> -->
@@ -61,7 +61,7 @@
                 </div>
                 {% for actividades in site.actividades %}
                 <div class="carousel-item">
-                    <div class="col-md-4">
+                    <div class="col-md-12">
                          <div class="card text-white ">
                              {% if actividades.link_image And actividades.link_image != "" And actividades.link_image != nil    %} 
                             <img class="card-img" data-src="{{ actividades.link_image }}" src="{{ actividades.link_image }}" onError="this.onerror=null;this.src='https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/logo.png';">
