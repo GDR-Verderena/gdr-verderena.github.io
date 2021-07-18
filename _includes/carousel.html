@@ -41,8 +41,8 @@
             <div class="carousel-inner w-100" role="listbox">
                 <div class="carousel-item active">
                     <div class="col-md-6 col-lg-6 col-xs-6">
-                         <div class=" ">
-                            <img class=""  data-src="{{ url }}assets/img/slide/slide-1_v2.jpg" src="{{ url }}assets/img/slide/slide-1_v2.jpg" onError="this.onerror=null;this.src='https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/logo.png';">
+                         <div class="card text-white ">
+                            <img class="card-img"  data-src="{{ url }}assets/img/slide/slide-1_v2.jpg" src="{{ url }}assets/img/slide/slide-1_v2.jpg" onError="this.onerror=null;this.src='https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/logo.png';">
                            <!--  <div class="black-overlay"></div> -->
 
     
@@ -66,12 +66,12 @@
                 {% for actividades in site.actividades %}
                 <div class="carousel-item">
                     <div class="col-md-6 col-lg-6 col-xs-6">
-                         <div class="">
+                         <div class="card text-white">
                              {% if actividades.link_image And actividades.link_image != "" And actividades.link_image != nil    %} 
-                            <img class="" data-src="{{ actividades.link_image }}" src="{{ actividades.link_image }}" onError="this.onerror=null;this.src='https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/logo.png';">
+                            <img class="card-img" data-src="{{ actividades.link_image }}" src="{{ actividades.link_image }}" onError="this.onerror=null;this.src='https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/logo.png';">
                             <!-- <div class="black-overlay"></div> -->
                              {% else %}
-                              <img class="" data-src="https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/logo.png" src="https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/logo.png" onError="this.onerror=null;this.src='https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/logo.png';">
+                              <img class="card-img" data-src="https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/logo.png" src="https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/logo.png" onError="this.onerror=null;this.src='https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/logo.png';">
                            <!--  <div class="black-overlay"></div>   -->  
                              {% endif %}
                             <div class="card-img-overlay">    
