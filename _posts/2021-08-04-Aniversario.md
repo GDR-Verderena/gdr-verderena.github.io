@@ -31,4 +31,6 @@ Obrigado a todos.
 
 ![26º Aniversário foto 6](https://cld.pt/dl/download/a57588fc-835c-4722-87ad-697e0508333f/228998802_4592479510784676_1529516957469357665_n.jpg?download=true)
 
+Para mais imagens e informações vá à nossa página do facebook e faça um gosto.
+
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D4592491090783518%26id%3D356445604388109&show_text=true&width=500" width="500" height="717" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
