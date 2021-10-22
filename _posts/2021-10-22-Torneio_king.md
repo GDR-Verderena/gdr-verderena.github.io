@@ -14,7 +14,4 @@ Vem participar já neste SÁBADO, DIA 23 DE OUTUBRO às 10h.
 
 ![king](https://cld.pt/dl/download/ed6f0a86-fed7-4701-9662-a00df81100f6/WhatsApp%20Image%202021-10-21%20at%2018.14.50.jpeg?download=true)
 
-Para mais imagens e informações vá à nossa página do facebook e faça um gosto.
-
-<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D4726404910725468%26id%3D356445604388109&show_text=true&width=500" width="500" height="498" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 ---
