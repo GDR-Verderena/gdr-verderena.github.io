@@ -7,12 +7,12 @@ featured-image: https://cld.pt/dl/thumb/fddd496f-8929-46b5-ad57-7f83383f4cd9/Fit
 tags: desporto fitness coletividade
 ---
 
-<h1>Vem cuidar do corpo e da saude</h1>
+<h1>Vem cuidar do corpo e da saúde</h1>
 
 ![cartaz](https://cld.pt/dl/thumb/fddd496f-8929-46b5-ad57-7f83383f4cd9/Fitness%20Mix.png?size=xl&crop=false&format=png)
 
-<br>Vem experimentar esta atividade ao som de musicas animadas.
-<br>O objetivo é motivar a pratica de exercicio fisico.
+<br>Vem experimentar esta atividade ao som de músicas animadas.
+<br>O objetivo é motivar a prática de exercicio fisico.
 <br>Objetivos:
 <br>Perda de peso;
 <br>Redução de stress;
