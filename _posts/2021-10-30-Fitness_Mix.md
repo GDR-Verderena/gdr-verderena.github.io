@@ -20,7 +20,7 @@ tags: desporto fitness coletividade
 <br>Aumento da força;
 <br>Melhorar a mobilidade;
 <br>Desenvolvimento pulmonar e cardiaco;
-<br>
+
 
 
 <p>![Fitness 1](https://cld.pt/dl/thumb/5bf5f3c1-6bc1-4bd2-96ba-8f971349fefc/fitness_interior.jpeg?size=xl&crop=false&format=jpeg)
@@ -32,4 +32,4 @@ tags: desporto fitness coletividade
 
 <p>![Fitness 3](https://cld.pt/dl/thumb/5b00f152-f928-4c8b-9dca-40f907ba44bc/IMG_0902.jpg?size=xl&crop=false&format=jpeg)
 
-Fimas à tua espera!
+<p>Ficamos à tua espera!
