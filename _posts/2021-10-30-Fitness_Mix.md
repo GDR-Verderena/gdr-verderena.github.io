@@ -16,7 +16,6 @@ tags: desporto fitness coletividade
 <br>O objetivo é motivar a pratica de exercicio fisico.
 
 <br>Objetivos:
-
 <br>Perda de peso;
 <br>Redução de stress;
 <br>Obter uma melhor postura;
