@@ -1,12 +1,13 @@
 ---
 layout: post
 title: Corta Mato Quinta da Marialva
-date: 2021-10-24
+date: 2021-10-30
 author: G.D.R. Verderena
 featured-image: https://cld.pt/dl/thumb/c60ecc00-831a-4ad5-8250-76aacc25635a/dcbb352a-9d1f-4c10-902f-fc489c09538f.jpg?size=xl&crop=false&format=jpeg
 tags: desporto atletismo marcha
 ---
 
+No dia 24 de outubro de 2021 estivemos em Corroios.
 Mais uma prova em que o G.D.R. Verderena esteve presente assim como o G.D. Fonte da Prata.
 
 ![Meta](https://cld.pt/dl/thumb/589b3024-d3e2-45f9-8dca-c682bbec787f/51a84264-56b8-4045-864d-5c3c95735108.jpg?size=xl&crop=false&format=jpeg)
