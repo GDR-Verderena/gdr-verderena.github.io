@@ -7,21 +7,22 @@ featured-image: https://cld.pt/dl/thumb/c60ecc00-831a-4ad5-8250-76aacc25635a/dcb
 tags: desporto atletismo marcha
 ---
 
-No dia 24 de outubro de 2021 estivemos em Corroios.
-<br>Mais uma prova em que o G.D.R. Verderena esteve presente assim como o G.D. Fonte da Prata.</br>
+<h1>No dia 24 de outubro de 2021 estivemos em Corroios.</h1>
+<br>Mais uma prova em que o G.D.R. Verderena esteve presente assim como o G.D. Fonte da Prata.
 
 ![Meta](https://cld.pt/dl/thumb/589b3024-d3e2-45f9-8dca-c682bbec787f/51a84264-56b8-4045-864d-5c3c95735108.jpg?size=xl&crop=false&format=jpeg)
 
-<h2>Contámos com a presença dos nossos atletas mais novos.</h2>
+<h1>Contámos com a presença dos nossos atletas mais novos.</h2>
 <h1>Classificações:</h1>
-<br>Benj. A (não tiveram classificação)</br>
-<br>Rita</br>
-<br>Leonor</br>
-<br>Lucas</br>
-<br>Liam</br>
-
+<br>Benj. A (não tiveram classificação)
+<br>Rita
+<br>Leonor
+<br>Lucas
+<br>Liam
 <br>Benj. B 
-<br>Márcia 21º</br>
+<br>Márcia 21º
+
+
 ![A nossa Treinadora](https://cld.pt/dl/thumb/dcd17835-5599-49a8-b402-301629dcedea/6dd84896-4a30-4ec9-a922-1b1ab9045f76.jpg?size=xl&crop=false&format=jpeg)
 
 
