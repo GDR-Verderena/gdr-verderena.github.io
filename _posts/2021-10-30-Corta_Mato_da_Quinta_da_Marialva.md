@@ -12,7 +12,7 @@ tags: desporto atletismo marcha
 
 ![Meta](https://cld.pt/dl/thumb/589b3024-d3e2-45f9-8dca-c682bbec787f/51a84264-56b8-4045-864d-5c3c95735108.jpg?size=xl&crop=false&format=jpeg)
 
-<h1>Contámos com a presença dos nossos atletas mais novos.</h2>
+<h1>Contámos com a presença dos nossos atletas mais novos.</h1>
 <h1>Classificações:</h1>
 <br>Benj. A (não tiveram classificação)
 <br>Rita
