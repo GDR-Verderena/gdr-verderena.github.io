@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 1º Torneio de Atletismo Infantil
-date: 2021-10-10
+date: 2021-10-28
 author: G.D.R. Verderena
 featured-image: https://cld.pt/dl/thumb/634132d1-b6aa-4ca1-bb87-056762045c48/WhatsApp%20Image%202021-10-10%20at%2009.11.30.jpeg?size=xl&crop=false&format=jpeg
 tags: desporto atletismo marcha coletividade
