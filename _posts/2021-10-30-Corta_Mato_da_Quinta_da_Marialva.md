@@ -22,14 +22,10 @@ tags: desporto atletismo marcha
 <br>Benj. B 
 <br>Márcia 21º
 
+![A nossa Treinadora](https://cld.pt/dl/thumb/dcd17835-5599-49a8-b402-301629dcedea/6dd84896-4a30-4ec9-a922-1b1ab9045f76.jpg?size=xl&crop=false&format=jpeg)
 
-<p>![A nossa Treinadora](https://cld.pt/dl/thumb/dcd17835-5599-49a8-b402-301629dcedea/6dd84896-4a30-4ec9-a922-1b1ab9045f76.jpg?size=xl&crop=false&format=jpeg)
+![Durante a prova](https://cld.pt/dl/thumb/c3f7e9ee-d534-4c0b-82f6-5aa29e79b415/0c30307b-e8d5-44ee-9189-b878c3a16124.jpg?size=xl&crop=false&format=jpeg)
 
-
-
-<p>![Durante a prova](https://cld.pt/dl/thumb/c3f7e9ee-d534-4c0b-82f6-5aa29e79b415/0c30307b-e8d5-44ee-9189-b878c3a16124.jpg?size=xl&crop=false&format=jpeg)
-
-
-<p>![A Partida](https://cld.pt/dl/thumb/7ddf6672-ffbd-4e19-b55e-4cb25ccf6966/8bd73708-e858-4653-bfeb-a6677b71c737.jpg?size=xl&crop=false&format=jpeg)
+![A Partida](https://cld.pt/dl/thumb/7ddf6672-ffbd-4e19-b55e-4cb25ccf6966/8bd73708-e858-4653-bfeb-a6677b71c737.jpg?size=xl&crop=false&format=jpeg)
 
 Parabéns a todos!!!
