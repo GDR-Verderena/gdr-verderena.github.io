@@ -7,7 +7,7 @@ featured-image: https://cld.pt/dl/thumb/7ac78900-1852-4026-95b7-7a580d5c7d08/Wha
 tags: desporto atletismo marcha coletividade
 ---
 
-<h3>No dia 30 de outubro de 2021, o nosso atleta Artur Costa alcançou o 1º lugar de Juvenis.</h3>
+<h3>No dia 30 de outubro de 2021, o nosso atleta Artur Costa alcançou o 1º lugar de Juniores.</h3>
 <br>Numa prova que, devido ao mau tempo, não estivemos representados com os atletas mais novos. 
 <br>O G.D.R. Verderena esteve representado na prova de 5 Km, pelo atleta Artur Costa. O atleta concluío a prova com o tempo de 29'17.
 
