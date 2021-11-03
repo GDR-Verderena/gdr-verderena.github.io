@@ -6,7 +6,7 @@ author: G.D.R. Verderena
 featured-image: https://cld.pt/dl/thumb/1eeba73b-53a9-44a5-9d23-5d4fc72ef393/Fal_Vit.jpeg?size=xl&crop=false&format=jpeg
 tags: sócios coletividade
 ---
-É com profundo pezar que comunicamos o falecimento do nosso sócio Vitor Manuel Mendes da Silva.
+É com profundo pesar que comunicamos o falecimento do nosso sócio Vitor Manuel Mendes da Silva.
 
 ![Vitor da Silva](https://cld.pt/dl/thumb/1eeba73b-53a9-44a5-9d23-5d4fc72ef393/Fal_Vit.jpeg?size=xl&crop=false&format=jpeg)
 
