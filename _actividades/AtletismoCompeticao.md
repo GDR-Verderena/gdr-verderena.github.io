@@ -9,7 +9,9 @@ link_image: https://cld.pt/dl/download/a7a343bd-eda6-4fc3-a5a6-4832df8b1400/atle
 
 Atletismo de Competição
 
-Com o objectivo de apresentar os nossos atletas a provas regionais e nacionais da modalidade.
+O Atletismo é a base fundamental para qualquer desporto. Nele encontram-se uma mistura de corrida, saltos e lançamentos, com diferentes componentes técnicas. 
+
+O objetivo é proporcionar aos nossos atletas a participação nos Campeonatos Regionais e Nacionais.
 
 Modelo competitivo
 
