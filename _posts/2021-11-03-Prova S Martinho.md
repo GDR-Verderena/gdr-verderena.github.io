@@ -12,5 +12,5 @@ tags: desporto atletismo  colectividade
 
 ![Cartaz](https://cld.pt/dl/thumb/a39db846-eb6c-4acc-bcc4-909e62cb57f8/cartaz_Circuito_Atletismo_1prova_2021_2022.jpg?size=xl&crop=false&format=jpeg)
   
-<p>Prova de São Martinho do GDR Verderena no dia 14.11.2021 a partir das 9,30h.
-<p>Vem participar na nossa prova.
+<p>Prova de São Martinho do GDR Verderena no dia 14.11.2021 a partir das 9,30h
+<p>Vem participar na nossa prova
