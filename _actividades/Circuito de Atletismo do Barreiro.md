@@ -3,7 +3,7 @@ layout: actividade
 name: Circuito de Atletismo do Barreiro
 description: Participação do G.D.R. Verderena no Circuito de Atletismo do Barreiro 
 button_info: Entrar
-link_image: https://www.cm-barreiro.pt/thumbs/cmbarreiro/uploads/writer_file/image/14780/cabecalho_circuito_atletismo_720x250_1_750_2500.jpg
+link_image: https://cld.pt/dl/thumb/5a54a14c-dd58-475c-b14d-d5c356fb32ed/circuito_atletismo_barreiro_2021_22.jpg?size=xl&crop=false&format=jpeg
 ---
 
 
