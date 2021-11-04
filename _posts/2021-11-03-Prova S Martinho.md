@@ -11,4 +11,4 @@ Primeira prova do Circuito do Barreiro
 
 ![Cartaz](https://cld.pt/dl/thumb/a39db846-eb6c-4acc-bcc4-909e62cb57f8/cartaz_Circuito_Atletismo_1prova_2021_2022.jpg?size=xl&crop=false&format=jpeg)
 
-Vem participar na nossa prova.
+<p>Vem participar na nossa prova.
