@@ -4,6 +4,7 @@ title: Nota Informativa Cerimónias Fúnebres
 date: 2021-11-05
 author: G.D.R. Verderena
 featured-image: https://cld.pt/dl/thumb/be3382fa-0b7d-4438-a985-fbac19e21fe3/Funeral_Vitinho_page-0001.jpg?size=xl&crop=false&format=jpeg
+
 tags: sócios coletividade
 ---
 
