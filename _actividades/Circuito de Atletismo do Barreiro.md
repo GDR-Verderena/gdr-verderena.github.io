@@ -15,6 +15,12 @@ link_image: https://cld.pt/dl/thumb/5a54a14c-dd58-475c-b14d-d5c356fb32ed/circuit
 <iframe width="675" height="380" src="https://www.youtube.com/embed/jX_TDjr-OZ8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 <br><br>
+1ª Prova do Circuito do Barreiro G.D.R. Verderena
+<H4>
+<div align="center" > 
+<a  href="https://gdrverderena.pt/Prova_S_Martinho/>Horários e Percursos</a>
+</div>
+</H4>
 <H4>
 <div align="center" > 
 <a  href="https://www.cm-barreiro.pt/viver/desporto/planos-de-desenvolvimento/atletismo/circuito-de-atletismo-do-barreiro">Ir para Circuito de Atletismo do Barreiro no site da CMB</a>
