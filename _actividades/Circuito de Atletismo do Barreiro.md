@@ -16,7 +16,7 @@ link_image: https://cld.pt/dl/thumb/5a54a14c-dd58-475c-b14d-d5c356fb32ed/circuit
 </div>
 <br><br>
 <h3>1ª Prova do Circuito do Barreiro G.D.R. Verderena</h3>
-![Circuito Barreiro](https://cld.pt/dl/thumb/a39db846-eb6c-4acc-bcc4-909e62cb57f8/cartaz_Circuito_Atletismo_1prova_2021_2022.jpg?size=xl&crop=false&format=jpeg)
+![Circuito](https://cld.pt/dl/thumb/a39db846-eb6c-4acc-bcc4-909e62cb57f8/cartaz_Circuito_Atletismo_1prova_2021_2022.jpg?size=xl&crop=false&format=jpeg)
 <H4>
 <div align="center" > 
 <a  href="https://gdrverderena.pt/Prova_S_Martinho/">Horários e Percursos</a>
