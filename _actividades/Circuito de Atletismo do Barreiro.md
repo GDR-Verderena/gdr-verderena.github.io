@@ -18,7 +18,7 @@ link_image: https://cld.pt/dl/thumb/5a54a14c-dd58-475c-b14d-d5c356fb32ed/circuit
 1ª Prova do Circuito do Barreiro G.D.R. Verderena
 <H4>
 <div align="center" > 
-<a  href="https://gdrverderena.pt/Prova_S_Martinho/>Horários e Percursos</a>
+<a  href="https://gdrverderena.pt/Prova_S_Martinho/">Horários e Percursos</a>
 </div>
 </H4>
 <H4>
