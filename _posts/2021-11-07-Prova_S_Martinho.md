@@ -22,6 +22,8 @@ Primeira prova do Circuito do Barreiro
 ![Percursos2](https://cld.pt/dl/thumb/f400718e-18ba-46c5-95e6-2c9daf40cdf2/Adenda%20e%20Hor%C3%A1rio%20Prova%20de%20S.%20Martinho%20G.%20D.%20R.%20Verderena%202020.21%5BFinal%5D_page-0004.jpg?size=xl&crop=false&format=jpeg)
 
 ![Programa Horário](https://cld.pt/dl/thumb/ac1fc549-f924-459d-b516-03636a67afed/Adenda%20e%20Hor%C3%A1rio%20Prova%20de%20S.%20Martinho%20G.%20D.%20R.%20Verderena%202020.21%5BFinal%5D_page-0005.jpg?size=xl&crop=false&format=jpeg)
+
+ ![Escalões](https://cld.pt/dl/thumb/0370115e-7beb-4309-87e7-2fe8c439f805/Tabela%20de%20Escal%C3%B5esCorrig._page-0001.jpg?size=xl&crop=false&format=jpeg)
  
  <H4>
 <div align="center" > 
