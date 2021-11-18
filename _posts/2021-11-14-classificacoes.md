@@ -139,3 +139,5 @@ Classificações da primeira prova do Circuito do Barreiro
 <a  href="https://drive.google.com/file/d/1ywtsVovG7D8KBkbHv4gYINS4NeM8Dexg/view?usp=sharing">Veteranos VI Masculinos (3300 Metros)</a>
 </div>
 </H4>
+
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D4928041797228444%26id%3D356445604388109&show_text=true&width=500" width="500" height="684" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
