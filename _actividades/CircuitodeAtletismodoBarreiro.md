@@ -32,7 +32,7 @@ link_image: https://cld.pt/dl/thumb/5a54a14c-dd58-475c-b14d-d5c356fb32ed/circuit
 </div>
 </H4>
 
-Classificações da primeira prova do Circuito do Barreiro
+<H2>Classificações da primeira prova do Circuito do Barreiro</H2>
 
 <H4>
 <div align="center" > 
