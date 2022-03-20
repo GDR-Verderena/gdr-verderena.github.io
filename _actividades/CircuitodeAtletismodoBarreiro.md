@@ -162,7 +162,7 @@ link_image: https://cld.pt/dl/thumb/5a54a14c-dd58-475c-b14d-d5c356fb32ed/circuit
 </H4>
 
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D4928041797228444%26id%3D356445604388109&show_text=true&width=500" width="500" height="684" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-
+<br><br>
 <H3>
 <div align="center" > 
 <a  href="https://www.cm-barreiro.pt/viver/desporto/planos-de-desenvolvimento/atletismo/circuito-de-atletismo-do-barreiro">Ir para Circuito de Atletismo do Barreiro no site da CMB</a>
