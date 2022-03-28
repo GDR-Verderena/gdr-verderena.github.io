@@ -1,0 +1,18 @@
+---
+layout: post
+title: Campo de Férias Desportivo de Abril
+date: 2022-03-28
+author: G.D.R. Verderena
+featured-image: https://cld.pt/dl/download/485bbd3f-422f-4f91-9ae1-7cf94b9ea8dc/campo_ferias_abril.jpeg
+tags: desporto atletismo marcha VERDERENAFABRICADECAMPEOES
+---
+
+Vem participar no nosso Campo de Férias Desportivo de Abril, vamos ter várias actividades, embora o desporto seja o mote, vais ter muita diversão.
+
+![CFDA](https://cld.pt/dl/download/485bbd3f-422f-4f91-9ae1-7cf94b9ea8dc/campo_ferias_abril.jpeg)
+
+<p>Inscreve-te no  
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSd53CiaqLy-ql4Q739NxTjDdh_4cg4d9u5SLH4M7WMxFHQpqQ/viewform">link</a>
+ ou copia esta URL para o teu browser https://docs.google.com/forms/d/e/1FAIpQLSd53CiaqLy-ql4Q739NxTjDdh_4cg4d9u5SLH4M7WMxFHQpqQ/viewform </p>
+
+#VERDERENAFABRICADECAMPEOES
