@@ -22,5 +22,12 @@ E uma fotografia com este atleta que é sempre uma referência e motivo de conti
 ![19](https://cld.pt/dl/download/2f21d16b-24be-4b75-bc56-0f2faf0e92f7/19.jpg)
 ![17](https://cld.pt/dl/download/4a815eb2-9dd4-4b46-bdf7-cda8c4db13cd/17.jpg)
 
+<iframe width="743" height="418" src="https://www.youtube.com/embed/oC2dR12Ec4k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="743" height="418" src="https://www.youtube.com/embed/hbTvfzvfwQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="743" height="418" src="https://www.youtube.com/embed/Odzm6jlZHEk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="743" height="418" src="https://www.youtube.com/embed/cc2xTPgq15I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #VERDERENAFABRICADECAMPEOES
