@@ -9,7 +9,7 @@ tags: desporto recreativo VERDERENAFABRICADECAMPEOES
 
 E já temos imagens do nosso convívio.
 
-[Album com todas as fotos](https://www.facebook.com/media/set/?vanity=356445604388109&set=a.5521826757849942)
+[Álbum com todas as fotos](https://www.facebook.com/media/set/?vanity=356445604388109&set=a.5521826757849942)
 
 [Vídeo](https://fb.watch/di24kjiaEB/)
 
