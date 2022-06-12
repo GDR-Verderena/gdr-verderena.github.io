@@ -13,7 +13,9 @@ Será um Torneio de Carocha e se gostas de jogar com dados e tens gosto em recup
 
 Destinado a todos e a única coisa que além da mão para lançar os dados terás que trabalhar a tua estratégia.
 
-Vamos ter um diploma de participação e algo mais ... afinal estás a ajudar a não deixar esquecer um jogo tradicional
+Vamos ter um diploma de participação e algo mais ... afinal estás a ajudar a não deixar esquecer um jogo tradicional.
+
+Inscreve-te no nosso espaço recreativo/Bar na Rua Armindo de Almeida, 44B, Verderena ou no seguinte formulário: https://cld.pt/dl/download/22c965ec-dd45-4459-8024-ad1ff86c80d2/Convivio_carocha.png
  
 ![0](https://cld.pt/dl/download/22c965ec-dd45-4459-8024-ad1ff86c80d2/Convivio_carocha.png)
 
