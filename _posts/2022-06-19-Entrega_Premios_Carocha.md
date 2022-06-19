@@ -27,6 +27,14 @@ Foi um momento de convivio e a competição foi só para dar alguma adrenalina :
 ![8](https://cld.pt/dl/download/809dbda9-8c89-4c28-932e-805626eda608/IMG_1991.jpg)
 ![9](https://cld.pt/dl/download/cb8b2f5a-f016-4168-b96a-7070233c78df/IMG_2001.jpg)
 ![10](https://cld.pt/dl/download/50956ad2-a5d0-489b-a148-40c67dce4892/IMG_2008.jpg)
+![11](https://cld.pt/dl/download/9b0fdd65-20f9-48aa-9ea9-88ca2de313ae/WhatsApp%20Image%202022-06-19%20at%2019.15.49.jpeg)
+![12](https://cld.pt/dl/download/89de5c30-1d55-474d-ac4c-a07819d9291f/WhatsApp%20Image%202022-06-19%20at%2019.15.36.jpeg)
+
+E depois da última desputa
+![13](https://cld.pt/dl/download/cc5676d2-177a-4e39-9271-a0866666189a/carochas.png)
+
+A classificação final!
+![14](https://cld.pt/dl/download/0d10d32e-a952-4b97-a0eb-8c5bbd981155/classificacao_Carocha_2022.jpg)
 
 [Post no Facebook](https://www.facebook.com/356445604388109/posts/pfbid098CyErk93BD9n4fvAuvcKpQ8eDSZefAH2sdVMfoQLFuNE8c6D4XrmrjW7r2EM8H3l/)
 
