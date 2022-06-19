@@ -28,4 +28,6 @@ Foi um momento de convivio e a competição foi só para dar alguma adrenalina :
 ![9](https://cld.pt/dl/download/cb8b2f5a-f016-4168-b96a-7070233c78df/IMG_2001.jpg)
 ![10](https://cld.pt/dl/download/50956ad2-a5d0-489b-a148-40c67dce4892/IMG_2008.jpg)
 
+<iframe src="https://www.facebook.com/permalink.php?story_fbid=pfbid098CyErk93BD9n4fvAuvcKpQ8eDSZefAH2sdVMfoQLFuNE8c6D4XrmrjW7r2EM8H3l&id=356445604388109"></iframe>
+
 #VERDERENAFABRICADECAMPEOES
