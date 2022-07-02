@@ -1,7 +1,7 @@
 ---
 layout: post
 title: DEMONSTRAÇÃO DE "KID'S ATLETIC" (JOGOS DE ATLETISMO)
-date: 2022-06-02
+date: 2022-07-02
 author: G.D.R. Verderena
 featured-image: https://cld.pt/dl/download/6237e7a4-886f-4496-9081-e69f77a5774a/WhatsApp%20Image%202022-07-02%20at%2018.52.11.jpeg
 tags: desporto atletismo VERDERENAFABRICADECAMPEOES
