@@ -4,26 +4,23 @@
 
  <script src="https://www.google.com/recaptcha/api.js"></script>
 
- <script src="https://www.google.com/recaptcha/api.js?trustedtypes=true"></script>
 
- <script src="https://www.google.com/recaptcha/api.js?render=6LfM7DYhAAAAALcQ58IdKVY1n06BWxTAElQJQIjW"></script>
 
- <script>
-      function onClick(e) {
-        e.preventDefault();
-        grecaptcha.ready(function() {
-          grecaptcha.execute('6LfM7DYhAAAAALcQ58IdKVY1n06BWxTAElQJQIjW', {action: 'submit'}).then(function(token) {
-              // Add your logic to submit to your backend server here.
-          });
-        });
-      }
-  </script>
+
+
+<script>
+   
+     </script>
 
 <script type="text/javascript">
-function enableBtn(){
+
 	
-	document.getElementById("submit").disabled = false;
-}
+	
+	
+	    function onSubmit(token) {
+         document.getElementById("contact").submit();
+       }
+
 </script>
 
 
@@ -100,10 +97,15 @@ function enableBtn(){
             <span for="Message" class="text-muted"></span>
           </div>
         </div>
-	    <div class="g-recaptcha" data-sitekey="6LfM7DYhAAAAALcQ58IdKVY1n06BWxTAElQJQIjW" data-callback="enableBtn"></div>
+	   <!-- <div class="g-recaptcha" data-sitekey="6LfM7DYhAAAAALcQ58IdKVY1n06BWxTAElQJQIjW" data-callback="enableBtn"></div> -->
+	    <div class="g-recaptcha"
+      data-sitekey="_your_site_key_"
+      data-callback="onSubmit"
+      data-size="invisible">
+</div>
         <div>
 	   
-          <Button  id="submit" type="submit" class="btn btn-secondary"  disabled="disabled">
+          <Button class="g-recaptcha" data-sitekey="6LfXDTchAAAAAIjlKC7SJuMTKezAy3e_JUPeHDBb" data-callback="onSubmit" id="submit" type="submit" class="btn btn-secondary" >
             <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
             </svg> Enviar </Button>
@@ -127,22 +129,7 @@ function enableBtn(){
 
 
 
- <script src="https://www.google.com/recaptcha/api.js"></script>
 
- <script src="https://www.google.com/recaptcha/api.js?trustedtypes=true"></script>
-
- <script src="https://www.google.com/recaptcha/api.js?render=6LfM7DYhAAAAALcQ58IdKVY1n06BWxTAElQJQIjW"></script>
-
- <script>
-      function onClick(e) {
-        e.preventDefault();
-        grecaptcha.ready(function() {
-          grecaptcha.execute('6LfM7DYhAAAAALcQ58IdKVY1n06BWxTAElQJQIjW', {action: 'submit'}).then(function(token) {
-              // Add your logic to submit to your backend server here.
-          });
-        });
-      }
-  </script>
 
 
 <script>
