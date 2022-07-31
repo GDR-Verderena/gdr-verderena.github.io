@@ -108,7 +108,18 @@ function enableBtn(){
 
 
  <script src="https://www.google.com/recaptcha/api.js"></script>
+ <script src="https://www.google.com/recaptcha/api.js?render=6LfM7DYhAAAAALcQ58IdKVY1n06BWxTAElQJQIjW"></script>
 
+ <script>
+      function onClick(e) {
+        e.preventDefault();
+        grecaptcha.ready(function() {
+          grecaptcha.execute('6LfM7DYhAAAAALcQ58IdKVY1n06BWxTAElQJQIjW', {action: 'submit'}).then(function(token) {
+              // Add your logic to submit to your backend server here.
+          });
+        });
+      }
+  </script>
 
 
 <script>
