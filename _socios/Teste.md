@@ -14,4 +14,4 @@ link_imagem: https://cld.pt/dl/download/b66bb1b1-1856-4c0b-852d-5c63d53812f4/pro
 
 #VERDERENAFABRICADECAMPEOES #RECREATIVA #DESPORTO #ATLETISMO
 
-PDF ![pdf](https://cld.pt/dl/download/603cf0bc-84b8-43fb-aac1-23bc5f72ef23/prop_socio_verderena.pdf)
+
