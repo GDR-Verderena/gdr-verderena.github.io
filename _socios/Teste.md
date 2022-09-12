@@ -16,6 +16,6 @@ link_imagem: https://cld.pt/dl/download/b66bb1b1-1856-4c0b-852d-5c63d53812f4/pro
 
 <H4>
 <div align="center" > 
-<a  href="https://cld.pt/dl/download/603cf0bc-84b8-43fb-aac1-23bc5f72ef23/prop_socio_verderena.pdf?download=true">Em pdf</a>
+<a  href="https://cld.pt/dl/download/603cf0bc-84b8-43fb-aac1-23bc5f72ef23/prop_socio_verderena.pdf?download=true">Em versão PDF</a>
 </div>
 </H4>
