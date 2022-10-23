@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Corrida de São Martingo"
+title: "Corrida de São Martinho"
 date: 2022-10-23
 author: G.D.R. Verderena
 featured-image: https://cld.pt/dl/download/e39489b9-0ee0-4fb7-86b9-43b59d646710/Adenda%20e%20Hor%C3%A1rio%20Corrida%20de%20S.%20Martinho%20G.%20D.%20R.%20Verderena%202022.23.%201.jpg
