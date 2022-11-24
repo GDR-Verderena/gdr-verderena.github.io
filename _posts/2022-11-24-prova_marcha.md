@@ -20,16 +20,18 @@ tags: desporto recreativo VERDERENAFABRICADECAMPEOES
 <br><br>
 
 
-<H2> <div align="center" > Regulamento </H2>
+<H2> <div align="center" > Regulamento  </H2>
 
 
 <H4>
 <div align="center" > 
 <a  href="https://drive.google.com/file/d/1f2Gp5BBysJ8voCiIo8qPu5l6pm0s8vWw/view?usp=sharing">Regulamento da prova</a>
 </div>
+  </H4>
   
   <H2> <div align="center" > Adenda ao regulamento do Campeonato Regional de Marcha Atlética </H2>
 <H4>
 <div align="center" > 
 <a  href="https://drive.google.com/file/d/1UFiwS73fUVOTXIM5sve6RjitSTaBDCTB/view?usp=sharing">Adenda à prova</a>
 </div>
+    </H4>
