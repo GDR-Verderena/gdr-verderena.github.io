@@ -11,7 +11,7 @@ link_image: https://cld.pt/dl/thumb/5a54a14c-dd58-475c-b14d-d5c356fb32ed/circuit
 <H4>tem participado activamente no Circuito de Atletismo do Barreiro, não só com a presença em todas as provas como na organização de algumas que fazem parte do calendário do Circuito.
 </H4>
 <br>
-<H2> <div align="center" > Época 2022/2023 </H2>
+<H2> Época 2022/2023 </H2>
 
 <br><br>
 
@@ -30,7 +30,7 @@ link_image: https://cld.pt/dl/thumb/5a54a14c-dd58-475c-b14d-d5c356fb32ed/circuit
 <a  href="https://drive.google.com/file/d/17fbFNg0K2tZavHDAz-2Sk9ypyJZWXw8C/view?usp=share_link">Classificações e tempos</a>
 </div>
 <br><br>
-<H2> <div align="center" > Época 2021/2022 </H2>
+<H2> Época 2021/2022 </H2>
 
 <br>
 <div align="center" > 
