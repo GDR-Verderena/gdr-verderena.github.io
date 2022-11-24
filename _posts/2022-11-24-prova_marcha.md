@@ -13,9 +13,7 @@ tags: desporto recreativo VERDERENAFABRICADECAMPEOES
 </H4>
 
 
-<h3> 
-  <div align="center" > Campeonato Regional de Marcha Atlética
-  </h3>
+<h3> Campeonato Regional de Marcha Atlética </h3>
 
 ![Circuito](https://cld.pt/dl/download/01bbfcae-49e1-4e44-81e0-2f8e60248d35/A4%20marcha.jpg)
 
