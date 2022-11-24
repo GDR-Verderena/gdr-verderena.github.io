@@ -3,7 +3,7 @@ layout: actividade
 name: Actividades Recreativas-Culturais
 description: Cultura e Recreio 
 button_info: Entrar
-link_image: https://cld.pt/dl/download/1ae8fdec-300a-46bb-ac57-036904545756/recreativa_v2.jpg?download=true
+link_image: https://cld.pt/dl/download/26d1f84d-0a55-4fc7-b2e8-168e0838e31d/IMG_2032.jpg
 ---
 
 
