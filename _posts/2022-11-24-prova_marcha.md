@@ -20,7 +20,7 @@ tags: desporto recreativo VERDERENAFABRICADECAMPEOES
 <br><br>
 
 
-<H2> <div align="center" > Regulamento  </H2>
+<H2> <div align="center" > Regulamento 
 
 
 <H4>
@@ -29,7 +29,7 @@ tags: desporto recreativo VERDERENAFABRICADECAMPEOES
 </div>
   </H4>
   
-  <H2> <div align="center" > Adenda ao regulamento do Campeonato Regional de Marcha Atlética </H2>
+  <H2> <div align="center" > Adenda ao regulamento do Campeonato Regional de Marcha Atlética 
 <H4>
 <div align="center" > 
 <a  href="https://drive.google.com/file/d/1UFiwS73fUVOTXIM5sve6RjitSTaBDCTB/view?usp=sharing">Adenda à prova</a>
