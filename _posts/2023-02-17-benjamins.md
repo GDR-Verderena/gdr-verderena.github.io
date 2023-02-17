@@ -24,7 +24,7 @@ tags: desporto recreativo VERDERENAFABRICADECAMPEOES
 ![3](https://cld.pt/dl/download/a367b18f-f13f-4d7a-9cfe-89bce29cafa0/3.jpg)
 ![4](https://cld.pt/dl/download/acdd9caa-190c-4d06-b052-d05457c32b62/4.jpg)
 
-<H4> Regulamento do convívio de Benjamins B 
+<H4> Regulamento do Meeting de Benjamins B 
 </H4>
 ![1](https://cld.pt/dl/download/193a99ca-ad2b-494c-83b4-71fcf950c8d1/B1.jpg)
 ![2](https://cld.pt/dl/download/7dfb29df-d5ab-4e51-bdce-ceb66a155759/B2.jpg)
