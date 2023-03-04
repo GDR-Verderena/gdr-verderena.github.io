@@ -47,4 +47,8 @@ tags: desporto recreativo VERDERENAFABRICADECAMPEOES
 ![22](https://cld.pt/dl/download/206095a8-6af0-48ea-8ab2-81ba8e30a4d2/IMG_8547.jpg)
 ![23](https://cld.pt/dl/download/aa186f94-c17b-4389-8c16-24ee896583ff/IMG_8549.jpg)
 
+O Albúm completo em:
+
+https://m.facebook.com/story.php?story_fbid=pfbid02MS9cbMGtxqf4ZM6v4afhSgxP8b742Gnx41R6R1KSW4BEesXLLP2zpCGoHrarB38tl&id=100063477404805
+
 #verderenafabricadecampeoes #fabricadecampeoes 
