@@ -47,7 +47,7 @@ tags: desporto recreativo VERDERENAFABRICADECAMPEOES
 ![22](https://cld.pt/dl/download/206095a8-6af0-48ea-8ab2-81ba8e30a4d2/IMG_8547.jpg)
 ![23](https://cld.pt/dl/download/aa186f94-c17b-4389-8c16-24ee896583ff/IMG_8549.jpg)
 
-O Albúm completo em:
+O Álbum completo em:
 
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02MS9cbMGtxqf4ZM6v4afhSgxP8b742Gnx41R6R1KSW4BEesXLLP2zpCGoHrarB38tl%26id%3D100063477404805&show_text=true&width=500" width="500" height="832" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 
