@@ -49,6 +49,6 @@ tags: desporto recreativo VERDERENAFABRICADECAMPEOES
 
 O Albúm completo em:
 
-<iframe src="https://m.facebook.com/story.php?story_fbid=pfbid02MS9cbMGtxqf4ZM6v4afhSgxP8b742Gnx41R6R1KSW4BEesXLLP2zpCGoHrarB38tl&id=100063477404805" width="500" height="671" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02MS9cbMGtxqf4ZM6v4afhSgxP8b742Gnx41R6R1KSW4BEesXLLP2zpCGoHrarB38tl%26id%3D100063477404805&show_text=true&width=500" width="500" height="832" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 
 #verderenafabricadecampeoes #fabricadecampeoes 
