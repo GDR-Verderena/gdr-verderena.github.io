@@ -14,6 +14,7 @@ tags: desporto recreativo VERDERENAFABRICADECAMPEOES
 
 ![Cartaz](https://cld.pt/dl/download/2cfa3d4e-b488-439a-9992-d1aef92fd97e/cartaz.jpg)
 
-Mais informações e regulamento em: https://www.cm-barreiro.pt/conhecer/agenda-de-eventos/evento-88/kids-athletics
+Mais informações e regulamento em:
+https://www.cm-barreiro.pt/conhecer/agenda-de-eventos/evento-88/kids-athletics
 
 #verderenafabricadecampeoes #fabricadecampeoes 
