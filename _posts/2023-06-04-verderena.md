@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A alegris de pertencer a uma equipa"
+title: "A alegria de pertencer a esta equipa"
 date: 2023-06-04
 author: G.D.R. Verderena
 featured-image: https://cld.pt/dl/download/0ad2b121-de8f-4e9b-8cda-2b304b29da26/67723108_2863075450372499_4311784798793236480_o.jpg?download=true
