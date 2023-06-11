@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "8 prova do circuito de atletismo do Barreiro / corrida de aniversário G.D.C. Estrela Negra"
-date: 2023-06-03
+date: 2023-06-10
 author: G.D.R. Verderena
 featured-image: https://cld.pt/dl/download/a3a822a9-fcca-45b1-888b-ac1018e624ac/352288058_249486364439190_7142810603428016961_n.jpg
 tags: desporto recreativo VERDERENAFABRICADECAMPEOES
