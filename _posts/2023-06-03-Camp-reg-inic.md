@@ -3,7 +3,7 @@ layout: post
 title: "Campeonatos Regionais de Iniciados"
 date: 2023-06-03
 author: G.D.R. Verderena
-featured-image: https://cld.pt/dl/download/aabaf045-96ce-4280-a7ab-a786f90d2d8a/cartaz_benj_inf.jpg
+featured-image: https://cld.pt/dl/download/436dd428-d907-4484-b627-6c49269b9d77/5.jpg
 tags: desporto recreativo VERDERENAFABRICADECAMPEOES
 ---
 
