@@ -16,27 +16,27 @@
 
  <br>
  
-##### Ana Fernanda Nascimento Ferreira da Silva
+##### Lúcia Alexandra C. C. Pires Morgado
 ###### Tesoureiro 
 
  <br>
  
-##### Isabel Maria P. A. Castro Freitas                                    
+##### Ana Isabel Camacho Lança                                   
 ###### Vice–Tesoureiro 
 
  <br>
  
-##### Flávio Alves Lopes                                                      
+##### Ângela Sofia de Almeida Gomes Cardoso                                                      
 ###### 1º Secretário 
 
  <br>
  
-##### João Nuno Silvestre Cardoso                                         
+##### Flávio Alves Lopes                                        
 ###### 2º Secretário 
 
  <br>
  
-##### Ana Isabel Camacho Lança              
+##### Ana Fernanda Nascimento Ferreira da Silva             
 ###### Vogal 
 
 <br><br>
@@ -50,12 +50,12 @@
   
   <br>
 
-##### Manuel António M. Tereso                                              
+##### Isabel Maria P. A. Castro Freitas                                             
 ###### Secretário 
   
   <br>
 
-##### Artur Jorge da Silva Costa
+##### Francisco Oliveira Parruca
 ###### Relator 
 
 <br><br>
@@ -64,17 +64,17 @@
 
 <br>
 
-##### Mário Alves Moura
+##### Luís Filipe Tavares Antunes
 ###### Presidente Assembleia Geral
   
 <br>
 
-##### João Gabriel Marques Ferre
+##### Ana Catarina Duarte Leonor
 ###### Vice-Presidente 
   
 <br>
 
-##### Ana Catarina Duarte Leonor                                           
+##### Carlos Jorge Lopes Letras                                           
 ###### 1º Secretário 
   
 <br>
