@@ -19,7 +19,7 @@ Dia 1 de Outubro iremos realizar o Convívio de Benjamins no Módulo de Atletism
 ![5](https://cld.pt/dl/download/db9cf18f-b7bb-4c61-be91-bd2a715d4526/3.jpeg)
 ![6](https://cld.pt/dl/download/a4647148-2c49-41ac-8b8e-aa4fc0771ac2/4.jpeg)
 ![7](https://cld.pt/dl/download/77d00444-3c99-44bc-8160-2605db9bfdaf/7.jpeg)
-![1](https://cld.pt/dl/download/15b75da6-8c8c-44e2-b0c0-6a2fb03079ba/8.jpeg)
+![1](https://cld.pt/dl/download/744285ff-0d73-484e-8c3b-1eb9ba0458d3/8-1.jpeg)
 
 <H3>SOMOS G. D. R. Verderena</H3>
 
