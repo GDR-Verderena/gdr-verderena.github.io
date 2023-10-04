@@ -22,7 +22,8 @@ Vem fazer o circuito de Atletismo do Barreiro connosco.
 Treinos no polidesportivo da escola nº 7 da Verderena (seg. 18:30h e sex. 18h) e no módulo de atletismo na escola da telha (qua. 18:30h)
 
 ![1](https://cld.pt/dl/download/0136556f-37cb-414c-9f47-76d7e3553e16/WhatsApp%20Image%202023-09-25%20at%2008.24.14.jpeg)
-
+<br>
+![2](https://cld.pt/dl/download/ab33f1f1-eec8-4597-bd3c-0314df296f05/TABELA%20DE%20ESCAL%C3%95ES%2023.24.jpg)
 <H3>SOMOS G. D. R. Verderena</H3>
 
 <br>
