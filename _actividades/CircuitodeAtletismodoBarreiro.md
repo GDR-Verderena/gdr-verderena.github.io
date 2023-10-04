@@ -10,6 +10,11 @@ link_image: https://cld.pt/dl/download/1aab499a-831a-4dc8-b9aa-c6739aa8a454/cir_
 <H2> O Grupo Desportivo e Recreativo da Verderena </H2>
 <H4>tem participado activamente no Circuito de Atletismo do Barreiro, não só com a presença em todas as provas como na organização de algumas que fazem parte do calendário do Circuito.
 </H4>
+
+<H2> Época 2023/2024 </H2>
+<br>
+![Circuito](https://cld.pt/dl/download/887994b7-9e74-4bb5-914c-bf5a2df530a5/Calend%C3%A1rio%20de%20Provas%2023-24.jpg)
+
 <br>
 <H2> Época 2022/2023 </H2>
 
