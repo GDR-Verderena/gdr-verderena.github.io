@@ -26,6 +26,10 @@ Treinos no polidesportivo da escola nº 7 da Verderena (seg. 18:30h e sex. 18h) 
 ![2](https://cld.pt/dl/download/ab33f1f1-eec8-4597-bd3c-0314df296f05/TABELA%20DE%20ESCAL%C3%95ES%2023.24.jpg)
 <H3>SOMOS G. D. R. Verderena</H3>
 
+<div align="center" > 
+<a  href="https://atletismobarreiro.pt/classificacoes/">Classificações e tempos</a>
+</div>
+
 <br>
 <H2> Época 2022/2023 </H2>
 
