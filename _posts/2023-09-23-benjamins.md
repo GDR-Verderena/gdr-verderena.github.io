@@ -3,7 +3,7 @@ layout: post
 title: "Kids Athletics Benjamins A e Meeting Benjamins B"
 date: 2023-09-23
 author: G.D.R. Verderena
-featured-image: https://cld.pt/dl/download/7628b7b0-1300-46b2-bf0f-f4d08a05c957/benjamins.jpeg
+featured-image: https://cld.pt/dl/download/fa9ef676-fecc-49e5-b120-4d6f7d6c8a11/Conv%C3%ADvio%20de%20Benjamins%20em%20Pavilh%C3%A3o-2.png
 tags: desporto recreativo VERDERENAFABRICADECAMPEOES
 ---
 
