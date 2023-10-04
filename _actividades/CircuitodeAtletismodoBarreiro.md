@@ -14,6 +14,16 @@ link_image: https://cld.pt/dl/download/1aab499a-831a-4dc8-b9aa-c6739aa8a454/cir_
 <H2> Época 2023/2024 </H2>
 <br>
 ![Circuito](https://cld.pt/dl/download/887994b7-9e74-4bb5-914c-bf5a2df530a5/Calend%C3%A1rio%20de%20Provas%2023-24.jpg)
+<br>
+<H2>Gostas de Correr ?</H2>
+
+Vem fazer o circuito de Atletismo do Barreiro connosco.
+
+Treinos no polidesportivo da escola nº 7 da Verderena (seg. 18:30h e sex. 18h) e no módulo de atletismo na escola da telha (qua. 18:30h)
+
+![1](https://cld.pt/dl/download/0136556f-37cb-414c-9f47-76d7e3553e16/WhatsApp%20Image%202023-09-25%20at%2008.24.14.jpeg)
+
+<H3>SOMOS G. D. R. Verderena</H3>
 
 <br>
 <H2> Época 2022/2023 </H2>
