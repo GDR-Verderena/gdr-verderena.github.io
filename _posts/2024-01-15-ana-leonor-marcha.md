@@ -9,8 +9,8 @@ tags: desporto recreativo VERDERENAFABRICADECAMPEOES
 
 <CENTER><H3>Campeonato Regional de Inverno</H3></CENTER>
 <H3> Marcha Atlética </H3>
-<CENTER><H2>nos 3000 de marcha a Campeã é a Ana Leonor</H2></CENTER>
-<H2>G.D.R. Verderena</H2>
+<CENTER><H2>nos 3000 de marcha a Campeã é a Ana Leonor </H2></CENTER>
+<H2>  G.D.R. Verderena</H2>
 
 
 A técnica está perfeita.
