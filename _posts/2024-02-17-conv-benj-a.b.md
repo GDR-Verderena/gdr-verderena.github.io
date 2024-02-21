@@ -20,7 +20,7 @@ Pavilhão gimnodesportivo da EB Quinta Nova da Telha
 
 ![0](https://cld.pt/dl/download/81040c2b-7a14-48cb-a707-faec490fab17/cartaz.jpeg)
 ![1](https://cld.pt/dl/download/9189fd07-01cc-47b3-a407-0c3c7b4e3797/Benj-A-1-1.jpg)
-![2](https://cld.pt/dl/download/276526d5-7ae1-43b3-b7e7-c1b3dea615a6/Benj-B-2.jpeg)
+![2](https://cld.pt/dl/download/f600dc48-7d54-4e96-82e1-510b7d925dc1/Benj-B-2-2.jpg)
 ![3](https://cld.pt/dl/download/ab2750c3-3403-4d3e-bcf1-8551f61e755c/Benj-A-1.jpeg)
 ![4](https://cld.pt/dl/download/d76635d7-7b94-4676-8d09-8ccdbf1e1fd7/Benj-A-2.jpeg)
 ![5](https://cld.pt/dl/download/02f48818-a05a-48ce-b730-2af5f3f838d5/Benj-A-3.jpeg)
