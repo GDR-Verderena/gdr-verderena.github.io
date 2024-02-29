@@ -26,6 +26,8 @@ Pavilhão gimnodesportivo da EB Quinta Nova da Telha
 ![5](https://cld.pt/dl/download/02f48818-a05a-48ce-b730-2af5f3f838d5/Benj-A-3.jpeg)
 ![6](https://cld.pt/dl/download/db329765-0d62-42aa-bed0-87bf59256a87/Benj-A-4.jpeg)
 
+Imagens em: https://www.facebook.com/share/p/i9UnFGj7moVBDLbs/
+
 <H3>SOMOS G. D. R. Verderena</H3>
 
 #verderenafabricadecampeoes #fabricadecampeoes 
