@@ -28,6 +28,17 @@ Pavilhão gimnodesportivo da EB Quinta Nova da Telha
 
 Imagens em: https://www.facebook.com/share/p/i9UnFGj7moVBDLbs/
 
+Classificações Benjamins B Femininos
+
+![7](https://cld.pt/dl/download/b8b02f53-0572-40e5-b767-c575d0480aa8/C%C3%B3pia%20de%20Classifica%C3%A7%C3%B5es%20Coletivas%20e%20Individuais%2025.02.2024%20Fem._P%C3%A1gina_1.jpg)
+![8](https://cld.pt/dl/download/68388c4d-5157-4247-95f0-c8fc0491408c/C%C3%B3pia%20de%20Classifica%C3%A7%C3%B5es%20Coletivas%20e%20Individuais%2025.02.2024%20Fem._P%C3%A1gina_2.jpg)
+![9](https://cld.pt/dl/download/76e17064-3396-435e-9237-798113482df1/C%C3%B3pia%20de%20Classifica%C3%A7%C3%B5es%20Coletivas%20e%20Individuais%2025.02.2024%20Fem._P%C3%A1gina_3.jpg)
+
+Classificações Benjamins B Masculinos
+
+![10](https://cld.pt/dl/download/5ed1b6e6-1539-4d2a-a498-24e8a0d9e156/C%C3%B3pia%20de%20Classifica%C3%A7%C3%B5es%20Coletivas%20e%20Individuais%2025.02.2024%20Masc._P%C3%A1gina_1.jpg)
+![11](https://cld.pt/dl/download/838398d0-80d2-4f64-ada8-e14ac8c1e6f9/C%C3%B3pia%20de%20Classifica%C3%A7%C3%B5es%20Coletivas%20e%20Individuais%2025.02.2024%20Masc._P%C3%A1gina_2.jpg)
+
 <H3>SOMOS G. D. R. Verderena</H3>
 
 #verderenafabricadecampeoes #fabricadecampeoes 
