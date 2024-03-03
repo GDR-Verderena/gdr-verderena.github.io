@@ -28,8 +28,8 @@ object-fit: cover;
       </a>
       <p id="excert" class="card-text"> {{ post.excerpt | strip_html | strip_newlines | truncate: 156 }} </p>
 
-      <p class="card-text">
       <p class="noselect"> {% include read_time.html content=post.content %} </p>
+      <p class="card-text">
       <footer class="blockquote-footer"> {% if post.author %} {{ post.author }} {% else %} {{ site.author }}
         {% endif %} <cite title="Source Title"> {{ post.date | date_to_string }} </cite></footer>
 
