@@ -46,7 +46,7 @@ title: G. D. R. Verderena Notícias
         <div class="row h-100 align-items-center py-5">
 
           <div class="col-md-6 d-none d-block">
-            {% if post.featured-image And post.featured-image != "" And post.featured-image != nil   %}
+            {% if post.featured-image and post.featured-image != "" and post.featured-image != nil   %}
             <div class="image">
               <a href="{{ post.url }}" title="{{ post.title }}"><img data-src="{{ post.featured-image }}" src="{{ post.featured-image }}" alt="news" class="img-fluid lazyload" onError="this.onerror=null;this.src='/assets/img/placeholder.svg';"></a>
             </div>
@@ -93,7 +93,7 @@ title: G. D. R. Verderena Notícias
     <section id="news" class="section-1 post">
       <div class="container text-center">
         <div class="row">
-          {% if post.featured-image And post.featured-image != "" And post.featured-image != nil   %}
+          {% if post.featured-image and post.featured-image != "" and post.featured-image != nil   %}
 
           <div class="col-md-6 col-12">
             <div class="pray">

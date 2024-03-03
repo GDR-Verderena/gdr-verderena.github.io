@@ -32,7 +32,7 @@ layout: default
         
         <section class="product-image d-block mb-4">
           <figure class="view overlay rounded z-depth-1 main-img">
-            {% if page.link_imagem And page.link_imagem != "" And page.link_imagem != nil    %} 
+            {% if page.link_imagem and page.link_imagem != "" and page.link_imagem != nil    %} 
             <img src="{{ page.link_imagem  }}" itemprop="image" alt="" class="img-fluid z-depth-1" onError="this.onerror=null;this.src='https://gdrverderena.pt/assets/img/more-service-3.jpg'>
             {% endif %}
           </figure>

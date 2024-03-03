@@ -44,7 +44,7 @@
             
             {% for partner in site.partners %}
              <a href="{{partner.link}}" target="_blank" style="text-decoration: none">
-			    {% if partner.link_imagem And partner.link_imagem != "" And partner.link_imagem != nil    %} 
+			    {% if partner.link_imagem and partner.link_imagem != "" and partner.link_imagem != nil    %} 
 			    <img data-src="{{partner.link_imagem}}"  src="{{partner.link_imagem}}" alt="{{partner.name}}" class="w-25 m-4 lazyload" onError="this.onerror=null;this.src='https://gdrverderena.pt/assets/img/placeholder.svg';"  draggable="false" >
 			    {% endif %}
 		    </a>

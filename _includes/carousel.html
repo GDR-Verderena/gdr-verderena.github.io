@@ -137,7 +137,7 @@
                 <div class="carousel-item">
                     <div class="col-md-6 col-lg-6 col-xs-6">
                          <div class="card text-white">
-                             {% if actividades.link_image And actividades.link_image != "" And actividades.link_image != nil    %} 
+                             {% if actividades.link_image and actividades.link_image != "" and actividades.link_image != nil    %} 
                             <img class="card-img" data-src="{{ actividades.link_image }}" src="{{ actividades.link_image }}" onError="this.onerror=null;this.src='https://raw.githubusercontent.com/GDR-Verderena/gdr-verderena.github.io/master/assets/img/logo.png';">
                             <!-- <div class="black-overlay"></div> -->
                              {% else %}

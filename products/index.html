@@ -47,7 +47,7 @@ title: Loja G. D. R. Verderena
 
                   <div class="style">
 
-                    {% if product.featured_image_path And product.featured_image_path != "" And product.featured_image_path != nil    %}
+                    {% if product.featured_image_path and product.featured_image_path != "" and product.featured_image_path != nil    %}
                     <a href="{{ product.url }}">
 
                       <img class="card-img-top" src="{{ product.featured_image_path }}" itemprop="image" alt="" onError="this.onerror=null;this.src='https://gdrverderena.pt/assets/img/more-service-3.jpg';">

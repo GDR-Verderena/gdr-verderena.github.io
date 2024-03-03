@@ -40,7 +40,7 @@
                   <select name="Assunto" type="text" for="Subject" class="form-control " required />
                      <option selected>Geral</option>
                      {% for actividade in site.actividades %}
-                     {% if actividade.name And actividade.name != "" And actividade.name != nil    %} 
+                     {% if actividade.name and actividade.name != "" and actividade.name != nil    %} 
                      <option>{{actividade.name}}</option>
                      {% endif %}
                      {% endfor %}

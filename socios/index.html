@@ -55,7 +55,7 @@ title: Área de Sócios
         </div>
         <div class="col-lg-6 d-none d-block">
           <a href="{{socio.url}}">
-            {% if socio.link_imagem And socio.link_imagem != "" And socio.link_imagem != nil    %}
+            {% if socio.link_imagem and socio.link_imagem != "" and socio.link_imagem != nil    %}
             <div class="image">
               <img data-src="{{socio.link_imagem}}" src="{{socio.link_imagem}}" alt="about1" class="img-fluid lazyload" onError="this.onerror=null;this.src='https://gdrverderena.pt/assets/img/more-service-3.jpg';">
             </div>

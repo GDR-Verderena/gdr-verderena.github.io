@@ -56,7 +56,7 @@ object-fit: cover;
       {% endfor %}
 
     </div>
-    {% if post.featured-image And post.featured-image != "" And post.featured-image != nil    %}
+    {% if post.featured-image and post.featured-image != "" and post.featured-image != nil    %}
 
     <!--"imageValidate(`{{ post.featured-image }}`)" ==true-->
 
@@ -100,7 +100,7 @@ object-fit: cover;
         </code>&nbsp;</a>
       {% endfor %}
     </div>
-    {% if post.featured-image And post.featured-image != "" And post.featured-image != nil    %}
+    {% if post.featured-image and post.featured-image != "" and post.featured-image != nil    %}
     <div class="col-md-5 pray">
       <img alt="noticia-principal2" class="featurette-image img-fluid mx-auto lazyload " src="{{ post.featured-image }}" data-src="{{ post.featured-image }}" data-holder-rendered="true" style="width:50%;">
     </div>
@@ -129,7 +129,7 @@ object-fit: cover;
       <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
      
         <div class="card">
-          {% if post.featured-image And post.featured-image != "" And post.featured-image != nil    %}
+          {% if post.featured-image and post.featured-image != "" and post.featured-image != nil    %}
           <div class="image">
           <img src="{{ post.featured-image }}" data-src="{{ post.featured-image }}" data-holder-rendered="true" onError="this.onerror=null;this.src='https://gdrverderena.pt/assets/img/more-service-3.jpg';" draggable="false" class="card-img-top" alt="...">
           </div>
