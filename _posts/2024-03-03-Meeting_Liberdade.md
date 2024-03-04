@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Comemoração do dia da Mulher"
+title: "Meeting da Liberdade - Marcha Atletica"
 date: 2024-03-04
 author: G.D.R. Verderena
 featured-image: https://cld.pt/dl/download/bca20aef-7682-4de8-8a91-abfe09864770/ML%2025%20abril%20v2.jpg?download=true
