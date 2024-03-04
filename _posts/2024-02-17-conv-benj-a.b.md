@@ -41,6 +41,8 @@ Classificações Benjamins B Masculinos
 ![10](https://cld.pt/dl/download/5ed1b6e6-1539-4d2a-a498-24e8a0d9e156/C%C3%B3pia%20de%20Classifica%C3%A7%C3%B5es%20Coletivas%20e%20Individuais%2025.02.2024%20Masc._P%C3%A1gina_1.jpg)
 ![11](https://cld.pt/dl/download/838398d0-80d2-4f64-ada8-e14ac8c1e6f9/C%C3%B3pia%20de%20Classifica%C3%A7%C3%B5es%20Coletivas%20e%20Individuais%2025.02.2024%20Masc._P%C3%A1gina_2.jpg)
 
+<H2> A entrega dos Troféus Colectivos será efectuada na 5ª Prova, Meeting Benjamins B GDR Verderena, em 19 de Maio 2024 </H2>
+
 <H3>SOMOS G. D. R. Verderena</H3>
 
 #verderenafabricadecampeoes #fabricadecampeoes 
