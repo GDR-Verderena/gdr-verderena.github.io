@@ -7,18 +7,10 @@ featured-image: https://cld.pt/dl/download/bca20aef-7682-4de8-8a91-abfe09864770/
 tags: desporto recreativo VERDERENAFABRICADECAMPEOES
 ---
 
-<CENTER><H3>Comemoração do Dia Internacional da Mulher</H3></CENTER>
-<br>
+<CENTER><H2>28 de Abril | 9:30h</H2></CENTER>
 
-<CENTER><H2>9 de Março | 10:15h</H2></CENTER>
-
-<b>Inicia-se na polidesportivo da Escola nº 7 </b> <br> 
-10:15h, Demonstração de Danças de Salão.<br>
-10:45h, Concentração, para a <b>Caminhada pela nossa Zona Ribeirinha</b> .<br>
-<b>E a seguir na Extensão Bar</b><br>
-12:45h, Almoço Comemorativo 10€ - Inscrições pelo: 926 986 701<br>
-(Ementa: Bacalhau à Brás ou Grelhada Mista)
-16h às 20h, Karaoke.<br>
+<center><b><H1>Meeting da Liberdade  
+Marcha Atletica</H1></b></center>
 
 
 ![0](https://cld.pt/dl/download/bca20aef-7682-4de8-8a91-abfe09864770/ML%2025%20abril%20v2.jpg?download=true)
