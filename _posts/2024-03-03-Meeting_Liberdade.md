@@ -3,7 +3,7 @@ layout: post
 title: "Meeting da Liberdade - Marcha Atletica"
 date: 2024-03-04
 author: G.D.R. Verderena
-featured-image: https://cld.pt/dl/download/bca20aef-7682-4de8-8a91-abfe09864770/ML%2025%20abril%20v2.jpg?download=true
+featured-image: https://cld.pt/dl/download/7573f54b-5922-4d99-a4f7-7ae729e72b1f/Marcha_Atletica_small.jpg
 tags: desporto recreativo VERDERENAFABRICADECAMPEOES
 ---
 
