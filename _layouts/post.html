@@ -87,7 +87,7 @@ layout: default
 
     </span>
 
-    <p class="blog-post-meta meta">{{ page.date | date_to_string }} by <a class"link" href="#">G. D. R. Verderena</a></p>
+    <p class="blog-post-meta meta">{{ page.date | date_to_string }} by <a class="link" href="#">G. D. R. Verderena</a></p>
 
     <div class="col text-left">
       <button type="button" class=" font-weight-bold text-muted btn btn-link" id="fullScreenButton">
@@ -159,7 +159,7 @@ layout: default
   return wrapper.appendChild(toWrap);
 };
 
-var images = document.getElementsByTagName("img");
+var images = document.querySelector(".blog-post").getElementsByTagName("img");
 var srcList = [];
 for (var i = 0; i < images.length; i++) {
   srcList.push(images[i]);
