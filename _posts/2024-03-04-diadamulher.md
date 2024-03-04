@@ -14,7 +14,7 @@ tags: desporto recreativo VERDERENAFABRICADECAMPEOES
 
 <b>Inicia-se na polidesportivo da Escola nº 7 </b> <br> 
 10:15h, Demonstração de Danças de Salão.<br>
-10:45h, Concentração, para a <b>Caminhada</b> pela nossa Zona Ribeirinha .<br>
+10:45h, Concentração, para a <b>Caminhada pela nossa Zona Ribeirinha</b> .<br>
 <b>E a seguir na Extensão Bar</b><br>
 12:45h, Almoço Comemorativo 10€ - Inscrições pelo: 926 986 701<br>
 (Ementa: Bacalhau à Brás ou Grelhada Mista)
