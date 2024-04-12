@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Meetinga da Liberdade"
+title: "Meeting da Liberdade"
 date: 2024-04-06
 author: G.D.R. Verderena
 featured-image: https://cld.pt/dl/download/48b067fa-882d-44df-9a75-74e51e14a42d/A4%20marcha%20%284%29%20%28002%29.jpg
