@@ -16,8 +16,8 @@ tags: desporto recreativo VERDERENAFABRICADECAMPEOES
 
 Regulamento
 
-![0](https://cld.pt/dl/download/d3a49f0b-bd99-4beb-88d3-a220524038d6/Meeting%20da%20Liberdade%20de%20Marcha%20Atletica%20Regulamento%2028.04.2024_P%C3%A1gina_1.png)
-![1](https://cld.pt/dl/download/0f9c548d-5300-4675-8fa2-a1383a246989/Meeting%20da%20Liberdade%20de%20Marcha%20Atletica%20Regulamento%2028.04.2024_P%C3%A1gina_2.png)
+![0](https://cld.pt/dl/download/916a4910-66bb-47ea-93a3-9f54208d4c4c/Meeting%20da%20Liberdade%20de%20Marcha%20Atletica%20Regulamento%2028.04.2024-imagens-1.jpg)
+![1](https://cld.pt/dl/download/97eddd7a-0402-44cb-b6c6-b10471af827c/Meeting%20da%20Liberdade%20de%20Marcha%20Atletica%20Regulamento%2028.04.2024-imagens-2.jpg)
 
 Nota: Inscrições na Plataforma fpacompticoes.pt a partir de Quarta-feira dia 18/04/2024.
 
