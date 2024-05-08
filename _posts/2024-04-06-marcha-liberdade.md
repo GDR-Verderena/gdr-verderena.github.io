@@ -24,3 +24,6 @@ Nota: Inscrições na Plataforma fpacompticoes.pt a partir de Quarta-feira dia 1
 <H3>SOMOS G. D. R. Verderena</H3>
 
 #verderenafabricadecampeoes #fabricadecampeoes 
+
+Imagens em:
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid0NmVe2eRZGEMDywPxGdQjwarQcuih8eFGzu7SVgfmroRQKSYZjo8qQT9S8seQqABQl%26id%3D100063477404805&show_text=true&width=500&is_preview=true" width="500" height="734" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
