@@ -8,6 +8,7 @@ tags: desporto recreativo VERDERENAFABRICADECAMPEOES
 ---
 
 <CENTER><H3>Ana Leonor na disciplina de Marcha Atlética</H3></CENTER>
+
 E através da grande Ana Leonor o Gdr Verderena se vê ao mais alto nível do desporto, a bater-se com os grandes, sendo um clube de bairro, uma pequena freguesia da cidade do Barreiro.
 Parabéns à Ana e a toda a equipa, principalmente aos treinadores.
 
