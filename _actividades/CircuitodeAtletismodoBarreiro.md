@@ -15,14 +15,14 @@ link_image: https://cld.pt/dl/download/11e437c1-8864-48dc-aa2b-0b7fc9cddee2/cir_
 <br>
 ![Circuito](https://cld.pt/dl/download/fad2c522-1934-4bb9-82bd-86229c232131/circuito_2024-2025.jpeg)
 <br>
-<H2>Gostas de Correr ?</H2>
+<H2>Gostas de Correr ? No G.D.R. Verderena, o atletismo é para todos. Junta-te a nós!</H2>
 
 <H2> Época 2023/2024 </H2>
 <br>
 ![Circuito](https://cld.pt/dl/download/887994b7-9e74-4bb5-914c-bf5a2df530a5/Calend%C3%A1rio%20de%20Provas%2023-24.jpg)
 <br>
 
-<H2>Gostas de Correr ? No G.D.R. Verderena, o atletismo é para todos. Junta-te a nós!</H2>
+<H2>Gostas de Correr ? </H2>
 
 
 Vem fazer o circuito de Atletismo do Barreiro connosco.
