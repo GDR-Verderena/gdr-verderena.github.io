@@ -17,7 +17,10 @@ link_image: https://cld.pt/dl/download/11e437c1-8864-48dc-aa2b-0b7fc9cddee2/cir_
 ![Escalões](https://cld.pt/dl/download/f01eb143-6b13-417d-a1cb-089467d57c9e/escaloes_2024-2025.jpeg)
 
 <br>
-<H2>Gostas de Correr ? No G.D.R. Verderena, o atletismo é para todos. Junta-te a nós!</H2>
+<H2>Gostas de Correr ?
+  No G.D.R. Verderena, o atletismo é para todos. Junta-te a nós!</H2>
+
+
 
 <H2> Época 2023/2024 </H2>
 <br>
