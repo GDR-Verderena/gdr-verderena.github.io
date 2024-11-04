@@ -20,7 +20,9 @@ Regulamento
 ![3](https://cld.pt/dl/download/f2468a9b-65c6-47c7-a58a-434158da8154/3.jpeg)
 ![4](https://cld.pt/dl/download/84a89518-8014-4871-a4ef-9b260e5cf35c/4.jpeg)
 ![5](https://cld.pt/dl/download/9c29c3b6-766b-4b36-811a-4412a7c26936/5.jpeg)
+![5](https://cld.pt/dl/download/436f2dcc-16bf-4544-9f42-d947da75d09e/WhatsApp%20Image%202024-11-04%20at%2020.45.06.jpeg)
 
+No G.D.R. Verderena, o atletismo é para todos. Junta-te a nós!
 <H3>SOMOS G. D. R. Verderena</H3>
 
 #verderenafabricadecampeoes #fabricadecampeoes 
