@@ -25,4 +25,6 @@ Regulamento
 No G.D.R. Verderena, o atletismo é para todos. Junta-te a nós!
 <H3>SOMOS G. D. R. Verderena</H3>
 
+Classificações em: https://atletismobarreiro.pt/2a-prova-24-25/
+
 #verderenafabricadecampeoes #fabricadecampeoes 
