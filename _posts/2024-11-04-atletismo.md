@@ -25,10 +25,12 @@ Regulamento
 No G.D.R. Verderena, o atletismo é para todos. Junta-te a nós!
 <H3>SOMOS G. D. R. Verderena</H3>
 
-DADOS DE PARTICIPAÇÃO:
-•⁠  ⁠CONCLUIRAM A PROVA, 309 ATLETAS COM CLASSIFICAÇÃO + 18 "FLECHAS"
-    RECREATIVO= 327 PARTICIPANTES.
-•⁠  ⁠ATLETAS PARTICIPANTES REPRESENTANDO CLUBES DO "CIRCUITO DE ATLETISMO DO BARREIRO" (CAB)= 224.
+Dados de participação:
+•⁠  ⁠Concluiram a prova 309 atletas com classificação mais 18 "FLECHAS" o que soma uma participação global de 327 atletas participantes
+
+
+•⁠  ⁠Atletas participantes quem representaram clubes que se encontram a discutir o CAB (Circuito de Atletismo do Barreiro) foram 224.
+
 
 <H4>
 <div align="center" > 
