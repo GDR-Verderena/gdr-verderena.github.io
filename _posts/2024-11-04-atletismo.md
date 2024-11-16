@@ -26,6 +26,8 @@ No G.D.R. Verderena, o atletismo é para todos. Junta-te a nós!
 <H3>SOMOS G. D. R. Verderena</H3>
 
 Dados de participação:
+
+
 •⁠  ⁠Concluiram a prova 309 atletas com classificação mais 18 "FLECHAS" o que soma uma participação global de 327 atletas participantes
 
 
