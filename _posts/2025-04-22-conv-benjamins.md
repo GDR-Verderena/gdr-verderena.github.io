@@ -12,9 +12,9 @@ tags: desporto recreativo atletismo VERDERENAFABRICADECAMPEOES
 
 17 de Maio 2025
 
-15h inicia o convívio de Benjamins (6 aos 11 anos) aberto a todos
+15h45 inicia o convívio de Benjamins (6 aos 11 anos) aberto a todos
 
-15h45 inicia o meeting de Benjamins B para atletas federados
+15h inicia o meeting de Benjamins B para atletas federados
 
 
 
