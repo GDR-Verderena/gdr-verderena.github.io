@@ -20,7 +20,7 @@ Marcha de 2024
 </audio>
 
 Marcha de 2025
-<audio src="https://cld.pt/dl/download/1cee5850-350f-4753-9c19-6bcb8b1b9e40/Marcha%20da%20Verderena%202025.mp3" autoplay controls>
+<audio src="https://cld.pt/dl/download/1cee5850-350f-4753-9c19-6bcb8b1b9e40/Marcha%20da%20Verderena%202025.mp3" controls>
   O teu navegador não suporta o elemento de áudio.
 </audio>
 
