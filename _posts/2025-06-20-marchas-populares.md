@@ -14,15 +14,29 @@ Vem dançar, vem divertir-te!
 
 ![0](https://cld.pt/dl/download/cf8f17f6-591e-410d-adf0-69fd15e73c41/A4.png)
 
-Marcha de 2024
-<audio src="https://cld.pt/dl/download/faca0ec5-0b28-4d42-9594-09bbcea09272/Marcha%20da%20Verderena%202024.mp3" autoplay controls>
+<audio id="player" controls autoplay>
   O teu navegador não suporta o elemento de áudio.
 </audio>
 
-Marcha de 2025
-<audio src="https://cld.pt/dl/download/1cee5850-350f-4753-9c19-6bcb8b1b9e40/Marcha%20da%20Verderena%202025.mp3" controls>
-  O teu navegador não suporta o elemento de áudio.
-</audio>
+<script>
+  const player = document.getElementById('player');
+  const playlist = [
+    'https://cld.pt/dl/download/faca0ec5-0b28-4d42-9594-09bbcea09272/Marcha%20da%20Verderena%202024.mp3',
+    'https://cld.pt/dl/download/1cee5850-350f-4753-9c19-6bcb8b1b9e40/Marcha%20da%20Verderena%202025.mp3'
+  ];
+  let index = 0;
+
+  player.src = playlist[index];
+  player.play();
+
+  player.addEventListener('ended', () => {
+    index++;
+    if (index < playlist.length) {
+      player.src = playlist[index];
+      player.play();
+    }
+  });
+</script>
 
 No G.D.R. Verderena, o atletismo é para todos. Junta-te a nós!
 <H3>SOMOS G. D. R. Verderena</H3>
