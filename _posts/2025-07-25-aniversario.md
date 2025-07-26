@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Marchas populares na Verderena"
-date: 2025-06-24
+title: "30 anos de G.D.R. Verderena"
+date: 2025-07-25
 author: G.D.R. Verderena
 featured-image: https://cld.pt/dl/download/5c66d474-2073-4ee9-9017-5c9d7effd878/Cartaz%20sobre%20pe%C3%A7as%20selecionadas%20divertido%20em%20azul%20e%20rosa.png?download=true
 tags: desporto recreativo atletismo VERDERENAFABRICADECAMPEOES 
