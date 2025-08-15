@@ -3,7 +3,7 @@ layout: post
 title: Classificações da PROVA DE S. MARTINHO G.D.R. VERDERENA. Circuito de Atletismo do Barreiro 2021-22
 date: 2021-11-14
 author: G.D.R. Verderena
-featured-image: https://cld.pt/dl/thumb/a39db846-eb6c-4acc-bcc4-909e62cb57f8/cartaz_Circuito_Atletismo_1prova_2021_2022.jpg?size=xl&crop=false&format=jpeg
+featured-image: https://cld.pt/dl/download/a39db846-eb6c-4acc-bcc4-909e62cb57f8/cartaz_Circuito_Atletismo_1prova_2021_2022.jpg?size=xl&crop=false&format=jpeg
 tags: desporto atletismo coletividade
 ---
 
