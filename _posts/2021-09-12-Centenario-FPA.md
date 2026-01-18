@@ -6,7 +6,7 @@ author: G.D.R. Verderena
 description: 
 featured-image: https://cld.pt/dl/download/91b4e3f8-3c59-4387-9a22-996916e49732/241855000_4712275568805069_890751065062251762_n.jpg?download=true 
 
-tags: desporto atletismo marcha colectividade
+tags: desporto atletismo marcha coletividade
 ---
 
 Prova do centenário da FPA... hoje dia 12 de setembro. Os atletas do G.D.R Verderena e do G.D. Fonte da Prata estiveram presentes nesta prova de 10Km.

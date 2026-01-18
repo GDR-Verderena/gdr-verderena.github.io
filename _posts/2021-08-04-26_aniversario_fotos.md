@@ -6,7 +6,7 @@ author: G.D.R. Verderena
 description: 
 featured-image: https://cld.pt/dl/download/8274a2e4-e544-4390-a17f-630bc633447f/230460533_4592480004117960_5844916910287528373_n.jpg?download=true 
 
-tags: desporto atletismo marcha colectividade
+tags: desporto atletismo marcha coletividade
 ---
 
 No dia 3 de Agosto comemorámos o nosso 26º aniversário no polidesportivo da escola nº7 da Verderena

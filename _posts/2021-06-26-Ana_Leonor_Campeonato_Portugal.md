@@ -6,7 +6,7 @@ author: G.D.R. Verderena
 description: .      . Ana Leonor, atleta e PT
 featured-image: https://ddjrr3j94g7u7.cloudfront.net/static/pics/FPA_Competicoes_CPortugal_Maia_FPA_2021rev_QYvCiLr_jZ50BmA_Ui954et.png
 
-tags: desporto atletismo marcha colectividade
+tags: desporto atletismo marcha coletividade
 ---
 
 A nossa atleta (e PT) Ana Leonor está hoje a competir nos Campeonatos de Portugal de atletismo.

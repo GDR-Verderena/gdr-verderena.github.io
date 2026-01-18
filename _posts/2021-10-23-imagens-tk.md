@@ -6,7 +6,7 @@ author: G.D.R. Verderena
 description: 
 featured-image: https://cld.pt/dl/download/cdd35465-000c-4968-baff-31ebf8d3ac6e/king.jpeg?size=xl&crop=false&format=jpeg
 
-tags: desporto cultura colectividade
+tags: desporto cultura coletividade
 ---
 
 Realizámos o nosso habitual torneio aberto de King Gdr Verderena 2021.

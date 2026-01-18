@@ -6,7 +6,7 @@ author: G.D.R. Verderena
 description: Condecoração pelos 25 anos
 featured-image: https://scontent-lis1-1.xx.fbcdn.net/v/t1.0-9/119702997_3672889729410330_6300470980516759076_n.jpg?_nc_cat=100&ccb=2&_nc_sid=8bfeb9&_nc_ohc=6oRzoFYaEL4AX_o_4sZ&_nc_ht=scontent-lis1-1.xx&oh=b3013abfdddacf94063058e27773799b&oe=5FBB2230
 
-tags: desporto atletismo marcha colectividade
+tags: desporto atletismo marcha coletividade
 ---
 
 O G. D. R. da Verderena, recebeu a "MEDALHA DE BONS SERVIÇOS E DEDICAÇÃO",  pelos seus 25 ANOS, de trabalho em prol dos seus ASSOCIADOS, Fregueses e população em geral, atribuída pela C.M. DO BARREIRO, Muito OBRIGADO
