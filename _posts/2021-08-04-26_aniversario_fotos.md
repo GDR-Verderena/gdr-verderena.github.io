@@ -4,7 +4,7 @@ title: "Imagens do nosso 26º Aniversário"
 date: 2021-08-04
 author: G.D.R. Verderena
 description: 
-featured-image: https://cld.pt/dl/download/8274a2e4-e544-4390-a17f-630bc633447f/230460533_4592480004117960_5844916910287528373_n.jpg?download=true 
+featured-image: https://i.postimg.cc/yxT8t0h5/230460533-4592480004117960-5844916910287528373-n.jpg 
 
 tags: desporto atletismo marcha coletividade
 ---
@@ -19,17 +19,17 @@ Na práctica foi possível ter um dia de comemoração, sem grandes discuros já
 
 Obrigado a todos.
 
-![26º Aniversário foto 1](https://cld.pt/dl/download/40487bb2-15d8-43ec-9715-1f7fffbf2f7b/225560109_4592483447450949_3883892430832319815_n.jpg?download=true)
+![26º Aniversário foto 1](https://i.postimg.cc/ZnL526Ps/225560109-4592483447450949-3883892430832319815-n.jpg)
 
-![26º Aniversário foto 2](https://cld.pt/dl/download/1f0dfbec-528a-47d4-902b-cb8d4eb1eee9/227864748_4592480570784570_1943229795839973895_n.jpg?download=true)
+![26º Aniversário foto 2](https://i.postimg.cc/d39VpGRH/227864748-4592480570784570-1943229795839973895-n.jpg)
 
-![26º Aniversário foto 3](https://cld.pt/dl/download/bbba16a7-0cb8-4cfe-912d-9c9c929d732c/228166153_4592479637451330_4644445400992804022_n.jpg?download=true)
+![26º Aniversário foto 3](https://i.postimg.cc/h48vXqFm/228166153-4592479637451330-4644445400992804022-n.jpg)
 
-![26º Aniversário foto 4](https://cld.pt/dl/download/b620c997-e6af-457c-af35-1484382f5477/228347851_4592480100784617_9009054574437662607_n.jpg?download=true)
+![26º Aniversário foto 4](https://i.postimg.cc/sxJgq593/228347851-4592480100784617-9009054574437662607-n.jpg)
 
-![26º Aniversário foto 5](https://cld.pt/dl/download/764399f0-6bde-4b7b-beb2-1bfa8fabc356/228599844_4592483894117571_4120891245207434529_n.jpg?download=true)
+![26º Aniversário foto 5](https://i.postimg.cc/XqgYm9Kz/228599844-4592483894117571-4120891245207434529-n.jpg)
 
-![26º Aniversário foto 6](https://cld.pt/dl/download/a57588fc-835c-4722-87ad-697e0508333f/228998802_4592479510784676_1529516957469357665_n.jpg?download=true)
+![26º Aniversário foto 6](https://i.postimg.cc/tJz4wFdK/228998802-4592479510784676-1529516957469357665-n.jpg)
 
 Para mais imagens e informações vá à nossa página do facebook e faça um gosto.
 

@@ -3,7 +3,7 @@ layout: post
 title: "Corrida de São Martinho - 2ª prova do Circuito de Atletismo do Barreiro 2022/2023"
 date: 2022-11-23
 author: G.D.R. Verderena
-featured-image: https://cld.pt/dl/download/159261e8-e5f5-4155-864d-0616c7d98f7f/Corrida_sao_martinho.png
+featured-image: https://i.postimg.cc/Df4QH0XV/Corrida-sao-martinho.png
 tags: desporto recreativo VERDERENAFABRICADECAMPEOES
 ---
 
@@ -16,7 +16,7 @@ tags: desporto recreativo VERDERENAFABRICADECAMPEOES
 <br><br>
 <h3>2ª Prova do Circuito do Barreiro G.D.R. Verderena</h3>
 
-![Circuito](https://cld.pt/dl/download/159261e8-e5f5-4155-864d-0616c7d98f7f/Corrida_sao_martinho.png?download=true)
+![Circuito](https://i.postimg.cc/Df4QH0XV/Corrida-sao-martinho.png?download=true)
 
 <br><br>
 

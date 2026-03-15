@@ -3,7 +3,7 @@ layout: post
 title: "Meeting da Liberdade"
 date: 2024-04-06
 author: G.D.R. Verderena
-featured-image: https://cld.pt/dl/download/48b067fa-882d-44df-9a75-74e51e14a42d/A4%20marcha%20%284%29%20%28002%29.jpg
+featured-image: https://i.postimg.cc/vHjJMcPJ/Marcha-Atletica-small.jpg
 tags: desporto recreativo VERDERENAFABRICADECAMPEOES
 ---
 
@@ -16,8 +16,8 @@ tags: desporto recreativo VERDERENAFABRICADECAMPEOES
 
 Regulamento
 
-![0](https://cld.pt/dl/download/916a4910-66bb-47ea-93a3-9f54208d4c4c/Meeting%20da%20Liberdade%20de%20Marcha%20Atletica%20Regulamento%2028.04.2024-imagens-1.jpg)
-![1](https://cld.pt/dl/download/97eddd7a-0402-44cb-b6c6-b10471af827c/Meeting%20da%20Liberdade%20de%20Marcha%20Atletica%20Regulamento%2028.04.2024-imagens-2.jpg)
+![0](https://i.postimg.cc/nhD6Lpg8/Meeting-da-Liberdade-de-Marcha-Atletica-Regulamento-28-04-2024-imagens-1.jpg)
+![1](https://i.postimg.cc/Jzk9hMvM/Meeting-da-Liberdade-de-Marcha-Atletica-Regulamento-28-04-2024-imagens-2.jpg)
 
 Nota: Inscrições na Plataforma fpacompticoes.pt a partir de Quarta-feira dia 18/04/2024.
 

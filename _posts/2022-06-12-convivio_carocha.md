@@ -3,7 +3,7 @@ layout: post
 title: "CONVÍVIO DE CAROCHA"
 date: 2022-06-12
 author: G.D.R. Verderena
-featured-image: https://cld.pt/dl/download/22c965ec-dd45-4459-8024-ad1ff86c80d2/Convivio_carocha.png
+featured-image: https://i.postimg.cc/76kD4fLf/Convivio-carocha.png
 tags: desporto recreativo VERDERENAFABRICADECAMPEOES
 ---
 
@@ -18,6 +18,6 @@ Vamos ter um diploma de participação e algo mais ... afinal estás a ajudar a 
 Inscreve-te no nosso espaço recreativo/Bar na Rua Armindo de Almeida, 44B, Verderena ou no 
 <a  href="https://docs.google.com/forms/d/1lRveDzpjBz2OkmbUJMSvW41JaWMBeYL4pdeorggsIuE/prefill">Formulário</a>
  
-![0](https://cld.pt/dl/download/22c965ec-dd45-4459-8024-ad1ff86c80d2/Convivio_carocha.png)
+![0](https://i.postimg.cc/76kD4fLf/Convivio-carocha.png)
 
 #VERDERENAFABRICADECAMPEOES

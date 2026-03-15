@@ -3,7 +3,7 @@ layout: post
 title: "Comemoração do dia da Mulher"
 date: 2024-03-04
 author: G.D.R. Verderena
-featured-image: https://cld.pt/dl/download/3163149a-34c3-4729-b856-b9e26c044322/mulher-5.png
+featured-image: https://i.postimg.cc/rFbBcKn8/mulher-5.png
 tags: desporto recreativo VERDERENAFABRICADECAMPEOES
 ---
 
@@ -21,7 +21,7 @@ tags: desporto recreativo VERDERENAFABRICADECAMPEOES
 16h às 20h, Karaoke.<br>
 
 
-![0](https://cld.pt/dl/download/3163149a-34c3-4729-b856-b9e26c044322/mulher-5.png)
+![0](https://i.postimg.cc/rFbBcKn8/mulher-5.png)
 
 
 <H3>SOMOS G. D. R. Verderena</H3>

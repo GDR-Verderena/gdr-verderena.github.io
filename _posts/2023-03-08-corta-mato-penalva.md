@@ -3,7 +3,7 @@ layout: post
 title: "Corta-Mato Curto na Penalva"
 date: 2023-03-08
 author: G.D.R. Verderena
-featured-image: https://cld.pt/dl/download/2cfa3d4e-b488-439a-9992-d1aef92fd97e/cartaz.jpg
+featured-image: https://i.postimg.cc/SKWFgkfW/cartaz.jpg
 tags: desporto recreativo VERDERENAFABRICADECAMPEOES
 ---
 
@@ -12,7 +12,7 @@ tags: desporto recreativo VERDERENAFABRICADECAMPEOES
 <H4> com o apoio da CMB </H4>
 
 
-![Cartaz](https://cld.pt/dl/download/2cfa3d4e-b488-439a-9992-d1aef92fd97e/cartaz.jpg)
+![Cartaz](https://i.postimg.cc/SKWFgkfW/cartaz.jpg)
 
 <a href="https://www.cm-barreiro.pt/conhecer/agenda-de-eventos/evento-88/kids-athletics"> Mais informações e regulamento aqui! </a>.
 

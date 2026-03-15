@@ -17,7 +17,7 @@ As <a  href="https://www.fpatletismo.pt/europeus-em-pista-coberta-de-2021-histó
 
 No final aqui ficam os resultados que tanto nos orgulham.
 
-![Classificações](https://cld.pt/dl/download/000196fd-df8e-46ed-81a6-6b6631c6b726/classificacoes_campeonatos.png?download=true)
+![Classificações](https://i.postimg.cc/Jhyt0DmP/classificacoes-campeonatos.png)
 
 <a href="https://www.fpatletismo.pt/portugueses-entram-em-ação-amanhã-no-virtus-campeonatos-da-europa-em-pista-coberta"> VIRTUS Campeonatos da Europa em Pista Coberta (atletismo adaptado) </a>
 ![Selecção Virtus](https://www.fpatletismo.pt/sites/default/files/Sele%C3%A7%C3%A3oVirtus.jpeg)

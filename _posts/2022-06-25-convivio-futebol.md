@@ -3,7 +3,7 @@ layout: post
 title: "CONVÍVIO DE FUTEBOL"
 date: 2022-06-25
 author: G.D.R. Verderena
-featured-image: https://cld.pt/dl/download/8e421c83-64e5-44ad-82dc-856a7ae0f86c/convivio_futebol.jpeg
+featured-image: https://i.postimg.cc/yx6HJtc7/convivio-futebol.jpg
 tags: desporto recreativo VERDERENAFABRICADECAMPEOES
 ---
 
@@ -11,6 +11,6 @@ O G. D. R. da Verderena realiza no dia 25 de Junho de 2022 um convívio de futeb
 
 Convidamos todos os associados, amigos, simpatizantes e vizinhos a juntar-se a nós neste convívio e a dar força aos nossos jovens atletas.
 
-![0](https://cld.pt/dl/download/8e421c83-64e5-44ad-82dc-856a7ae0f86c/convivio_futebol.jpeg)
+![0](https://i.postimg.cc/yx6HJtc7/convivio-futebol.jpg)
 
 #VERDERENAFABRICADECAMPEOES

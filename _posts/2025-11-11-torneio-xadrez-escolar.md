@@ -3,7 +3,7 @@ layout: post
 title: "Torneio de Xadrez Escolar Aberto"
 date: 2025-11-11
 author: G.D.R. Verderena
-featured-image: https://cld.pt/dl/download/ac205ea9-bec4-4710-b48a-c4f9cf2fa7c9/torneio_xadrez.jpeg
+featured-image: https://i.postimg.cc/tC1cr9X2/torneio-xadrez.jpg
 tags: desporto recreativo xadrez VERDERENAFABRICADECAMPEOES
 ---
 
@@ -29,7 +29,7 @@ E-mail: <a href="mailto:g.d.verderena.xadrez@gmail.com">g.d.verderena.xadrez@gma
 Telefone: <a href="tel:926986701">926986701</a><br />
 
 
-![0](https://cld.pt/dl/download/ac205ea9-bec4-4710-b48a-c4f9cf2fa7c9/torneio_xadrez.jpeg)
+![0](https://i.postimg.cc/tC1cr9X2/torneio-xadrez.jpg)
 
 
 <H3>SOMOS G. D. R. Verderena</H3>

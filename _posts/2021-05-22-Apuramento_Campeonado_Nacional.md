@@ -3,7 +3,7 @@ layout: post
 title: Apuramento Para o Campeonato Nacional de Clubes
 date: 2021-05-22
 author: G.D.R. Verderena
-featured-image: https://cld.pt/dl/download/33775d89-4584-4edd-a55f-32f3c8400673/Apuramento_Campeonato_Nacional.jpeg
+featured-image: https://i.postimg.cc/Dzt0XvyP/Apuramento-Campeonato-Nacional.jpg
 tags: desporto atletismo 
 ---
 
@@ -14,7 +14,7 @@ Técnicos: Silvestre Gomes, Ana Leonor, Cristina Duarte e o Dirigente: Vítor Co
 
 MUITOS PARABÉNS EQUIPE, PELA VOSSA EXCELENTE PRESTAÇÃO. MUITO OBRIGADO
 
-![equipa](https://cld.pt/dl/download/33775d89-4584-4edd-a55f-32f3c8400673/Apuramento_Campeonato_Nacional.jpeg)
+![equipa](https://i.postimg.cc/Dzt0XvyP/Apuramento-Campeonato-Nacional.jpg)
 
 <iframe width="783" height="440" src="https://www.youtube.com/embed/mtupQwcHtTc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -22,7 +22,7 @@ MUITOS PARABÉNS EQUIPE, PELA VOSSA EXCELENTE PRESTAÇÃO. MUITO OBRIGADO
 
 Para seguires em pormenor as conquistas das nossas atletas, podes ir ao <a  href="https://fpacompeticoes.pt/405/competicao"> site da Federação</a> com resultados online.
 
-![equipa](https://cld.pt/dl/download/6377ce52-6bf4-4d02-acbe-99c9acdf50e6/equipa.jpeg)
+![equipa](https://i.postimg.cc/9fv07mFp/equipa.jpg)
 
 Para mais informação sobre a prova vai à <a  href="https://www.fpatletismo.pt/124-equipas-tentam-apuramento-para-os-nacionais-de-clubes"> página da competição</a>.
 

@@ -3,7 +3,7 @@ layout: post
 title: "Campeonatos Regionais de Iniciados"
 date: 2023-06-03
 author: G.D.R. Verderena
-featured-image: https://cld.pt/dl/download/436dd428-d907-4484-b627-6c49269b9d77/5.jpg
+featured-image: https://i.postimg.cc/26rpJMH1/5.jpg
 tags: desporto recreativo VERDERENAFABRICADECAMPEOES
 ---
 
@@ -16,11 +16,11 @@ https://www.facebook.com/groups/ateletismogdrverderena/permalink/635090419832115
 </H3>
 
 
-![1](https://cld.pt/dl/download/436dd428-d907-4484-b627-6c49269b9d77/5.jpg)
-![2](https://cld.pt/dl/download/61133529-79a9-4010-912d-d3d79448b4fc/6.jpg)
-![3](https://cld.pt/dl/download/cbb8a167-a21b-4530-8e0a-9504733a2b73/351497561_1214483715889589_7555645227024475641_n.jpg)
-![4](https://cld.pt/dl/download/99e97e2e-6d9a-4733-a75e-16f3cc8d58f2/351456906_988325685495118_8525298633955357817_n.jpg)
-![5](https://cld.pt/dl/download/4cf875f9-2d9a-4b0a-800b-e9119050cb49/351196648_7032683070081351_6818087356463951512_n.jpg)
+![1](https://i.postimg.cc/26rpJMH1/5.jpg)
+![2](https://i.postimg.cc/wvgKPZWN/6.jpg)
+![3](https://i.postimg.cc/Tw08X0S1/351497561-1214483715889589-7555645227024475641-n.jpg)
+![4](https://i.postimg.cc/C1SytXvk/351456906-988325685495118-8525298633955357817-n.jpg)
+![5](https://i.postimg.cc/hjcFw6C7/351196648-7032683070081351-6818087356463951512-n.jpg)
 
 <H3>SOMOS G. D. R. Verderena</H3>
 

@@ -3,7 +3,7 @@ layout: post
 title: "Campeonato Regional de Marcha Atlética"
 date: 2022-11-24
 author: G.D.R. Verderena
-featured-image: https://cld.pt/dl/download/01bbfcae-49e1-4e44-81e0-2f8e60248d35/A4%20marcha.jpg
+featured-image: https://i.postimg.cc/FsRvhthH/A4-marcha.jpg
 tags: desporto recreativo VERDERENAFABRICADECAMPEOES
 ---
 
@@ -15,7 +15,7 @@ tags: desporto recreativo VERDERENAFABRICADECAMPEOES
 
 <h3> Campeonato Regional de Marcha Atlética </h3>
 
-![Circuito](https://cld.pt/dl/download/01bbfcae-49e1-4e44-81e0-2f8e60248d35/A4%20marcha.jpg)
+![Circuito](https://i.postimg.cc/FsRvhthH/A4-marcha.jpg)
 
 <br><br>
 

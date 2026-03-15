@@ -3,7 +3,7 @@ layout: post
 title: "Imagens da Corrida de São Martinho"
 date: 2022-11-19
 author: G.D.R. Verderena
-featured-image: https://cld.pt/dl/download/747a452f-15a6-4db0-a312-a7a03ed64833/sao_martinho_tacas.jpg
+featured-image: https://i.postimg.cc/MKTwzkzZ/sao-martinho-tacas.jpg
 tags: desporto recreativo VERDERENAFABRICADECAMPEOES
 ---
 

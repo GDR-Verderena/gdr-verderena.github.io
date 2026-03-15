@@ -3,16 +3,16 @@ layout: post
 title: Campeonato Regional de Infantis na Jornada 4 com Ashlee Estevão
 date: 2022-02-14
 author: G.D.R. Verderena
-featured-image: https://cld.pt/dl/download/0e9fbafc-27a9-4b33-8621-634616c69415/273940251_5250152708350683_8343727218828548044_n.jpg
+featured-image: https://i.postimg.cc/jdgsfxMD/273940251-5250152708350683-8343727218828548044-n.jpg
 tags: desporto atletismo marcha VERDERENAFABRICADECAMPEOES
 ---
 
 Ashlee Estevão na sua participação na jornada 4 do "Campeonato Regional de Infantis, Feminino"
 
-![Ashlee](https://cld.pt/dl/download/0e9fbafc-27a9-4b33-8621-634616c69415/273940251_5250152708350683_8343727218828548044_n.jpg)
+![Ashlee](https://i.postimg.cc/jdgsfxMD/273940251-5250152708350683-8343727218828548044-n.jpg)
 
 Muitos Parabéns pela tua excelente Participação. 🥈💪💪💪👏👏👏
 
-![Lançamento](https://cld.pt/dl/download/7ac0d81e-6710-48eb-baa2-fb93292a751f/274015135_5250153641683923_5667359755027609180_n.jpg)
+![Lançamento](https://i.postimg.cc/28czWk0b/274015135-5250153641683923-5667359755027609180-n.jpg)
 
 #VERDERENAFABRICADECAMPEOES

@@ -3,7 +3,7 @@ layout: actividade
 name: Actividades Recreativas-Culturais
 description: Cultura e Recreio 
 button_info: Entrar
-link_image: https://cld.pt/dl/download/26d1f84d-0a55-4fc7-b2e8-168e0838e31d/IMG_2032.jpg
+link_image: https://i.postimg.cc/GtDkygCT/IMG-2032.jpg
 ---
 
 
@@ -22,4 +22,4 @@ Tivemos, conjuntamente com a última prova desportiva de atletismo que fez parte
 
 Também há vários anos que em conjunto com o  [NAK - Núcleo dos Amigos do King](https://www.facebook.com/NAK-Núcleo-dos-Amigos-do-King-204028243029147) realizamos um Torneio de King.
 
-![torneio de King](https://cld.pt/dl/download/6a583552-ea7b-4af6-9f3c-8b9309e2dcaa/king.jpg/)
+![torneio de King](https://i.postimg.cc/zvhng2rW/king.jpg)

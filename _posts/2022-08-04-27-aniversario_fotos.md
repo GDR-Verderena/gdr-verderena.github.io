@@ -3,7 +3,7 @@ layout: post
 title: "Imagens do 27º Aniversário"
 date: 2022-08-04
 author: G.D.R. Verderena
-featured-image: https://cld.pt/dl/download/49bf24d0-503b-4204-80cb-9f34cf089b92/bolo_27.jpeg
+featured-image: https://i.postimg.cc/Xq209Lkv/bolo-27.jpg
 tags: desporto recreativo VERDERENAFABRICADECAMPEOES
 ---
 

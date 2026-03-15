@@ -3,7 +3,7 @@ layout: post
 title: "Marchas populares na Verderena"
 date: 2025-06-24
 author: G.D.R. Verderena
-featured-image: https://cld.pt/dl/download/cf8f17f6-591e-410d-adf0-69fd15e73c41/A4.png
+featured-image: https://i.postimg.cc/rssH2k5p/A4.png
 tags: desporto recreativo atletismo VERDERENAFABRICADECAMPEOES 
 ---
 
@@ -12,7 +12,7 @@ tags: desporto recreativo atletismo VERDERENAFABRICADECAMPEOES
 Vem dançar, vem divertir-te!
 
 
-![0](https://cld.pt/dl/download/cf8f17f6-591e-410d-adf0-69fd15e73c41/A4.png)
+![0](https://i.postimg.cc/rssH2k5p/A4.png)
 
 <audio id="player" controls autoplay>
   O teu navegador não suporta o elemento de áudio.
@@ -21,8 +21,8 @@ Vem dançar, vem divertir-te!
 <script>
   const player = document.getElementById('player');
   const playlist = [
-    'https://cld.pt/dl/download/faca0ec5-0b28-4d42-9594-09bbcea09272/Marcha%20da%20Verderena%202024.mp3',
-    'https://cld.pt/dl/download/1cee5850-350f-4753-9c19-6bcb8b1b9e40/Marcha%20da%20Verderena%202025.mp3'
+    'https://www.dropbox.com/scl/fi/cw5wkzteqf33fn3q5k00e/Marcha_20da_20Verderena_202024.mp3?rlkey=ts97wmy3xk3w04wh0yzpz6vtx&st=7iy7iuj3&raw=1',
+    'https://www.dropbox.com/scl/fi/fsgd2ggcppztez7e6pmgx/Marcha_20da_20Verderena_202025.mp3?rlkey=vqkuu5v7rc0p4f5z4u2lorpax&st=cmbjiwmk&raw=1'
   ];
   let index = 0;
 
@@ -39,12 +39,12 @@ Vem dançar, vem divertir-te!
 </script>
 
 Marcha de 2024
-<audio src="https://cld.pt/dl/download/faca0ec5-0b28-4d42-9594-09bbcea09272/Marcha%20da%20Verderena%202024.mp3" controls>
+<audio src="https://www.dropbox.com/scl/fi/cw5wkzteqf33fn3q5k00e/Marcha_20da_20Verderena_202024.mp3?rlkey=ts97wmy3xk3w04wh0yzpz6vtx&st=7iy7iuj3&raw=1" controls>
   O teu navegador não suporta o elemento de áudio.
 </audio>
 
 Marcha de 2025
-<audio src="https://cld.pt/dl/download/1cee5850-350f-4753-9c19-6bcb8b1b9e40/Marcha%20da%20Verderena%202025.mp3" controls>
+<audio src="https://www.dropbox.com/scl/fi/fsgd2ggcppztez7e6pmgx/Marcha_20da_20Verderena_202025.mp3?rlkey=vqkuu5v7rc0p4f5z4u2lorpax&st=cmbjiwmk&raw=1" controls>
   O teu navegador não suporta o elemento de áudio.
 </audio>
 

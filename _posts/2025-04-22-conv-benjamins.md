@@ -3,7 +3,7 @@ layout: post
 title: "Convívio de Benjamins e Meeting Benjamins B - G.D.R. Verderena"
 date: 2025-04-22
 author: G.D.R. Verderena
-featured-image: https://cld.pt/dl/download/f089d499-4564-4358-9348-766e10bdfae4/Conv%C3%ADvio%20de%20Benjamins%20em%20Pavilh%C3%A3o-9.png
+featured-image: https://i.postimg.cc/mkknWsC5/Convivio-de-Benjamins-em-Pavilhao-9.png
 tags: desporto recreativo atletismo VERDERENAFABRICADECAMPEOES 
 ---
 
@@ -18,8 +18,8 @@ tags: desporto recreativo atletismo VERDERENAFABRICADECAMPEOES
 
 
 
-![0](https://cld.pt/dl/download/54d75090-7c76-4a49-bf21-045130194ef6/WhatsApp%20Image%202025-03-31%20at%2022.23.00.jpeg)
-![1](https://cld.pt/dl/download/6d9afb67-2d09-4fc4-80fd-7ad3b97fec19/WhatsApp%20Image%202025-03-31%20at%2022.11.38.jpeg)
+![0](https://i.postimg.cc/gJN77JXV/Whats-App-Image-2025-03-31-at-22-23-00.jpg)
+![1](https://i.postimg.cc/sXwLLXQN/Whats-App-Image-2025-03-31-at-22-11-38.jpg)
 
 
 No G.D.R. Verderena, o atletismo é para todos. Junta-te a nós!

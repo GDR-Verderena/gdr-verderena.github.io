@@ -3,7 +3,7 @@ layout: post
 title: "A letra e música da marcha da Verderena"
 date: 2023-06-04
 author: G.D.R. Verderena
-featured-image: https://cld.pt/dl/download/0ad2b121-de8f-4e9b-8cda-2b304b29da26/67723108_2863075450372499_4311784798793236480_o.jpg?download=true
+featured-image: https://i.postimg.cc/MT5k854c/67723108-2863075450372499-4311784798793236480-o.jpg
 tags: desporto recreativo VERDERENAFABRICADECAMPEOES
 ---
 

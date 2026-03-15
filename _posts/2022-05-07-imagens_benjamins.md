@@ -3,7 +3,7 @@ layout: post
 title: "Imagens do Convívio de Benjamins em Pavilhão"
 date: 2022-05-07
 author: G.D.R. Verderena
-featured-image: https://cld.pt/dl/download/f0098908-59aa-42f4-8306-10f14ae88f8f/1-IMG_9456.jpg
+featured-image: https://i.postimg.cc/tTjybYgX/1-IMG-9456.jpg
 tags: desporto recreativo VERDERENAFABRICADECAMPEOES
 ---
 

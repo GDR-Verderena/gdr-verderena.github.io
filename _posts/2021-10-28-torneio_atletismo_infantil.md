@@ -3,7 +3,7 @@ layout: post
 title: 1º Torneio de Atletismo Infantil
 date: 2021-10-28
 author: G.D.R. Verderena
-featured-image: https://cld.pt/dl/download/634132d1-b6aa-4ca1-bb87-056762045c48/WhatsApp%20Image%202021-10-10%20at%2009.11.30.jpeg?size=xl&crop=false&format=jpeg
+featured-image: https://i.postimg.cc/Pr2qMz58/Whats-App-Image-2021-10-10-at-09-11-30.jpg
 tags: desporto atletismo marcha coletividade
 ---
 
@@ -11,12 +11,12 @@ tags: desporto atletismo marcha coletividade
 <br>Uma prova para os nossos atletas mais novos. 
 <br>O G.D.R. Verderena esteve presente assim como o G.D. Fonte da Prata.
 
-![Aquecimento](https://cld.pt/dl/download/b669f16d-9a20-4295-b2d8-011620d7c7aa/WhatsApp%20Image%202021-10-10%20at%2011.15.12%20%281%29.jpeg?size=xl&crop=false&format=jpeg)
+![Aquecimento](https://i.postimg.cc/wT0BkcjN/Whats-App-Image-2021-10-10-at-11-15-12-(1).jpg)
 
-![Aquecimento2](https://cld.pt/dl/download/b8f8f168-306d-41ca-a690-1f904314033a/WhatsApp%20Image%202021-10-10%20at%2011.15.12.jpeg?size=xl&crop=false&format=jpeg)
+![Aquecimento2](https://i.postimg.cc/7YmLNMZ7/Whats-App-Image-2021-10-10-at-11-15-12.jpg)
 
-![Lucas](https://cld.pt/dl/download/fbf658e4-3a93-4246-8cc3-7c692850af63/WhatsApp%20Image%202021-10-10%20at%2012.40.03.jpeg?size=xl&crop=false&format=jpeg)
+![Lucas](https://i.postimg.cc/gkN0Kq2q/Whats-App-Image-2021-10-10-at-12-40-03.jpg)
 
-![João e Leonor](https://cld.pt/dl/download/dc598a75-d663-4d64-86db-485b0b4b3c71/WhatsApp%20Image%202021-10-10%20at%2012.40.04.jpeg?size=xl&crop=false&format=jpeg)
+![João e Leonor](https://i.postimg.cc/MKdGYbpy/Whats-App-Image-2021-10-10-at-12-40-04.jpg)
 
 <p>Parabéns a todos os Técnicos, Atletas e Pais!!!

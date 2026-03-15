@@ -3,7 +3,7 @@ layout: actividade
 name: Circuito de Atletismo do Barreiro
 description: Participação do G.D.R. Verderena no Circuito de Atletismo do Barreiro 
 button_info: Entrar
-link_image: https://cld.pt/dl/download/11e437c1-8864-48dc-aa2b-0b7fc9cddee2/cir_atletismo_3.png
+link_image: https://i.postimg.cc/fydx9qNC/cir-atletismo-3.png
 ---
 
 
@@ -13,8 +13,8 @@ link_image: https://cld.pt/dl/download/11e437c1-8864-48dc-aa2b-0b7fc9cddee2/cir_
 
 <H2> Época 2024/2025 </H2>
 <br>
-![Circuito](https://cld.pt/dl/download/fad2c522-1934-4bb9-82bd-86229c232131/circuito_2024-2025.jpeg)
-![Escalões](https://cld.pt/dl/download/f01eb143-6b13-417d-a1cb-089467d57c9e/escaloes_2024-2025.jpeg)
+![Circuito](https://i.postimg.cc/jqn6m27w/circuito-2024-2025.jpg)
+![Escalões](https://i.postimg.cc/BZP5kbKX/escaloes-2024-2025.jpg)
 
 <br>
 <H2>Gostas de Correr ?
@@ -24,7 +24,7 @@ link_image: https://cld.pt/dl/download/11e437c1-8864-48dc-aa2b-0b7fc9cddee2/cir_
 
 <H2> Época 2023/2024 </H2>
 <br>
-![Circuito](https://cld.pt/dl/download/887994b7-9e74-4bb5-914c-bf5a2df530a5/Calend%C3%A1rio%20de%20Provas%2023-24.jpg)
+![Circuito](https://i.postimg.cc/bYS0Wrt8/Calendario-de-Provas-23-24.jpg)
 <br>
 
 <H2>Gostas de Correr ? </H2>
@@ -34,9 +34,9 @@ Vem fazer o circuito de Atletismo do Barreiro connosco.
 
 Treinos no polidesportivo da escola nº 7 da Verderena (seg. 18:30h e sex. 18h) e no módulo de atletismo na escola da telha (qua. 18:30h)
 
-![1](https://cld.pt/dl/download/0136556f-37cb-414c-9f47-76d7e3553e16/WhatsApp%20Image%202023-09-25%20at%2008.24.14.jpeg)
+![1](https://i.postimg.cc/6qZdvbXf/Whats-App-Image-2023-09-25-at-08-24-14.jpg)
 <br>
-![2](https://cld.pt/dl/download/ab33f1f1-eec8-4597-bd3c-0314df296f05/TABELA%20DE%20ESCAL%C3%95ES%2023.24.jpg)
+![2](https://i.postimg.cc/J7H3v0k4/TABELA-DE-ESCALOES-23-24.jpg)
 <H3>SOMOS G. D. R. Verderena</H3>
 
 <div align="center" > 
@@ -50,7 +50,7 @@ Treinos no polidesportivo da escola nº 7 da Verderena (seg. 18:30h e sex. 18h) 
 
 <h3>2ª Prova do Circuito do Barreiro G.D.R. Verderena</h3>
 
-![Circuito](https://cld.pt/dl/download/159261e8-e5f5-4155-864d-0616c7d98f7f/Corrida_sao_martinho.png?download=true)
+![Circuito](https://i.postimg.cc/Df4QH0XV/Corrida-sao-martinho.png)
 
 <br><br>
 

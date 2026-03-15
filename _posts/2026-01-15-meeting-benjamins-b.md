@@ -3,7 +3,7 @@ layout: post
 title: "Convívio de Benjamins e Meeting Benjamins B"
 date: 2026-01-15
 author: G.D.R. Verderena
-featured-image: https://cld.pt/dl/download/3c884195-be5e-4384-9ffd-9f65fefbfd9b/Cartaz%20Convivio%20Meeting%20Benjamins%2031.01.2026.jpeg
+featured-image: https://i.postimg.cc/zX9c64Bt/Cartaz-Convivio-Meeting-Benjamins-31-01-2026.jpg
 tags: desporto recreativo benjamins VERDERENAFABRICADECAMPEOES
 ---
 
@@ -26,18 +26,18 @@ Prémios para todos!
 E-mail: <a href="mailto:g.d.verdrena.atletismo@gmail.com">g.d.verdrena.atletismo@gmail.com</a><br />
 Telefone: <a href="tel:926986701">926986701</a><br />
 
-![0](https://cld.pt/dl/download/3c884195-be5e-4384-9ffd-9f65fefbfd9b/Cartaz%20Convivio%20Meeting%20Benjamins%2031.01.2026.jpeg)
+![0](https://i.postimg.cc/zX9c64Bt/Cartaz-Convivio-Meeting-Benjamins-31-01-2026.jpg)
 
 <br />
 <center><h5>Regulamento do Convívio de Benjamins em Pavilhão</h5></center>
-![1](https://cld.pt/dl/download/4844a669-1dba-4a1b-8268-cd1ad0622982/Convivio%20Benjamins%20em%20Pavilh%C3%A3o%20%20G.%20D.%20R.%20Verderena%20-%2031.01.26-1.png)
-![2](https://cld.pt/dl/download/60fee32b-22f5-4374-a221-68b7529fbfc8/Convivio%20Benjamins%20em%20Pavilh%C3%A3o%20%20G.%20D.%20R.%20Verderena%20-%2031.01.26-2.png)
-![3](https://cld.pt/dl/download/6fa9362e-6849-4ddb-996d-4570d9f4f9b2/Convivio%20Benjamins%20em%20Pavilh%C3%A3o%20%20G.%20D.%20R.%20Verderena%20-%2031.01.26-3.png)
-![4](https://cld.pt/dl/download/ba9b79a6-eefa-4cb7-8e92-c1ff887d6322/Convivio%20Benjamins%20em%20Pavilh%C3%A3o%20%20G.%20D.%20R.%20Verderena%20-%2031.01.26-4.png)
+![1](https://i.postimg.cc/X7TzmtJz/Convivio-Benjamins-em-Pavilhao-G-D-R-Verderena-31-01-26-1.png)
+![2](https://i.postimg.cc/xTW4hBCW/Convivio-Benjamins-em-Pavilhao-G-D-R-Verderena-31-01-26-2.png)
+![3](https://i.postimg.cc/7YpWdjhy/Convivio-Benjamins-em-Pavilhao-G-D-R-Verderena-31-01-26-3.png)
+![4](https://i.postimg.cc/QxRywvCh/Convivio-Benjamins-em-Pavilhao-G-D-R-Verderena-31-01-26-4.png)
 
 <center><h5>Regulamento do Meeting de Benjamins B</h5></center>
-![5](https://cld.pt/dl/download/90893502-03d7-4db1-92b6-8bfb76dcecb9/COMUNICADO%20REGULAMENTO%20-%202026%20MEETING%20DE%20BENJAMINS%20B%20GDRV-%2031.01.26-1.png)
-![6](https://cld.pt/dl/download/d22006ad-3c4d-4a75-90e9-fcba35259a00/COMUNICADO%20REGULAMENTO%20-%202026%20MEETING%20DE%20BENJAMINS%20B%20GDRV-%2031.01.26-2.png)
+![5](https://i.postimg.cc/dtzxpg3v/COMUNICADO-REGULAMENTO-2026-MEETING-DE-BENJAMINS-B-GDRV-31-01-26-1.png)
+![6](https://i.postimg.cc/BQdVkRbQ/COMUNICADO-REGULAMENTO-2026-MEETING-DE-BENJAMINS-B-GDRV-31-01-26-2.png)
 
 
 No G.D.R. Verderena, o atletismo é para todos. Junta-te a nós!

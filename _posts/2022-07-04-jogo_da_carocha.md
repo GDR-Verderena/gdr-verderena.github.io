@@ -3,7 +3,7 @@ layout: post
 title: "Recuperação do hábito Jogo da Carocha"
 date: 2022-07-04
 author: G.D.R. Verderena
-featured-image: https://cld.pt/dl/download/845d705b-c9c5-4b54-a211-d1e5f6cce0fc/Regras%20da%20Carocha-2.png
+featured-image: https://i.postimg.cc/7hByS9nk/Regras-da-Carocha-2.png
 tags: desporto recreativo VERDERENAFABRICADECAMPEOES
 ---
 
@@ -15,6 +15,6 @@ Convidamos todos os associados, amigos, simpatizantes e vizinhos a juntar-se a n
 
 As regras foram resumidas numa página.
 
-![0](https://cld.pt/dl/download/845d705b-c9c5-4b54-a211-d1e5f6cce0fc/Regras%20da%20Carocha-2.png)
+![0](https://i.postimg.cc/7hByS9nk/Regras-da-Carocha-2.png)
 
 #VERDERENAFABRICADECAMPEOES #RECREATIVA

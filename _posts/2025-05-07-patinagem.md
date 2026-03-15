@@ -3,7 +3,7 @@ layout: post
 title: "Patinagem no G.D.R. Verderena"
 date: 2025-05-07
 author: G.D.R. Verderena
-featured-image: https://cld.pt/dl/download/ab07b4a7-9078-4a69-998b-be82c51aeda3/patinagem.jpg
+featured-image: https://i.postimg.cc/Bbbzf02f/patinagem.jpg
 tags: desporto recreativo atletismo VERDERENAFABRICADECAMPEOES 
 ---
 
@@ -14,7 +14,7 @@ tags: desporto recreativo atletismo VERDERENAFABRICADECAMPEOES
 
 Encontro às 10h no espaço recreativo Bar
 
-![0](https://cld.pt/dl/download/ab07b4a7-9078-4a69-998b-be82c51aeda3/patinagem.jpg)
+![0](https://i.postimg.cc/Bbbzf02f/patinagem.jpg)
 
 
 

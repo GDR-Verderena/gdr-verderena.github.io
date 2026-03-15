@@ -3,7 +3,7 @@ layout: actividade
 name: Atletismo Competição
 description: Desporto num modelo competitivo 
 button_info: Entrar
-link_image: https://cld.pt/dl/download/a7a343bd-eda6-4fc3-a5a6-4832df8b1400/atletismo_competicao_v2.jpg?download=true
+link_image: https://i.postimg.cc/nrmvDSJ4/atletismo-competicao-v2.jpg
 ---
 
 
