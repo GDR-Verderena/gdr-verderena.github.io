@@ -1,15 +1,17 @@
 ---
 layout: post
-title: "Convívio de Benjamins e Meeting Benjamins B"
+title: "Convívio de Benjamins e Meeting Benjamins B - ADIADO"
 date: 2026-11-10
 author: G.D.R. Verderena
-featured-image: https://i.postimg.cc/HsZfhfvy/Cartaz-Convivio-Meeting-Benjamins-14-11-2026.jpg
+featured-image: https://i.postimg.cc/Qxv6xk73/Cartaz-Convivio-Meeting-Benjamins-14-11-2026.jpg
 tags: desporto recreativo benjamins VERDERENAFABRICADECAMPEOES
 ---
 
-<CENTER><H3>Convívio de Benjamins e Meeting Benjamins B</H3></CENTER>
+<CENTER><H3>Convívio de Benjamins e Meeting Benjamins B - ADIADO</H3></CENTER>
 
-O G. D. R. da Verderena, com o apoio da C. M. do Barreiro e da Associação de Atletismo de Setúbal irá realizar no próximo dia 14 de Novembro de 2026 (Sábado), pelas 15h00, no Pavilhão da <a href="https://maps.app.goo.gl/1rnYbaJPemMA1ib38">"Escola Básica da Quinta Nova da Telha". (Barreiro)</a> o Convívio de Benjamins, destinado a:
+<b>Evento adiado para data a determinar.</b>
+
+O G. D. R. da Verderena, com o apoio da C. M. do Barreiro e da Associação de Atletismo de Setúbal irá realizar <s>no próximo dia 14 de Novembro de 2026 (Sábado), pelas 15h00,</s> no Pavilhão da <a href="https://maps.app.goo.gl/1rnYbaJPemMA1ib38">"Escola Básica da Quinta Nova da Telha". (Barreiro)</a> o Convívio de Benjamins, destinado a:
 
 Atletas filiados, em representação de Clubes filiados na Associação de Atletismo de Setúbal, de idades até aos 12 anos.
 
@@ -26,10 +28,10 @@ Prémios para todos!
 E-mail: <a href="mailto:g.d.verdrena.atletismo@gmail.com">g.d.verdrena.atletismo@gmail.com</a><br />
 Telefone: <a href="tel:926986701">926986701</a><br />
 
-![0](https://i.postimg.cc/HsZfhfvy/Cartaz-Convivio-Meeting-Benjamins-14-11-2026.jpg)
+![0](https://i.postimg.cc/Qxv6xk73/Cartaz-Convivio-Meeting-Benjamins-14-11-2026.jpg)
 
 <br />
-![1](https://i.postimg.cc/x1BB0L2X/Cartaz-Convivio-Meeting-Benjamins-14-11-2026-2.jpg)
+![1](https://i.postimg.cc/Zn2Ln4CQ/Cartaz-Convivio-Meeting-Benjamins-14-11-2026-2.jpg)
 
 <br />
 <center><h5>Regulamento do Convívio de Benjamins em Pavilhão (Resumido)</h5></center>
