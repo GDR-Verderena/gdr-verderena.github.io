@@ -3,13 +3,43 @@ layout: actividade
 name: Circuito de Atletismo do Barreiro
 description: Participação do G.D.R. Verderena no Circuito de Atletismo do Barreiro 
 button_info: Entrar
-link_image: https://i.postimg.cc/fydx9qNC/cir-atletismo-3.png
+link_image: https://i.postimg.cc/KjrpdyKx/cir-atletismo-3.png
 ---
 
 
 <H2> O Grupo Desportivo e Recreativo da Verderena </H2>
 <H4>tem participado activamente no Circuito de Atletismo do Barreiro, não só com a presença em todas as provas como na organização de algumas que fazem parte do calendário do Circuito.
 </H4>
+
+<br>
+
+<H2> Época 2026/2027 </H2>
+<br>
+![Circuito](https://i.postimg.cc/QCkYRrBs/Circuito-2026-2027.png)
+<br>
+
+
+Vem fazer o circuito de Atletismo do Barreiro connosco.
+
+Treinos:
+<ul>
+<li>Segundas e Quartas às 18h30, no Módulo de Atletismo do Barreiro, na <a href="https://maps.app.goo.gl/cRPJTGs36XLJfCkC8">Escola Quinta Nova da Telha</a></li>
+<li>Sextas às 18h30, na <a href="https://maps.app.goo.gl/Acyn5hdZt9qpy6x5A">Escola Básica Henrique Galvão (antiga escola N.º 7)</a></li>
+</ul>
+
+
+<div align="center" >
+<a href="https://atletismobarreiro.pt/classificacoes-26-27/">Classificações e tempos</a>
+</div>
+
+<br>
+
+<H2>Gostas de Correr ?
+No G.D.R. Verderena, o atletismo é para todos. Junta-te a nós!
+</H2>
+
+
+<br>
 
 <H2> Época 2024/2025 </H2>
 <br>
