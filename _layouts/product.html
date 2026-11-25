@@ -33,7 +33,11 @@ layout: default
       <div class="col-12 col-lg-6">
         <section class="product-details">
           <h4 class="entry-title item_name" itemprop="name">{{ page.name }}</h4>
-          <p class="item_price text-muted">{{ page.price }} &euro;</p>
+          <div class="item_price text-muted mb-3">Valor: {{ page.price }} &euro;<br />
+          {% if page.discount_price and page.discount_price != "" and page.discount_price != nil %}
+            Atletas e Sócios: {{ page.discount_price }} &euro;
+          {% endif %}
+          </div>
 
           <p class="text-muted">
             {{ page.description }}
